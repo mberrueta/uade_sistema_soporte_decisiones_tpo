@@ -1,4 +1,4 @@
-\connect dicision_support_staging
+\connect support_system_decisions_staging
 
 DELETE FROM dim_dates;
 

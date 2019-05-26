@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS dicision_support_staging;
-CREATE DATABASE dicision_support_staging;
+DROP DATABASE IF EXISTS support_system_decisions_staging;
+CREATE DATABASE support_system_decisions_staging;
 
-\connect dicision_support_staging
+\connect support_system_decisions_staging
 
 
 ----------------------------------------------------------------------
@@ -9,15 +9,14 @@ CREATE DATABASE dicision_support_staging;
 ----------------------------------------------------------------------
 
 DROP TABLE IF EXISTS fact_xx;
-DROP TABLE IF EXISTS dim_xx;
+DROP TABLE IF EXISTS dim_categorias;
 
-CREATE TABLE dim_xx
+CREATE TABLE dim_categorias
 (
-  id                       CHARACTER VARYING(36) NOT NULL,
-  name                     CHARACTER VARYING(200),
-  a                        BOOLEAN
+  id                       INT,
+  name                     CHARACTER VARYING(200)
 );
-ALTER TABLE dim_xx ADD CONSTRAINT dim_xx_id_pk PRIMARY KEY (id);
+ALTER TABLE dim_categorias ADD CONSTRAINT dim_categorias_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_dates
 (
