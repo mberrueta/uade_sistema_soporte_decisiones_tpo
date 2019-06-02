@@ -30,3 +30,89 @@ conda activate py37 # if use conda
 pip install -r src/etl/luigi/requirements.txt --no-index  --find-links file:/tmp/packages
 PYTHONPATH='.' luigi --module src.etl.luigi.fetch_categoria Insert --local-scheduler
 ```
+
+## Input
+
+- Categoria
+  - Id. de categoría
+  - Nombre de categoría
+  - Descripción
+  - Imagen
+- Clientes
+  - Id. de cliente
+  - Nombre de compañía
+  - Nombre del contacto
+  - Cargo del contacto
+  - Dirección
+  - Ciudad
+  - Región
+  - Código postal
+  - País
+  - Teléfono,Fax
+- Compania envios
+  - Id. de compañía de envíos
+  - Nombre de compañía
+  - Teléfono
+- Detalle Pedidos
+  - Id. de pedido
+  - Producto
+  - Precio por unidad
+  - Cantidad
+  - Descuento
+- Empleados
+  - Id. de empleado
+  - Apellidos
+  - Nombre
+  - Cargo
+  - Tratamiento
+  - Fecha de nacimiento
+  - Fecha de contratación
+  - Dirección
+  - Ciudad
+  - Región
+  - Código postal
+  - País
+  - Teléfono de domicilio
+  - Extensión
+  - Foto
+  - Notas
+  - Jefe
+- Pedidos
+  - Id. de pedido
+  - Cliente
+  - Empleado
+  - Fecha de pedido
+  - Fecha de entrega
+  - Fecha de envío
+  - Forma de envío
+  - Cargo
+  - Nombre de destinatario
+  - Dirección de destinatario
+  - Ciudad de destinatario
+  - Región de destinatario
+  - Código postal de destinatario
+  - País de destinatario
+- Productos
+  - Id. de producto
+  - Nombre de producto
+  - Proveedor
+  - Categoría
+  - Cantidad por unidad
+  - Precio por unidad
+  - Unidades en existencia
+  - Unidades pedidas
+  - Nivel de nuevo pedido
+  - Suspendido
+- Proveedores
+  - Id. de proveedor
+  - Nombre de compañía
+  - Nombre del contacto
+  - Cargo del contacto
+  - Dirección
+  - Ciudad
+  - Región
+  - Código postal
+  - País
+  - Teléfono
+  - Fax
+  - Página principal
