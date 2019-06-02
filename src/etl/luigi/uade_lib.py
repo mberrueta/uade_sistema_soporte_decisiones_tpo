@@ -48,6 +48,13 @@ class DBRead:
                 connection.close()
 
 class TransforHelper:
+    def date_to_id(iso):
+        if (iso != '') or (iso):
+            split = iso[0:10].split('-')
+            return '{}{}{}'.format(split[2], split[1], split[0])
+        else:
+            return None
+
     def text_clean(text):
         if text is None:
             text = ''

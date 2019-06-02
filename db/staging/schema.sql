@@ -9,10 +9,19 @@ CREATE DATABASE support_system_decisions_staging;
 ----------------------------------------------------------------------
 
 DROP TABLE IF EXISTS fact_xx;
+DROP TABLE IF EXISTS fact_orders;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
 DROP TABLE IF EXISTS dim_products;
 DROP TABLE IF EXISTS dim_providers;
+
+CREATE TABLE fact_orders
+(
+  id                       INT,
+  id_date                  INT,
+  id_client                CHAR(15) NOT NULL
+);
+ALTER TABLE fact_orders ADD CONSTRAINT fact_orders_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_categories
 (

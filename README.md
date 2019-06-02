@@ -119,6 +119,10 @@ PYTHONPATH='.' luigi --module src.etl.luigi.fetch_categoria Insert --local-sched
 
 ## Output
 
+- fact_orders
+  - id
+  - id_date
+  - id_client
 - dim_addresses
   - id
   - state
