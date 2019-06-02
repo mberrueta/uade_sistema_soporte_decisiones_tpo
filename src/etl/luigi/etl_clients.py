@@ -63,7 +63,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_clients'
-    columns = ['id', 'name', 'id_address']
+    columns = ['id', 'name', 'lastname', 'id_address']
 
     def requires(self):
         return Clean()
