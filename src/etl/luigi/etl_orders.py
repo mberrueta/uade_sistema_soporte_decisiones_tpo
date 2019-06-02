@@ -46,7 +46,7 @@ class Clean(luigi.Task):
 
     def run(self):
         self.logger.info('==> Reading: {}'.format(self.input().path))
-        orders_df = pd.read_csv(self.input().path)
+        orders_df = pd.read_csv(self.input().path, encoding = "ISO-8859-1")
 
         self.logger.info('==> Build address dictionary')
         orders_df['date'] = orders_df['date'].apply(
