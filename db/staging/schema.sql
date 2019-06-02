@@ -10,6 +10,7 @@ CREATE DATABASE support_system_decisions_staging;
 
 DROP TABLE IF EXISTS fact_xx;
 DROP TABLE IF EXISTS fact_orders;
+DROP TABLE IF EXISTS fact_order_details;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
 DROP TABLE IF EXISTS dim_products;
@@ -22,6 +23,19 @@ CREATE TABLE fact_orders
   id_client                CHAR(15) NOT NULL
 );
 ALTER TABLE fact_orders ADD CONSTRAINT fact_orders_id_pk PRIMARY KEY (id);
+
+CREATE TABLE fact_order_details
+(
+  id                       SERIAL PRIMARY KEY,
+  id_order                 INT,
+  id_product               INT,
+  id_provider              INT,
+  quantity                 INT,
+  unit_price               NUMERIC (8, 2),
+  discount                 NUMERIC (4, 2),
+  total_price              NUMERIC (8, 2)
+);
+ALTER TABLE fact_order_details ADD CONSTRAINT fact_order_details_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_categories
 (

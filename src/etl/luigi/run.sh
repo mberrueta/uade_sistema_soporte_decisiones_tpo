@@ -9,3 +9,4 @@ PYTHONPATH='.' luigi --module src.etl.luigi.etl_category Insert --local-schedule
 PYTHONPATH='.' luigi --module src.etl.luigi.etl_address Insert --local-scheduler
 PYTHONPATH='.' luigi --module src.etl.luigi.etl_providers Insert --local-scheduler
 PYTHONPATH='.' luigi --module src.etl.luigi.etl_products Insert --local-scheduler
+PYTHONPATH='.' luigi --module src.etl.luigi.etl_orders Insert --local-scheduler
