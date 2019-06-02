@@ -85,7 +85,7 @@ class PgInsert:
                 cursor.execute(insert_sql, row + row)
 
 
-            connection.commit()
+            return connection.commit()
 
         finally:
             if(connection):

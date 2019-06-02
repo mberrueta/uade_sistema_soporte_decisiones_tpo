@@ -1,4 +1,5 @@
 import csv
+import datetime
 import logging
 import luigi
 import numpy as np
@@ -69,3 +70,8 @@ class Insert(luigi.Task):
 
     def run(self):
         lib.PgInsert.exec(self.table, self.columns, self.input().path)
+        with self.output().open('w') as out_file:
+            out_file.write('ok')
+
+    def output(self):
+        return luigi.LocalTarget('output/luigi/out_providers_done_{}.txt'.format(datetime.datetime.now().isoformat()))
