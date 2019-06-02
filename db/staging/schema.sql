@@ -11,6 +11,7 @@ CREATE DATABASE support_system_decisions_staging;
 DROP TABLE IF EXISTS fact_xx;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
+DROP TABLE IF EXISTS dim_products;
 
 CREATE TABLE dim_categories
 (
@@ -27,8 +28,16 @@ CREATE TABLE dim_addresses
   country                  CHARACTER VARYING(200),
   postal_code              CHARACTER VARYING(200)
 );
-
 ALTER TABLE dim_addresses ADD CONSTRAINT dim_addresses_id_pk PRIMARY KEY (id);
+
+CREATE TABLE dim_products
+(
+  id                       INT NOT NULL,
+  name                     CHARACTER VARYING(200),
+  id_category              INT,
+  suspended                BOOLEAN
+);
+ALTER TABLE dim_products ADD CONSTRAINT dim_products_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_dates
 (

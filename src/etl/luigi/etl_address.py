@@ -39,37 +39,37 @@ class Fetch(luigi.Task):
         # Doesn't work on mac
         # connection = lib.NeptunoDB.connection()
         self.logger.info('==> Reading original csv''s')
-        clientes_df = pd.read_csv(
+        clients_df = pd.read_csv(
             'input/clientes.csv')[['Id. de cliente', 'Ciudad', 'Región', 'Código postal', 'País']]
-        empleados_df = pd.read_csv(
+        employees_df = pd.read_csv(
             'input/empleados.csv')[['Id. de empleado', 'Ciudad', 'Región', 'Código postal', 'País']]
-        pedidos_df = pd.read_csv(
+        orders_df = pd.read_csv(
             'input/pedidos.csv')[['Id. de pedido', 'Ciudad de destinatario', 'Región de destinatario', 'Código postal de destinatario', 'País de destinatario']]
-        proveedores_df = pd.read_csv(
+        providers_df = pd.read_csv(
             'input/proveedores.csv')[['Id. de proveedor', 'Ciudad', 'Región', 'Código postal', 'País']]
 
         self.logger.info('==> Renaming columns')
-        clientes_df = clientes_df.rename(index=str, columns={
+        clients_df = clients_df.rename(index=str, columns={
                                          'Id. de cliente': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
-        empleados_df = empleados_df.rename(index=str, columns={
+        employees_df = employees_df.rename(index=str, columns={
                                            'Id. de empleado': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
-        pedidos_df = pedidos_df.rename(index=str, columns={'Id. de pedido': 'id', 'Ciudad de destinatario': 'state',
+        orders_df = orders_df.rename(index=str, columns={'Id. de pedido': 'id', 'Ciudad de destinatario': 'state',
                                                            'Región de destinatario': 'region', 'Código postal de destinatario': 'postal_code', 'País de destinatario': 'country'})
-        proveedores_df = proveedores_df.rename(index=str, columns={
+        providers_df = providers_df.rename(index=str, columns={
                                                'Id. de proveedor': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
 
         self.logger.info('==> Replacing id columns')
-        clientes_df['id'] = clientes_df['id'].apply(
+        clients_df['id'] = clients_df['id'].apply(
             lambda orig_id: 'cli|{}'.format(orig_id))
-        empleados_df['id'] = empleados_df['id'].apply(
+        employees_df['id'] = employees_df['id'].apply(
             lambda orig_id: 'emp|{}'.format(orig_id))
-        pedidos_df['id'] = pedidos_df['id'].apply(
+        orders_df['id'] = orders_df['id'].apply(
             lambda orig_id: 'ped|{}'.format(orig_id))
-        proveedores_df['id'] = proveedores_df['id'].apply(
+        providers_df['id'] = providers_df['id'].apply(
             lambda orig_id: 'prov|{}'.format(orig_id))
 
-        out = clientes_df.append(empleados_df).append(
-            pedidos_df).append(proveedores_df)
+        out = clients_df.append(employees_df).append(
+            orders_df).append(providers_df)
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:

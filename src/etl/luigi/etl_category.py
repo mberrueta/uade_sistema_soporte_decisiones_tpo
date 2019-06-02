@@ -25,7 +25,7 @@ class Clean(luigi.Task):
       return Fetch()
 
     def output(self):
-        return luigi.LocalTarget("/tmp/uade/luigi/out_categorias_cleaned.csv")
+        return luigi.LocalTarget("output/luigi/out_categories_cleaned.csv")
 
     def run(self):
         result = []
@@ -43,6 +43,8 @@ class Clean(luigi.Task):
                         name = 'no_name'
                     result.append({'id': id, 'name': name})
 
+        result.append({'id': 9999, 'name': 'others'})
+
         with self.output().open('w') as out_file:
             writer = csv.DictWriter(out_file, fieldnames=self.columns)
             writer.writeheader()
@@ -52,7 +54,7 @@ class Clean(luigi.Task):
                 writer.writerow(newRow)
 
 class Insert(luigi.Task):
-    table = 'dim_categorias'
+    table = 'dim_categories'
     columns = [ 'id', 'name' ]
 
     def requires(self):

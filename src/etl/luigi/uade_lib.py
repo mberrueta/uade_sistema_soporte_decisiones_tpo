@@ -33,6 +33,20 @@ class SupportSystemDecisionsDB:
             port = port
         )
 
+class DBRead:
+    def get(table):
+        connection = SupportSystemDecisionsDB.connection()
+        try:
+            cursor = connection.cursor()
+            query = 'SELECT * FROM {}'.format(table)
+            cursor.execute(query)
+            return cursor.fetchall()
+
+        finally:
+            if(connection):
+                cursor.close()
+                connection.close()
+
 class TransforHelper:
     def text_clean(text):
         if text is None:
