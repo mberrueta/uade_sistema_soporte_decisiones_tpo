@@ -1,33 +1,34 @@
 import csv
 import logging
 import luigi
-import pandas, sys
+import numpy as np
 import pandas as pd
+import sys
 
 import src.etl.luigi.uade_lib as lib
 
 
 class Fetch(luigi.Task):
-    # - Proveedores
-    #     - Dirección
+    # - Clientes
+    #     - Id. de cliente
+    #     - Ciudad
+    #     - Región
+    #     - Código postal
+    #     - País
+    # - Empleados
+    #     - Id. de empleado
     #     - Ciudad
     #     - Región
     #     - Código postal
     #     - País
     # - Pedidos
-    #     - Dirección de destinatario
+    #     - Id. de pedido
     #     - Ciudad de destinatario
     #     - Región de destinatario
     #     - Código postal de destinatario
     #     - País de destinatario
-    # - Empleados
-    #     - Dirección
-    #     - Ciudad
-    #     - Región
-    #     - Código postal
-    #     - País
-    # - Clientes
-    #     - Dirección
+    # - Proveedores
+    #     - Id. de proveedor
     #     - Ciudad
     #     - Región
     #     - Código postal
@@ -37,54 +38,81 @@ class Fetch(luigi.Task):
     def run(self):
         # Doesn't work on mac
         # connection = lib.NeptunoDB.connection()
-        print('Using input csv')
-        clientes_df = pd.read_csv('input/clientes.csv')[['Dirección', 'Ciudad', 'Región', 'Código postal', 'País']]
-        empleados_df = pd.read_csv('input/empleados.csv')[['Dirección', 'Ciudad', 'Región', 'Código postal', 'País']]
-        pedidos_df = pd.read_csv('input/pedidos.csv')[['Dirección de destinatario', 'Ciudad de destinatario', 'Región de destinatario', 'Código postal de destinatario', 'País de destinatario']]
-        proveedores_df = pd.read_csv('input/proveedores.csv')[['Dirección', 'Ciudad', 'Región', 'Código postal', 'País']]
+        self.logger.info('==> Reading original csv''s')
+        clientes_df = pd.read_csv(
+            'input/clientes.csv')[['Id. de cliente', 'Ciudad', 'Región', 'Código postal', 'País']]
+        empleados_df = pd.read_csv(
+            'input/empleados.csv')[['Id. de empleado', 'Ciudad', 'Región', 'Código postal', 'País']]
+        pedidos_df = pd.read_csv(
+            'input/pedidos.csv')[['Id. de pedido', 'Ciudad de destinatario', 'Región de destinatario', 'Código postal de destinatario', 'País de destinatario']]
+        proveedores_df = pd.read_csv(
+            'input/proveedores.csv')[['Id. de proveedor', 'Ciudad', 'Región', 'Código postal', 'País']]
 
+        self.logger.info('==> Renaming columns')
+        clientes_df = clientes_df.rename(index=str, columns={
+                                         'Id. de cliente': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
+        empleados_df = empleados_df.rename(index=str, columns={
+                                           'Id. de empleado': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
+        pedidos_df = pedidos_df.rename(index=str, columns={'Id. de pedido': 'id', 'Ciudad de destinatario': 'state',
+                                                           'Región de destinatario': 'region', 'Código postal de destinatario': 'postal_code', 'País de destinatario': 'country'})
+        proveedores_df = proveedores_df.rename(index=str, columns={
+                                               'Id. de proveedor': 'id', 'Ciudad': 'state', 'Región': 'region', 'Código postal': 'postal_code', 'País': 'country'})
+
+        self.logger.info('==> Replacing id columns')
+        clientes_df['id'] = clientes_df['id'].apply(
+            lambda orig_id: 'cli|{}'.format(orig_id))
+        empleados_df['id'] = empleados_df['id'].apply(
+            lambda orig_id: 'emp|{}'.format(orig_id))
+        pedidos_df['id'] = pedidos_df['id'].apply(
+            lambda orig_id: 'ped|{}'.format(orig_id))
+        proveedores_df['id'] = proveedores_df['id'].apply(
+            lambda orig_id: 'prov|{}'.format(orig_id))
+
+        out = clientes_df.append(empleados_df).append(
+            pedidos_df).append(proveedores_df)
+
+        self.logger.info('==> Writting')
+        with self.output().open('w') as out_file:
+            out.to_csv(out_file, index=False)
 
     def output(self):
-        return luigi.LocalTarget('/tmp/uade/luigi/out_direcciones.csv')
+        return luigi.LocalTarget('output/luigi/out_addresses.csv')
 
 
 class Clean(luigi.Task):
     logger = logging.getLogger('luigi-interface')
-    columns = ['id', 'name']
+    columns = ['id', 'state', 'region', 'postal_code', 'country']
 
     def requires(self):
-      return Fetch()
+        return Fetch()
 
     def output(self):
-        return luigi.LocalTarget("/tmp/uade/luigi/out_categorias_cleaned.csv")
+        return luigi.LocalTarget('output/luigi/out_addresses_cleaned.csv')
 
     def run(self):
-        result = []
-        with self.input().open('r') as csv_file:
-            csv_reader = csv.reader(csv_file, delimiter=',')
-            line_count = 0
-            for row in csv_reader:
-                if line_count == 0:
-                    line_count += 1
-                else:
-                    id = row[0]
-                    # name = row[1].strip().strip('"')
-                    name = lib.TransforHelper.text_clean(row[1])
-                    if not name:
-                        name = 'no_name'
-                    result.append({'id': id, 'name': name})
+        self.logger.info('==> Reading: {}'.format(self.input().path))
+        addresses_df = pd.read_csv(self.input().path)
+
+        addresses_df.loc[addresses_df['region'].isnull(),
+                         'region'] = 'no-region'
+        addresses_df.loc[addresses_df['region'] ==
+                         'Isla de Wight', 'region'] = 'Isle de Wight'
+        addresses_df.loc[addresses_df['state'].isnull(), 'state'] = 'no-state'
+        addresses_df.loc[addresses_df['postal_code'].isnull(),
+                         'postal_code'] = 'no-postal-code'
+        addresses_df.loc[addresses_df['country'].isnull(),
+                         'country'] = 'no-country'
 
         with self.output().open('w') as out_file:
-            writer = csv.DictWriter(out_file, fieldnames=self.columns)
-            writer.writeheader()
+            addresses_df.to_csv(out_file, index=False)
 
-            for row in result:
-                newRow = lib.SliceableDict(row).slice(*self.columns)
-                writer.writerow(newRow)
+    def output(self):
+        return luigi.LocalTarget('output/luigi/out_addresses_cleaned.csv')
+
 
 class Insert(luigi.Task):
-    table = 'dim_categorias'
-    columns = [ 'id', 'name' ]
+    table = 'dim_addresses'
+    columns = ['id', 'state', 'region', 'country', 'postal_code']
 
     def requires(self):
         return Clean()

@@ -9,14 +9,26 @@ CREATE DATABASE support_system_decisions_staging;
 ----------------------------------------------------------------------
 
 DROP TABLE IF EXISTS fact_xx;
-DROP TABLE IF EXISTS dim_categorias;
+DROP TABLE IF EXISTS dim_categories;
+DROP TABLE IF EXISTS dim_addresses;
 
-CREATE TABLE dim_categorias
+CREATE TABLE dim_categories
 (
   id                       INT,
   name                     CHARACTER VARYING(200)
 );
-ALTER TABLE dim_categorias ADD CONSTRAINT dim_categorias_id_pk PRIMARY KEY (id);
+ALTER TABLE dim_categories ADD CONSTRAINT dim_categories_id_pk PRIMARY KEY (id);
+
+CREATE TABLE dim_addresses
+(
+  id                       CHAR(15) NOT NULL,
+  state                    CHARACTER VARYING(200),
+  region                   CHARACTER VARYING(200),
+  country                  CHARACTER VARYING(200),
+  postal_code              CHARACTER VARYING(200)
+);
+
+ALTER TABLE dim_addresses ADD CONSTRAINT dim_addresses_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_dates
 (

@@ -116,3 +116,12 @@ PYTHONPATH='.' luigi --module src.etl.luigi.fetch_categoria Insert --local-sched
   - Teléfono
   - Fax
   - Página principal
+
+## Output
+
+- dim_addresses
+  - id
+  - state
+  - region
+  - country
+  - postal_code
