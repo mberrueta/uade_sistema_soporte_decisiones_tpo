@@ -133,3 +133,7 @@ PYTHONPATH='.' luigi --module src.etl.luigi.fetch_categoria Insert --local-sched
   - name
   - id_category
   - suspended
+- dim_providers
+  - id
+  - name
+  - id_address

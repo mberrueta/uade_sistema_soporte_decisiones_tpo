@@ -64,7 +64,7 @@ class Fetch(luigi.Task):
         employees_df['id'] = employees_df['id'].apply(
             lambda orig_id: 'emp|{}'.format(orig_id))
         orders_df['id'] = orders_df['id'].apply(
-            lambda orig_id: 'ped|{}'.format(orig_id))
+            lambda orig_id: 'ord|{}'.format(orig_id))
         providers_df['id'] = providers_df['id'].apply(
             lambda orig_id: 'prov|{}'.format(orig_id))
 

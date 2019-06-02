@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS fact_xx;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
 DROP TABLE IF EXISTS dim_products;
+DROP TABLE IF EXISTS dim_providers;
 
 CREATE TABLE dim_categories
 (
@@ -38,6 +39,14 @@ CREATE TABLE dim_products
   suspended                BOOLEAN
 );
 ALTER TABLE dim_products ADD CONSTRAINT dim_products_id_pk PRIMARY KEY (id);
+
+CREATE TABLE dim_providers
+(
+  id                       INT NOT NULL,
+  name                     CHARACTER VARYING(200),
+  id_address               CHAR(15) NOT NULL
+);
+ALTER TABLE dim_providers ADD CONSTRAINT dim_providers_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_dates
 (
