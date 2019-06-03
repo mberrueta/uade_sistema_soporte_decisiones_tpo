@@ -62,9 +62,9 @@ class Clean(luigi.Task):
         self.logger.info('==> Build providers dictionary')
         providers = lib.DBRead.get('dim_providers')
         providers_dic = {}
-        for k, v, a in providers:
-            print(k,v,a)
-            providers_dic[v] = k
+        for row in providers:
+            print(row)
+            providers_dic[row[1]] = row[0]
 
         self.logger.info('==> Replacing providers name with id')
         products_df['provider'] = products_df['provider'].apply(
@@ -91,8 +91,10 @@ class Clean(luigi.Task):
         products_df['name'] = products_df['name'].apply(lambda name: lib.TransforHelper.text_clean(name))
 
         # Add dummy product
-        df2 = pd.DataFrame([[9999, 'others', 9999, False]], columns=['id', 'name', 'id_category', 'suspended'])
+        df2 = pd.DataFrame([[9999, 9999, 9999, 'others', False]], columns=['id', 'id_category', 'id_provider', 'name', 'suspended'])
         products_df = products_df.append(df2)
+
+        print(products_df)
 
         with self.output().open('w') as out_file:
             products_df.to_csv(out_file, index=False)
@@ -103,7 +105,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_products'
-    columns = ['id', 'name', 'id_category', 'suspended']
+    columns = ['id', 'id_category', 'id_provider', 'name', 'suspended']
 
     def requires(self):
         return Clean()
