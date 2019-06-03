@@ -8,11 +8,12 @@ CREATE DATABASE support_system_decisions_staging;
 -- Tables
 ----------------------------------------------------------------------
 
-DROP TABLE IF EXISTS fact_xx;
 DROP TABLE IF EXISTS fact_orders;
 DROP TABLE IF EXISTS fact_order_details;
+DROP TABLE IF EXISTS fact_deliveries;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
+DROP TABLE IF EXISTS dim_clients;
 DROP TABLE IF EXISTS dim_products;
 DROP TABLE IF EXISTS dim_providers;
 
@@ -23,6 +24,14 @@ CREATE TABLE fact_orders
   id_client                CHAR(15) NOT NULL
 );
 ALTER TABLE fact_orders ADD CONSTRAINT fact_orders_id_pk PRIMARY KEY (id);
+
+CREATE TABLE fact_deliveries
+(
+  id                       INT,
+  id_date                  INT,
+  id_client                CHAR(15) NOT NULL
+);
+ALTER TABLE fact_deliveries ADD CONSTRAINT fact_deliveries_id_pk PRIMARY KEY (id);
 
 CREATE TABLE fact_order_details
 (
@@ -43,6 +52,15 @@ CREATE TABLE dim_categories
   name                     CHARACTER VARYING(200)
 );
 ALTER TABLE dim_categories ADD CONSTRAINT dim_categories_id_pk PRIMARY KEY (id);
+
+CREATE TABLE dim_clients
+(
+  id                       CHAR(15) NOT NULL,
+  name                     CHARACTER VARYING(200),
+  lastname                 CHARACTER VARYING(200),
+  id_address               INT
+);
+ALTER TABLE dim_clients ADD CONSTRAINT dim_clients_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_addresses
 (
