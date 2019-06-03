@@ -21,7 +21,7 @@ set the env vars:
 
 `db/staging/create_db.sh`
 
-## Using it
+## Using it one by one
 
 In order fire the transformations we need python3 installed (use conda for instance) and install the dependencies
 
@@ -31,113 +31,8 @@ pip install -r src/etl/luigi/requirements.txt --no-index  --find-links file:/tmp
 PYTHONPATH='.' luigi --module src.etl.luigi.fetch_categoria Insert --local-scheduler
 ```
 
-## Input
+Run all
 
-- Categoria
-  - Id. de categoría
-  - Nombre de categoría
-  - Descripción
-  - Imagen
-- Clientes
-  - Id. de cliente
-  - Nombre de compañía
-  - Nombre del contacto
-  - Cargo del contacto
-  - Dirección
-  - Ciudad
-  - Región
-  - Código postal
-  - País
-  - Teléfono,Fax
-- Compania envios
-  - Id. de compañía de envíos
-  - Nombre de compañía
-  - Teléfono
-- Detalle Pedidos
-  - Id. de pedido
-  - Producto
-  - Precio por unidad
-  - Cantidad
-  - Descuento
-- Empleados
-  - Id. de empleado
-  - Apellidos
-  - Nombre
-  - Cargo
-  - Tratamiento
-  - Fecha de nacimiento
-  - Fecha de contratación
-  - Dirección
-  - Ciudad
-  - Región
-  - Código postal
-  - País
-  - Teléfono de domicilio
-  - Extensión
-  - Foto
-  - Notas
-  - Jefe
-- Pedidos
-  - Id. de pedido
-  - Cliente
-  - Empleado
-  - Fecha de pedido
-  - Fecha de entrega
-  - Fecha de envío
-  - Forma de envío
-  - Cargo
-  - Nombre de destinatario
-  - Dirección de destinatario
-  - Ciudad de destinatario
-  - Región de destinatario
-  - Código postal de destinatario
-  - País de destinatario
-- Productos
-  - Id. de producto
-  - Nombre de producto
-  - Proveedor
-  - Categoría
-  - Cantidad por unidad
-  - Precio por unidad
-  - Unidades en existencia
-  - Unidades pedidas
-  - Nivel de nuevo pedido
-  - Suspendido
-- Proveedores
-  - Id. de proveedor
-  - Nombre de compañía
-  - Nombre del contacto
-  - Cargo del contacto
-  - Dirección
-  - Ciudad
-  - Región
-  - Código postal
-  - País
-  - Teléfono
-  - Fax
-  - Página principal
-
-## Output
-
-- fact_orders
-  - id
-  - id_date
-  - id_client
-- dim_addresses
-  - id
-  - state
-  - region
-  - country
-  - postal_code
-- dim_categories
-  - id
-  - name
-- dim_products
-  - id
-  - name
-  - id_category
-  - suspended
-- dim_providers
-  - id
-  - name
-  - id_address
+```sh
+./src/etl/luigi/run.sh
+```
