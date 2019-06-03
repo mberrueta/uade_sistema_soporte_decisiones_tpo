@@ -52,14 +52,11 @@ class Clean(luigi.Task):
         orders_df['date'] = orders_df['date'].apply(
             lambda orig_date: lib.TransforHelper.date_to_id(orig_date) )
 
-        # TODO: Seek client_id
         self.logger.info('==> Build clients dictionary')
-        clients_dic = {
-            'others': 'xxxx'
-        }
-        # clients = lib.DBRead.get('dim_clients')
-        # for row in clients:
-        #     clients_dic[v] = k
+        clients_dic = {}
+        clients = lib.DBRead.get('dim_clients')
+        for id, company_name, name, last_name, id_address in clients:
+            clients_dic[company_name] = id
 
         self.logger.info('==> Replacing clients name with id')
         orders_df['client'] = orders_df['client'].apply(

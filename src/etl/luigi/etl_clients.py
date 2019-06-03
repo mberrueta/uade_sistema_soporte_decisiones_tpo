@@ -13,6 +13,7 @@ class Fetch(luigi.Task):
     # - Clientes
     #   - Id. de cliente
     #   - Nombre de compañía
+    #   - Nombre del contacto
     logger = logging.getLogger('luigi-interface')
 
     def run(self):
@@ -20,11 +21,14 @@ class Fetch(luigi.Task):
         # connection = lib.NeptunoDB.connection()
         self.logger.info('==> Reading original csv''s')
         clients_df = pd.read_csv(
-            'input/clientes.csv')[['Id. de cliente', 'Nombre del contacto']]
+            'input/clientes.csv')[['Id. de cliente', 'Nombre de compañía', 'Nombre del contacto']]
 
         self.logger.info('==> Renaming columns')
         clients_df = clients_df.rename(index=str, columns={
-                                         'Id. de cliente': 'id'})
+                                         'Id. de cliente': 'id',
+                                         'Nombre de compañía': 'company_name',
+                                         'Nombre del contacto': 'contact'
+                                         })
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:
@@ -52,12 +56,12 @@ class Clean(luigi.Task):
             lambda orig_id: 'client|{}'.format(orig_id))
 
         self.logger.info('==> Build name column')
-        clients_df['name'] = clients_df['Nombre del contacto'].apply(lambda name: name.split(' ')[0])
+        clients_df['name'] = clients_df['contact'].apply(lambda name: name.split(' ')[0])
         
         self.logger.info('==> Build lastname column')
-        clients_df['lastname'] = clients_df['Nombre del contacto'].apply(lambda name: name.split(' ')[1])
+        clients_df['lastname'] = clients_df['contact'].apply(lambda name: name.split(' ')[1])
 
-        clients_df = clients_df.drop(columns="Nombre del contacto")
+        clients_df = clients_df.drop(columns="contact")
 
         with self.output().open('w') as out_file:
             clients_df.to_csv(out_file, index=False)
@@ -65,7 +69,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_clients'
-    columns = ['id', 'id_address', 'name', 'lastname']
+    columns = ['id', 'company_name', 'id_address', 'name', 'lastname']
 
     def requires(self):
         return Clean()

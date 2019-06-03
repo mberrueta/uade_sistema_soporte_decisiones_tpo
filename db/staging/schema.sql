@@ -57,6 +57,7 @@ ALTER TABLE dim_categories ADD CONSTRAINT dim_categories_id_pk PRIMARY KEY (id);
 CREATE TABLE dim_clients
 (
   id                       CHAR(15) NOT NULL,
+  company_name             CHARACTER VARYING(200),
   name                     CHARACTER VARYING(200),
   lastname                 CHARACTER VARYING(200),
   id_address               CHAR(15) NOT NULL

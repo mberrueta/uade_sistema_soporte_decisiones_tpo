@@ -25,7 +25,9 @@ class Fetch(luigi.Task):
 
         self.logger.info('==> Renaming columns')
         deliveries_df = deliveries_df.rename(index=str, columns={
-                                         'Id. de pedido': 'id', 'Cliente': 'client', 'Fecha de envío': 'date'})
+                                         'Id. de pedido': 'id',
+                                         'Cliente': 'client',
+                                         'Fecha de envío': 'date'})
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:
@@ -56,14 +58,11 @@ class Clean(luigi.Task):
         deliveries_df['date'].replace('', np.nan, inplace=True)
         deliveries_df.dropna(subset=['date'], inplace=True)
 
-        # TODO: Seek client_id
         self.logger.info('==> Build clients dictionary')
-        clients_dic = {
-            'others': 'xxxx'
-        }
-        # clients = lib.DBRead.get('dim_clients')
-        # for row in clients:
-        #     clients_dic[v] = k
+        clients_dic = {}
+        clients = lib.DBRead.get('dim_clients')
+        for id, company_name, name, last_name, id_address in clients:
+            clients_dic[company_name] = id
 
         self.logger.info('==> Replacing clients name with id')
         deliveries_df['client'] = deliveries_df['client'].apply(
@@ -71,7 +70,6 @@ class Clean(luigi.Task):
                 clients_dic[client_name] if client_name in clients_dic else clients_dic['others']
             ))
         deliveries_df = deliveries_df.rename(index=str, columns={'client': 'id_client'})
-
 
         with self.output().open('w') as out_file:
             deliveries_df.to_csv(out_file, index=False)
