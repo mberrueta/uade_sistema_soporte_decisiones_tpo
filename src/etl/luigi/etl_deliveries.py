@@ -20,19 +20,19 @@ class Fetch(luigi.Task):
         # Doesn't work on mac
         # connection = lib.NeptunoDB.connection()
         self.logger.info('==> Reading original csv''s')
-        orders_df = pd.read_csv(
-            'input/pedidos.csv')[['Id. de pedido', 'Cliente', 'Fecha de pedido']]
+        deliveries_df = pd.read_csv(
+            'input/pedidos.csv')[['Id. de pedido', 'Cliente', 'Fecha de envío']]
 
         self.logger.info('==> Renaming columns')
-        orders_df = orders_df.rename(index=str, columns={
-                                         'Id. de pedido': 'id', 'Cliente': 'client', 'Fecha de pedido': 'date'})
+        deliveries_df = deliveries_df.rename(index=str, columns={
+                                         'Id. de pedido': 'id', 'Cliente': 'client', 'Fecha de envío': 'date'})
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:
-            orders_df.to_csv(out_file, index=False)
+            deliveries_df.to_csv(out_file, index=False)
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_orders.csv')
+        return luigi.LocalTarget('output/luigi/out_deliveries.csv')
 
 
 class Clean(luigi.Task):
@@ -42,14 +42,14 @@ class Clean(luigi.Task):
         return Fetch()
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_orders_cleaned.csv')
+        return luigi.LocalTarget('output/luigi/out_deliveries_cleaned.csv')
 
     def run(self):
         self.logger.info('==> Reading: {}'.format(self.input().path))
-        orders_df = pd.read_csv(self.input().path, encoding = "ISO-8859-1")
+        deliveries_df = pd.read_csv(self.input().path, encoding = "ISO-8859-1")
 
-        self.logger.info('==> Build address dictionary')
-        orders_df['date'] = orders_df['date'].apply(
+        self.logger.info('==> Build date column')
+        deliveries_df['date'] = deliveries_df['date'].apply(
             lambda orig_date: lib.TransforHelper.date_to_id(orig_date) )
 
         # TODO: Seek client_id
@@ -62,22 +62,22 @@ class Clean(luigi.Task):
         #     clients_dic[v] = k
 
         self.logger.info('==> Replacing clients name with id')
-        orders_df['client'] = orders_df['client'].apply(
+        deliveries_df['client'] = deliveries_df['client'].apply(
             lambda client_name: (
                 clients_dic[client_name] if client_name in clients_dic else clients_dic['others']
             ))
-        orders_df = orders_df.rename(index=str, columns={'client': 'id_client'})
+        deliveries_df = deliveries_df.rename(index=str, columns={'client': 'id_client'})
 
 
         with self.output().open('w') as out_file:
-            orders_df.to_csv(out_file, index=False)
+            deliveries_df.to_csv(out_file, index=False)
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_orders_cleaned.csv')
+        return luigi.LocalTarget('output/luigi/out_deliveries_cleaned.csv')
 
 
 class Insert(luigi.Task):
-    table = 'fact_orders'
+    table = 'fact_deliveries'
     columns = ['id', 'id_client', 'id_date']
 
     def requires(self):
@@ -89,4 +89,4 @@ class Insert(luigi.Task):
             out_file.write('ok')
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_orders_done_{}.txt'.format(datetime.datetime.now().isoformat()))
+        return luigi.LocalTarget('output/luigi/out_deliveries_done_{}.txt'.format(datetime.datetime.now().isoformat()))

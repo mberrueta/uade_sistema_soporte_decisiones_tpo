@@ -1,6 +1,7 @@
 import csv
 import luigi
 import os
+import math
 import psycopg2
 import pandas as pd
 import re
@@ -49,7 +50,7 @@ class DBRead:
 
 class TransforHelper:
     def date_to_id(iso):
-        if (iso != '') or (iso):
+        if ((iso != '') or (iso)) and (type(iso) is not float):
             split = iso[0:10].split('-')
             return '{}{}{}'.format(split[2], split[1], split[0])
         else:
