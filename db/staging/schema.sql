@@ -12,6 +12,7 @@ CREATE DATABASE support_system_decisions_staging;
 DROP TABLE IF EXISTS fact_orders;
 DROP TABLE IF EXISTS fact_order_details;
 DROP TABLE IF EXISTS fact_deliveries;
+DROP TABLE IF EXISTS fact_shippings;
 DROP TABLE IF EXISTS dim_categories;
 DROP TABLE IF EXISTS dim_addresses;
 DROP TABLE IF EXISTS dim_clients;
@@ -33,6 +34,14 @@ CREATE TABLE fact_deliveries
   id_client                CHAR(15) NOT NULL
 );
 ALTER TABLE fact_deliveries ADD CONSTRAINT fact_deliveries_id_pk PRIMARY KEY (id);
+
+CREATE TABLE fact_shippings
+(
+  id                       INT,
+  id_date                  INT,
+  id_client                CHAR(15) NOT NULL
+);
+ALTER TABLE fact_shippings ADD CONSTRAINT fact_shippings_id_pk PRIMARY KEY (id);
 
 CREATE TABLE fact_order_details
 (
