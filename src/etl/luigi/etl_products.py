@@ -13,6 +13,7 @@ class Fetch(luigi.Task):
     # - Productos
     #   - Id. de producto
     #   - Nombre de producto
+    #   - Proveedor
     #   - Categoría
     #   - Suspendido
     logger = logging.getLogger('luigi-interface')
@@ -22,11 +23,20 @@ class Fetch(luigi.Task):
         # connection = lib.NeptunoDB.connection()
         self.logger.info('==> Reading original csv''s')
         products_df = pd.read_csv(
-            'input/productos.csv')[['Id. de producto', 'Nombre de producto', 'Categoría', 'Suspendido']]
+            'input/productos.csv')[
+                [
+                    'Id. de producto', 'Nombre de producto', 'Proveedor',
+                    'Categoría', 'Suspendido'
+                ]
+            ]
 
         self.logger.info('==> Renaming columns')
         products_df = products_df.rename(index=str, columns={
-                                         'Id. de producto': 'id', 'Nombre de producto': 'name', 'Categoría': 'category', 'Suspendido': 'suspended'})
+                                         'Id. de producto': 'id',
+                                         'Nombre de producto': 'name',
+                                         'Proveedor': 'provider',
+                                         'Categoría': 'category',
+                                         'Suspendido': 'suspended'})
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:
@@ -48,6 +58,20 @@ class Clean(luigi.Task):
     def run(self):
         self.logger.info('==> Reading: {}'.format(self.input().path))
         products_df = pd.read_csv(self.input().path)
+
+        self.logger.info('==> Build providers dictionary')
+        providers = lib.DBRead.get('dim_providers')
+        providers_dic = {}
+        for k, v, a in providers:
+            print(k,v,a)
+            providers_dic[v] = k
+
+        self.logger.info('==> Replacing providers name with id')
+        products_df['provider'] = products_df['provider'].apply(
+            lambda provider_name: (
+                providers_dic[provider_name] if provider_name in providers_dic else providers_dic['others']
+            ))
+        products_df = products_df.rename(index=str, columns={'provider': 'id_provider'})
 
         self.logger.info('==> Build categories dictionary')
         categories = lib.DBRead.get('dim_categories')

@@ -29,7 +29,6 @@ CREATE TABLE fact_order_details
   id                       SERIAL PRIMARY KEY,
   id_order                 INT,
   id_product               INT,
-  id_provider              INT,
   quantity                 INT,
   currency                 CHAR(3) NOT NULL,
   unit_price               NUMERIC (8, 2),
@@ -60,6 +59,7 @@ CREATE TABLE dim_products
   id                       INT NOT NULL,
   name                     CHARACTER VARYING(200),
   id_category              INT,
+  id_provider              INT,
   suspended                BOOLEAN
 );
 ALTER TABLE dim_products ADD CONSTRAINT dim_products_id_pk PRIMARY KEY (id);
