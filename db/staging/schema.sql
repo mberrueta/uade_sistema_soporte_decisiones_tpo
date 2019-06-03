@@ -31,6 +31,7 @@ CREATE TABLE fact_order_details
   id_product               INT,
   id_provider              INT,
   quantity                 INT,
+  currency                 CHAR(3) NOT NULL,
   unit_price               NUMERIC (8, 2),
   discount                 NUMERIC (4, 2),
   total_price              NUMERIC (8, 2)

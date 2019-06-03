@@ -60,6 +60,22 @@ class TransforHelper:
             text = ''
         return re.sub(r'[^\w\s_]+', '', text).strip()
 
+    def remove_currency(price):
+        if price is None:
+            price = ''
+        return re.sub(r'[^\w\s_]+', '', price).strip()
+
+    def get_currency(price):
+        if price is None:
+            return 'EUR'
+        symbol = price.split(' ')[1]
+        dic = { '€': 'EUR', '$': 'USD'}
+
+        if symbol in dic:
+            return dic[symbol]
+        else:
+            return 'EUR'
+
 
 class SliceableDict(dict):
     def slice(self, *keys):
