@@ -52,6 +52,10 @@ class Clean(luigi.Task):
         deliveries_df['date'] = deliveries_df['date'].apply(
             lambda orig_date: lib.TransforHelper.date_to_id(orig_date) )
 
+        # Filter null values
+        deliveries_df['date'].replace('', np.nan, inplace=True)
+        deliveries_df.dropna(subset=['date'], inplace=True)
+
         # TODO: Seek client_id
         self.logger.info('==> Build clients dictionary')
         clients_dic = {

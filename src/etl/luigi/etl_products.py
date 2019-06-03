@@ -63,7 +63,6 @@ class Clean(luigi.Task):
         providers = lib.DBRead.get('dim_providers')
         providers_dic = {}
         for row in providers:
-            print(row)
             providers_dic[row[1]] = row[0]
 
         self.logger.info('==> Replacing providers name with id')
@@ -93,8 +92,6 @@ class Clean(luigi.Task):
         # Add dummy product
         df2 = pd.DataFrame([[9999, 9999, 9999, 'others', False]], columns=['id', 'id_category', 'id_provider', 'name', 'suspended'])
         products_df = products_df.append(df2)
-
-        print(products_df)
 
         with self.output().open('w') as out_file:
             products_df.to_csv(out_file, index=False)
