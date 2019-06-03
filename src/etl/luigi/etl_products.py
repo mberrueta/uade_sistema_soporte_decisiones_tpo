@@ -66,6 +66,10 @@ class Clean(luigi.Task):
         self.logger.info('==> Name cleaning')
         products_df['name'] = products_df['name'].apply(lambda name: lib.TransforHelper.text_clean(name))
 
+        # Add dummy product
+        df2 = pd.DataFrame([[9999, 'others', 9999, False]], columns=['id', 'name', 'id_category', 'suspended'])
+        products_df = products_df.append(df2)
+
         with self.output().open('w') as out_file:
             products_df.to_csv(out_file, index=False)
 
