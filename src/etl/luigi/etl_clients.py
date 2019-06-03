@@ -50,12 +50,14 @@ class Clean(luigi.Task):
         self.logger.info('==> Build address dictionary')
         clients_df['id_address'] = clients_df['id'].apply(
             lambda orig_id: 'client|{}'.format(orig_id))
-        
+
         self.logger.info('==> Build name column')
         clients_df['name'] = clients_df['Nombre del contacto'].apply(lambda name: name.split(' ')[0])
         
         self.logger.info('==> Build lastname column')
         clients_df['lastname'] = clients_df['Nombre del contacto'].apply(lambda name: name.split(' ')[1])
+
+        clients_df = clients_df.drop(columns="Nombre del contacto")
 
         with self.output().open('w') as out_file:
             clients_df.to_csv(out_file, index=False)
@@ -63,7 +65,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_clients'
-    columns = ['id', 'name', 'lastname', 'id_address']
+    columns = ['id', 'id_address', 'name', 'lastname']
 
     def requires(self):
         return Clean()

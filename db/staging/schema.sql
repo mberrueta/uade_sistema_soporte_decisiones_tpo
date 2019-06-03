@@ -59,7 +59,7 @@ CREATE TABLE dim_clients
   id                       CHAR(15) NOT NULL,
   name                     CHARACTER VARYING(200),
   lastname                 CHARACTER VARYING(200),
-  id_address               INT
+  id_address               CHAR(15) NOT NULL
 );
 ALTER TABLE dim_clients ADD CONSTRAINT dim_clients_id_pk PRIMARY KEY (id);
 
