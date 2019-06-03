@@ -80,13 +80,11 @@ class Clean(luigi.Task):
 
         self.logger.info('==> Clean discount')
         order_details_df['discount'] = order_details_df['discount'].apply(
-            lambda orig: float(lib.TransforHelper.text_clean(orig)))
+            lambda orig: float(orig[0:4]))
 
         self.logger.info('==> total price')
         order_details_df['total_price'] = order_details_df.apply(
             lambda row: (row['unit_price'] * row['quantity']) - (row['unit_price'] * row['quantity'] * row['discount'] / 100), axis=1)
-
-        # TODO: Missing id provider
 
         with self.output().open('w') as out_file:
             order_details_df.to_csv(out_file, index=False)
