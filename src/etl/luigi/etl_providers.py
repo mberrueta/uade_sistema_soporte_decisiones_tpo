@@ -5,6 +5,7 @@ import luigi
 import numpy as np
 import pandas as pd
 import sys
+from luigi.format import UTF8
 
 import src.etl.luigi.uade_lib as lib
 
@@ -31,7 +32,7 @@ class Fetch(luigi.Task):
             providers_df.to_csv(out_file, index=False)
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_providers.csv')
+        return luigi.LocalTarget('output/luigi/out_providers.csv', format=UTF8)
 
 
 class Clean(luigi.Task):
@@ -45,7 +46,7 @@ class Clean(luigi.Task):
 
     def run(self):
         self.logger.info('==> Reading: {}'.format(self.input().path))
-        providers_df = pd.read_csv(self.input().path, encoding = "ISO-8859-1")
+        providers_df = pd.read_csv(self.input().path)
 
         self.logger.info('==> Build address dictionary')
         providers_df['id_address'] = providers_df['id'].apply(
@@ -61,7 +62,7 @@ class Clean(luigi.Task):
             providers_df.to_csv(out_file, index=False)
 
     def output(self):
-        return luigi.LocalTarget('output/luigi/out_providers_cleaned.csv')
+        return luigi.LocalTarget('output/luigi/out_providers_cleaned.csv', format=UTF8)
 
 
 class Insert(luigi.Task):

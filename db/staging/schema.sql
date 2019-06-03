@@ -1,3 +1,4 @@
+SET CLIENT_ENCODING TO Unicode
 DROP DATABASE IF EXISTS support_system_decisions_staging;
 CREATE DATABASE support_system_decisions_staging;
 

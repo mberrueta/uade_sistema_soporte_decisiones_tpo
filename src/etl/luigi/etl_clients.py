@@ -45,7 +45,7 @@ class Clean(luigi.Task):
 
     def run(self):
         self.logger.info('==> Reading: {}'.format(self.input().path))
-        clients_df = pd.read_csv(self.input().path, encoding = "ISO-8859-1")
+        clients_df = pd.read_csv(self.input().path)
 
         self.logger.info('==> Build address dictionary')
         clients_df['id_address'] = clients_df['id'].apply(

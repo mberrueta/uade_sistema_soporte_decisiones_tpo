@@ -59,7 +59,9 @@ class TransforHelper:
     def text_clean(text):
         if text is None:
             text = ''
-        return re.sub(r'[^\w\s_|\.]+', '', text).strip()
+        # return re.sub(r'[^\w\s_|\.]+', '', text).strip()
+        # return text.strip()
+        return text
 
     def remove_currency(price):
         if price is None:
