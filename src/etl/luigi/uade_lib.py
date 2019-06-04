@@ -1,6 +1,7 @@
 import csv
 import luigi
 import os
+import numpy as np
 import math
 import psycopg2
 import pandas as pd
@@ -88,6 +89,8 @@ class SliceableDict(dict):
 class PgInsert:
     def exec(table, columns, csv_path):
         df = pd.read_csv(csv_path)
+        # df = df.where((pd.notnull(df)), 'NULL')
+        print(columns)
         df.columns = columns
         insert_sql = '''
                      INSERT INTO {0}
@@ -101,6 +104,7 @@ class PgInsert:
         try:
             cursor = connection.cursor()
             for row in df.values.tolist():
+                # print(row)
                 # row + row is for the upsert that duplicate the value list
                 #
                 # INSERT INTO dim_categorias

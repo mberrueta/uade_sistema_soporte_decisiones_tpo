@@ -90,8 +90,8 @@ class Clean(luigi.Task):
         products_df['name'] = products_df['name'].apply(lambda name: lib.TransforHelper.text_clean(name))
 
         # Add dummy product
-        df2 = pd.DataFrame([[9999, 9999, 9999, 'others', False]], columns=['id', 'id_category', 'id_provider', 'name', 'suspended'])
-        products_df = products_df.append(df2)
+        # df2 = pd.DataFrame([[9999, 9999, 9999, 'others', False]], columns=['id', 'id_category', 'id_provider', 'name', 'suspended'])
+        # products_df = products_df.append(df2)
 
         with self.output().open('w') as out_file:
             products_df.to_csv(out_file, index=False)
@@ -102,7 +102,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_products'
-    columns = ['id', 'id_category', 'id_provider', 'name', 'suspended']
+    columns = ['id', 'name', 'id_provider', 'id_category', 'suspended']
 
     def requires(self):
         return Clean()
