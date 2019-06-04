@@ -140,3 +140,30 @@ ALTER TABLE dim_dates ADD CONSTRAINT dim_dates_id_pk PRIMARY KEY (id);
 DROP INDEX IF EXISTS dim_dates_date_actual_idx;
 
 CREATE INDEX dim_dates_date_actual_idx ON dim_dates(date_actual);
+
+
+ALTER TABLE dim_products DROP CONSTRAINT IF EXISTS dim_categories_products;
+ALTER TABLE dim_products DROP CONSTRAINT IF EXISTS dim_provider_products;
+ALTER TABLE dim_clients DROP CONSTRAINT IF EXISTS dim_client_address;
+ALTER TABLE dim_providers DROP CONSTRAINT IF EXISTS dim_provider_address;
+ALTER TABLE fact_orders DROP CONSTRAINT IF EXISTS fact_orders_clients;
+ALTER TABLE fact_orders DROP CONSTRAINT IF EXISTS fact_orders_dates;
+ALTER TABLE fact_order_details DROP CONSTRAINT IF EXISTS fact_order_details_products;
+ALTER TABLE fact_order_details DROP CONSTRAINT IF EXISTS fact_order_details_orders;
+
+ALTER TABLE dim_products
+  ADD CONSTRAINT dim_categories_products FOREIGN KEY (id_category) REFERENCES dim_categories (id);
+ALTER TABLE dim_products
+  ADD CONSTRAINT dim_provider_products FOREIGN KEY (id_provider) REFERENCES dim_providers (id);
+ALTER TABLE dim_clients
+  ADD CONSTRAINT dim_client_address FOREIGN KEY (id_address) REFERENCES dim_addresses (id);
+ALTER TABLE dim_providers
+  ADD CONSTRAINT dim_provider_address FOREIGN KEY (id_address) REFERENCES dim_addresses (id);
+ALTER TABLE fact_orders
+  ADD CONSTRAINT fact_orders_clients FOREIGN KEY (id_client) REFERENCES dim_clients (id);
+ALTER TABLE fact_orders
+  ADD CONSTRAINT fact_orders_dates FOREIGN KEY (id_date) REFERENCES dim_dates (id);
+ALTER TABLE fact_order_details
+  ADD CONSTRAINT fact_order_details_products FOREIGN KEY (id_product) REFERENCES dim_products (id);
+ALTER TABLE fact_order_details
+  ADD CONSTRAINT fact_order_details_orders FOREIGN KEY (id_order) REFERENCES fact_orders (id);

@@ -53,7 +53,7 @@ class Clean(luigi.Task):
 
         self.logger.info('==> Build address dictionary')
         clients_df['id_address'] = clients_df['id'].apply(
-            lambda orig_id: 'client|{}'.format(orig_id))
+            lambda orig_id: 'cli|{}'.format(orig_id))
 
         self.logger.info('==> Build name column')
         clients_df['name'] = clients_df['contact'].apply(lambda name: name.split(' ')[0])
