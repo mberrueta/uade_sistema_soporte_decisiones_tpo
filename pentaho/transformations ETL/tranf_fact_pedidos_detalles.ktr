@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>tranf_dim_direccion</name>
+    <name>tranf_fact_pedidos_detalles</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -427,9 +428,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2019/06/01 19:46:55.751</created_date>
+    <created_date>2019/06/02 19:47:16.577</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2019/06/01 19:46:55.751</modified_date>
+    <modified_date>2019/06/02 19:47:16.577</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -492,37 +493,37 @@
   </connection>
   <order>
     <hop>
-      <from>Filas Unicas</from>
-      <to>Añadir secuencia</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Microsoft Access input</from>
-      <to>Unión ordenada</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Microsoft Access input 2</from>
-      <to>Unión ordenada</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Unión ordenada</from>
       <to>Ordenar filas</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Entrada Tabla</from>
+      <to>Ordenar filas 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Ordenar filas</from>
-      <to>Filas Unicas</to>
+      <to>Unión por clave</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Ordenar filas 2</from>
+      <to>Unión por clave</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Unión por clave</from>
+      <to>Selecciona/Renombra valores</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores</from>
+      <to>Añadir secuencia</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Añadir secuencia</from>
-      <to>If field value is null</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>If field value is null</from>
       <to>Insertar / Actualizar</to>
       <enabled>Y</enabled>
     </hop>
@@ -538,9 +539,9 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <valuename>idDireccion</valuename>
+    <valuename>idDetallePedido</valuename>
     <use_database>N</use_database>
-    <connection/>
+    <connection>etl</connection>
     <schema/>
     <seqname>SEQ_</seqname>
     <use_counter>Y</use_counter>
@@ -557,14 +558,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>624</xloc>
-      <yloc>176</yloc>
+      <xloc>736</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Filas Unicas</name>
-    <type>Unique</type>
+    <name>Entrada Tabla</name>
+    <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -573,32 +574,16 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <count_rows>N</count_rows>
-    <count_field>idDireccion</count_field>
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description/>
-    <fields>
-      <field>
-        <name>Dirección</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-      <field>
-        <name>Ciudad</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-      <field>
-        <name>Región</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-      <field>
-        <name>CódPostal</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-      <field>
-        <name>País</name>
-        <case_insensitive>N</case_insensitive>
-      </field>
-    </fields>
+    <connection>etl</connection>
+    <sql>SELECT
+*
+FROM dim_productos
+</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -608,72 +593,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>If field value is null</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>Dirección</name>
-        <value>no especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>Ciudad</name>
-        <value>no especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>Región</name>
-        <value>no especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>CódPostal</name>
-        <value>no especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>País</name>
-        <value>no especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>752</xloc>
-      <yloc>176</yloc>
+      <xloc>96</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -693,71 +614,126 @@
     <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
-      <table>dim_direccion</table>
+      <table>fact_detalles_pedidos</table>
       <key>
-        <name>Dirección</name>
-        <field>direccion</field>
+        <name>IdPedido</name>
+        <field>idPedido</field>
         <condition>=</condition>
         <name2/>
       </key>
       <key>
-        <name>Ciudad</name>
-        <field>ciudad</field>
+        <name>IdProducto</name>
+        <field>idProducto</field>
         <condition>=</condition>
         <name2/>
       </key>
       <key>
-        <name>Región</name>
-        <field>region</field>
+        <name>PrecioUnidad</name>
+        <field>precioUnidad</field>
         <condition>=</condition>
         <name2/>
       </key>
       <key>
-        <name>CódPostal</name>
-        <field>codPostal</field>
+        <name>Cantidad</name>
+        <field>cantidad</field>
         <condition>=</condition>
         <name2/>
       </key>
       <key>
-        <name>País</name>
-        <field>pais</field>
+        <name>Descuento</name>
+        <field>descuento</field>
         <condition>=</condition>
         <name2/>
       </key>
       <key>
-        <name>idDireccion</name>
-        <field>idDireccion</field>
+        <name>nombreProducto</name>
+        <field>nombreProducto</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>idCategoria</name>
+        <field>idCategoria</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>idProveedor</name>
+        <field>idProveedor</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>cantidadPorUnidad</name>
+        <field>cantidadPorUnidad</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>precioUnidad_1</name>
+        <field>precioUnidad_1</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>idDetallePedido</name>
+        <field>idDetallePedido</field>
         <condition>=</condition>
         <name2/>
       </key>
       <value>
-        <name>direccion</name>
-        <rename>Dirección</rename>
+        <name>idPedido</name>
+        <rename>IdPedido</rename>
         <update>Y</update>
       </value>
       <value>
-        <name>ciudad</name>
-        <rename>Ciudad</rename>
+        <name>idProducto</name>
+        <rename>IdProducto</rename>
         <update>Y</update>
       </value>
       <value>
-        <name>region</name>
-        <rename>Región</rename>
+        <name>precioUnidad</name>
+        <rename>PrecioUnidad</rename>
         <update>Y</update>
       </value>
       <value>
-        <name>codPostal</name>
-        <rename>CódPostal</rename>
+        <name>cantidad</name>
+        <rename>Cantidad</rename>
         <update>Y</update>
       </value>
       <value>
-        <name>pais</name>
-        <rename>País</rename>
+        <name>descuento</name>
+        <rename>Descuento</rename>
         <update>Y</update>
       </value>
       <value>
-        <name>idDireccion</name>
-        <rename>idDireccion</rename>
+        <name>nombreProducto</name>
+        <rename>nombreProducto</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idCategoria</name>
+        <rename>idCategoria</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idProveedor</name>
+        <rename>idProveedor</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>cantidadPorUnidad</name>
+        <rename>cantidadPorUnidad</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>precioUnidad_1</name>
+        <rename>precioUnidad_1</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idDetallePedido</name>
+        <rename>idDetallePedido</rename>
         <update>Y</update>
       </value>
     </lookup>
@@ -771,7 +747,7 @@
     </remotesteps>
     <GUI>
       <xloc>880</xloc>
-      <yloc>176</yloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -796,7 +772,7 @@
     <filefield>N</filefield>
     <rownum_field/>
     <resetrownumber>N</resetrownumber>
-    <table_name>Clientes</table_name>
+    <table_name>Detalles de pedidos</table_name>
     <file>
       <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
       <filemask/>
@@ -806,8 +782,8 @@
     </file>
     <fields>
       <field>
-        <name>Dirección</name>
-        <attribut>Dirección</attribut>
+        <name>IdPedido</name>
+        <attribut>IdPedido</attribut>
         <type>String</type>
         <format/>
         <length>-1</length>
@@ -819,8 +795,8 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>Ciudad</name>
-        <attribut>Ciudad</attribut>
+        <name>IdProducto</name>
+        <attribut>IdProducto</attribut>
         <type>String</type>
         <format/>
         <length>-1</length>
@@ -832,9 +808,9 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>Región</name>
-        <attribut>Región</attribut>
-        <type>String</type>
+        <name>PrecioUnidad</name>
+        <attribut>PrecioUnidad</attribut>
+        <type>BigNumber</type>
         <format/>
         <length>-1</length>
         <precision>-1</precision>
@@ -845,9 +821,9 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>CódPostal</name>
-        <attribut>CódPostal</attribut>
-        <type>String</type>
+        <name>Cantidad</name>
+        <attribut>Cantidad</attribut>
+        <type>Integer</type>
         <format/>
         <length>-1</length>
         <precision>-1</precision>
@@ -858,9 +834,9 @@
         <repeat>N</repeat>
       </field>
       <field>
-        <name>País</name>
-        <attribut>País</attribut>
-        <type>String</type>
+        <name>Descuento</name>
+        <attribut>Descuento</attribut>
+        <type>BigNumber</type>
         <format/>
         <length>-1</length>
         <precision>-1</precision>
@@ -889,127 +865,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>144</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Microsoft Access input 2</name>
-    <type>AccessInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <include>N</include>
-    <include_field/>
-    <tablename>N</tablename>
-    <filename_Field/>
-    <tablename_field/>
-    <rownum>N</rownum>
-    <isaddresult>Y</isaddresult>
-    <filefield>N</filefield>
-    <rownum_field/>
-    <resetrownumber>N</resetrownumber>
-    <table_name>Proveedores</table_name>
-    <file>
-      <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>Dirección</name>
-        <attribut>Dirección</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Ciudad</name>
-        <attribut>Ciudad</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>Región</name>
-        <attribut>Región</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>CódPostal</name>
-        <attribut>CódPostal</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>País</name>
-        <attribut>País</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>144</xloc>
-      <yloc>256</yloc>
+      <xloc>112</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1033,7 +890,7 @@
     <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>Dirección</name>
+        <name>IdProducto</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -1050,14 +907,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>400</xloc>
-      <yloc>176</yloc>
+      <xloc>256</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Unión ordenada</name>
-    <type>SortedMerge</type>
+    <name>Ordenar filas 2</name>
+    <type>SortRows</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1066,26 +923,21 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>Dirección</name>
-        <ascending>N</ascending>
-      </field>
-      <field>
-        <name>Ciudad</name>
-        <ascending>N</ascending>
-      </field>
-      <field>
-        <name>Región</name>
-        <ascending>N</ascending>
-      </field>
-      <field>
-        <name>CódPostal</name>
-        <ascending>N</ascending>
-      </field>
-      <field>
-        <name>País</name>
-        <ascending>N</ascending>
+        <name>idProducto</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
       </field>
     </fields>
     <attributes/>
@@ -1097,8 +949,76 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
-      <yloc>176</yloc>
+      <xloc>256</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <remove>
+        <name>idProducto_1</name>
+      </remove>
+      <remove>
+        <name>suspendido</name>
+      </remove>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>80</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Unión por clave</name>
+    <type>MergeJoin</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <join_type>INNER</join_type>
+    <step1>Ordenar filas</step1>
+    <step2>Ordenar filas 2</step2>
+    <keys_1>
+      <key>IdProducto</key>
+    </keys_1>
+    <keys_2>
+      <key>idProducto</key>
+    </keys_2>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>80</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

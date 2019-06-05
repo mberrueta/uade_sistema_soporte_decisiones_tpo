@@ -430,7 +430,7 @@
     <created_date>2019/06/02 14:15:53.623</created_date>
     <modified_user>-</modified_user>
     <modified_date>2019/06/02 14:15:53.623</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -503,6 +503,173 @@
     </hop>
   </order>
   <step>
+    <name>If field value is null</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue/>
+    <replaceAllMask/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>NombreProducto</name>
+        <value>No especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>CantidadPorUnidad</name>
+        <value>No especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>PrecioUnidad</name>
+        <value>No especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>Suspendido</name>
+        <value>No especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>256</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Insertar / Actualizar</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>etl</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>dim_productos</table>
+      <key>
+        <name>IdProducto</name>
+        <field>idProducto</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>NombreProducto</name>
+        <field>nombreProducto</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>IdProveedor</name>
+        <field>idProveedor</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>IdCategoría</name>
+        <field>idCategoria</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>CantidadPorUnidad</name>
+        <field>cantidadPorUnidad</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>PrecioUnidad</name>
+        <field>precioUnidad</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>Suspendido</name>
+        <field>suspendido</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>idProducto</name>
+        <rename>IdProducto</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>nombreProducto</name>
+        <rename>NombreProducto</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idProveedor</name>
+        <rename>IdProveedor</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idCategoria</name>
+        <rename>IdCategoría</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>cantidadPorUnidad</name>
+        <rename>CantidadPorUnidad</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>precioUnidad</name>
+        <rename>PrecioUnidad</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>suspendido</name>
+        <rename>Suspendido</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>464</xloc>
+      <yloc>128</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>productos</name>
     <type>AccessInput</type>
     <description/>
@@ -533,19 +700,6 @@
     </file>
     <fields>
       <field>
-        <name>IdProducto</name>
-        <attribut>IdProducto</attribut>
-        <type>Integer</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
         <name>NombreProducto</name>
         <attribut>NombreProducto</attribut>
         <type>String</type>
@@ -559,9 +713,61 @@
         <repeat>N</repeat>
       </field>
       <field>
+        <name>CantidadPorUnidad</name>
+        <attribut>CantidadPorUnidad</attribut>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>IdProducto</name>
+        <attribut>IdProducto</attribut>
+        <type>Number</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>IdProveedor</name>
+        <attribut>IdProveedor</attribut>
+        <type>Integer</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
         <name>IdCategoría</name>
         <attribut>IdCategoría</attribut>
         <type>Integer</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>Suspendido</name>
+        <attribut>Suspendido</attribut>
+        <type>Boolean</type>
         <format/>
         <length>-1</length>
         <precision>-1</precision>
@@ -604,128 +810,6 @@
     </remotesteps>
     <GUI>
       <xloc>112</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>If field value is null</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>NombreProducto</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>PrecioUnidad</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>224</xloc>
-      <yloc>128</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Insertar / Actualizar</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>etl</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>dim_productos</table>
-      <key>
-        <name>IdProducto</name>
-        <field>idProducto</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>NombreProducto</name>
-        <field>nombreProducto</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>IdCategoría</name>
-        <field>idCategoria</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>PrecioUnidad</name>
-        <field>precioUnidad</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>idProducto</name>
-        <rename>IdProducto</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>nombreProducto</name>
-        <rename>NombreProducto</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>idCategoria</name>
-        <rename>IdCategoría</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>precioUnidad</name>
-        <rename>PrecioUnidad</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>384</xloc>
       <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>

@@ -492,177 +492,162 @@
   </connection>
   <order>
     <hop>
-      <from>Partir campos</from>
-      <to>Replace in string</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 2</from>
-      <to>Replace in string 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 2 2</from>
-      <to>Replace in string 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 2 3</from>
-      <to>Replace in string 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 2 4</from>
-      <to>Replace in string 5</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Replace in string</from>
-      <to>Partir campos 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Replace in string 5</from>
-      <to>Partir campos 3 5</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Replace in string 4</from>
-      <to>Partir campos 3 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Replace in string 3</from>
-      <to>Partir campos 3 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Replace in string 2</from>
-      <to>Partir campos 3 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>pedido</from>
-      <to>Calculadora 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Microsoft Access input 4</from>
-      <to>Calculadora 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>nacimiento</from>
-      <to>diaSemana</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Microsoft Access input 2 2</from>
-      <to>Calculadora 2 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>diaSemana</from>
-      <to>Partir campos 2 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Calculadora 2 4</from>
-      <to>Partir campos 2 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Calculadora 2 2</from>
-      <to>Partir campos 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Calculadora</from>
-      <to>Partir campos</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Microsoft Access input</from>
-      <to>Calculadora</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Calculadora 2</from>
-      <to>Partir campos 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 3 4</from>
-      <to>trimestre</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>trimestre</from>
-      <to>trimestre 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>trimestre 3</from>
-      <to>trimestre 2 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 3 2</from>
-      <to>trimestre 3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>trimestre 4</from>
       <to>trimestre 2 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Partir campos 3</from>
+      <from>Filas Unicas</from>
+      <to>If field value is null</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Añadir secuencia</from>
+      <to>Insertar / Actualizar</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Microsoft Access input</from>
+      <to>Calculadora 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Microsoft Access input 4</from>
+      <to>Calculadora 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>pedido</from>
+      <to>Calculadora 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Microsoft Access input 2 2</from>
+      <to>Calculadora 3 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>nacimiento</from>
+      <to>Calculadora 3 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculadora 3</from>
       <to>trimestre 4</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 5</from>
-      <to>trimestre 2 4</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Partir campos 3 3</from>
+      <from>Calculadora 3 2</from>
       <to>trimestre 5</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 6</from>
-      <to>trimestre 2 5</to>
+      <from>Calculadora 3 3</from>
+      <to>trimestre 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Partir campos 3 5</from>
+      <from>Calculadora 3 4</from>
       <to>trimestre 6</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Calculadora 3 5</from>
+      <to>trimestre</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre</from>
+      <to>trimestre 2 3 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 6</from>
+      <to>trimestre 2 3 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 3</from>
+      <to>trimestre 2 3 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 5</from>
+      <to>trimestre 2 3 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 2 3 5</from>
+      <to>Selecciona/Renombra valores 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 2 3 4</from>
+      <to>Selecciona/Renombra valores 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 2 3 3</from>
+      <to>Selecciona/Renombra valores 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>trimestre 2 3 2</from>
+      <to>Selecciona/Renombra valores 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>trimestre 2 3</from>
+      <to>Selecciona/Renombra valores</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores</from>
+      <to>Ordenar filas</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores 4</from>
+      <to>Ordenar filas 5</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores 5</from>
+      <to>Ordenar filas 4</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores 3</from>
+      <to>Ordenar filas 3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Selecciona/Renombra valores 2</from>
+      <to>Ordenar filas 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Ordenar filas 5</from>
       <to>Unión ordenada</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 2 4</from>
+      <from>Ordenar filas 4</from>
       <to>Unión ordenada</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 2 2</from>
+      <from>Ordenar filas 3</from>
       <to>Unión ordenada</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 2 5</from>
+      <from>Ordenar filas 2</from>
       <to>Unión ordenada</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>trimestre 2</from>
+      <from>Ordenar filas</from>
       <to>Unión ordenada</to>
       <enabled>Y</enabled>
     </hop>
@@ -672,21 +657,272 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Filas Unicas</from>
-      <to>If field value is null</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>If field value is null</from>
       <to>Añadir secuencia</to>
       <enabled>Y</enabled>
     </hop>
-    <hop>
-      <from>Añadir secuencia</from>
-      <to>Insertar / Actualizar</to>
-      <enabled>Y</enabled>
-    </hop>
   </order>
+  <step>
+    <name>Añadir secuencia</name>
+    <type>Sequence</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <valuename>idFecha</valuename>
+    <use_database>N</use_database>
+    <connection/>
+    <schema/>
+    <seqname>SEQ_</seqname>
+    <use_counter>Y</use_counter>
+    <counter_name/>
+    <start_at>1</start_at>
+    <increment_by>1</increment_by>
+    <max_value>999999999</max_value>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1328</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filas Unicas</name>
+    <type>Unique</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <count_rows>N</count_rows>
+    <count_field/>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description/>
+    <fields>      </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1264</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>If field value is null</name>
+    <type>IfNull</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <replaceAllByValue/>
+    <replaceAllMask/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <valuetypes>
+      </valuetypes>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>dia</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>mes</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>anio</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>diaSemana</name>
+        <value>-1</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>Trimestre</name>
+        <value>no especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>estacion</name>
+        <value>no especifica</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1392</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Insertar / Actualizar</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>etl</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>dim_fecha</table>
+      <key>
+        <name>Fecha</name>
+        <field>Fecha</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>dia</name>
+        <field>dia</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>mes</name>
+        <field>mes</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>anio</name>
+        <field>anio</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>diaSemana</name>
+        <field>diaSemana</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>Trimestre</name>
+        <field>Trimestre</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>estacion</name>
+        <field>estacion</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>idFecha</name>
+        <field>idFecha</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>Fecha</name>
+        <rename>Fecha</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>dia</name>
+        <rename>dia</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>mes</name>
+        <rename>mes</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>anio</name>
+        <rename>anio</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>diaSemana</name>
+        <rename>diaSemana</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>Trimestre</name>
+        <rename>Trimestre</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>estacion</name>
+        <rename>estacion</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>idFecha</name>
+        <rename>idFecha</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1440</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Microsoft Access input</name>
     <type>AccessInput</type>
@@ -750,6 +986,182 @@
     </remotesteps>
     <GUI>
       <xloc>112</xloc>
+      <yloc>16</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Microsoft Access input 2 2</name>
+    <type>AccessInput</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <include>N</include>
+    <include_field/>
+    <tablename>N</tablename>
+    <filename_Field/>
+    <tablename_field/>
+    <rownum>N</rownum>
+    <isaddresult>Y</isaddresult>
+    <filefield>N</filefield>
+    <rownum_field/>
+    <resetrownumber>N</resetrownumber>
+    <table_name>Empleados</table_name>
+    <file>
+      <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>FechaContratación</name>
+        <attribut>FechaContratación</attribut>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>96</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Microsoft Access input 4</name>
+    <type>AccessInput</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <include>N</include>
+    <include_field/>
+    <tablename>N</tablename>
+    <filename_Field/>
+    <tablename_field/>
+    <rownum>N</rownum>
+    <isaddresult>Y</isaddresult>
+    <filefield>N</filefield>
+    <rownum_field/>
+    <resetrownumber>N</resetrownumber>
+    <table_name>Pedidos</table_name>
+    <file>
+      <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>FechaEnvío</name>
+        <attribut>FechaEnvío</attribut>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+    </fields>
+    <limit>0</limit>
+    <shortFileFieldName/>
+    <pathFieldName/>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
+    <uriNameFieldName/>
+    <rootUriNameFieldName/>
+    <extensionFieldName/>
+    <sizeFieldName/>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>112</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Ordenar filas</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1040</xloc>
       <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
@@ -889,1215 +1301,6 @@
     </GUI>
   </step>
   <step>
-    <name>Microsoft Access input 4</name>
-    <type>AccessInput</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <include>N</include>
-    <include_field/>
-    <tablename>N</tablename>
-    <filename_Field/>
-    <tablename_field/>
-    <rownum>N</rownum>
-    <isaddresult>Y</isaddresult>
-    <filefield>N</filefield>
-    <rownum_field/>
-    <resetrownumber>N</resetrownumber>
-    <table_name>Pedidos</table_name>
-    <file>
-      <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>FechaEnvío</name>
-        <attribut>FechaEnvío</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>112</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Microsoft Access input 2 2</name>
-    <type>AccessInput</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <include>N</include>
-    <include_field/>
-    <tablename>N</tablename>
-    <filename_Field/>
-    <tablename_field/>
-    <rownum>N</rownum>
-    <isaddresult>Y</isaddresult>
-    <filefield>N</filefield>
-    <rownum_field/>
-    <resetrownumber>N</resetrownumber>
-    <table_name>Empleados</table_name>
-    <file>
-      <name>C:\Users\LucasNotebook\Desktop\Soporte de decisiones\uade_sistema_soporte_decisiones_tpo-master\input\Neptuno.mdb</name>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>FechaContratación</name>
-        <attribut>FechaContratación</attribut>
-        <type>String</type>
-        <format/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <currency/>
-        <decimal/>
-        <group/>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>96</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>FechaEntrega</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>anio</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>mes</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>336</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 2</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>FechaPedido</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>anio</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>mes</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>304</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 2 2</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>FechaEnvío</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>anio</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>mes</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>352</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 2 3</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>FechaNacimiento</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>anio</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>mes</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>320</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 2 4</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>FechaContratación</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>anio</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>mes</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>dia</in_stream_name>
-        <out_stream_name/>
-        <use_regex>yes</use_regex>
-        <replace_string>\s</replace_string>
-        <replace_by_string>/</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>448</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string 2</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>dia</in_stream_name>
-        <out_stream_name/>
-        <use_regex>yes</use_regex>
-        <replace_string>\s</replace_string>
-        <replace_by_string>/</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>448</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string 3</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>dia</in_stream_name>
-        <out_stream_name/>
-        <use_regex>yes</use_regex>
-        <replace_string>\s</replace_string>
-        <replace_by_string>/</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string 4</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>dia</in_stream_name>
-        <out_stream_name/>
-        <use_regex>yes</use_regex>
-        <replace_string>\s</replace_string>
-        <replace_by_string>/</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>448</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string 5</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>dia</in_stream_name>
-        <out_stream_name/>
-        <use_regex>yes</use_regex>
-        <replace_string>\s</replace_string>
-        <replace_by_string>/</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 3</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>dia</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>hora</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>576</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 3 2</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>dia</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>hora</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>592</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 3 3</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>dia</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>hora</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>624</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 3 4</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>dia</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>hora</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>576</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Partir campos 3 5</name>
-    <type>FieldSplitter</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <splitfield>dia</splitfield>
-    <delimiter>/</delimiter>
-    <enclosure/>
-    <fields>
-      <field>
-        <name>dia</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-      <field>
-        <name>hora</name>
-        <id/>
-        <idrem>N</idrem>
-        <type>String</type>
-        <format/>
-        <group/>
-        <decimal/>
-        <currency/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>640</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Calculadora</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>diaSemana</field_name>
-      <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>FechaEntrega</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>240</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Calculadora 2</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>diaSemana</field_name>
-      <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>FechaPedido</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>192</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Calculadora 2 2</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>diaSemana</field_name>
-      <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>FechaEnvío</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>224</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>diaSemana</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>diaSemana</field_name>
-      <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>FechaNacimiento</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>208</xloc>
-      <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Calculadora 2 4</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <failIfNoFile>Y</failIfNoFile>
-    <calculation>
-      <field_name>diaSemana</field_name>
-      <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>FechaContratación</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>String</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>240</xloc>
-      <yloc>256</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>trimestre</name>
     <type>ValueMapper</type>
     <description/>
@@ -2113,39 +1316,39 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
+        <source_value>3</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>04</source_value>
+        <source_value>4</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>5</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>6</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>7</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>8</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>9</source_value>
         <target_value>3</target_value>
       </field>
       <field>
@@ -2170,13 +1373,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
+      <xloc>512</xloc>
       <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>trimestre 2</name>
+    <name>trimestre 2 3</name>
     <type>ValueMapper</type>
     <description/>
     <distribute>Y</distribute>
@@ -2191,40 +1394,40 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>verano</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>verano</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>04</source_value>
+        <source_value>3</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>4</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>5</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>6</source_value>
         <target_value>invierno</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>7</source_value>
         <target_value>invierno</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>8</source_value>
         <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>9</source_value>
+        <target_value>primavera</target_value>
       </field>
       <field>
         <source_value>10</source_value>
@@ -2236,7 +1439,7 @@
       </field>
       <field>
         <source_value>12</source_value>
-        <target_value>primavera</target_value>
+        <target_value>verano</target_value>
       </field>
     </fields>
     <attributes/>
@@ -2248,8 +1451,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>816</xloc>
-      <yloc>352</yloc>
+      <xloc>720</xloc>
+      <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2269,39 +1472,39 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
+        <source_value>3</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>04</source_value>
+        <source_value>4</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>5</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>6</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>7</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>8</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>9</source_value>
         <target_value>3</target_value>
       </field>
       <field>
@@ -2326,85 +1529,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>trimestre 2 2</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <field_to_use>mes</field_to_use>
-    <target_field>estacion</target_field>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>01</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>02</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>03</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>04</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>05</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>06</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>07</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>08</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>09</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>10</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>11</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>12</source_value>
-        <target_value>primavera</target_value>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>800</xloc>
+      <xloc>512</xloc>
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2425,39 +1550,39 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
+        <source_value>3</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>04</source_value>
+        <source_value>4</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>5</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>6</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>7</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>8</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>9</source_value>
         <target_value>3</target_value>
       </field>
       <field>
@@ -2482,85 +1607,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>672</xloc>
-      <yloc>16</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>trimestre 2 3</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <field_to_use>mes</field_to_use>
-    <target_field>estacion</target_field>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>01</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>02</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>03</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>04</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>05</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>06</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>07</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>08</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>09</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>10</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>11</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>12</source_value>
-        <target_value>primavera</target_value>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>784</xloc>
+      <xloc>512</xloc>
       <yloc>16</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2581,39 +1628,39 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
+        <source_value>3</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>04</source_value>
+        <source_value>4</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>5</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>6</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>7</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>8</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>9</source_value>
         <target_value>3</target_value>
       </field>
       <field>
@@ -2638,85 +1685,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>96</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>trimestre 2 4</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <field_to_use>mes</field_to_use>
-    <target_field>estacion</target_field>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>01</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>02</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>03</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>04</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>05</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>06</source_value>
-        <target_value>otonio</target_value>
-      </field>
-      <field>
-        <source_value>07</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>08</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>09</source_value>
-        <target_value>invierno</target_value>
-      </field>
-      <field>
-        <source_value>10</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>11</source_value>
-        <target_value>primavera</target_value>
-      </field>
-      <field>
-        <source_value>12</source_value>
-        <target_value>primavera</target_value>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>768</xloc>
+      <xloc>512</xloc>
       <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2737,39 +1706,39 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
+        <source_value>3</source_value>
         <target_value>1</target_value>
       </field>
       <field>
-        <source_value>04</source_value>
+        <source_value>4</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>5</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>6</source_value>
         <target_value>2</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>7</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>8</source_value>
         <target_value>3</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>9</source_value>
         <target_value>3</target_value>
       </field>
       <field>
@@ -2794,13 +1763,443 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>752</xloc>
+      <xloc>512</xloc>
       <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>trimestre 2 5</name>
+    <name>Calculadora 3</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>dia</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>FechaEntrega</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>mes</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>FechaEntrega</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>anio</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>FechaEntrega</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>diaSemana</field_name>
+      <calc_type>DAY_OF_WEEK</calc_type>
+      <field_a>FechaEntrega</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>16</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculadora 3 2</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>dia</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>FechaEnvío</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>mes</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>FechaEnvío</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>anio</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>FechaEnvío</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>diaSemana</field_name>
+      <calc_type>DAY_OF_WEEK</calc_type>
+      <field_a>FechaEnvío</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculadora 3 3</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>dia</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>FechaPedido</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>mes</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>FechaPedido</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>anio</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>FechaPedido</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>diaSemana</field_name>
+      <calc_type>DAY_OF_WEEK</calc_type>
+      <field_a>FechaPedido</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculadora 3 4</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>dia</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>FechaContratación</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>mes</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>FechaContratación</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>anio</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>FechaContratación</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>diaSemana</field_name>
+      <calc_type>DAY_OF_WEEK</calc_type>
+      <field_a>FechaContratación</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculadora 3 5</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>dia</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>FechaNacimiento</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>mes</field_name>
+      <calc_type>MONTH_OF_DATE</calc_type>
+      <field_a>FechaNacimiento</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>anio</field_name>
+      <calc_type>YEAR_OF_DATE</calc_type>
+      <field_a>FechaNacimiento</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
+      <field_name>diaSemana</field_name>
+      <calc_type>DAY_OF_WEEK</calc_type>
+      <field_a>FechaNacimiento</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>None</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>304</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>trimestre 2 3 2</name>
     <type>ValueMapper</type>
     <description/>
     <distribute>Y</distribute>
@@ -2815,40 +2214,40 @@
     <non_match_default/>
     <fields>
       <field>
-        <source_value>01</source_value>
+        <source_value>1</source_value>
         <target_value>verano</target_value>
       </field>
       <field>
-        <source_value>02</source_value>
+        <source_value>2</source_value>
         <target_value>verano</target_value>
       </field>
       <field>
-        <source_value>03</source_value>
-        <target_value>verano</target_value>
-      </field>
-      <field>
-        <source_value>04</source_value>
+        <source_value>3</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>05</source_value>
+        <source_value>4</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>06</source_value>
+        <source_value>5</source_value>
         <target_value>otonio</target_value>
       </field>
       <field>
-        <source_value>07</source_value>
+        <source_value>6</source_value>
         <target_value>invierno</target_value>
       </field>
       <field>
-        <source_value>08</source_value>
+        <source_value>7</source_value>
         <target_value>invierno</target_value>
       </field>
       <field>
-        <source_value>09</source_value>
+        <source_value>8</source_value>
         <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>9</source_value>
+        <target_value>primavera</target_value>
       </field>
       <field>
         <source_value>10</source_value>
@@ -2860,7 +2259,7 @@
       </field>
       <field>
         <source_value>12</source_value>
-        <target_value>primavera</target_value>
+        <target_value>verano</target_value>
       </field>
     </fields>
     <attributes/>
@@ -2872,8 +2271,242 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
+      <xloc>720</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>trimestre 2 3 3</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <field_to_use>mes</field_to_use>
+    <target_field>estacion</target_field>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>1</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>2</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>3</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>4</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>5</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>6</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>7</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>8</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>9</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>10</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>11</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>12</source_value>
+        <target_value>verano</target_value>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>trimestre 2 3 4</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <field_to_use>mes</field_to_use>
+    <target_field>estacion</target_field>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>1</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>2</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>3</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>4</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>5</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>6</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>7</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>8</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>9</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>10</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>11</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>12</source_value>
+        <target_value>verano</target_value>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
       <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>trimestre 2 3 5</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <field_to_use>mes</field_to_use>
+    <target_field>estacion</target_field>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>1</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>2</source_value>
+        <target_value>verano</target_value>
+      </field>
+      <field>
+        <source_value>3</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>4</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>5</source_value>
+        <target_value>otonio</target_value>
+      </field>
+      <field>
+        <source_value>6</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>7</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>8</source_value>
+        <target_value>invierno</target_value>
+      </field>
+      <field>
+        <source_value>9</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>10</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>11</source_value>
+        <target_value>primavera</target_value>
+      </field>
+      <field>
+        <source_value>12</source_value>
+        <target_value>verano</target_value>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>352</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2890,11 +2523,7 @@
     </partitioning>
     <fields>
       <field>
-        <name>anio</name>
-        <ascending>N</ascending>
-      </field>
-      <field>
-        <name>mes</name>
+        <name>Fecha</name>
         <ascending>N</ascending>
       </field>
       <field>
@@ -2902,7 +2531,11 @@
         <ascending>N</ascending>
       </field>
       <field>
-        <name>hora</name>
+        <name>mes</name>
+        <ascending>N</ascending>
+      </field>
+      <field>
+        <name>anio</name>
         <ascending>N</ascending>
       </field>
       <field>
@@ -2927,14 +2560,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>976</xloc>
-      <yloc>160</yloc>
+      <xloc>1168</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Filas Unicas</name>
-    <type>Unique</type>
+    <name>Selecciona/Renombra valores</name>
+    <type>SelectValues</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -2943,91 +2576,301 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <count_rows>N</count_rows>
-    <count_field/>
-    <reject_duplicate_row>N</reject_duplicate_row>
-    <error_description/>
-    <fields>      </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1104</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>If field value is null</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <replaceAllByValue/>
-    <replaceAllMask/>
-    <selectFields>Y</selectFields>
-    <selectValuesType>N</selectValuesType>
-    <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
     <fields>
       <field>
-        <name>anio</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>mes</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <name>FechaEntrega</name>
+        <rename>Fecha</rename>
       </field>
       <field>
         <name>dia</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <rename/>
       </field>
       <field>
-        <name>hora</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>anio</name>
+        <rename/>
       </field>
       <field>
         <name>diaSemana</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <rename/>
       </field>
       <field>
         <name>Trimestre</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <rename/>
       </field>
       <field>
         <name>estacion</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>16</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>FechaEnvío</name>
+        <rename>Fecha</rename>
+      </field>
+      <field>
+        <name>dia</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>anio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>diaSemana</name>
+        <rename/>
       </field>
       <field>
         <name>Trimestre</name>
-        <value>No especifica</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
+        <rename/>
+      </field>
+      <field>
+        <name>estacion</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores 3</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>FechaPedido</name>
+        <rename>Fecha</rename>
+      </field>
+      <field>
+        <name>dia</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>anio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>diaSemana</name>
+        <rename/>
+      </field>
+      <field>
+        <name>Trimestre</name>
+        <rename/>
+      </field>
+      <field>
+        <name>estacion</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores 4</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>FechaNacimiento</name>
+        <rename>Fecha</rename>
+      </field>
+      <field>
+        <name>dia</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>anio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>diaSemana</name>
+        <rename/>
+      </field>
+      <field>
+        <name>Trimestre</name>
+        <rename/>
+      </field>
+      <field>
+        <name>estacion</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>352</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Selecciona/Renombra valores 5</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>FechaContratación</name>
+        <rename>Fecha</rename>
+      </field>
+      <field>
+        <name>dia</name>
+        <rename/>
+      </field>
+      <field>
+        <name>mes</name>
+        <rename/>
+      </field>
+      <field>
+        <name>anio</name>
+        <rename/>
+      </field>
+      <field>
+        <name>diaSemana</name>
+        <rename/>
+      </field>
+      <field>
+        <name>Trimestre</name>
+        <rename/>
+      </field>
+      <field>
+        <name>estacion</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Ordenar filas 2</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
       </field>
     </fields>
     <attributes/>
@@ -3039,14 +2882,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1216</xloc>
-      <yloc>160</yloc>
+      <xloc>1055</xloc>
+      <yloc>102</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Insertar / Actualizar</name>
-    <type>InsertUpdate</type>
+    <name>Ordenar filas 3</name>
+    <type>SortRows</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -3055,107 +2898,23 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>etl</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>dim_fecha</table>
-      <key>
-        <name>anio</name>
-        <field>anio</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>mes</name>
-        <field>mes</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>dia</name>
-        <field>dia</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>hora</name>
-        <field>hora</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>diaSemana</name>
-        <field>diaSemana</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>Trimestre</name>
-        <field>trimestre</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>estacion</name>
-        <field>estacion</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>Trimestre</name>
-        <field>Trimestre</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>idFecha</name>
-        <field>idFecha</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>anio</name>
-        <rename>anio</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>mes</name>
-        <rename>mes</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>dia</name>
-        <rename>dia</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>hora</name>
-        <rename>hora</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>diaSemana</name>
-        <rename>diaSemana</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>trimestre</name>
-        <rename>Trimestre</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>estacion</name>
-        <rename>estacion</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>idFecha</name>
-        <rename>idFecha</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -3165,14 +2924,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1440</xloc>
-      <yloc>160</yloc>
+      <xloc>1062</xloc>
+      <yloc>198</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Añadir secuencia</name>
-    <type>Sequence</type>
+    <name>Ordenar filas 4</name>
+    <type>SortRows</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -3181,16 +2940,23 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <valuename>idFecha</valuename>
-    <use_database>N</use_database>
-    <connection/>
-    <schema/>
-    <seqname>SEQ_</seqname>
-    <use_counter>Y</use_counter>
-    <counter_name/>
-    <start_at>1</start_at>
-    <increment_by>1</increment_by>
-    <max_value>999999999</max_value>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -3200,8 +2966,50 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1328</xloc>
-      <yloc>160</yloc>
+      <xloc>1054</xloc>
+      <yloc>280</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Ordenar filas 5</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <directory>%%java.io.tmpdir%%</directory>
+    <prefix>out</prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory/>
+    <compress>N</compress>
+    <compress_variable/>
+    <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>Fecha</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1066</xloc>
+      <yloc>382</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
