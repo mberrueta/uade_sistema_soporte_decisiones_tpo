@@ -25,7 +25,7 @@ class SupportSystemDecisionsDB:
         database = os.getenv('PG_UADE_BI_DATABASE', 'support_system_decisions_staging')
         user = os.getenv('PG_UADE_BI_USER', 'postgres')
         password = os.getenv('PG_UADE_BI_PASSWORD', '')
-        port = os.getenv('PG_UADE_BI_PORT', 5532)
+        port = os.getenv('PG_UADE_BI_PORT', 5432)
 
         return psycopg2.connect(
             dbname = database,

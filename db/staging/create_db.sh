@@ -3,7 +3,7 @@
 DIR="$( cd "$( dirname "$0" )" && pwd )"
 HOST=${PG_UADE_BI_HOST:=localhost}
 USER=${PG_UADE_BI_USER:=postgres}
-PORT=${PG_UADE_BI_PORT:=5532}
+PORT=${PG_UADE_BI_PORT:=5432}
 
 echo $DIR/schema.sql
 
