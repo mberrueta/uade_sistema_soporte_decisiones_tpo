@@ -19,7 +19,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='localhost' name='postgres.1duwas21i5rgon1avf5hy105evrz'>
-            <connection authentication='username-password' class='postgres' dbname='support_system_decisions_staging' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='postgres' />
+            <connection authentication='username-password' class='postgres' dbname='support_system_decisions_staging' odbc-native-protocol='' one-time-sql='' port='5732' server='localhost' username='postgres' />
           </named-connection>
         </named-connections>
         <relation join='inner' type='join'>
