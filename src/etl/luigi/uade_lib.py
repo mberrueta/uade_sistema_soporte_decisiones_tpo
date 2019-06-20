@@ -64,6 +64,12 @@ class TransforHelper:
         # return text.strip()
         return text
 
+    def bool_clean(text):
+        if text is None:
+            text = False
+
+        return text.upper() == "VERDADERO"
+
     def remove_currency(price):
         if price is None:
             price = ''
