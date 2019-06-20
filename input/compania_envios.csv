@@ -1,4 +1,9 @@
-﻿Id. de compañía de envíos,Nombre de compañía,Teléfono
-1,Speedy Express,(503) 555-9831
-2,United Package,(503) 555-3199
-3,Federal Shipping,(503) 555-9931
+﻿IdCategoría,NombreCategoría,Descripción,Imagen
+1,Bebidas,"Gaseosas, café, té, cervezas y maltas",
+2,Condimentos,"Salsas dulces y picantes, delicias, comida para untar y aderezos",
+3,Repostería,"Postres, masas, budines y pan dulce",
+4,Lácteos,Quesos,
+5,Granos/Cereales,"Pan, galletas, pasta y cereales",
+6,Carnes,Carnes preparadas,
+7,Frutas/Verduras,Frutas secas y queso de soja,
+8,Pescado/Marisco,"Pescados, mariscos y algas",

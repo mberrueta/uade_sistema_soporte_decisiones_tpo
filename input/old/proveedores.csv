@@ -1,4 +1,4 @@
-﻿IdProveedor,NombreCompañía,NombreContacto,CargoContacto,Dirección,Ciudad,Región,CódPostal,País,Teléfono,Fax,PáginaPrincipal
+﻿Id. de proveedor,Nombre de compañía,Nombre del contacto,Cargo del contacto,Dirección,Ciudad,Región,Código postal,País,Teléfono,Fax,Página principal
 1,Exotic Liquids,Charlotte Cooper,Gerente de compras,49 Gilbert St.,Londres,,EC1 4SD,Reino Unido,(171) 555-2222,,
 2,New Orleans Cajun Delights,Shelley Burke,Administrador de pedidos,P.O. Box 78934,New Orleans,LA,70117,Estados Unidos,(100) 555-4822,,
 3,Grandma Kelly's Homestead,Regina Murphy,Representante de ventas,707 Oxford Rd.,Ann Arbor,MI,48104,Estados Unidos,(313) 555-5735,(313) 555-3349,
@@ -37,5 +37,3 @@ Hunter's Hill",Sydney,NSW,2042,Australia,(02) 555-5914,(02) 555-4873,
 28,Gai pâturage,Eliane Noz,Representante de ventas,"Bat. B
 3, rue des Alpes",Annecy,,74000,Francia,38.76.98.06,38.76.98.58,
 29,Forêts d'érables,Chantal Goulet,Gerente de contabilidad,148 rue Chasseur,Ste-Hyacinthe,Québec,J2S 7S8,Canadá,(514) 555-2955,(514) 555-2921,
-30,Dulces del Sur,Alejandrina Maxrod,Gerente de Ventas,Rivadavia 1032,Buenos Aires,,B2001,Argentina,(11) 2245-2322,,
-32,Cervezas Patagonicas,Juan Perroud,Representante de ventas,Angel del Agua 200,El Bolson,,B8430,Argentina,(294) 432-2929,,

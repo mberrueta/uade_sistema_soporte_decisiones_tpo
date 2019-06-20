@@ -1,2156 +1,2382 @@
-﻿Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
-10248,Queso Cabrales,14.00 €,12,0.00%
-10248,Tallarines de Singapur,9.80 €,10,0.00%
-10248,Queso Mozzarella Giovanni,34.80 €,5,0.00%
-10249,Cuajada de judías,18.60 €,9,0.00%
-10249,Manzanas secas Manjimup,42.40 €,40,0.00%
-10250,Crema de almejas estilo Nueva Inglaterra,7.70 €,10,0.00%
-10250,Manzanas secas Manjimup,42.40 €,35,15.00%
-10250,Salsa de pimiento picante de Luisiana,16.80 €,15,15.00%
-10251,Pan de centeno crujiente estilo Gustaf's,16.80 €,6,5.00%
-10251,Raviolis Angelo,15.60 €,15,5.00%
-10251,Salsa de pimiento picante de Luisiana,16.80 €,20,0.00%
-10252,Mermelada de Sir Rodney's,64.80 €,40,5.00%
-10252,Queso de cabra,2.00 €,25,5.00%
-10252,Camembert Pierrot,27.20 €,40,0.00%
-10253,Queso gorgonzola Telino,10.00 €,20,0.00%
-10253,Licor verde Chartreuse,14.40 €,42,0.00%
-10253,Regaliz,16.00 €,40,0.00%
-10254,Refresco Guaraná Fantástica,3.60 €,15,15.00%
-10254,Paté chino,19.20 €,21,15.00%
-10254,Queso de soja Longlife,8.00 €,21,0.00%
-10255,Cerveza tibetana Barley,15.20 €,20,0.00%
-10255,Postre de merengue Pavlova,13.90 €,35,0.00%
-10255,Escabeche de arenque,15.20 €,25,0.00%
-10255,Raclet de queso Courdavault,44.00 €,30,0.00%
-10256,Empanada de carne,26.20 €,15,0.00%
-10256,Salsa verde original Frankfurter,10.40 €,12,0.00%
-10257,Chocolate Schoggi,35.10 €,25,0.00%
-10257,Licor verde Chartreuse,14.40 €,6,0.00%
-10257,Salsa verde original Frankfurter,10.40 €,15,0.00%
-10258,Cerveza tibetana Barley,15.20 €,50,20.00%
-10258,Mezcla Gumbo del chef Anton,17.00 €,65,20.00%
-10258,Queso Mascarpone Fabioli,25.60 €,6,20.00%
-10259,Bollos de Sir Rodney's,8.00 €,10,0.00%
-10259,Salmón ahumado Gravad,20.80 €,1,0.00%
-10260,Crema de almejas estilo Nueva Inglaterra,7.70 €,16,25.00%
-10260,Raviolis Angelo,15.60 €,50,0.00%
-10260,Tarta de azúcar,39.40 €,15,25.00%
-10260,Cerveza Outback,12.00 €,21,25.00%
-10261,Bollos de Sir Rodney's,8.00 €,20,0.00%
-10261,Cerveza negra Steeleye,14.40 €,20,0.00%
-10262,Mezcla Gumbo del chef Anton,17.00 €,12,20.00%
-10262,Peras secas orgánicas del tío Bob,24.00 €,15,0.00%
-10262,Gnocchi de la abuela Alicia,30.40 €,2,0.00%
-10263,Postre de merengue Pavlova,13.90 €,60,25.00%
-10263,Refresco Guaraná Fantástica,3.60 €,28,0.00%
-10263,Arenque blanco del noroeste,20.70 €,60,25.00%
-10263,Queso de soja Longlife,8.00 €,36,25.00%
-10264,Cerveza tibetana Barley,15.20 €,35,0.00%
-10264,Crema de almejas estilo Nueva Inglaterra,7.70 €,25,15.00%
-10265,Cordero Alice Springs,31.20 €,30,0.00%
-10265,Cerveza Outback,12.00 €,20,0.00%
-10266,Queso Manchego La Pastora,30.40 €,12,5.00%
-10267,Carne de cangrejo de Boston,14.70 €,50,0.00%
-10267,Raclet de queso Courdavault,44.00 €,70,15.00%
-10267,Licor Cloudberry,14.40 €,15,15.00%
-10268,Salchicha Thüringer,99.00 €,10,0.00%
-10268,Queso Mozzarella Giovanni,27.80 €,4,0.00%
-10269,Queso de cabra,2.00 €,60,5.00%
-10269,Queso Mozzarella Giovanni,27.80 €,20,5.00%
-10270,Escabeche de arenque,15.20 €,30,0.00%
-10270,Café de Malasia,36.80 €,25,0.00%
-10271,Queso de cabra,2.00 €,24,0.00%
-10272,Mermelada de Sir Rodney's,64.80 €,6,0.00%
-10272,Queso gorgonzola Telino,10.00 €,40,0.00%
-10272,Queso Mozzarella Giovanni,27.80 €,24,0.00%
-10273,Pez espada,24.80 €,24,5.00%
-10273,Queso gorgonzola Telino,10.00 €,15,5.00%
-10273,Queso de cabra,2.00 €,20,0.00%
-10273,Carne de cangrejo de Boston,14.70 €,60,5.00%
-10273,Licor Cloudberry,14.40 €,33,5.00%
-10274,Crema de queso Fløtemys,17.20 €,20,0.00%
-10274,Queso Mozzarella Giovanni,27.80 €,7,0.00%
-10275,Refresco Guaraná Fantástica,3.60 €,12,5.00%
-10275,Raclet de queso Courdavault,44.00 €,6,5.00%
-10276,Pez espada,24.80 €,15,0.00%
-10276,Algas Konbu,4.80 €,10,0.00%
-10277,Col fermentada Rössle,36.40 €,20,0.00%
-10277,Tarta de azúcar,39.40 €,12,0.00%
-10278,Azúcar negra Malacca,15.50 €,16,0.00%
-10278,Raclet de queso Courdavault,44.00 €,15,0.00%
-10278,Sandwich de vegetales,35.10 €,8,0.00%
-10278,Caviar rojo,12.00 €,25,0.00%
-10279,Cordero Alice Springs,31.20 €,15,25.00%
-10280,Refresco Guaraná Fantástica,3.60 €,12,0.00%
-10280,Paté chino,19.20 €,20,0.00%
-10280,Cerveza Klosterbier Rhönbräu,6.20 €,30,0.00%
-10281,Pastas de té de chocolate,7.30 €,1,0.00%
-10281,Refresco Guaraná Fantástica,3.60 €,6,0.00%
-10281,Cerveza negra Steeleye,14.40 €,4,0.00%
-10282,Arenque blanco del noroeste,20.70 €,6,0.00%
-10282,Raviolis Angelo,15.60 €,2,0.00%
-10283,Salsa de soja baja en sodio,12.40 €,20,0.00%
-10283,Pastas de té de chocolate,7.30 €,18,0.00%
-10283,Camembert Pierrot,27.20 €,35,0.00%
-10283,Queso Mozzarella Giovanni,27.80 €,3,0.00%
-10284,Chocolate Schoggi,35.10 €,15,25.00%
-10284,Azúcar negra Malacca,15.50 €,21,0.00%
-10284,Camembert Pierrot,27.20 €,20,25.00%
-10284,Cerveza Laughing Lumberjack,11.20 €,5,25.00%
-10285,Té Dharamsala,14.40 €,45,20.00%
-10285,Carne de cangrejo de Boston,14.70 €,40,20.00%
-10285,Empanada de carne,26.20 €,36,20.00%
-10286,Cerveza negra Steeleye,14.40 €,100,0.00%
-10286,Tarta de azúcar,39.40 €,40,0.00%
-10287,Postre de merengue Pavlova,13.90 €,40,15.00%
-10287,Cerveza Sasquatch,11.20 €,20,0.00%
-10287,Arenque salado,9.60 €,15,15.00%
-10288,Empanada de cerdo,5.90 €,10,10.00%
-10288,Barras de pan de Escocia,10.00 €,3,10.00%
-10289,Sirope de regaliz,8.00 €,30,0.00%
-10289,Bollos de pan de Wimmer,26.60 €,9,0.00%
-10290,Mezcla Gumbo del chef Anton,17.00 €,20,0.00%
-10290,Salchicha Thüringer,99.00 €,15,0.00%
-10290,Regaliz,16.00 €,15,0.00%
-10290,Salsa verde original Frankfurter,10.40 €,10,0.00%
-10291,Algas Konbu,4.80 €,20,10.00%
-10291,Azúcar negra Malacca,15.50 €,24,10.00%
-10291,Manzanas secas Manjimup,42.40 €,2,10.00%
-10292,Mermelada de Sir Rodney's,64.80 €,20,0.00%
-10293,Langostinos tigre Carnarvon,50.00 €,12,0.00%
-10293,Refresco Guaraná Fantástica,3.60 €,10,0.00%
-10293,Sandwich de vegetales,35.10 €,5,0.00%
-10293,Cerveza Klosterbier Rhönbräu,6.20 €,6,0.00%
-10294,Té Dharamsala,14.40 €,18,0.00%
-10294,Cordero Alice Springs,31.20 €,15,0.00%
-10294,Café de Malasia,36.80 €,15,0.00%
-10294,Camembert Pierrot,27.20 €,21,0.00%
-10294,Cerveza Klosterbier Rhönbräu,6.20 €,6,0.00%
-10295,Gnocchi de la abuela Alicia,30.40 €,4,0.00%
-10296,Queso Cabrales,16.80 €,12,0.00%
-10296,Postre de merengue Pavlova,13.90 €,30,0.00%
-10296,Queso Gudbrandsdals,28.80 €,15,0.00%
-10297,Licor verde Chartreuse,14.40 €,60,0.00%
-10297,Queso Mozzarella Giovanni,27.80 €,20,0.00%
-10298,Cerveza tibetana Barley,15.20 €,40,0.00%
-10298,Escabeche de arenque,15.20 €,40,25.00%
-10298,Raclet de queso Courdavault,44.00 €,30,25.00%
-10298,Tarta de azúcar,39.40 €,15,0.00%
-10299,Pastas de té de chocolate,7.30 €,15,0.00%
-10299,Cerveza Outback,12.00 €,20,0.00%
-10300,Especias picantes de Luisiana,13.60 €,30,0.00%
-10300,Barras de pan de Escocia,10.00 €,20,0.00%
-10301,Carne de cangrejo de Boston,14.70 €,10,0.00%
-10301,Gnocchi de la abuela Alicia,30.40 €,20,0.00%
-10302,Cordero Alice Springs,31.20 €,40,0.00%
-10302,Col fermentada Rössle,36.40 €,28,0.00%
-10302,Café de Malasia,36.80 €,12,0.00%
-10303,Carne de cangrejo de Boston,14.70 €,40,10.00%
-10303,Salsa de pimiento picante de Luisiana,16.80 €,30,10.00%
-10303,Barras de pan de Escocia,10.00 €,15,10.00%
-10304,Regaliz,16.00 €,30,0.00%
-10304,Raclet de queso Courdavault,44.00 €,10,0.00%
-10304,Crema de queso Fløtemys,17.20 €,2,0.00%
-10305,Langostinos tigre Carnarvon,50.00 €,25,10.00%
-10305,Salchicha Thüringer,99.00 €,25,10.00%
-10305,Licor verde Chartreuse,14.40 €,30,10.00%
-10306,Arenque blanco del noroeste,20.70 €,10,0.00%
-10306,Empanada de carne,26.20 €,10,0.00%
-10306,Empanada de cerdo,5.90 €,5,0.00%
-10307,Tarta de azúcar,39.40 €,10,0.00%
-10307,Barras de pan de Escocia,10.00 €,3,0.00%
-10308,Queso Gudbrandsdals,28.80 €,1,0.00%
-10308,Cerveza Outback,12.00 €,5,0.00%
-10309,Especias Cajun del chef Anton,17.60 €,20,0.00%
-10309,Mermelada de grosellas de la abuela,20.00 €,30,0.00%
-10309,Tallarines de Singapur,11.20 €,2,0.00%
-10309,Café de Malasia,36.80 €,20,0.00%
-10309,Crema de queso Fløtemys,17.20 €,3,0.00%
-10310,Postre de merengue Pavlova,13.90 €,10,0.00%
-10310,Tarta de azúcar,39.40 €,5,0.00%
-10311,Tallarines de Singapur,11.20 €,6,0.00%
-10311,Queso Gudbrandsdals,28.80 €,7,0.00%
-10312,Col fermentada Rössle,36.40 €,4,0.00%
-10312,Café de Malasia,36.80 €,24,0.00%
-10312,Empanada de carne,26.20 €,20,0.00%
-10312,Cerveza Klosterbier Rhönbräu,6.20 €,10,0.00%
-10313,Escabeche de arenque,15.20 €,12,0.00%
-10314,Queso Mascarpone Fabioli,25.60 €,40,10.00%
-10314,Caracoles de Borgoña,10.60 €,30,10.00%
-10314,Tarta de azúcar,39.40 €,25,10.00%
-10315,Cerveza Sasquatch,11.20 €,14,0.00%
-10315,Cerveza Outback,12.00 €,30,0.00%
-10316,Crema de almejas estilo Nueva Inglaterra,7.70 €,10,0.00%
-10316,Tarta de azúcar,39.40 €,70,0.00%
-10317,Té Dharamsala,14.40 €,20,0.00%
-10318,Crema de almejas estilo Nueva Inglaterra,7.70 €,20,0.00%
-10318,Licor Cloudberry,14.40 €,6,0.00%
-10319,Cordero Alice Springs,31.20 €,8,0.00%
-10319,Col fermentada Rössle,36.40 €,14,0.00%
-10319,Licor Cloudberry,14.40 €,30,0.00%
-10320,Crema de queso Fløtemys,17.20 €,30,0.00%
-10321,Cerveza negra Steeleye,14.40 €,10,0.00%
-10322,Cereales para Filo,5.60 €,20,0.00%
-10323,Salsa de soja baja en sodio,12.40 €,5,0.00%
-10323,Crema de chocolate y nueces NuNuCa,11.20 €,4,0.00%
-10323,Licor verde Chartreuse,14.40 €,4,0.00%
-10324,Postre de merengue Pavlova,13.90 €,21,15.00%
-10324,Cerveza negra Steeleye,14.40 €,70,15.00%
-10324,Arenque salado,9.60 €,30,0.00%
-10324,Raclet de queso Courdavault,44.00 €,40,15.00%
-10324,Sandwich de vegetales,35.10 €,80,15.00%
-10325,Mermelada de grosellas de la abuela,20.00 €,6,0.00%
-10325,Algas Konbu,4.80 €,12,0.00%
-10325,Cuajada de judías,18.60 €,9,0.00%
-10325,Queso gorgonzola Telino,10.00 €,4,0.00%
-10325,Queso Mozzarella Giovanni,27.80 €,40,0.00%
-10326,Especias Cajun del chef Anton,17.60 €,24,0.00%
-10326,Raviolis Angelo,15.60 €,16,0.00%
-10326,Cerveza Klosterbier Rhönbräu,6.20 €,50,0.00%
-10327,Cerveza tibetana Barley,15.20 €,25,20.00%
-10327,Queso Cabrales,16.80 €,50,20.00%
-10327,Arenque blanco del noroeste,20.70 €,35,20.00%
-10327,Caracoles de Borgoña,10.60 €,30,20.00%
-10328,Raclet de queso Courdavault,44.00 €,9,0.00%
-10328,Salsa de pimiento picante de Luisiana,16.80 €,40,0.00%
-10328,Barras de pan de Escocia,10.00 €,10,0.00%
-10329,Pastas de té de chocolate,7.30 €,10,5.00%
-10329,Arenque blanco del noroeste,20.70 €,8,5.00%
-10329,Vino Côte de Blaye,210.80 €,20,5.00%
-10329,Gnocchi de la abuela Alicia,30.40 €,12,5.00%
-10330,Ositos de goma Gumbär,24.90 €,50,15.00%
-10330,Queso Mozzarella Giovanni,27.80 €,25,15.00%
-10331,Empanada de cerdo,5.90 €,15,0.00%
-10332,Langostinos tigre Carnarvon,50.00 €,40,20.00%
-10332,Tallarines de Singapur,11.20 €,10,20.00%
-10332,Galletas Zaanse,7.60 €,16,20.00%
-10333,Cuajada de judías,18.60 €,10,0.00%
-10333,Bollos de Sir Rodney's,8.00 €,10,10.00%
-10333,Crema de queso Fløtemys,17.20 €,40,10.00%
-10334,Cereales para Filo,5.60 €,8,0.00%
-10334,Barras de pan de Escocia,10.00 €,10,0.00%
-10335,Cerveza tibetana Barley,15.20 €,7,20.00%
-10335,Queso gorgonzola Telino,10.00 €,25,20.00%
-10335,Queso Mascarpone Fabioli,25.60 €,6,20.00%
-10335,Manzanas secas Manjimup,42.40 €,48,20.00%
-10336,Especias Cajun del chef Anton,17.60 €,18,10.00%
-10337,Pan fino,7.20 €,40,0.00%
-10337,Ositos de goma Gumbär,24.90 €,24,0.00%
-10337,Escabeche de arenque,15.20 €,20,0.00%
-10337,Salmón ahumado Gravad,20.80 €,28,0.00%
-10337,Queso Mozzarella Giovanni,27.80 €,25,0.00%
-10338,Cordero Alice Springs,31.20 €,20,0.00%
-10338,Arenque blanco del noroeste,20.70 €,15,0.00%
-10339,Especias Cajun del chef Anton,17.60 €,10,0.00%
-10339,Cordero Alice Springs,31.20 €,70,5.00%
-10339,Tarta de azúcar,39.40 €,28,0.00%
-10340,Langostinos tigre Carnarvon,50.00 €,20,5.00%
-10340,Crema de almejas estilo Nueva Inglaterra,7.70 €,12,5.00%
-10340,Café de Malasia,36.80 €,40,5.00%
-10341,Queso de cabra,2.00 €,8,0.00%
-10341,Raclet de queso Courdavault,44.00 €,9,15.00%
-10342,Cerveza tibetana Barley,15.20 €,24,20.00%
-10342,Queso gorgonzola Telino,10.00 €,56,20.00%
-10342,Escabeche de arenque,15.20 €,40,20.00%
-10342,Paté chino,19.20 €,40,20.00%
-10343,Bollos de pan de Wimmer,26.60 €,50,0.00%
-10343,Barras de pan de Escocia,10.00 €,4,5.00%
-10343,Licor Cloudberry,14.40 €,15,0.00%
-10344,Especias Cajun del chef Anton,17.60 €,35,0.00%
-10344,Salsa de arándanos Northwoods,32.00 €,70,25.00%
-10345,Salsa de arándanos Northwoods,32.00 €,70,0.00%
-10345,Pastas de té de chocolate,7.30 €,80,0.00%
-10345,Tallarines de Singapur,11.20 €,9,0.00%
-10346,Cordero Alice Springs,31.20 €,36,10.00%
-10346,Gnocchi de la abuela Alicia,30.40 €,20,0.00%
-10347,Crema de chocolate y nueces NuNuCa,11.20 €,10,0.00%
-10347,Licor verde Chartreuse,14.40 €,50,15.00%
-10347,Carne de cangrejo de Boston,14.70 €,4,0.00%
-10347,Cerveza Klosterbier Rhönbräu,6.20 €,6,15.00%
-10348,Té Dharamsala,14.40 €,15,15.00%
-10348,Pan fino,7.20 €,25,0.00%
-10349,Empanada de cerdo,5.90 €,24,0.00%
-10350,Chocolate blanco,13.00 €,15,10.00%
-10350,Queso Gudbrandsdals,28.80 €,18,10.00%
-10351,Vino Côte de Blaye,210.80 €,20,5.00%
-10351,Crema de almejas estilo Nueva Inglaterra,7.70 €,13,0.00%
-10351,Azúcar negra Malacca,15.50 €,77,5.00%
-10351,Salsa de pimiento picante de Luisiana,16.80 €,10,5.00%
-10352,Refresco Guaraná Fantástica,3.60 €,10,0.00%
-10352,Empanada de cerdo,5.90 €,20,15.00%
-10353,Queso Cabrales,16.80 €,12,20.00%
-10353,Vino Côte de Blaye,210.80 €,50,20.00%
-10354,Té Dharamsala,14.40 €,12,0.00%
-10354,Salchicha Thüringer,99.00 €,4,0.00%
-10355,Refresco Guaraná Fantástica,3.60 €,25,0.00%
-10355,Raviolis Angelo,15.60 €,25,0.00%
-10356,Queso gorgonzola Telino,10.00 €,30,0.00%
-10356,Paté chino,19.20 €,12,0.00%
-10356,Queso Gudbrandsdals,28.80 €,20,0.00%
-10357,Pez espada,24.80 €,30,20.00%
-10357,Ositos de goma Gumbär,24.90 €,16,0.00%
-10357,Camembert Pierrot,27.20 €,8,20.00%
-10358,Refresco Guaraná Fantástica,3.60 €,10,5.00%
-10358,Cerveza Sasquatch,11.20 €,10,5.00%
-10358,Escabeche de arenque,15.20 €,20,5.00%
-10359,Postre de merengue Pavlova,13.90 €,56,5.00%
-10359,Queso gorgonzola Telino,10.00 €,70,5.00%
-10359,Camembert Pierrot,27.20 €,80,5.00%
-10360,Col fermentada Rössle,36.40 €,30,0.00%
-10360,Salchicha Thüringer,99.00 €,35,0.00%
-10360,Vino Côte de Blaye,210.80 €,10,0.00%
-10360,Regaliz,16.00 €,35,0.00%
-10360,Empanada de cerdo,5.90 €,28,0.00%
-10361,Licor verde Chartreuse,14.40 €,54,10.00%
-10361,Camembert Pierrot,27.20 €,55,10.00%
-10362,Crema de chocolate y nueces NuNuCa,11.20 €,50,0.00%
-10362,Manzanas secas Manjimup,42.40 €,20,0.00%
-10362,Empanada de cerdo,5.90 €,24,0.00%
-10363,Queso gorgonzola Telino,10.00 €,20,0.00%
-10363,Cerveza Klosterbier Rhönbräu,6.20 €,12,0.00%
-10363,Licor Cloudberry,14.40 €,12,0.00%
-10364,Queso Gudbrandsdals,28.80 €,30,0.00%
-10364,Crema de queso Fløtemys,17.20 €,5,0.00%
-10365,Queso Cabrales,16.80 €,24,0.00%
-10366,Salsa de pimiento picante de Luisiana,16.80 €,5,0.00%
-10366,Salsa verde original Frankfurter,10.40 €,5,0.00%
-10367,Cerveza Sasquatch,11.20 €,36,0.00%
-10367,Empanada de cerdo,5.90 €,18,0.00%
-10367,Salsa de pimiento picante de Luisiana,16.80 €,15,0.00%
-10367,Salsa verde original Frankfurter,10.40 €,7,0.00%
-10368,Bollos de Sir Rodney's,8.00 €,5,10.00%
-10368,Col fermentada Rössle,36.40 €,13,10.00%
-10368,Raviolis Angelo,15.60 €,25,0.00%
-10368,Bollos de pan de Wimmer,26.60 €,35,10.00%
-10369,Salchicha Thüringer,99.00 €,20,0.00%
-10369,Gnocchi de la abuela Alicia,30.40 €,18,25.00%
-10370,Té Dharamsala,14.40 €,15,15.00%
-10370,Bollos de pan de Wimmer,26.60 €,30,0.00%
-10370,Queso de soja Longlife,8.00 €,20,15.00%
-10371,Escabeche de arenque,15.20 €,6,20.00%
-10372,Mermelada de Sir Rodney's,64.80 €,12,25.00%
-10372,Vino Côte de Blaye,210.80 €,40,25.00%
-10372,Camembert Pierrot,27.20 €,70,25.00%
-10372,Queso Mozzarella Giovanni,27.80 €,42,25.00%
-10373,Caracoles de Borgoña,10.60 €,80,20.00%
-10373,Crema de queso Fløtemys,17.20 €,50,20.00%
-10374,Queso gorgonzola Telino,10.00 €,30,0.00%
-10374,Caracoles de Borgoña,10.60 €,15,0.00%
-10375,Cuajada de judías,18.60 €,15,0.00%
-10375,Empanada de cerdo,5.90 €,10,0.00%
-10376,Queso gorgonzola Telino,10.00 €,42,5.00%
-10377,Col fermentada Rössle,36.40 €,20,15.00%
-10377,Licor verde Chartreuse,14.40 €,20,15.00%
-10378,Crema de queso Fløtemys,17.20 €,6,0.00%
-10379,Crema de almejas estilo Nueva Inglaterra,7.70 €,8,10.00%
-10379,Sandwich de vegetales,35.10 €,16,10.00%
-10379,Salsa de pimiento picante de Luisiana,16.80 €,20,10.00%
-10380,Arenque blanco del noroeste,20.70 €,18,10.00%
-10380,Empanada de carne,26.20 €,20,10.00%
-10380,Camembert Pierrot,27.20 €,6,10.00%
-10380,Cerveza Outback,12.00 €,30,0.00%
-10381,Queso de soja Longlife,8.00 €,14,0.00%
-10382,Mezcla Gumbo del chef Anton,17.00 €,32,0.00%
-10382,Langostinos tigre Carnarvon,50.00 €,9,0.00%
-10382,Salchicha Thüringer,99.00 €,14,0.00%
-10382,Queso de cabra,2.00 €,60,0.00%
-10382,Queso de soja Longlife,8.00 €,50,0.00%
-10383,Algas Konbu,4.80 €,20,0.00%
-10383,Chocolate blanco,13.00 €,15,0.00%
-10383,Gnocchi de la abuela Alicia,30.40 €,20,0.00%
-10384,Mermelada de Sir Rodney's,64.80 €,28,0.00%
-10384,Camembert Pierrot,27.20 €,15,0.00%
-10385,Peras secas orgánicas del tío Bob,24.00 €,10,20.00%
-10385,Camembert Pierrot,27.20 €,20,20.00%
-10385,Barras de pan de Escocia,10.00 €,8,20.00%
-10386,Refresco Guaraná Fantástica,3.60 €,15,0.00%
-10386,Cerveza Sasquatch,11.20 €,10,0.00%
-10387,Refresco Guaraná Fantástica,3.60 €,15,0.00%
-10387,Col fermentada Rössle,36.40 €,6,0.00%
-10387,Raclet de queso Courdavault,44.00 €,12,0.00%
-10387,Crema de queso Fløtemys,17.20 €,15,0.00%
-10388,Arenque ahumado,7.60 €,15,20.00%
-10388,Cereales para Filo,5.60 €,20,20.00%
-10388,Empanada de carne,26.20 €,40,0.00%
-10389,Pez espada,24.80 €,16,0.00%
-10389,Paté chino,19.20 €,15,0.00%
-10389,Tarta de azúcar,39.40 €,20,0.00%
-10389,Cerveza Outback,12.00 €,30,0.00%
-10390,Queso gorgonzola Telino,10.00 €,60,10.00%
-10390,Cerveza negra Steeleye,14.40 €,40,10.00%
-10390,Arenque salado,9.60 €,45,0.00%
-10390,Queso Mozzarella Giovanni,27.80 €,24,10.00%
-10391,Algas Konbu,4.80 €,18,0.00%
-10392,Queso Gudbrandsdals,28.80 €,50,0.00%
-10393,Cerveza tibetana Barley,15.20 €,25,25.00%
-10393,Cuajada de judías,18.60 €,42,25.00%
-10393,Crema de chocolate y nueces NuNuCa,11.20 €,7,25.00%
-10393,Ositos de goma Gumbär,24.90 €,70,25.00%
-10393,Queso gorgonzola Telino,10.00 €,32,0.00%
-10394,Algas Konbu,4.80 €,10,0.00%
-10394,Tarta de azúcar,39.40 €,10,0.00%
-10395,Arenque salado,9.60 €,28,10.00%
-10395,Empanada de carne,26.20 €,70,10.00%
-10395,Queso Gudbrandsdals,28.80 €,8,0.00%
-10396,Pan fino,7.20 €,40,0.00%
-10396,Crema de queso Fløtemys,17.20 €,60,0.00%
-10396,Queso Mozzarella Giovanni,27.80 €,21,0.00%
-10397,Bollos de Sir Rodney's,8.00 €,10,15.00%
-10397,Manzanas secas Manjimup,42.40 €,18,15.00%
-10398,Cerveza negra Steeleye,14.40 €,30,0.00%
-10398,Paté chino,19.20 €,120,10.00%
-10399,Barras de pan de Escocia,10.00 €,60,0.00%
-10399,Crema de queso Fløtemys,17.20 €,30,0.00%
-10399,Licor Cloudberry,14.40 €,35,0.00%
-10399,Salsa verde original Frankfurter,10.40 €,14,0.00%
-10400,Salchicha Thüringer,99.00 €,21,0.00%
-10400,Cerveza negra Steeleye,14.40 €,35,0.00%
-10400,Regaliz,16.00 €,30,0.00%
-10401,Arenque blanco del noroeste,20.70 €,18,0.00%
-10401,Gnocchi de la abuela Alicia,30.40 €,70,0.00%
-10401,Salsa de pimiento picante de Luisiana,16.80 €,20,0.00%
-10401,Crema de queso Fløtemys,17.20 €,60,0.00%
-10402,Pan fino,7.20 €,60,0.00%
-10402,Sandwich de vegetales,35.10 €,65,0.00%
-10403,Postre de merengue Pavlova,13.90 €,21,15.00%
-10403,Chocolate holandés,10.20 €,70,15.00%
-10404,Ositos de goma Gumbär,24.90 €,30,5.00%
-10404,Tallarines de Singapur,11.20 €,40,5.00%
-10404,Regaliz,16.00 €,30,5.00%
-10405,Sirope de regaliz,8.00 €,50,0.00%
-10406,Té Dharamsala,14.40 €,10,0.00%
-10406,Bollos de Sir Rodney's,8.00 €,30,10.00%
-10406,Col fermentada Rössle,36.40 €,42,10.00%
-10406,Escabeche de arenque,15.20 €,5,10.00%
-10406,Carne de cangrejo de Boston,14.70 €,2,10.00%
-10407,Queso Cabrales,16.80 €,30,0.00%
-10407,Queso Gudbrandsdals,28.80 €,15,0.00%
-10407,Crema de queso Fløtemys,17.20 €,15,0.00%
-10408,Salmón ahumado Gravad,20.80 €,10,0.00%
-10408,Empanada de cerdo,5.90 €,6,0.00%
-10408,Tarta de azúcar,39.40 €,35,0.00%
-10409,Cuajada de judías,18.60 €,12,0.00%
-10409,Bollos de Sir Rodney's,8.00 €,12,0.00%
-10410,Queso de cabra,2.00 €,49,0.00%
-10410,Raclet de queso Courdavault,44.00 €,16,0.00%
-10411,Crema de almejas estilo Nueva Inglaterra,7.70 €,25,20.00%
-10411,Azúcar negra Malacca,15.50 €,40,20.00%
-10411,Raclet de queso Courdavault,44.00 €,9,20.00%
-10412,Cuajada de judías,18.60 €,20,10.00%
-10413,Té Dharamsala,14.40 €,24,0.00%
-10413,Tarta de azúcar,39.40 €,40,0.00%
-10413,Licor Cloudberry,14.40 €,14,0.00%
-10414,Pastas de té de chocolate,7.30 €,18,5.00%
-10414,Queso de cabra,2.00 €,50,0.00%
-10415,Cordero Alice Springs,31.20 €,2,0.00%
-10415,Queso de cabra,2.00 €,20,0.00%
-10416,Pastas de té de chocolate,7.30 €,20,0.00%
-10416,Empanada de carne,26.20 €,10,0.00%
-10416,Raviolis Angelo,15.60 €,20,0.00%
-10417,Vino Côte de Blaye,210.80 €,50,0.00%
-10417,Arenque salado,9.60 €,2,25.00%
-10417,Barras de pan de Escocia,10.00 €,36,25.00%
-10417,Salsa verde original Frankfurter,10.40 €,35,0.00%
-10418,Cerveza tibetana Barley,15.20 €,60,0.00%
-10418,Galletas Zaanse,7.60 €,55,0.00%
-10418,Sirope de arce,22.80 €,16,0.00%
-10418,Queso de soja Longlife,8.00 €,15,0.00%
-10419,Camembert Pierrot,27.20 €,60,5.00%
-10419,Queso Gudbrandsdals,28.80 €,20,5.00%
-10420,Buey Mishi Kobe,77.60 €,20,10.00%
-10420,Algas Konbu,4.80 €,2,10.00%
-10420,Cerveza Outback,12.00 €,8,10.00%
-10420,Caviar rojo,12.00 €,20,10.00%
-10421,Pastas de té de chocolate,7.30 €,4,15.00%
-10421,Ositos de goma Gumbär,24.90 €,30,0.00%
-10421,Empanada de carne,26.20 €,15,15.00%
-10421,Salsa verde original Frankfurter,10.40 €,10,15.00%
-10422,Ositos de goma Gumbär,24.90 €,2,0.00%
-10423,Queso gorgonzola Telino,10.00 €,14,0.00%
-10423,Raclet de queso Courdavault,44.00 €,20,0.00%
-10424,Cerveza negra Steeleye,14.40 €,60,20.00%
-10424,Vino Côte de Blaye,210.80 €,49,20.00%
-10424,Barras de pan de Escocia,10.00 €,30,20.00%
-10425,Paté chino,19.20 €,10,25.00%
-10425,Licor Cloudberry,14.40 €,20,25.00%
-10426,Gnocchi de la abuela Alicia,30.40 €,5,0.00%
-10426,Bollos de pan de Wimmer,26.60 €,7,0.00%
-10427,Cuajada de judías,18.60 €,35,0.00%
-10428,Arenque salado,9.60 €,20,0.00%
-10429,Chocolate blanco,13.00 €,40,0.00%
-10429,Sandwich de vegetales,35.10 €,35,25.00%
-10430,Cordero Alice Springs,31.20 €,45,20.00%
-10430,Bollos de Sir Rodney's,8.00 €,50,0.00%
-10430,Gnocchi de la abuela Alicia,30.40 €,30,0.00%
-10430,Raclet de queso Courdavault,44.00 €,70,20.00%
-10431,Cordero Alice Springs,31.20 €,50,25.00%
-10431,Carne de cangrejo de Boston,14.70 €,50,25.00%
-10431,Galletas Zaanse,7.60 €,30,25.00%
-10432,Ositos de goma Gumbär,24.90 €,10,0.00%
-10432,Empanada de cerdo,5.90 €,40,0.00%
-10433,Gnocchi de la abuela Alicia,30.40 €,28,0.00%
-10434,Queso Cabrales,16.80 €,6,0.00%
-10434,Licor Cloudberry,14.40 €,18,15.00%
-10435,Cerveza tibetana Barley,15.20 €,10,0.00%
-10435,Pan de centeno crujiente estilo Gustaf's,16.80 €,12,0.00%
-10435,Queso Mozzarella Giovanni,27.80 €,10,0.00%
-10436,Arenque salado,9.60 €,5,0.00%
-10436,Gnocchi de la abuela Alicia,30.40 €,40,10.00%
-10436,Bollos de pan de Wimmer,26.60 €,30,10.00%
-10436,Cerveza Klosterbier Rhönbräu,6.20 €,24,10.00%
-10437,Empanada de carne,26.20 €,15,0.00%
-10438,Pastas de té de chocolate,7.30 €,15,20.00%
-10438,Cerveza Sasquatch,11.20 €,20,20.00%
-10438,Raviolis Angelo,15.60 €,15,20.00%
-10439,Queso Manchego La Pastora,30.40 €,15,0.00%
-10439,Postre de merengue Pavlova,13.90 €,16,0.00%
-10439,Bollos de pan de Wimmer,26.60 €,6,0.00%
-10439,Queso de soja Longlife,8.00 €,30,0.00%
-10440,Cerveza tibetana Barley,15.20 €,45,15.00%
-10440,Postre de merengue Pavlova,13.90 €,49,15.00%
-10440,Salchicha Thüringer,99.00 €,24,15.00%
-10440,Sirope de arce,22.80 €,90,15.00%
-10441,Chocolate Schoggi,35.10 €,50,0.00%
-10442,Queso Cabrales,16.80 €,30,0.00%
-10442,Empanada de cerdo,5.90 €,80,0.00%
-10442,Especias picantes de Luisiana,13.60 €,60,0.00%
-10443,Queso Cabrales,16.80 €,6,20.00%
-10443,Col fermentada Rössle,36.40 €,12,0.00%
-10444,Cordero Alice Springs,31.20 €,10,0.00%
-10444,Ositos de goma Gumbär,24.90 €,15,0.00%
-10444,Cerveza negra Steeleye,14.40 €,8,0.00%
-10444,Crema de almejas estilo Nueva Inglaterra,7.70 €,30,0.00%
-10445,Licor verde Chartreuse,14.40 €,6,0.00%
-10445,Empanada de cerdo,5.90 €,15,0.00%
-10446,Pastas de té de chocolate,7.30 €,12,10.00%
-10446,Refresco Guaraná Fantástica,3.60 €,20,10.00%
-10446,Queso gorgonzola Telino,10.00 €,3,10.00%
-10446,Cereales para Filo,5.60 €,15,10.00%
-10447,Pastas de té de chocolate,7.30 €,40,0.00%
-10447,Salsa de pimiento picante de Luisiana,16.80 €,35,0.00%
-10447,Crema de queso Fløtemys,17.20 €,2,0.00%
-10448,Ositos de goma Gumbär,24.90 €,6,0.00%
-10448,Carne de cangrejo de Boston,14.70 €,20,0.00%
-10449,Pez espada,24.80 €,14,0.00%
-10449,Cereales para Filo,5.60 €,20,0.00%
-10449,Tarta de azúcar,39.40 €,35,0.00%
-10450,Pez espada,24.80 €,20,20.00%
-10450,Empanada de cerdo,5.90 €,6,20.00%
-10451,Paté chino,19.20 €,120,10.00%
-10451,Bollos de pan de Wimmer,26.60 €,35,10.00%
-10451,Salsa de pimiento picante de Luisiana,16.80 €,28,10.00%
-10451,Salsa verde original Frankfurter,10.40 €,55,10.00%
-10452,Col fermentada Rössle,36.40 €,15,0.00%
-10452,Azúcar negra Malacca,15.50 €,100,5.00%
-10453,Chocolate holandés,10.20 €,15,10.00%
-10453,Cerveza Outback,12.00 €,25,10.00%
-10454,Postre de merengue Pavlova,13.90 €,20,20.00%
-10454,Queso de cabra,2.00 €,20,20.00%
-10454,Arenque salado,9.60 €,10,20.00%
-10455,Licor verde Chartreuse,14.40 €,20,0.00%
-10455,Empanada de carne,26.20 €,50,0.00%
-10455,Sirope de arce,22.80 €,25,0.00%
-10455,Crema de queso Fløtemys,17.20 €,30,0.00%
-10456,Bollos de Sir Rodney's,8.00 €,40,15.00%
-10456,Regaliz,16.00 €,21,15.00%
-10457,Raclet de queso Courdavault,44.00 €,36,0.00%
-10458,Ositos de goma Gumbär,24.90 €,30,0.00%
-10458,Col fermentada Rössle,36.40 €,30,0.00%
-10458,Café de Malasia,36.80 €,20,0.00%
-10458,Gnocchi de la abuela Alicia,30.40 €,15,0.00%
-10458,Crema de queso Fløtemys,17.20 €,50,0.00%
-10459,Peras secas orgánicas del tío Bob,24.00 €,16,5.00%
-10459,Arenque salado,9.60 €,20,5.00%
-10459,Queso Mozzarella Giovanni,27.80 €,40,0.00%
-10460,Barras de pan de Escocia,10.00 €,21,25.00%
-10460,Cerveza Klosterbier Rhönbräu,6.20 €,4,25.00%
-10461,Bollos de Sir Rodney's,8.00 €,40,25.00%
-10461,Arenque blanco del noroeste,20.70 €,28,25.00%
-10461,Paté chino,19.20 €,60,25.00%
-10462,Algas Konbu,4.80 €,1,0.00%
-10462,Pan fino,7.20 €,21,0.00%
-10463,Pastas de té de chocolate,7.30 €,21,0.00%
-10463,Tallarines de Singapur,11.20 €,50,0.00%
-10464,Especias Cajun del chef Anton,17.60 €,16,20.00%
-10464,Café de Malasia,36.80 €,3,0.00%
-10464,Gnocchi de la abuela Alicia,30.40 €,30,20.00%
-10464,Camembert Pierrot,27.20 €,20,0.00%
-10465,Refresco Guaraná Fantástica,3.60 €,25,0.00%
-10465,Salchicha Thüringer,99.00 €,18,10.00%
-10465,Carne de cangrejo de Boston,14.70 €,20,0.00%
-10465,Arenque ahumado,7.60 €,30,10.00%
-10465,Chocolate blanco,13.00 €,25,0.00%
-10466,Queso Cabrales,16.80 €,10,0.00%
-10466,Arenque salado,9.60 €,5,0.00%
-10467,Refresco Guaraná Fantástica,3.60 €,28,0.00%
-10467,Crema de chocolate y nueces NuNuCa,11.20 €,12,0.00%
-10468,Arenque blanco del noroeste,20.70 €,8,0.00%
-10468,Café de Malasia,36.80 €,15,0.00%
-10469,Cerveza tibetana Barley,15.20 €,40,15.00%
-10469,Postre de merengue Pavlova,13.90 €,35,15.00%
-10469,Azúcar negra Malacca,15.50 €,2,15.00%
-10470,Langostinos tigre Carnarvon,50.00 €,30,0.00%
-10470,Pan fino,7.20 €,15,0.00%
-10470,Bollos de pan de Wimmer,26.60 €,8,0.00%
-10471,Peras secas orgánicas del tío Bob,24.00 €,30,0.00%
-10471,Gnocchi de la abuela Alicia,30.40 €,20,0.00%
-10472,Refresco Guaraná Fantástica,3.60 €,80,5.00%
-10472,Manzanas secas Manjimup,42.40 €,18,0.00%
-10473,Queso de cabra,2.00 €,12,0.00%
-10473,Crema de queso Fløtemys,17.20 €,12,0.00%
-10474,Cuajada de judías,18.60 €,12,0.00%
-10474,Col fermentada Rössle,36.40 €,18,0.00%
-10474,Carne de cangrejo de Boston,14.70 €,21,0.00%
-10474,Cerveza Klosterbier Rhönbräu,6.20 €,10,0.00%
-10475,Queso gorgonzola Telino,10.00 €,35,15.00%
-10475,Especias picantes de Luisiana,13.60 €,60,15.00%
-10475,Licor Cloudberry,14.40 €,42,15.00%
-10476,Paté chino,19.20 €,2,5.00%
-10476,Cerveza Outback,12.00 €,12,0.00%
-10477,Té Dharamsala,14.40 €,15,0.00%
-10477,Bollos de Sir Rodney's,8.00 €,21,25.00%
-10477,Licor verde Chartreuse,14.40 €,20,25.00%
-10478,Pez espada,24.80 €,20,5.00%
-10479,Vino Côte de Blaye,210.80 €,30,0.00%
-10479,Empanada de carne,26.20 €,28,0.00%
-10479,Raclet de queso Courdavault,44.00 €,60,0.00%
-10479,Bollos de pan de Wimmer,26.60 €,30,0.00%
-10480,Galletas Zaanse,7.60 €,30,0.00%
-10480,Raclet de queso Courdavault,44.00 €,12,0.00%
-10481,Regaliz,16.00 €,24,0.00%
-10481,Camembert Pierrot,27.20 €,40,0.00%
-10482,Carne de cangrejo de Boston,14.70 €,10,0.00%
-10483,Cerveza Sasquatch,11.20 €,35,5.00%
-10483,Salsa verde original Frankfurter,10.40 €,30,5.00%
-10484,Bollos de Sir Rodney's,8.00 €,14,0.00%
-10484,Carne de cangrejo de Boston,14.70 €,10,0.00%
-10484,Manzanas secas Manjimup,42.40 €,3,0.00%
-10485,Cerveza tibetana Barley,15.20 €,20,10.00%
-10485,Sirope de regaliz,8.00 €,20,10.00%
-10485,Paté chino,19.20 €,30,10.00%
-10485,Cerveza Outback,12.00 €,60,10.00%
-10486,Queso Cabrales,16.80 €,5,0.00%
-10486,Manzanas secas Manjimup,42.40 €,25,0.00%
-10486,Queso de soja Longlife,8.00 €,16,0.00%
-10487,Pastas de té de chocolate,7.30 €,5,0.00%
-10487,Ositos de goma Gumbär,24.90 €,30,0.00%
-10487,Empanada de cerdo,5.90 €,24,25.00%
-10488,Raclet de queso Courdavault,44.00 €,30,0.00%
-10488,Caviar rojo,12.00 €,20,20.00%
-10489,Queso Cabrales,16.80 €,15,25.00%
-10489,Postre de merengue Pavlova,13.90 €,18,0.00%
-10490,Raclet de queso Courdavault,44.00 €,60,0.00%
-10490,Barras de pan de Escocia,10.00 €,30,0.00%
-10490,Cerveza Klosterbier Rhönbräu,6.20 €,36,0.00%
-10491,Azúcar negra Malacca,15.50 €,15,15.00%
-10491,Salsa verde original Frankfurter,10.40 €,7,15.00%
-10492,Crema de chocolate y nueces NuNuCa,11.20 €,60,5.00%
-10492,Tallarines de Singapur,11.20 €,20,5.00%
-10493,Salsa de pimiento picante de Luisiana,16.80 €,15,10.00%
-10493,Especias picantes de Luisiana,13.60 €,10,10.00%
-10493,Queso Gudbrandsdals,28.80 €,10,10.00%
-10494,Gnocchi de la abuela Alicia,30.40 €,30,0.00%
-10495,Pan fino,7.20 €,10,0.00%
-10495,Crema de almejas estilo Nueva Inglaterra,7.70 €,20,0.00%
-10495,Salsa verde original Frankfurter,10.40 €,5,0.00%
-10496,Queso gorgonzola Telino,10.00 €,20,5.00%
-10497,Gnocchi de la abuela Alicia,30.40 €,14,0.00%
-10497,Queso Mozzarella Giovanni,27.80 €,25,0.00%
-10497,Salsa verde original Frankfurter,10.40 €,25,0.00%
-10498,Refresco Guaraná Fantástica,4.50 €,14,0.00%
-10498,Carne de cangrejo de Boston,18.40 €,5,0.00%
-10498,Tallarines de Singapur,14.00 €,30,0.00%
-10499,Col fermentada Rössle,45.60 €,20,0.00%
-10499,Regaliz,20.00 €,25,0.00%
-10500,Salsa de soja baja en sodio,15.50 €,12,5.00%
-10500,Col fermentada Rössle,45.60 €,8,5.00%
-10501,Empanada de cerdo,7.45 €,20,0.00%
-10502,Arenque ahumado,9.50 €,21,0.00%
-10502,Empanada de carne,32.80 €,6,0.00%
-10502,Cerveza Laughing Lumberjack,14.00 €,30,0.00%
-10503,Cuajada de judías,23.25 €,70,0.00%
-10503,Salsa de pimiento picante de Luisiana,21.05 €,20,0.00%
-10504,Cerveza tibetana Barley,19.00 €,12,0.00%
-10504,Bollos de Sir Rodney's,10.00 €,12,0.00%
-10504,Empanada de carne,32.80 €,10,0.00%
-10504,Sirope de arce,28.50 €,25,0.00%
-10505,Tarta de azúcar,49.30 €,3,0.00%
-10506,Crema de chocolate y nueces NuNuCa,14.00 €,18,10.00%
-10506,Cerveza Outback,15.00 €,14,10.00%
-10507,Café de Malasia,46.00 €,15,15.00%
-10507,Chocolate holandés,12.75 €,15,15.00%
-10508,Algas Konbu,6.00 €,10,0.00%
-10508,Licor verde Chartreuse,18.00 €,10,0.00%
-10509,Col fermentada Rössle,45.60 €,3,0.00%
-10510,Salchicha Thüringer,123.79 €,36,0.00%
-10510,Cerveza Klosterbier Rhönbräu,7.75 €,36,10.00%
-10511,Especias Cajun del chef Anton,22.00 €,50,15.00%
-10511,Peras secas orgánicas del tío Bob,30.00 €,50,15.00%
-10511,Salsa de arándanos Northwoods,40.00 €,10,15.00%
-10512,Refresco Guaraná Fantástica,4.50 €,10,15.00%
-10512,Arenque salado,12.00 €,9,15.00%
-10512,Galletas Zaanse,9.50 €,6,15.00%
-10512,Camembert Pierrot,34.00 €,12,15.00%
-10513,Bollos de Sir Rodney's,10.00 €,40,20.00%
-10513,Queso Mascarpone Fabioli,32.00 €,50,20.00%
-10513,Sirope de arce,28.50 €,15,20.00%
-10514,Mermelada de Sir Rodney's,81.00 €,39,0.00%
-10514,Col fermentada Rössle,45.60 €,35,0.00%
-10514,Gnocchi de la abuela Alicia,38.00 €,70,0.00%
-10514,Salsa de pimiento picante de Luisiana,21.05 €,39,0.00%
-10514,Cerveza Klosterbier Rhönbräu,7.75 €,50,0.00%
-10515,Buey Mishi Kobe,97.00 €,16,15.00%
-10515,Postre de merengue Pavlova,17.45 €,50,0.00%
-10515,Chocolate Schoggi,43.90 €,120,0.00%
-10515,Queso de cabra,2.50 €,16,15.00%
-10515,Camembert Pierrot,34.00 €,84,15.00%
-10516,Langostinos tigre Carnarvon,62.50 €,25,10.00%
-10516,Crema de almejas estilo Nueva Inglaterra,9.65 €,80,10.00%
-10516,Tallarines de Singapur,14.00 €,20,0.00%
-10517,Cereales para Filo,7.00 €,6,0.00%
-10517,Raclet de queso Courdavault,55.00 €,4,0.00%
-10517,Cerveza Outback,15.00 €,6,0.00%
-10518,Refresco Guaraná Fantástica,4.50 €,5,0.00%
-10518,Vino Côte de Blaye,263.50 €,15,0.00%
-10518,Azúcar negra Malacca,19.45 €,9,0.00%
-10519,Pez espada,31.00 €,16,5.00%
-10519,Gnocchi de la abuela Alicia,38.00 €,40,0.00%
-10519,Camembert Pierrot,34.00 €,10,5.00%
-10520,Refresco Guaraná Fantástica,4.50 €,8,0.00%
-10520,Empanada de carne,32.80 €,5,0.00%
-10521,Cerveza negra Steeleye,18.00 €,3,0.00%
-10521,Crema de almejas estilo Nueva Inglaterra,9.65 €,10,0.00%
-10521,Barras de pan de Escocia,12.50 €,6,0.00%
-10522,Té Dharamsala,18.00 €,40,20.00%
-10522,Salsa de arándanos Northwoods,40.00 €,24,0.00%
-10522,Arenque blanco del noroeste,25.89 €,20,20.00%
-10522,Carne de cangrejo de Boston,18.40 €,25,20.00%
-10523,Cordero Alice Springs,39.00 €,25,10.00%
-10523,Mermelada de Sir Rodney's,81.00 €,15,10.00%
-10523,Salmón ahumado Gravad,26.00 €,18,10.00%
-10523,Crema de almejas estilo Nueva Inglaterra,9.65 €,6,10.00%
-10524,Pez espada,31.00 €,2,0.00%
-10524,Arenque blanco del noroeste,25.89 €,10,0.00%
-10524,Café de Malasia,46.00 €,60,0.00%
-10524,Empanada de cerdo,7.45 €,15,0.00%
-10525,Escabeche de arenque,19.00 €,30,0.00%
-10525,Carne de cangrejo de Boston,18.40 €,15,10.00%
-10526,Té Dharamsala,18.00 €,8,15.00%
-10526,Algas Konbu,6.00 €,10,0.00%
-10526,Gnocchi de la abuela Alicia,38.00 €,30,15.00%
-10527,Especias Cajun del chef Anton,22.00 €,50,10.00%
-10527,Escabeche de arenque,19.00 €,30,10.00%
-10528,Queso Cabrales,21.00 €,3,0.00%
-10528,Queso de cabra,2.50 €,8,20.00%
-10528,Queso Mozzarella Giovanni,34.80 €,9,0.00%
-10529,Paté chino,24.00 €,14,0.00%
-10529,Barras de pan de Escocia,12.50 €,20,0.00%
-10529,Queso Gudbrandsdals,36.00 €,10,0.00%
-10530,Cordero Alice Springs,39.00 €,40,0.00%
-10530,Café de Malasia,46.00 €,25,0.00%
-10530,Sirope de arce,28.50 €,20,0.00%
-10530,Licor Cloudberry,18.00 €,50,0.00%
-10531,Raclet de queso Courdavault,55.00 €,2,0.00%
-10532,Arenque blanco del noroeste,25.89 €,15,0.00%
-10532,Especias picantes de Luisiana,17.00 €,24,0.00%
-10533,Especias Cajun del chef Anton,22.00 €,50,5.00%
-10533,Queso Mozzarella Giovanni,34.80 €,24,0.00%
-10533,Caviar rojo,15.00 €,24,5.00%
-10534,Arenque blanco del noroeste,25.89 €,10,0.00%
-10534,Carne de cangrejo de Boston,18.40 €,10,20.00%
-10534,Empanada de cerdo,7.45 €,10,20.00%
-10535,Queso Cabrales,21.00 €,50,10.00%
-10535,Carne de cangrejo de Boston,18.40 €,10,10.00%
-10535,Raviolis Angelo,19.50 €,5,10.00%
-10535,Raclet de queso Courdavault,55.00 €,15,10.00%
-10536,Queso Manchego La Pastora,38.00 €,15,25.00%
-10536,Queso gorgonzola Telino,12.50 €,20,0.00%
-10536,Queso de cabra,2.50 €,30,0.00%
-10536,Camembert Pierrot,34.00 €,35,25.00%
-10537,Queso gorgonzola Telino,12.50 €,30,0.00%
-10537,Manzanas secas Manjimup,53.00 €,6,0.00%
-10537,Caracoles de Borgoña,13.25 €,20,0.00%
-10537,Queso Mozzarella Giovanni,34.80 €,21,0.00%
-10537,Caviar rojo,15.00 €,9,0.00%
-10538,Cerveza Outback,15.00 €,7,0.00%
-10538,Queso Mozzarella Giovanni,34.80 €,1,0.00%
-10539,Algas Konbu,6.00 €,8,0.00%
-10539,Bollos de Sir Rodney's,10.00 €,15,0.00%
-10539,Queso de cabra,2.50 €,15,0.00%
-10539,Regaliz,20.00 €,6,0.00%
-10540,Sirope de regaliz,10.00 €,60,0.00%
-10540,Ositos de goma Gumbär,31.23 €,40,0.00%
-10540,Vino Côte de Blaye,263.50 €,30,0.00%
-10540,Barras de pan de Escocia,12.50 €,35,0.00%
-10541,Refresco Guaraná Fantástica,4.50 €,35,10.00%
-10541,Vino Côte de Blaye,263.50 €,4,10.00%
-10541,Salsa de pimiento picante de Luisiana,21.05 €,36,10.00%
-10541,Crema de queso Fløtemys,21.50 €,9,10.00%
-10542,Queso Cabrales,21.00 €,15,5.00%
-10542,Empanada de cerdo,7.45 €,24,5.00%
-10543,Queso Manchego La Pastora,38.00 €,30,15.00%
-10543,Pan fino,9.00 €,70,15.00%
-10544,Col fermentada Rössle,45.60 €,7,0.00%
-10544,Cerveza Laughing Lumberjack,14.00 €,7,0.00%
-10545,Queso Cabrales,21.00 €,10,0.00%
-10546,Peras secas orgánicas del tío Bob,30.00 €,10,0.00%
-10546,Cerveza negra Steeleye,18.00 €,30,0.00%
-10546,Tarta de azúcar,49.30 €,40,0.00%
-10547,Queso Mascarpone Fabioli,32.00 €,24,15.00%
-10547,Escabeche de arenque,19.00 €,60,0.00%
-10548,Cerveza Sasquatch,14.00 €,10,25.00%
-10548,Crema de almejas estilo Nueva Inglaterra,9.65 €,14,0.00%
-10549,Queso gorgonzola Telino,12.50 €,55,15.00%
-10549,Arenque ahumado,9.50 €,100,15.00%
-10549,Manzanas secas Manjimup,53.00 €,48,15.00%
-10550,Cordero Alice Springs,39.00 €,8,10.00%
-10550,Pastas de té de chocolate,9.20 €,10,0.00%
-10550,Bollos de Sir Rodney's,10.00 €,6,10.00%
-10550,Sirope de arce,28.50 €,10,10.00%
-10551,Postre de merengue Pavlova,17.45 €,40,15.00%
-10551,Cerveza negra Steeleye,18.00 €,20,15.00%
-10551,Azúcar negra Malacca,19.45 €,40,0.00%
-10552,Queso Gudbrandsdals,36.00 €,18,0.00%
-10552,Cerveza Klosterbier Rhönbräu,7.75 €,30,0.00%
-10553,Queso Cabrales,21.00 €,15,0.00%
-10553,Postre de merengue Pavlova,17.45 €,14,0.00%
-10553,Pan de centeno crujiente estilo Gustaf's,21.00 €,24,0.00%
-10553,Queso gorgonzola Telino,12.50 €,30,0.00%
-10553,Cerveza negra Steeleye,18.00 €,6,0.00%
-10554,Postre de merengue Pavlova,17.45 €,30,5.00%
-10554,Pan fino,9.00 €,20,5.00%
-10554,Tarta de azúcar,49.30 €,20,5.00%
-10554,Salsa verde original Frankfurter,13.00 €,10,5.00%
-10555,Cuajada de judías,23.25 €,30,20.00%
-10555,Pastas de té de chocolate,9.20 €,35,20.00%
-10555,Refresco Guaraná Fantástica,4.50 €,18,20.00%
-10555,Manzanas secas Manjimup,53.00 €,20,20.00%
-10555,Gnocchi de la abuela Alicia,38.00 €,40,20.00%
-10556,Queso Mozzarella Giovanni,34.80 €,24,0.00%
-10557,Bollos de pan de Wimmer,33.25 €,30,0.00%
-10557,Cerveza Klosterbier Rhönbräu,7.75 €,20,0.00%
-10558,Galletas Zaanse,9.50 €,25,0.00%
-10558,Manzanas secas Manjimup,53.00 €,20,0.00%
-10558,Cereales para Filo,7.00 €,30,0.00%
-10558,Empanada de carne,32.80 €,18,0.00%
-10558,Caviar rojo,15.00 €,3,0.00%
-10559,Crema de almejas estilo Nueva Inglaterra,9.65 €,12,5.00%
-10559,Paté chino,24.00 €,18,5.00%
-10560,Arenque blanco del noroeste,25.89 €,20,0.00%
-10560,Tarta de azúcar,49.30 €,15,25.00%
-10561,Azúcar negra Malacca,19.45 €,10,0.00%
-10561,Manzanas secas Manjimup,53.00 €,50,0.00%
-10562,Queso de cabra,2.50 €,20,10.00%
-10562,Tarta de azúcar,49.30 €,10,10.00%
-10563,Escabeche de arenque,19.00 €,25,0.00%
-10563,Cereales para Filo,7.00 €,70,0.00%
-10564,Cordero Alice Springs,39.00 €,16,5.00%
-10564,Queso gorgonzola Telino,12.50 €,6,5.00%
-10564,Paté chino,24.00 €,25,5.00%
-10565,Refresco Guaraná Fantástica,4.50 €,25,10.00%
-10565,Bollos de pan de Wimmer,33.25 €,18,10.00%
-10566,Queso Cabrales,21.00 €,35,15.00%
-10566,Langostinos tigre Carnarvon,62.50 €,18,15.00%
-10566,Licor Cloudberry,18.00 €,10,0.00%
-10567,Queso gorgonzola Telino,12.50 €,60,20.00%
-10567,Manzanas secas Manjimup,53.00 €,3,0.00%
-10567,Raclet de queso Courdavault,55.00 €,40,20.00%
-10568,Pez espada,31.00 €,5,0.00%
-10569,Queso gorgonzola Telino,12.50 €,35,20.00%
-10569,Licor Cloudberry,18.00 €,30,0.00%
-10570,Queso Cabrales,21.00 €,15,5.00%
-10570,Gnocchi de la abuela Alicia,38.00 €,60,5.00%
-10571,Cuajada de judías,23.25 €,11,15.00%
-10571,Tallarines de Singapur,14.00 €,28,15.00%
-10572,Postre de merengue Pavlova,17.45 €,12,10.00%
-10572,Queso Mascarpone Fabioli,32.00 €,10,10.00%
-10572,Carne de cangrejo de Boston,18.40 €,50,0.00%
-10572,Cerveza Klosterbier Rhönbräu,7.75 €,15,10.00%
-10573,Cordero Alice Springs,39.00 €,18,0.00%
-10573,Cerveza Sasquatch,14.00 €,40,0.00%
-10573,Empanada de carne,32.80 €,25,0.00%
-10574,Queso de cabra,2.50 €,14,0.00%
-10574,Carne de cangrejo de Boston,18.40 €,2,0.00%
-10574,Tarta de azúcar,49.30 €,10,0.00%
-10574,Bollos de pan de Wimmer,33.25 €,6,0.00%
-10575,Raclet de queso Courdavault,55.00 €,12,0.00%
-10575,Sandwich de vegetales,43.90 €,6,0.00%
-10575,Queso Mozzarella Giovanni,34.80 €,30,0.00%
-10575,Licor Cloudberry,18.00 €,10,0.00%
-10576,Té Dharamsala,18.00 €,10,0.00%
-10576,Queso gorgonzola Telino,12.50 €,20,0.00%
-10576,Azúcar negra Malacca,19.45 €,21,0.00%
-10577,Licor verde Chartreuse,18.00 €,10,0.00%
-10577,Cerveza Klosterbier Rhönbräu,7.75 €,20,0.00%
-10577,Salsa verde original Frankfurter,13.00 €,18,0.00%
-10578,Cerveza negra Steeleye,18.00 €,20,0.00%
-10578,Raviolis Angelo,19.50 €,6,0.00%
-10579,Salsa de soja baja en sodio,15.50 €,10,0.00%
-10579,Cerveza Klosterbier Rhönbräu,7.75 €,21,0.00%
-10580,Cuajada de judías,23.25 €,15,5.00%
-10580,Crema de almejas estilo Nueva Inglaterra,9.65 €,9,5.00%
-10580,Salsa de pimiento picante de Luisiana,21.05 €,30,5.00%
-10581,Cerveza Klosterbier Rhönbräu,7.75 €,50,20.00%
-10582,Raviolis Angelo,19.50 €,4,0.00%
-10582,Licor Cloudberry,18.00 €,14,0.00%
-10583,Salchicha Thüringer,123.79 €,10,0.00%
-10583,Camembert Pierrot,34.00 €,24,15.00%
-10583,Queso Gudbrandsdals,36.00 €,10,15.00%
-10584,Queso gorgonzola Telino,12.50 €,50,5.00%
-10585,Galletas Zaanse,9.50 €,15,0.00%
-10586,Cereales para Filo,7.00 €,4,15.00%
-10587,Ositos de goma Gumbär,31.23 €,6,0.00%
-10587,Cerveza negra Steeleye,18.00 €,20,0.00%
-10587,Salsa verde original Frankfurter,13.00 €,20,0.00%
-10588,Langostinos tigre Carnarvon,62.50 €,40,20.00%
-10588,Tallarines de Singapur,14.00 €,100,20.00%
-10589,Cerveza negra Steeleye,18.00 €,4,0.00%
-10590,Té Dharamsala,18.00 €,20,0.00%
-10590,Salsa verde original Frankfurter,13.00 €,60,5.00%
-10591,Sirope de regaliz,10.00 €,14,0.00%
-10591,Peras secas orgánicas del tío Bob,30.00 €,10,0.00%
-10591,Empanada de cerdo,7.45 €,50,0.00%
-10592,Salsa de soja baja en sodio,15.50 €,25,5.00%
-10592,Ositos de goma Gumbär,31.23 €,5,5.00%
-10593,Mermelada de Sir Rodney's,81.00 €,21,20.00%
-10593,Queso Gudbrandsdals,36.00 €,20,20.00%
-10593,Licor Cloudberry,18.00 €,4,20.00%
-10594,Cereales para Filo,7.00 €,24,0.00%
-10594,Caracoles de Borgoña,13.25 €,30,0.00%
-10595,Cerveza negra Steeleye,18.00 €,30,25.00%
-10595,Sirope de arce,28.50 €,120,25.00%
-10595,Queso Gudbrandsdals,36.00 €,65,25.00%
-10596,Gnocchi de la abuela Alicia,38.00 €,5,20.00%
-10596,Sandwich de vegetales,43.90 €,24,20.00%
-10596,Cerveza Klosterbier Rhönbräu,7.75 €,30,20.00%
-10597,Refresco Guaraná Fantástica,4.50 €,35,20.00%
-10597,Raviolis Angelo,19.50 €,20,0.00%
-10597,Salsa de pimiento picante de Luisiana,21.05 €,12,20.00%
-10598,Chocolate Schoggi,43.90 €,50,0.00%
-10598,Crema de queso Fløtemys,21.50 €,9,0.00%
-10599,Tarta de azúcar,49.30 €,10,0.00%
-10600,Empanada de cerdo,7.45 €,4,0.00%
-10600,Caviar rojo,15.00 €,30,0.00%
-10601,Algas Konbu,6.00 €,60,0.00%
-10601,Raclet de queso Courdavault,55.00 €,35,0.00%
-10602,Salsa verde original Frankfurter,13.00 €,5,25.00%
-10603,Pan de centeno crujiente estilo Gustaf's,21.00 €,48,0.00%
-10603,Regaliz,20.00 €,25,5.00%
-10604,Chocolate holandés,12.75 €,6,10.00%
-10604,Licor Cloudberry,18.00 €,10,10.00%
-10605,Postre de merengue Pavlova,17.45 €,30,5.00%
-10605,Raclet de queso Courdavault,55.00 €,20,5.00%
-10605,Camembert Pierrot,34.00 €,70,5.00%
-10605,Crema de queso Fløtemys,21.50 €,15,5.00%
-10606,Especias Cajun del chef Anton,22.00 €,20,20.00%
-10606,Paté chino,24.00 €,20,20.00%
-10606,Tarta de azúcar,49.30 €,10,20.00%
-10607,Peras secas orgánicas del tío Bob,30.00 €,45,0.00%
-10607,Cordero Alice Springs,39.00 €,100,0.00%
-10607,Queso de cabra,2.50 €,14,0.00%
-10607,Carne de cangrejo de Boston,18.40 €,42,0.00%
-10607,Queso Mozzarella Giovanni,34.80 €,12,0.00%
-10608,Gnocchi de la abuela Alicia,38.00 €,28,0.00%
-10609,Té Dharamsala,18.00 €,3,0.00%
-10609,Pez espada,31.00 €,10,0.00%
-10609,Bollos de Sir Rodney's,10.00 €,6,0.00%
-10610,Escabeche de arenque,19.00 €,21,25.00%
-10611,Té Dharamsala,18.00 €,6,0.00%
-10611,Cerveza tibetana Barley,19.00 €,10,0.00%
-10611,Camembert Pierrot,34.00 €,15,0.00%
-10612,Pez espada,31.00 €,70,0.00%
-10612,Escabeche de arenque,19.00 €,55,0.00%
-10612,Regaliz,20.00 €,18,0.00%
-10612,Camembert Pierrot,34.00 €,40,0.00%
-10612,Licor Cloudberry,18.00 €,80,0.00%
-10613,Algas Konbu,6.00 €,8,10.00%
-10613,Cerveza Klosterbier Rhönbräu,7.75 €,40,0.00%
-10614,Queso Cabrales,21.00 €,14,0.00%
-10614,Bollos de Sir Rodney's,10.00 €,8,0.00%
-10614,Licor verde Chartreuse,18.00 €,5,0.00%
-10615,Paté chino,24.00 €,5,0.00%
-10616,Vino Côte de Blaye,263.50 €,15,5.00%
-10616,Gnocchi de la abuela Alicia,38.00 €,14,0.00%
-10616,Cerveza Outback,15.00 €,15,5.00%
-10616,Crema de queso Fløtemys,21.50 €,15,5.00%
-10617,Raclet de queso Courdavault,55.00 €,30,15.00%
-10618,Mermelada de grosellas de la abuela,25.00 €,70,0.00%
-10618,Gnocchi de la abuela Alicia,38.00 €,20,0.00%
-10618,Barras de pan de Escocia,12.50 €,15,0.00%
-10619,Bollos de Sir Rodney's,10.00 €,42,0.00%
-10619,Pan de centeno crujiente estilo Gustaf's,21.00 €,40,0.00%
-10620,Refresco Guaraná Fantástica,4.50 €,5,0.00%
-10620,Cereales para Filo,7.00 €,5,0.00%
-10621,Pastas de té de chocolate,9.20 €,5,0.00%
-10621,Pan fino,9.00 €,10,0.00%
-10621,Cerveza Outback,15.00 €,20,0.00%
-10621,Crema de queso Fløtemys,21.50 €,15,0.00%
-10622,Cerveza tibetana Barley,19.00 €,20,0.00%
-10622,Barras de pan de Escocia,12.50 €,18,20.00%
-10623,Cuajada de judías,23.25 €,21,0.00%
-10623,Pastas de té de chocolate,9.20 €,15,10.00%
-10623,Bollos de Sir Rodney's,10.00 €,25,10.00%
-10623,Refresco Guaraná Fantástica,4.50 €,3,0.00%
-10623,Cerveza negra Steeleye,18.00 €,30,10.00%
-10624,Col fermentada Rössle,45.60 €,10,0.00%
-10624,Salchicha Thüringer,123.79 €,6,0.00%
-10624,Azúcar negra Malacca,19.45 €,10,0.00%
-10625,Cuajada de judías,23.25 €,3,0.00%
-10625,Tallarines de Singapur,14.00 €,5,0.00%
-10625,Camembert Pierrot,34.00 €,10,0.00%
-10626,Empanada de carne,32.80 €,12,0.00%
-10626,Camembert Pierrot,34.00 €,20,0.00%
-10626,Crema de queso Fløtemys,21.50 €,20,0.00%
-10627,Tarta de azúcar,49.30 €,15,0.00%
-10627,Caviar rojo,15.00 €,35,15.00%
-10628,Té Dharamsala,18.00 €,25,0.00%
-10629,Salchicha Thüringer,123.79 €,20,0.00%
-10629,Bollos de pan de Wimmer,33.25 €,9,0.00%
-10630,Paté chino,24.00 €,12,5.00%
-10630,Licor Cloudberry,18.00 €,35,0.00%
-10631,Cerveza Klosterbier Rhönbräu,7.75 €,8,10.00%
-10632,Cerveza tibetana Barley,19.00 €,30,5.00%
-10632,Queso de cabra,2.50 €,20,5.00%
-10633,Queso Manchego La Pastora,38.00 €,36,15.00%
-10633,Algas Konbu,6.00 €,13,15.00%
-10633,Ositos de goma Gumbär,31.23 €,35,15.00%
-10633,Tarta de azúcar,49.30 €,80,15.00%
-10634,Peras secas orgánicas del tío Bob,30.00 €,35,0.00%
-10634,Langostinos tigre Carnarvon,62.50 €,50,0.00%
-10634,Manzanas secas Manjimup,53.00 €,15,0.00%
-10634,Cerveza Klosterbier Rhönbräu,7.75 €,2,0.00%
-10635,Especias Cajun del chef Anton,22.00 €,10,10.00%
-10635,Mezcla Gumbo del chef Anton,21.35 €,15,10.00%
-10635,Pan de centeno crujiente estilo Gustaf's,21.00 €,40,0.00%
-10636,Especias Cajun del chef Anton,22.00 €,25,0.00%
-10636,Caracoles de Borgoña,13.25 €,6,0.00%
-10637,Queso Cabrales,21.00 €,10,0.00%
-10637,Chocolate blanco,16.25 €,25,5.00%
-10637,Gnocchi de la abuela Alicia,38.00 €,60,5.00%
-10638,Arenque ahumado,9.50 €,20,0.00%
-10638,Salsa de pimiento picante de Luisiana,21.05 €,21,0.00%
-10638,Queso Mozzarella Giovanni,34.80 €,60,0.00%
-10639,Langostinos tigre Carnarvon,62.50 €,8,0.00%
-10640,Queso Gudbrandsdals,36.00 €,20,25.00%
-10640,Cerveza Outback,15.00 €,15,25.00%
-10641,Cerveza tibetana Barley,19.00 €,50,0.00%
-10641,Carne de cangrejo de Boston,18.40 €,60,0.00%
-10642,Bollos de Sir Rodney's,10.00 €,30,20.00%
-10642,Sirope de arce,28.50 €,20,20.00%
-10643,Col fermentada Rössle,45.60 €,15,25.00%
-10643,Licor verde Chartreuse,18.00 €,21,25.00%
-10643,Arenque salado,12.00 €,2,25.00%
-10644,Langostinos tigre Carnarvon,62.50 €,4,10.00%
-10644,Café de Malasia,46.00 €,20,0.00%
-10644,Arenque salado,12.00 €,21,10.00%
-10645,Langostinos tigre Carnarvon,62.50 €,20,0.00%
-10645,Escabeche de arenque,19.00 €,15,0.00%
-10646,Té Dharamsala,18.00 €,15,25.00%
-10646,Pez espada,31.00 €,18,25.00%
-10646,Crema de queso Fløtemys,21.50 €,30,25.00%
-10646,Salsa verde original Frankfurter,13.00 €,35,25.00%
-10647,Pastas de té de chocolate,9.20 €,30,0.00%
-10647,Licor verde Chartreuse,18.00 €,20,0.00%
-10648,Pan de centeno crujiente estilo Gustaf's,21.00 €,15,0.00%
-10648,Refresco Guaraná Fantástica,4.50 €,15,15.00%
-10649,Col fermentada Rössle,45.60 €,20,0.00%
-10649,Queso Mozzarella Giovanni,34.80 €,15,0.00%
-10650,Arenque blanco del noroeste,25.89 €,30,0.00%
-10650,Empanada de carne,32.80 €,25,5.00%
-10650,Empanada de cerdo,7.45 €,30,0.00%
-10651,Pastas de té de chocolate,9.20 €,12,25.00%
-10651,Pan de centeno crujiente estilo Gustaf's,21.00 €,20,25.00%
-10652,Arenque blanco del noroeste,25.89 €,2,25.00%
-10652,Tallarines de Singapur,14.00 €,20,0.00%
-10653,Postre de merengue Pavlova,17.45 €,30,10.00%
-10653,Camembert Pierrot,34.00 €,20,10.00%
-10654,Especias Cajun del chef Anton,22.00 €,12,10.00%
-10654,Licor verde Chartreuse,18.00 €,20,10.00%
-10654,Empanada de cerdo,7.45 €,6,10.00%
-10655,Crema de almejas estilo Nueva Inglaterra,9.65 €,20,20.00%
-10656,Cuajada de judías,23.25 €,3,10.00%
-10656,Azúcar negra Malacca,19.45 €,28,10.00%
-10656,Galletas Zaanse,9.50 €,6,10.00%
-10657,Salsa de soja baja en sodio,15.50 €,50,0.00%
-10657,Crema de almejas estilo Nueva Inglaterra,9.65 €,24,0.00%
-10657,Arenque salado,12.00 €,45,0.00%
-10657,Galletas Zaanse,9.50 €,10,0.00%
-10657,Gnocchi de la abuela Alicia,38.00 €,45,0.00%
-10657,Camembert Pierrot,34.00 €,30,0.00%
-10658,Bollos de Sir Rodney's,10.00 €,60,0.00%
-10658,Carne de cangrejo de Boston,18.40 €,70,5.00%
-10658,Camembert Pierrot,34.00 €,55,5.00%
-10658,Salsa verde original Frankfurter,13.00 €,70,5.00%
-10659,Queso gorgonzola Telino,12.50 €,20,5.00%
-10659,Carne de cangrejo de Boston,18.40 €,24,5.00%
-10659,Cerveza Outback,15.00 €,40,5.00%
-10660,Mermelada de Sir Rodney's,81.00 €,21,0.00%
-10661,Licor verde Chartreuse,18.00 €,3,20.00%
-10661,Caracoles de Borgoña,13.25 €,49,20.00%
-10662,Barras de pan de Escocia,12.50 €,10,0.00%
-10663,Carne de cangrejo de Boston,18.40 €,30,5.00%
-10663,Tallarines de Singapur,14.00 €,30,5.00%
-10663,Manzanas secas Manjimup,53.00 €,20,5.00%
-10664,Pez espada,31.00 €,24,15.00%
-10664,Gnocchi de la abuela Alicia,38.00 €,12,15.00%
-10664,Salsa de pimiento picante de Luisiana,21.05 €,15,15.00%
-10665,Manzanas secas Manjimup,53.00 €,20,0.00%
-10665,Raclet de queso Courdavault,55.00 €,1,0.00%
-10665,Licor Cloudberry,18.00 €,10,0.00%
-10666,Salchicha Thüringer,123.79 €,36,0.00%
-10666,Salsa de pimiento picante de Luisiana,21.05 €,10,0.00%
-10667,Queso Gudbrandsdals,36.00 €,45,20.00%
-10667,Crema de queso Fløtemys,21.50 €,14,20.00%
-10668,Queso gorgonzola Telino,12.50 €,8,10.00%
-10668,Paté chino,24.00 €,4,10.00%
-10668,Bollos de pan de Wimmer,33.25 €,15,10.00%
-10669,Escabeche de arenque,19.00 €,30,0.00%
-10670,Pan fino,9.00 €,32,0.00%
-10670,Arenque salado,12.00 €,60,0.00%
-10670,Cerveza Laughing Lumberjack,14.00 €,25,0.00%
-10670,Caviar rojo,15.00 €,50,0.00%
-10670,Cerveza Klosterbier Rhönbräu,7.75 €,25,0.00%
-10671,Postre de merengue Pavlova,17.45 €,10,0.00%
-10671,Tarta de azúcar,49.30 €,10,0.00%
-10671,Salsa de pimiento picante de Luisiana,21.05 €,12,0.00%
-10672,Vino Côte de Blaye,263.50 €,15,10.00%
-10672,Crema de queso Fløtemys,21.50 €,12,0.00%
-10673,Postre de merengue Pavlova,17.45 €,3,0.00%
-10673,Tallarines de Singapur,14.00 €,6,0.00%
-10673,Café de Malasia,46.00 €,6,0.00%
-10674,Pan fino,9.00 €,5,0.00%
-10675,Cuajada de judías,23.25 €,30,0.00%
-10675,Empanada de carne,32.80 €,10,0.00%
-10675,Caracoles de Borgoña,13.25 €,30,0.00%
-10676,Pez espada,31.00 €,2,0.00%
-10676,Pastas de té de chocolate,9.20 €,7,0.00%
-10676,Azúcar negra Malacca,19.45 €,21,0.00%
-10677,Ositos de goma Gumbär,31.23 €,30,15.00%
-10677,Queso de cabra,2.50 €,8,15.00%
-10678,Queso Manchego La Pastora,38.00 €,100,0.00%
-10678,Queso de cabra,2.50 €,30,0.00%
-10678,Crema de almejas estilo Nueva Inglaterra,9.65 €,120,0.00%
-10678,Empanada de cerdo,7.45 €,30,0.00%
-10679,Raclet de queso Courdavault,55.00 €,12,0.00%
-10680,Postre de merengue Pavlova,17.45 €,50,25.00%
-10680,Queso gorgonzola Telino,12.50 €,20,25.00%
-10680,Tallarines de Singapur,14.00 €,40,25.00%
-10681,Pastas de té de chocolate,9.20 €,30,10.00%
-10681,Bollos de Sir Rodney's,10.00 €,12,10.00%
-10681,Bollos de pan de Wimmer,33.25 €,28,0.00%
-10682,Queso de cabra,2.50 €,30,0.00%
-10682,Especias picantes de Luisiana,17.00 €,4,0.00%
-10682,Cerveza Klosterbier Rhönbräu,7.75 €,30,0.00%
-10683,Cereales para Filo,7.00 €,9,0.00%
-10684,Carne de cangrejo de Boston,18.40 €,20,0.00%
-10684,Galletas Zaanse,9.50 €,40,0.00%
-10684,Camembert Pierrot,34.00 €,30,0.00%
-10685,Pez espada,31.00 €,20,0.00%
-10685,Crema de almejas estilo Nueva Inglaterra,9.65 €,4,0.00%
-10685,Galletas Zaanse,9.50 €,15,0.00%
-10686,Cordero Alice Springs,39.00 €,30,20.00%
-10686,Ositos de goma Gumbär,31.23 €,15,0.00%
-10687,Buey Mishi Kobe,97.00 €,50,25.00%
-10687,Salchicha Thüringer,123.79 €,10,0.00%
-10687,Escabeche de arenque,19.00 €,6,25.00%
-10688,Pez espada,31.00 €,18,10.00%
-10688,Col fermentada Rössle,45.60 €,60,10.00%
-10688,Cerveza Sasquatch,14.00 €,14,0.00%
-10689,Té Dharamsala,18.00 €,35,25.00%
-10690,Gnocchi de la abuela Alicia,38.00 €,20,25.00%
-10690,Salsa verde original Frankfurter,13.00 €,30,25.00%
-10691,Té Dharamsala,18.00 €,30,0.00%
-10691,Salchicha Thüringer,123.79 €,40,0.00%
-10691,Café de Malasia,46.00 €,40,0.00%
-10691,Azúcar negra Malacca,19.45 €,24,0.00%
-10691,Tarta de azúcar,49.30 €,48,0.00%
-10692,Sandwich de vegetales,43.90 €,20,0.00%
-10693,Buey Mishi Kobe,97.00 €,6,0.00%
-10693,Empanada de cerdo,7.45 €,60,15.00%
-10693,Queso Gudbrandsdals,36.00 €,30,15.00%
-10693,Caviar rojo,15.00 €,15,15.00%
-10694,Peras secas orgánicas del tío Bob,30.00 €,90,0.00%
-10694,Raclet de queso Courdavault,55.00 €,25,0.00%
-10694,Cerveza Outback,15.00 €,50,0.00%
-10695,Salsa de arándanos Northwoods,40.00 €,10,0.00%
-10695,Queso Manchego La Pastora,38.00 €,4,0.00%
-10695,Refresco Guaraná Fantástica,4.50 €,20,0.00%
-10696,Cordero Alice Springs,39.00 €,20,0.00%
-10696,Arenque salado,12.00 €,18,0.00%
-10697,Pastas de té de chocolate,9.20 €,7,25.00%
-10697,Cerveza negra Steeleye,18.00 €,9,25.00%
-10697,Caracoles de Borgoña,13.25 €,30,25.00%
-10697,Cerveza Outback,15.00 €,30,25.00%
-10698,Queso Cabrales,21.00 €,15,0.00%
-10698,Cordero Alice Springs,39.00 €,8,5.00%
-10698,Salchicha Thüringer,123.79 €,12,5.00%
-10698,Salsa de pimiento picante de Luisiana,21.05 €,65,5.00%
-10698,Cerveza Outback,15.00 €,8,5.00%
-10699,Galletas Zaanse,9.50 €,12,0.00%
-10700,Té Dharamsala,18.00 €,5,20.00%
-10700,Cerveza Sasquatch,14.00 €,12,20.00%
-10700,Barras de pan de Escocia,12.50 €,40,20.00%
-10700,Crema de queso Fløtemys,21.50 €,60,20.00%
-10701,Raclet de queso Courdavault,55.00 €,42,15.00%
-10701,Crema de queso Fløtemys,21.50 €,20,15.00%
-10701,Licor Cloudberry,18.00 €,35,15.00%
-10702,Sirope de regaliz,10.00 €,6,0.00%
-10702,Licor Cloudberry,18.00 €,15,0.00%
-10703,Cerveza tibetana Barley,19.00 €,5,0.00%
-10703,Raclet de queso Courdavault,55.00 €,35,0.00%
-10703,Caviar rojo,15.00 €,35,0.00%
-10704,Especias Cajun del chef Anton,22.00 €,6,0.00%
-10704,Refresco Guaraná Fantástica,4.50 €,35,0.00%
-10704,Chocolate holandés,12.75 €,24,0.00%
-10705,Queso gorgonzola Telino,12.50 €,20,0.00%
-10705,Queso Mascarpone Fabioli,32.00 €,4,0.00%
-10706,Postre de merengue Pavlova,17.45 €,20,0.00%
-10706,Café de Malasia,46.00 €,24,0.00%
-10706,Raclet de queso Courdavault,55.00 €,8,0.00%
-10707,Paté chino,24.00 €,21,0.00%
-10707,Raviolis Angelo,19.50 €,40,0.00%
-10707,Cerveza Outback,15.00 €,28,15.00%
-10708,Mezcla Gumbo del chef Anton,21.35 €,4,0.00%
-10708,Escabeche de arenque,19.00 €,5,0.00%
-10709,Salsa de arándanos Northwoods,40.00 €,40,0.00%
-10709,Manzanas secas Manjimup,53.00 €,28,0.00%
-10709,Camembert Pierrot,34.00 €,10,0.00%
-10710,Pastas de té de chocolate,9.20 €,5,0.00%
-10710,Galletas Zaanse,9.50 €,5,0.00%
-10711,Pastas de té de chocolate,9.20 €,12,0.00%
-10711,Crema de almejas estilo Nueva Inglaterra,9.65 €,42,0.00%
-10711,Empanada de carne,32.80 €,120,0.00%
-10712,Empanada de carne,32.80 €,3,5.00%
-10712,Gnocchi de la abuela Alicia,38.00 €,30,0.00%
-10713,Pez espada,31.00 €,18,0.00%
-10713,Ositos de goma Gumbär,31.23 €,30,0.00%
-10713,Arenque ahumado,9.50 €,110,0.00%
-10713,Arenque salado,12.00 €,24,0.00%
-10714,Cerveza tibetana Barley,19.00 €,30,25.00%
-10714,Cordero Alice Springs,39.00 €,27,25.00%
-10714,Galletas Zaanse,9.50 €,50,25.00%
-10714,Gnocchi de la abuela Alicia,38.00 €,18,25.00%
-10714,Caracoles de Borgoña,13.25 €,12,25.00%
-10715,Pez espada,31.00 €,21,0.00%
-10715,Crema de queso Fløtemys,21.50 €,30,0.00%
-10716,Bollos de Sir Rodney's,10.00 €,5,0.00%
-10716,Manzanas secas Manjimup,53.00 €,7,0.00%
-10716,Sirope de arce,28.50 €,10,0.00%
-10717,Bollos de Sir Rodney's,10.00 €,32,5.00%
-10717,Empanada de cerdo,7.45 €,15,0.00%
-10717,Queso Gudbrandsdals,36.00 €,25,5.00%
-10718,Queso Manchego La Pastora,38.00 €,36,0.00%
-10718,Postre de merengue Pavlova,17.45 €,20,0.00%
-10718,Escabeche de arenque,19.00 €,40,0.00%
-10718,Tarta de azúcar,49.30 €,20,0.00%
-10719,Langostinos tigre Carnarvon,62.50 €,12,25.00%
-10719,Arenque blanco del noroeste,25.89 €,3,25.00%
-10719,Empanada de cerdo,7.45 €,40,25.00%
-10720,Cerveza negra Steeleye,18.00 €,21,0.00%
-10720,Crema de queso Fløtemys,21.50 €,8,0.00%
-10721,Azúcar negra Malacca,19.45 €,50,5.00%
-10722,Cerveza tibetana Barley,19.00 €,3,0.00%
-10722,Queso gorgonzola Telino,12.50 €,50,0.00%
-10722,Barras de pan de Escocia,12.50 €,45,0.00%
-10722,Cerveza Klosterbier Rhönbräu,7.75 €,42,0.00%
-10723,Ositos de goma Gumbär,31.23 €,15,0.00%
-10724,Pez espada,31.00 €,16,0.00%
-10724,Sirope de arce,28.50 €,5,0.00%
-10725,Crema de almejas estilo Nueva Inglaterra,9.65 €,12,0.00%
-10725,Cereales para Filo,7.00 €,4,0.00%
-10725,Paté chino,24.00 €,6,0.00%
-10726,Especias Cajun del chef Anton,22.00 €,25,0.00%
-10726,Queso Cabrales,21.00 €,5,0.00%
-10727,Cordero Alice Springs,39.00 €,20,5.00%
-10727,Gnocchi de la abuela Alicia,38.00 €,10,5.00%
-10727,Raclet de queso Courdavault,55.00 €,10,5.00%
-10728,Arenque blanco del noroeste,25.89 €,15,0.00%
-10728,Carne de cangrejo de Boston,18.40 €,6,0.00%
-10728,Paté chino,24.00 €,12,0.00%
-10728,Camembert Pierrot,34.00 €,15,0.00%
-10729,Té Dharamsala,18.00 €,50,0.00%
-10729,Bollos de Sir Rodney's,10.00 €,30,0.00%
-10729,Chocolate blanco,16.25 €,40,0.00%
-10730,Postre de merengue Pavlova,17.45 €,15,5.00%
-10730,Queso gorgonzola Telino,12.50 €,3,5.00%
-10730,Salsa de pimiento picante de Luisiana,21.05 €,10,5.00%
-10731,Bollos de Sir Rodney's,10.00 €,40,5.00%
-10731,Manzanas secas Manjimup,53.00 €,30,5.00%
-10732,Licor Cloudberry,18.00 €,20,0.00%
-10733,Cuajada de judías,23.25 €,16,0.00%
-10733,Col fermentada Rössle,45.60 €,20,0.00%
-10733,Cereales para Filo,7.00 €,25,0.00%
-10734,Mermelada de grosellas de la abuela,25.00 €,30,0.00%
-10734,Arenque blanco del noroeste,25.89 €,15,0.00%
-10734,Licor Cloudberry,18.00 €,20,0.00%
-10735,Sirope de arce,28.50 €,20,10.00%
-10735,Salsa verde original Frankfurter,13.00 €,2,10.00%
-10736,Salsa de pimiento picante de Luisiana,21.05 €,40,0.00%
-10736,Cerveza Klosterbier Rhönbräu,7.75 €,20,0.00%
-10737,Algas Konbu,6.00 €,4,0.00%
-10737,Crema de almejas estilo Nueva Inglaterra,9.65 €,12,0.00%
-10738,Postre de merengue Pavlova,17.45 €,3,0.00%
-10739,Escabeche de arenque,19.00 €,6,0.00%
-10739,Cereales para Filo,7.00 €,18,0.00%
-10740,Col fermentada Rössle,45.60 €,5,20.00%
-10740,Cerveza negra Steeleye,18.00 €,35,20.00%
-10740,Arenque ahumado,9.50 €,40,20.00%
-10740,Gnocchi de la abuela Alicia,38.00 €,14,20.00%
-10741,Cerveza tibetana Barley,19.00 €,15,20.00%
-10742,Sirope de regaliz,10.00 €,20,0.00%
-10742,Camembert Pierrot,34.00 €,50,0.00%
-10742,Queso Mozzarella Giovanni,34.80 €,35,0.00%
-10743,Arenque salado,12.00 €,28,5.00%
-10744,Carne de cangrejo de Boston,18.40 €,50,20.00%
-10745,Langostinos tigre Carnarvon,62.50 €,24,0.00%
-10745,Azúcar negra Malacca,19.45 €,16,0.00%
-10745,Raclet de queso Courdavault,55.00 €,45,0.00%
-10745,Queso Mozzarella Giovanni,34.80 €,7,0.00%
-10746,Algas Konbu,6.00 €,6,0.00%
-10746,Tallarines de Singapur,14.00 €,28,0.00%
-10746,Tarta de azúcar,49.30 €,9,0.00%
-10746,Queso Gudbrandsdals,36.00 €,40,0.00%
-10747,Queso gorgonzola Telino,12.50 €,8,0.00%
-10747,Crema de almejas estilo Nueva Inglaterra,9.65 €,35,0.00%
-10747,Sandwich de vegetales,43.90 €,9,0.00%
-10747,Queso Gudbrandsdals,36.00 €,30,0.00%
-10748,Pan fino,9.00 €,44,0.00%
-10748,Carne de cangrejo de Boston,18.40 €,40,0.00%
-10748,Gnocchi de la abuela Alicia,38.00 €,28,0.00%
-10749,Gnocchi de la abuela Alicia,38.00 €,15,0.00%
-10749,Raclet de queso Courdavault,55.00 €,6,0.00%
-10749,Licor Cloudberry,18.00 €,10,0.00%
-10750,Cuajada de judías,23.25 €,5,15.00%
-10750,Arenque ahumado,9.50 €,40,15.00%
-10750,Raclet de queso Courdavault,55.00 €,25,15.00%
-10751,Ositos de goma Gumbär,31.23 €,12,10.00%
-10751,Arenque blanco del noroeste,25.89 €,30,0.00%
-10751,Chocolate blanco,16.25 €,20,10.00%
-10751,Caviar rojo,15.00 €,15,0.00%
-10752,Té Dharamsala,18.00 €,8,0.00%
-10752,Queso Gudbrandsdals,36.00 €,3,0.00%
-10753,Arenque ahumado,9.50 €,4,0.00%
-10753,Queso de soja Longlife,10.00 €,5,0.00%
-10754,Carne de cangrejo de Boston,18.40 €,3,0.00%
-10755,Galletas Zaanse,9.50 €,30,25.00%
-10755,Gnocchi de la abuela Alicia,38.00 €,30,25.00%
-10755,Raviolis Angelo,19.50 €,14,25.00%
-10755,Queso Gudbrandsdals,36.00 €,25,25.00%
-10756,Langostinos tigre Carnarvon,62.50 €,21,20.00%
-10756,Escabeche de arenque,19.00 €,20,20.00%
-10756,Barras de pan de Escocia,12.50 €,6,20.00%
-10756,Queso Gudbrandsdals,36.00 €,20,20.00%
-10757,Cerveza Sasquatch,14.00 €,30,0.00%
-10757,Raclet de queso Courdavault,55.00 €,7,0.00%
-10757,Tarta de azúcar,49.30 €,30,0.00%
-10757,Bollos de pan de Wimmer,33.25 €,24,0.00%
-10758,Ositos de goma Gumbär,31.23 €,20,0.00%
-10758,Cereales para Filo,7.00 €,60,0.00%
-10758,Cerveza Outback,15.00 €,40,0.00%
-10759,Queso Mascarpone Fabioli,32.00 €,10,0.00%
-10760,Crema de chocolate y nueces NuNuCa,14.00 €,12,25.00%
-10760,Chocolate Schoggi,43.90 €,40,0.00%
-10760,Café de Malasia,46.00 €,30,25.00%
-10761,Crema de chocolate y nueces NuNuCa,14.00 €,35,25.00%
-10761,Cerveza Klosterbier Rhönbräu,7.75 €,18,0.00%
-10762,Licor verde Chartreuse,18.00 €,16,0.00%
-10762,Galletas Zaanse,9.50 €,30,0.00%
-10762,Manzanas secas Manjimup,53.00 €,28,0.00%
-10762,Gnocchi de la abuela Alicia,38.00 €,60,0.00%
-10763,Bollos de Sir Rodney's,10.00 €,40,0.00%
-10763,Pan de centeno crujiente estilo Gustaf's,21.00 €,6,0.00%
-10763,Refresco Guaraná Fantástica,4.50 €,20,0.00%
-10764,Sirope de regaliz,10.00 €,20,10.00%
-10764,Licor verde Chartreuse,18.00 €,130,10.00%
-10765,Salsa de pimiento picante de Luisiana,21.05 €,80,10.00%
-10766,Cerveza tibetana Barley,19.00 €,40,0.00%
-10766,Peras secas orgánicas del tío Bob,30.00 €,35,0.00%
-10766,Barras de pan de Escocia,12.50 €,40,0.00%
-10767,Tallarines de Singapur,14.00 €,2,0.00%
-10768,Pan de centeno crujiente estilo Gustaf's,21.00 €,4,0.00%
-10768,Queso gorgonzola Telino,12.50 €,50,0.00%
-10768,Camembert Pierrot,34.00 €,15,0.00%
-10768,Crema de queso Fløtemys,21.50 €,12,0.00%
-10769,Crema de almejas estilo Nueva Inglaterra,9.65 €,30,5.00%
-10769,Cereales para Filo,7.00 €,15,5.00%
-10769,Sirope de arce,28.50 €,20,0.00%
-10769,Tarta de azúcar,49.30 €,15,0.00%
-10770,Queso Cabrales,21.00 €,15,25.00%
-10771,Crema de queso Fløtemys,21.50 €,16,0.00%
-10772,Salchicha Thüringer,123.79 €,18,0.00%
-10772,Raclet de queso Courdavault,55.00 €,25,0.00%
-10773,Cordero Alice Springs,39.00 €,33,0.00%
-10773,Queso gorgonzola Telino,12.50 €,70,20.00%
-10773,Cerveza Klosterbier Rhönbräu,7.75 €,7,20.00%
-10774,Queso gorgonzola Telino,12.50 €,2,25.00%
-10774,Especias picantes de Luisiana,17.00 €,50,0.00%
-10775,Pez espada,31.00 €,6,0.00%
-10775,Cerveza Laughing Lumberjack,14.00 €,3,0.00%
-10776,Queso gorgonzola Telino,12.50 €,16,5.00%
-10776,Tallarines de Singapur,14.00 €,12,5.00%
-10776,Arenque ahumado,9.50 €,27,5.00%
-10776,Manzanas secas Manjimup,53.00 €,120,5.00%
-10777,Tallarines de Singapur,14.00 €,20,20.00%
-10778,Crema de almejas estilo Nueva Inglaterra,9.65 €,10,0.00%
-10779,Postre de merengue Pavlova,17.45 €,20,0.00%
-10779,Tarta de azúcar,49.30 €,20,0.00%
-10780,Cerveza Outback,15.00 €,35,0.00%
-10780,Salsa verde original Frankfurter,13.00 €,15,0.00%
-10781,Empanada de cerdo,7.45 €,3,20.00%
-10781,Gnocchi de la abuela Alicia,38.00 €,20,20.00%
-10781,Queso de soja Longlife,10.00 €,35,0.00%
-10782,Queso gorgonzola Telino,12.50 €,1,0.00%
-10783,Queso gorgonzola Telino,12.50 €,10,0.00%
-10783,Vino Côte de Blaye,263.50 €,5,0.00%
-10784,Escabeche de arenque,19.00 €,30,0.00%
-10784,Licor verde Chartreuse,18.00 €,2,15.00%
-10784,Queso Mozzarella Giovanni,34.80 €,30,15.00%
-10785,Pez espada,31.00 €,10,0.00%
-10785,Cerveza Klosterbier Rhönbräu,7.75 €,10,0.00%
-10786,Salsa de arándanos Northwoods,40.00 €,30,20.00%
-10786,Arenque blanco del noroeste,25.89 €,15,20.00%
-10786,Cerveza Klosterbier Rhönbräu,7.75 €,42,20.00%
-10787,Cerveza tibetana Barley,19.00 €,15,5.00%
-10787,Salchicha Thüringer,123.79 €,20,5.00%
-10788,Pastas de té de chocolate,9.20 €,50,5.00%
-10788,Cerveza Klosterbier Rhönbräu,7.75 €,40,5.00%
-10789,Langostinos tigre Carnarvon,62.50 €,30,0.00%
-10789,Cerveza negra Steeleye,18.00 €,15,0.00%
-10789,Sandwich de vegetales,43.90 €,30,0.00%
-10789,Barras de pan de Escocia,12.50 €,18,0.00%
-10790,Peras secas orgánicas del tío Bob,30.00 €,3,15.00%
-10790,Gnocchi de la abuela Alicia,38.00 €,20,15.00%
-10791,Salchicha Thüringer,123.79 €,14,5.00%
-10791,Crema de almejas estilo Nueva Inglaterra,9.65 €,20,5.00%
-10792,Cerveza tibetana Barley,19.00 €,10,0.00%
-10792,Empanada de cerdo,7.45 €,3,0.00%
-10792,Barras de pan de Escocia,12.50 €,15,0.00%
-10793,Crema de almejas estilo Nueva Inglaterra,9.65 €,14,0.00%
-10793,Cereales para Filo,7.00 €,8,0.00%
-10794,Cuajada de judías,23.25 €,15,20.00%
-10794,Empanada de cerdo,7.45 €,6,20.00%
-10795,Postre de merengue Pavlova,17.45 €,65,0.00%
-10795,Cordero Alice Springs,39.00 €,35,25.00%
-10796,Ositos de goma Gumbär,31.23 €,21,20.00%
-10796,Azúcar negra Malacca,19.45 €,10,0.00%
-10796,Bollos de pan de Wimmer,33.25 €,35,20.00%
-10796,Queso Gudbrandsdals,36.00 €,24,20.00%
-10797,Queso Cabrales,21.00 €,20,0.00%
-10798,Tarta de azúcar,49.30 €,2,0.00%
-10798,Queso Mozzarella Giovanni,34.80 €,10,0.00%
-10799,Algas Konbu,6.00 €,20,15.00%
-10799,Refresco Guaraná Fantástica,4.50 €,20,15.00%
-10799,Raclet de queso Courdavault,55.00 €,25,0.00%
-10800,Queso Cabrales,21.00 €,50,10.00%
-10800,Manzanas secas Manjimup,53.00 €,10,10.00%
-10800,Empanada de cerdo,7.45 €,7,10.00%
-10801,Cordero Alice Springs,39.00 €,40,25.00%
-10801,Salchicha Thüringer,123.79 €,20,25.00%
-10802,Arenque blanco del noroeste,25.89 €,25,25.00%
-10802,Manzanas secas Manjimup,53.00 €,30,25.00%
-10802,Paté chino,24.00 €,60,25.00%
-10802,Tarta de azúcar,49.30 €,5,25.00%
-10803,Pastas de té de chocolate,9.20 €,24,5.00%
-10803,Crema de chocolate y nueces NuNuCa,14.00 €,15,5.00%
-10803,Raclet de queso Courdavault,55.00 €,15,5.00%
-10804,Pez espada,31.00 €,36,0.00%
-10804,Col fermentada Rössle,45.60 €,24,0.00%
-10804,Regaliz,20.00 €,4,15.00%
-10805,Cerveza Sasquatch,14.00 €,10,0.00%
-10805,Vino Côte de Blaye,263.50 €,10,0.00%
-10806,Cerveza tibetana Barley,19.00 €,20,25.00%
-10806,Salsa de pimiento picante de Luisiana,21.05 €,2,0.00%
-10806,Queso de soja Longlife,10.00 €,15,25.00%
-10807,Carne de cangrejo de Boston,18.40 €,1,0.00%
-10808,Gnocchi de la abuela Alicia,38.00 €,20,15.00%
-10808,Licor Cloudberry,18.00 €,50,15.00%
-10809,Cereales para Filo,7.00 €,20,0.00%
-10810,Algas Konbu,6.00 €,7,0.00%
-10810,Crema de chocolate y nueces NuNuCa,14.00 €,5,0.00%
-10810,Cerveza Outback,15.00 €,5,0.00%
-10811,Pastas de té de chocolate,9.20 €,15,0.00%
-10811,Pan fino,9.00 €,18,0.00%
-10811,Carne de cangrejo de Boston,18.40 €,30,0.00%
-10812,Queso gorgonzola Telino,12.50 €,16,10.00%
-10812,Queso Mozzarella Giovanni,34.80 €,40,10.00%
-10812,Salsa verde original Frankfurter,13.00 €,20,0.00%
-10813,Cerveza tibetana Barley,19.00 €,12,20.00%
-10813,Arenque salado,12.00 €,35,0.00%
-10814,Crema de almejas estilo Nueva Inglaterra,9.65 €,20,0.00%
-10814,Café de Malasia,46.00 €,20,15.00%
-10814,Chocolate holandés,12.75 €,8,15.00%
-10814,Sirope de arce,28.50 €,30,15.00%
-10815,Queso de cabra,2.50 €,16,0.00%
-10816,Vino Côte de Blaye,263.50 €,30,5.00%
-10816,Tarta de azúcar,49.30 €,20,5.00%
-10817,Ositos de goma Gumbär,31.23 €,40,15.00%
-10817,Vino Côte de Blaye,263.50 €,30,0.00%
-10817,Carne de cangrejo de Boston,18.40 €,60,15.00%
-10817,Tarta de azúcar,49.30 €,25,15.00%
-10818,Queso Mascarpone Fabioli,32.00 €,20,0.00%
-10818,Crema de almejas estilo Nueva Inglaterra,9.65 €,20,0.00%
-10819,Café de Malasia,46.00 €,7,0.00%
-10819,Cerveza Klosterbier Rhönbräu,7.75 €,20,0.00%
-10820,Gnocchi de la abuela Alicia,38.00 €,30,0.00%
-10821,Cerveza negra Steeleye,18.00 €,20,0.00%
-10821,Manzanas secas Manjimup,53.00 €,6,0.00%
-10822,Tarta de azúcar,49.30 €,3,0.00%
-10822,Cerveza Outback,15.00 €,6,0.00%
-10823,Queso Cabrales,21.00 €,20,10.00%
-10823,Raviolis Angelo,19.50 €,15,0.00%
-10823,Raclet de queso Courdavault,55.00 €,40,10.00%
-10823,Salsa verde original Frankfurter,13.00 €,15,10.00%
-10824,Crema de almejas estilo Nueva Inglaterra,9.65 €,12,0.00%
-10824,Cerveza Outback,15.00 €,9,0.00%
-10825,Ositos de goma Gumbär,31.23 €,12,0.00%
-10825,Empanada de carne,32.80 €,20,0.00%
-10826,Queso gorgonzola Telino,12.50 €,35,0.00%
-10826,Raviolis Angelo,19.50 €,15,0.00%
-10827,Pez espada,31.00 €,15,0.00%
-10827,Licor verde Chartreuse,18.00 €,21,0.00%
-10828,Mermelada de Sir Rodney's,81.00 €,5,0.00%
-10828,Vino Côte de Blaye,263.50 €,2,0.00%
-10829,Cerveza tibetana Barley,19.00 €,10,0.00%
-10829,Salsa de arándanos Northwoods,40.00 €,20,0.00%
-10829,Algas Konbu,6.00 €,10,0.00%
-10829,Camembert Pierrot,34.00 €,21,0.00%
-10830,Mermelada de grosellas de la abuela,25.00 €,6,0.00%
-10830,Licor verde Chartreuse,18.00 €,28,0.00%
-10830,Camembert Pierrot,34.00 €,30,0.00%
-10830,Barras de pan de Escocia,12.50 €,24,0.00%
-10831,Pastas de té de chocolate,9.20 €,2,0.00%
-10831,Cerveza negra Steeleye,18.00 €,8,0.00%
-10831,Vino Côte de Blaye,263.50 €,8,0.00%
-10831,Café de Malasia,46.00 €,9,0.00%
-10832,Algas Konbu,6.00 €,3,20.00%
-10832,Crema de chocolate y nueces NuNuCa,14.00 €,10,20.00%
-10832,Azúcar negra Malacca,19.45 €,16,20.00%
-10832,Bollos de pan de Wimmer,33.25 €,3,0.00%
-10833,Peras secas orgánicas del tío Bob,30.00 €,20,10.00%
-10833,Queso gorgonzola Telino,12.50 €,9,10.00%
-10833,Empanada de carne,32.80 €,9,10.00%
-10834,Salchicha Thüringer,123.79 €,8,5.00%
-10834,Arenque blanco del noroeste,25.89 €,20,5.00%
-10835,Raclet de queso Courdavault,55.00 €,15,0.00%
-10835,Salsa verde original Frankfurter,13.00 €,2,20.00%
-10836,Pan de centeno crujiente estilo Gustaf's,21.00 €,52,0.00%
-10836,Cerveza negra Steeleye,18.00 €,6,0.00%
-10836,Raviolis Angelo,19.50 €,24,0.00%
-10836,Camembert Pierrot,34.00 €,60,0.00%
-10836,Bollos de pan de Wimmer,33.25 €,30,0.00%
-10837,Algas Konbu,6.00 €,6,0.00%
-10837,Carne de cangrejo de Boston,18.40 €,25,0.00%
-10837,Galletas Zaanse,9.50 €,40,25.00%
-10837,Licor Cloudberry,18.00 €,21,25.00%
-10838,Té Dharamsala,18.00 €,4,25.00%
-10838,Langostinos tigre Carnarvon,62.50 €,25,25.00%
-10838,Escabeche de arenque,19.00 €,50,25.00%
-10839,Caracoles de Borgoña,13.25 €,30,10.00%
-10839,Queso Mozzarella Giovanni,34.80 €,15,10.00%
-10840,Crema de chocolate y nueces NuNuCa,14.00 €,6,20.00%
-10840,Licor verde Chartreuse,18.00 €,10,20.00%
-10841,Pez espada,31.00 €,16,0.00%
-10841,Gnocchi de la abuela Alicia,38.00 €,30,0.00%
-10841,Raclet de queso Courdavault,55.00 €,50,0.00%
-10841,Salsa verde original Frankfurter,13.00 €,15,0.00%
-10842,Queso Cabrales,21.00 €,15,0.00%
-10842,Café de Malasia,46.00 €,5,0.00%
-10842,Barras de pan de Escocia,12.50 €,20,0.00%
-10842,Cerveza Outback,15.00 €,12,0.00%
-10843,Manzanas secas Manjimup,53.00 €,4,25.00%
-10844,Pan de centeno crujiente estilo Gustaf's,21.00 €,35,0.00%
-10845,Pan fino,9.00 €,70,10.00%
-10845,Cerveza negra Steeleye,18.00 €,25,10.00%
-10845,Tallarines de Singapur,14.00 €,42,10.00%
-10845,Caracoles de Borgoña,13.25 €,60,10.00%
-10845,Bollos de pan de Wimmer,33.25 €,48,0.00%
-10846,Especias Cajun del chef Anton,22.00 €,21,0.00%
-10846,Cerveza Outback,15.00 €,30,0.00%
-10846,Queso de soja Longlife,10.00 €,20,0.00%
-10847,Té Dharamsala,18.00 €,80,20.00%
-10847,Pastas de té de chocolate,9.20 €,12,20.00%
-10847,Salmón ahumado Gravad,26.00 €,60,20.00%
-10847,Arenque ahumado,9.50 €,36,20.00%
-10847,Camembert Pierrot,34.00 €,45,20.00%
-10847,Crema de queso Fløtemys,21.50 €,55,20.00%
-10848,Mezcla Gumbo del chef Anton,21.35 €,30,0.00%
-10848,Buey Mishi Kobe,97.00 €,3,0.00%
-10849,Sirope de regaliz,10.00 €,49,0.00%
-10849,Ositos de goma Gumbär,31.23 €,18,15.00%
-10850,Crema de chocolate y nueces NuNuCa,14.00 €,20,15.00%
-10850,Queso de cabra,2.50 €,4,15.00%
-10850,Cerveza Outback,15.00 €,30,15.00%
-10851,Cerveza tibetana Barley,19.00 €,5,5.00%
-10851,Crema de chocolate y nueces NuNuCa,14.00 €,10,5.00%
-10851,Raviolis Angelo,19.50 €,10,5.00%
-10851,Raclet de queso Courdavault,55.00 €,42,5.00%
-10852,Cerveza tibetana Barley,19.00 €,15,0.00%
-10852,Cordero Alice Springs,39.00 €,6,0.00%
-10852,Tarta de azúcar,49.30 €,50,0.00%
-10853,Langostinos tigre Carnarvon,62.50 €,10,0.00%
-10854,Pez espada,31.00 €,100,15.00%
-10854,Algas Konbu,6.00 €,65,15.00%
-10855,Postre de merengue Pavlova,17.45 €,50,0.00%
-10855,Queso gorgonzola Telino,12.50 €,14,0.00%
-10855,Gnocchi de la abuela Alicia,38.00 €,24,0.00%
-10855,Salsa de pimiento picante de Luisiana,21.05 €,15,15.00%
-10856,Cerveza tibetana Barley,19.00 €,20,0.00%
-10856,Tallarines de Singapur,14.00 €,20,0.00%
-10857,Sirope de regaliz,10.00 €,30,0.00%
-10857,Ositos de goma Gumbär,31.23 €,35,25.00%
-10857,Salchicha Thüringer,123.79 €,10,25.00%
-10858,Peras secas orgánicas del tío Bob,30.00 €,5,0.00%
-10858,Chocolate Schoggi,43.90 €,10,0.00%
-10858,Cerveza Outback,15.00 €,4,0.00%
-10859,Refresco Guaraná Fantástica,4.50 €,40,25.00%
-10859,Empanada de cerdo,7.45 €,35,25.00%
-10859,Bollos de pan de Wimmer,33.25 €,30,25.00%
-10860,Manzanas secas Manjimup,53.00 €,3,0.00%
-10860,Licor Cloudberry,18.00 €,20,0.00%
-10861,Cordero Alice Springs,39.00 €,42,0.00%
-10861,Langostinos tigre Carnarvon,62.50 €,20,0.00%
-10861,Bollos de Sir Rodney's,10.00 €,40,0.00%
-10861,Queso de cabra,2.50 €,35,0.00%
-10861,Tarta de azúcar,49.30 €,3,0.00%
-10862,Queso Cabrales,21.00 €,25,0.00%
-10862,Cereales para Filo,7.00 €,8,0.00%
-10863,Té Dharamsala,18.00 €,20,15.00%
-10863,Caracoles de Borgoña,13.25 €,12,15.00%
-10864,Cerveza negra Steeleye,18.00 €,4,0.00%
-10864,Cerveza Laughing Lumberjack,14.00 €,15,0.00%
-10865,Vino Côte de Blaye,263.50 €,60,5.00%
-10865,Licor verde Chartreuse,18.00 €,80,5.00%
-10866,Cerveza tibetana Barley,19.00 €,21,25.00%
-10866,Refresco Guaraná Fantástica,4.50 €,6,25.00%
-10866,Arenque blanco del noroeste,25.89 €,40,25.00%
-10867,Empanada de carne,32.80 €,3,0.00%
-10868,Ositos de goma Gumbär,31.23 €,20,0.00%
-10868,Cerveza negra Steeleye,18.00 €,30,0.00%
-10868,Regaliz,20.00 €,42,10.00%
-10869,Té Dharamsala,18.00 €,40,0.00%
-10869,Queso Cabrales,21.00 €,10,0.00%
-10869,Pan fino,9.00 €,50,0.00%
-10869,Barras de pan de Escocia,12.50 €,20,0.00%
-10870,Cerveza negra Steeleye,18.00 €,3,0.00%
-10870,Manzanas secas Manjimup,53.00 €,2,0.00%
-10871,Mermelada de grosellas de la abuela,25.00 €,50,5.00%
-10871,Postre de merengue Pavlova,17.45 €,12,5.00%
-10871,Cordero Alice Springs,39.00 €,16,5.00%
-10872,Paté chino,24.00 €,10,5.00%
-10872,Tarta de azúcar,49.30 €,20,5.00%
-10872,Bollos de pan de Wimmer,33.25 €,15,5.00%
-10872,Salsa de pimiento picante de Luisiana,21.05 €,21,5.00%
-10873,Bollos de Sir Rodney's,10.00 €,20,0.00%
-10873,Col fermentada Rössle,45.60 €,3,0.00%
-10874,Pez espada,31.00 €,10,0.00%
-10875,Pastas de té de chocolate,9.20 €,25,0.00%
-10875,Galletas Zaanse,9.50 €,21,10.00%
-10875,Regaliz,20.00 €,15,0.00%
-10876,Arenque salado,12.00 €,21,0.00%
-10876,Bollos de pan de Wimmer,33.25 €,20,0.00%
-10877,Postre de merengue Pavlova,17.45 €,30,25.00%
-10877,Langostinos tigre Carnarvon,62.50 €,25,0.00%
-10878,Mermelada de Sir Rodney's,81.00 €,20,5.00%
-10879,Carne de cangrejo de Boston,18.40 €,12,0.00%
-10879,Salsa de pimiento picante de Luisiana,21.05 €,10,0.00%
-10879,Licor Cloudberry,18.00 €,10,0.00%
-10880,Pan fino,9.00 €,30,20.00%
-10880,Sirope de arce,28.50 €,30,20.00%
-10880,Cerveza Outback,15.00 €,50,20.00%
-10881,Caviar rojo,15.00 €,10,0.00%
-10882,Tallarines de Singapur,14.00 €,25,0.00%
-10882,Regaliz,20.00 €,20,15.00%
-10882,Empanada de cerdo,7.45 €,32,15.00%
-10883,Refresco Guaraná Fantástica,4.50 €,8,0.00%
-10884,Bollos de Sir Rodney's,10.00 €,40,5.00%
-10884,Gnocchi de la abuela Alicia,38.00 €,21,5.00%
-10884,Salsa de pimiento picante de Luisiana,21.05 €,12,5.00%
-10885,Cerveza tibetana Barley,19.00 €,20,0.00%
-10885,Refresco Guaraná Fantástica,4.50 €,12,0.00%
-10885,Cerveza Outback,15.00 €,30,0.00%
-10885,Salsa verde original Frankfurter,13.00 €,25,0.00%
-10886,Pez espada,31.00 €,70,0.00%
-10886,Queso gorgonzola Telino,12.50 €,35,0.00%
-10886,Salsa verde original Frankfurter,13.00 €,40,0.00%
-10887,Crema de chocolate y nueces NuNuCa,14.00 €,5,0.00%
-10888,Cerveza tibetana Barley,19.00 €,20,0.00%
-10888,Barras de pan de Escocia,12.50 €,18,0.00%
-10889,Queso Cabrales,21.00 €,40,0.00%
-10889,Vino Côte de Blaye,263.50 €,40,0.00%
-10890,Cordero Alice Springs,39.00 €,15,0.00%
-10890,Cerveza Sasquatch,14.00 €,10,0.00%
-10890,Crema de almejas estilo Nueva Inglaterra,9.65 €,14,0.00%
-10891,Arenque blanco del noroeste,25.89 €,15,5.00%
-10892,Raclet de queso Courdavault,55.00 €,40,5.00%
-10893,Salsa de arándanos Northwoods,40.00 €,30,0.00%
-10893,Refresco Guaraná Fantástica,4.50 €,10,0.00%
-10893,Salchicha Thüringer,123.79 €,24,0.00%
-10893,Arenque blanco del noroeste,25.89 €,35,0.00%
-10893,Escabeche de arenque,19.00 €,20,0.00%
-10894,Algas Konbu,6.00 €,28,5.00%
-10894,Queso Gudbrandsdals,36.00 €,50,5.00%
-10894,Cerveza Klosterbier Rhönbräu,7.75 €,120,5.00%
-10895,Refresco Guaraná Fantástica,4.50 €,110,0.00%
-10895,Licor verde Chartreuse,18.00 €,45,0.00%
-10895,Carne de cangrejo de Boston,18.40 €,91,0.00%
-10895,Camembert Pierrot,34.00 €,100,0.00%
-10896,Arenque ahumado,9.50 €,15,0.00%
-10896,Gnocchi de la abuela Alicia,38.00 €,16,0.00%
-10897,Salchicha Thüringer,123.79 €,80,0.00%
-10897,Arenque blanco del noroeste,25.89 €,36,0.00%
-10898,Algas Konbu,6.00 €,5,0.00%
-10899,Licor verde Chartreuse,18.00 €,8,15.00%
-10900,Cerveza Outback,15.00 €,3,25.00%
-10901,Crema de almejas estilo Nueva Inglaterra,9.65 €,30,0.00%
-10901,Crema de queso Fløtemys,21.50 €,30,0.00%
-10902,Paté chino,24.00 €,30,15.00%
-10902,Tarta de azúcar,49.30 €,6,15.00%
-10903,Algas Konbu,6.00 €,40,0.00%
-10903,Salsa de pimiento picante de Luisiana,21.05 €,21,0.00%
-10903,Barras de pan de Escocia,12.50 €,20,0.00%
-10904,Caracoles de Borgoña,13.25 €,15,0.00%
-10904,Tarta de azúcar,49.30 €,35,0.00%
-10905,Té Dharamsala,18.00 €,20,5.00%
-10906,Sirope de arce,28.50 €,15,0.00%
-10907,Cerveza Klosterbier Rhönbräu,7.75 €,14,0.00%
-10908,Peras secas orgánicas del tío Bob,30.00 €,20,5.00%
-10908,Cereales para Filo,7.00 €,14,5.00%
-10909,Peras secas orgánicas del tío Bob,30.00 €,12,0.00%
-10909,Postre de merengue Pavlova,17.45 €,15,0.00%
-10909,Crema de almejas estilo Nueva Inglaterra,9.65 €,5,0.00%
-10910,Pastas de té de chocolate,9.20 €,12,0.00%
-10910,Regaliz,20.00 €,10,0.00%
-10910,Sirope de arce,28.50 €,5,0.00%
-10911,Té Dharamsala,18.00 €,10,0.00%
-10911,Cordero Alice Springs,39.00 €,12,0.00%
-10911,Cerveza Laughing Lumberjack,14.00 €,15,0.00%
-10912,Queso Cabrales,21.00 €,40,25.00%
-10912,Salchicha Thüringer,123.79 €,60,25.00%
-10913,Especias Cajun del chef Anton,22.00 €,30,25.00%
-10913,Queso de cabra,2.50 €,40,25.00%
-10913,Caracoles de Borgoña,13.25 €,15,0.00%
-10914,Crema de queso Fløtemys,21.50 €,25,0.00%
-10915,Cordero Alice Springs,39.00 €,10,0.00%
-10915,Queso de cabra,2.50 €,30,0.00%
-10915,Empanada de cerdo,7.45 €,10,0.00%
-10916,Postre de merengue Pavlova,17.45 €,6,0.00%
-10916,Queso Mascarpone Fabioli,32.00 €,6,0.00%
-10916,Raviolis Angelo,19.50 €,20,0.00%
-10917,Arenque blanco del noroeste,25.89 €,1,0.00%
-10917,Camembert Pierrot,34.00 €,10,0.00%
-10918,Té Dharamsala,18.00 €,60,25.00%
-10918,Camembert Pierrot,34.00 €,25,25.00%
-10919,Postre de merengue Pavlova,17.45 €,24,0.00%
-10919,Crema de chocolate y nueces NuNuCa,14.00 €,24,0.00%
-10919,Carne de cangrejo de Boston,18.40 €,20,0.00%
-10920,Chocolate blanco,16.25 €,24,0.00%
-10921,Cerveza negra Steeleye,18.00 €,10,0.00%
-10921,Sandwich de vegetales,43.90 €,40,0.00%
-10922,Cordero Alice Springs,39.00 €,15,0.00%
-10922,Refresco Guaraná Fantástica,4.50 €,35,0.00%
-10923,Tallarines de Singapur,14.00 €,10,20.00%
-10923,Café de Malasia,46.00 €,10,20.00%
-10923,Cerveza Laughing Lumberjack,14.00 €,24,20.00%
-10924,Pez espada,31.00 €,20,10.00%
-10924,Col fermentada Rössle,45.60 €,30,10.00%
-10924,Cerveza Klosterbier Rhönbräu,7.75 €,6,0.00%
-10925,Escabeche de arenque,19.00 €,25,15.00%
-10925,Cereales para Filo,7.00 €,12,15.00%
-10926,Queso Cabrales,21.00 €,2,0.00%
-10926,Algas Konbu,6.00 €,10,0.00%
-10926,Pastas de té de chocolate,9.20 €,7,0.00%
-10926,Queso Mozzarella Giovanni,34.80 €,10,0.00%
-10927,Mermelada de Sir Rodney's,81.00 €,5,0.00%
-10927,Cereales para Filo,7.00 €,5,0.00%
-10927,Licor Cloudberry,18.00 €,20,0.00%
-10928,Galletas Zaanse,9.50 €,5,0.00%
-10928,Licor Cloudberry,18.00 €,5,0.00%
-10929,Bollos de Sir Rodney's,10.00 €,60,0.00%
-10929,Cerveza Klosterbier Rhönbräu,7.75 €,49,0.00%
-10929,Salsa verde original Frankfurter,13.00 €,15,0.00%
-10930,Bollos de Sir Rodney's,10.00 €,36,0.00%
-10930,Chocolate Schoggi,43.90 €,25,0.00%
-10930,Paté chino,24.00 €,25,20.00%
-10930,Caracoles de Borgoña,13.25 €,30,20.00%
-10931,Algas Konbu,6.00 €,42,15.00%
-10931,Raviolis Angelo,19.50 €,30,0.00%
-10932,Postre de merengue Pavlova,17.45 €,30,10.00%
-10932,Tarta de azúcar,49.30 €,14,10.00%
-10932,Queso Mozzarella Giovanni,34.80 €,16,0.00%
-10932,Cerveza Klosterbier Rhönbräu,7.75 €,20,10.00%
-10933,Empanada de carne,32.80 €,2,0.00%
-10933,Sirope de arce,28.50 €,30,0.00%
-10934,Mermelada de grosellas de la abuela,25.00 €,20,0.00%
-10935,Té Dharamsala,18.00 €,21,0.00%
-10935,Langostinos tigre Carnarvon,62.50 €,4,25.00%
-10935,Pan fino,9.00 €,8,25.00%
-10936,Escabeche de arenque,19.00 €,30,20.00%
-10937,Col fermentada Rössle,45.60 €,8,0.00%
-10937,Cerveza Sasquatch,14.00 €,20,0.00%
-10938,Algas Konbu,6.00 €,20,25.00%
-10938,Café de Malasia,46.00 €,24,25.00%
-10938,Camembert Pierrot,34.00 €,49,25.00%
-10938,Crema de queso Fløtemys,21.50 €,35,25.00%
-10939,Cerveza tibetana Barley,19.00 €,10,15.00%
-10939,Cerveza Laughing Lumberjack,14.00 €,40,15.00%
-10940,Peras secas orgánicas del tío Bob,30.00 €,8,0.00%
-10940,Algas Konbu,6.00 €,20,0.00%
-10941,Queso gorgonzola Telino,12.50 €,44,25.00%
-10941,Tarta de azúcar,49.30 €,30,25.00%
-10941,Barras de pan de Escocia,12.50 €,80,25.00%
-10941,Queso Mozzarella Giovanni,34.80 €,50,0.00%
-10942,Regaliz,20.00 €,28,0.00%
-10943,Algas Konbu,6.00 €,15,0.00%
-10943,Pan de centeno crujiente estilo Gustaf's,21.00 €,21,0.00%
-10943,Arenque salado,12.00 €,15,0.00%
-10944,Queso Cabrales,21.00 €,5,25.00%
-10944,Azúcar negra Malacca,19.45 €,18,25.00%
-10944,Gnocchi de la abuela Alicia,38.00 €,18,0.00%
-10945,Algas Konbu,6.00 €,20,0.00%
-10945,Queso gorgonzola Telino,12.50 €,10,0.00%
-10946,Pez espada,31.00 €,25,0.00%
-10946,Refresco Guaraná Fantástica,4.50 €,25,0.00%
-10946,Salsa verde original Frankfurter,13.00 €,40,0.00%
-10947,Raclet de queso Courdavault,55.00 €,4,0.00%
-10948,Chocolate blanco,16.25 €,9,0.00%
-10948,Manzanas secas Manjimup,53.00 €,40,0.00%
-10948,Paté chino,24.00 €,4,0.00%
-10949,Mermelada de grosellas de la abuela,25.00 €,12,0.00%
-10949,Pez espada,31.00 €,30,0.00%
-10949,Cordero Alice Springs,39.00 €,6,0.00%
-10949,Tarta de azúcar,49.30 €,60,0.00%
-10950,Especias Cajun del chef Anton,22.00 €,5,0.00%
-10951,Queso de cabra,2.50 €,15,5.00%
-10951,Crema de almejas estilo Nueva Inglaterra,9.65 €,6,5.00%
-10951,Cerveza Klosterbier Rhönbräu,7.75 €,50,5.00%
-10952,Mermelada de grosellas de la abuela,25.00 €,16,5.00%
-10952,Col fermentada Rössle,45.60 €,2,0.00%
-10953,Mermelada de Sir Rodney's,81.00 €,50,5.00%
-10953,Queso gorgonzola Telino,12.50 €,50,5.00%
-10954,Postre de merengue Pavlova,17.45 €,28,15.00%
-10954,Queso gorgonzola Telino,12.50 €,25,15.00%
-10954,Arenque ahumado,9.50 €,30,0.00%
-10954,Camembert Pierrot,34.00 €,24,15.00%
-10955,Cerveza Klosterbier Rhönbräu,7.75 €,12,20.00%
-10956,Bollos de Sir Rodney's,10.00 €,12,0.00%
-10956,Galletas Zaanse,9.50 €,14,0.00%
-10956,Manzanas secas Manjimup,53.00 €,8,0.00%
-10957,Arenque blanco del noroeste,25.89 €,30,0.00%
-10957,Cerveza negra Steeleye,18.00 €,40,0.00%
-10957,Bollos de pan de Wimmer,33.25 €,8,0.00%
-10958,Mezcla Gumbo del chef Anton,21.35 €,20,0.00%
-10958,Peras secas orgánicas del tío Bob,30.00 €,6,0.00%
-10958,Queso Mozzarella Giovanni,34.80 €,5,0.00%
-10959,Cerveza Klosterbier Rhönbräu,7.75 €,20,15.00%
-10960,Refresco Guaraná Fantástica,4.50 €,10,25.00%
-10960,Crema de almejas estilo Nueva Inglaterra,9.65 €,24,0.00%
-10961,Cereales para Filo,7.00 €,6,5.00%
-10961,Licor Cloudberry,18.00 €,60,0.00%
-10962,Peras secas orgánicas del tío Bob,30.00 €,45,0.00%
-10962,Algas Konbu,6.00 €,77,0.00%
-10962,Empanada de carne,32.80 €,20,0.00%
-10962,Queso Gudbrandsdals,36.00 €,9,0.00%
-10962,Licor Cloudberry,18.00 €,44,0.00%
-10963,Camembert Pierrot,34.00 €,2,15.00%
-10964,Langostinos tigre Carnarvon,62.50 €,6,0.00%
-10964,Vino Côte de Blaye,263.50 €,5,0.00%
-10964,Queso Gudbrandsdals,36.00 €,10,0.00%
-10965,Manzanas secas Manjimup,53.00 €,16,0.00%
-10966,Salmón ahumado Gravad,26.00 €,8,0.00%
-10966,Gnocchi de la abuela Alicia,38.00 €,12,15.00%
-10966,Tarta de azúcar,49.30 €,12,15.00%
-10967,Pastas de té de chocolate,9.20 €,12,0.00%
-10967,Regaliz,20.00 €,40,0.00%
-10968,Queso Manchego La Pastora,38.00 €,30,0.00%
-10968,Refresco Guaraná Fantástica,4.50 €,30,0.00%
-10968,Bollos de pan de Wimmer,33.25 €,4,0.00%
-10969,Arenque salado,12.00 €,9,0.00%
-10970,Cereales para Filo,7.00 €,40,20.00%
-10971,Salchicha Thüringer,123.79 €,14,0.00%
-10972,Cordero Alice Springs,39.00 €,6,0.00%
-10972,Queso de cabra,2.50 €,7,0.00%
-10973,Ositos de goma Gumbär,31.23 €,5,0.00%
-10973,Crema de almejas estilo Nueva Inglaterra,9.65 €,6,0.00%
-10973,Cerveza Klosterbier Rhönbräu,7.75 €,10,0.00%
-10974,Sandwich de vegetales,43.90 €,10,0.00%
-10975,Salsa de arándanos Northwoods,40.00 €,16,0.00%
-10975,Cerveza Klosterbier Rhönbräu,7.75 €,10,0.00%
-10976,Col fermentada Rössle,45.60 €,20,0.00%
-10977,Licor verde Chartreuse,18.00 €,30,0.00%
-10977,Galletas Zaanse,9.50 €,30,0.00%
-10977,Manzanas secas Manjimup,53.00 €,10,0.00%
-10977,Sandwich de vegetales,43.90 €,20,0.00%
-10978,Salsa de arándanos Northwoods,40.00 €,20,15.00%
-10978,Bollos de Sir Rodney's,10.00 €,40,15.00%
-10978,Carne de cangrejo de Boston,18.40 €,10,0.00%
-10978,Azúcar negra Malacca,19.45 €,6,15.00%
-10979,Peras secas orgánicas del tío Bob,30.00 €,18,0.00%
-10979,Queso Manchego La Pastora,38.00 €,20,0.00%
-10979,Refresco Guaraná Fantástica,4.50 €,80,0.00%
-10979,Chocolate Schoggi,43.90 €,30,0.00%
-10979,Queso gorgonzola Telino,12.50 €,24,0.00%
-10979,Sandwich de vegetales,43.90 €,35,0.00%
-10980,Cerveza Klosterbier Rhönbräu,7.75 €,40,20.00%
-10981,Vino Côte de Blaye,263.50 €,60,0.00%
-10982,Peras secas orgánicas del tío Bob,30.00 €,20,0.00%
-10982,Café de Malasia,46.00 €,9,0.00%
-10983,Algas Konbu,6.00 €,84,15.00%
-10983,Raviolis Angelo,19.50 €,15,0.00%
-10984,Postre de merengue Pavlova,17.45 €,55,0.00%
-10984,Refresco Guaraná Fantástica,4.50 €,20,0.00%
-10984,Escabeche de arenque,19.00 €,40,0.00%
-10985,Postre de merengue Pavlova,17.45 €,36,10.00%
-10985,Langostinos tigre Carnarvon,62.50 €,8,10.00%
-10985,Queso Mascarpone Fabioli,32.00 €,35,10.00%
-10986,Queso Cabrales,21.00 €,30,0.00%
-10986,Mermelada de Sir Rodney's,81.00 €,15,0.00%
-10986,Licor Cloudberry,18.00 €,10,0.00%
-10986,Salsa verde original Frankfurter,13.00 €,15,0.00%
-10987,Peras secas orgánicas del tío Bob,30.00 €,60,0.00%
-10987,Café de Malasia,46.00 €,6,0.00%
-10987,Queso Mozzarella Giovanni,34.80 €,20,0.00%
-10988,Peras secas orgánicas del tío Bob,30.00 €,60,0.00%
-10988,Tarta de azúcar,49.30 €,40,10.00%
-10989,Mermelada de grosellas de la abuela,25.00 €,40,0.00%
-10989,Queso Cabrales,21.00 €,15,0.00%
-10989,Crema de almejas estilo Nueva Inglaterra,9.65 €,4,0.00%
-10990,Bollos de Sir Rodney's,10.00 €,65,0.00%
-10990,Cerveza Sasquatch,14.00 €,60,15.00%
-10990,Paté chino,24.00 €,65,15.00%
-10990,Sirope de arce,28.50 €,66,15.00%
-10991,Cerveza tibetana Barley,19.00 €,50,20.00%
-10991,Cerveza Outback,15.00 €,20,20.00%
-10991,Licor Cloudberry,18.00 €,90,20.00%
-10992,Queso Mozzarella Giovanni,34.80 €,2,0.00%
-10993,Salchicha Thüringer,123.79 €,50,25.00%
-10993,Crema de almejas estilo Nueva Inglaterra,9.65 €,35,25.00%
-10994,Raclet de queso Courdavault,55.00 €,18,5.00%
-10995,Manzanas secas Manjimup,53.00 €,20,0.00%
-10995,Camembert Pierrot,34.00 €,4,0.00%
-10996,Tallarines de Singapur,14.00 €,40,0.00%
-10997,Queso Mascarpone Fabioli,32.00 €,50,0.00%
-10997,Arenque salado,12.00 €,20,25.00%
-10997,Cereales para Filo,7.00 €,20,25.00%
-10998,Refresco Guaraná Fantástica,4.50 €,12,0.00%
-10998,Sirope de arce,28.50 €,7,0.00%
-10998,Queso de soja Longlife,10.00 €,20,0.00%
-10998,Cerveza Klosterbier Rhönbräu,7.75 €,30,0.00%
-10999,Crema de almejas estilo Nueva Inglaterra,9.65 €,20,5.00%
-10999,Manzanas secas Manjimup,53.00 €,15,5.00%
-10999,Salsa verde original Frankfurter,13.00 €,21,5.00%
-11000,Especias Cajun del chef Anton,22.00 €,25,25.00%
-11000,Refresco Guaraná Fantástica,4.50 €,30,25.00%
-11000,Salsa verde original Frankfurter,13.00 €,30,0.00%
-11001,Peras secas orgánicas del tío Bob,30.00 €,60,0.00%
-11001,Pan de centeno crujiente estilo Gustaf's,21.00 €,25,0.00%
-11001,Arenque salado,12.00 €,25,0.00%
-11001,Paté chino,24.00 €,6,0.00%
-11002,Algas Konbu,6.00 €,56,0.00%
-11002,Cerveza negra Steeleye,18.00 €,15,15.00%
-11002,Tallarines de Singapur,14.00 €,24,15.00%
-11002,Paté chino,24.00 €,40,0.00%
-11003,Té Dharamsala,18.00 €,4,0.00%
-11003,Carne de cangrejo de Boston,18.40 €,10,0.00%
-11003,Cereales para Filo,7.00 €,10,0.00%
-11004,Ositos de goma Gumbär,31.23 €,6,0.00%
-11004,Licor Cloudberry,18.00 €,6,0.00%
-11005,Té Dharamsala,18.00 €,2,0.00%
-11005,Raclet de queso Courdavault,55.00 €,10,0.00%
-11006,Té Dharamsala,18.00 €,8,0.00%
-11006,Salchicha Thüringer,123.79 €,2,25.00%
-11007,Salsa de arándanos Northwoods,40.00 €,30,0.00%
-11007,Salchicha Thüringer,123.79 €,10,0.00%
-11007,Tallarines de Singapur,14.00 €,14,0.00%
-11008,Col fermentada Rössle,45.60 €,70,5.00%
-11008,Cerveza Sasquatch,14.00 €,90,5.00%
-11008,Crema de queso Fløtemys,21.50 €,21,0.00%
-11009,Refresco Guaraná Fantástica,4.50 €,12,0.00%
-11009,Escabeche de arenque,19.00 €,18,25.00%
-11009,Camembert Pierrot,34.00 €,9,0.00%
-11010,Peras secas orgánicas del tío Bob,30.00 €,20,0.00%
-11010,Refresco Guaraná Fantástica,4.50 €,10,0.00%
-11011,Caracoles de Borgoña,13.25 €,40,5.00%
-11011,Crema de queso Fløtemys,21.50 €,20,0.00%
-11012,Pastas de té de chocolate,9.20 €,50,5.00%
-11012,Camembert Pierrot,34.00 €,36,5.00%
-11012,Crema de queso Fløtemys,21.50 €,60,5.00%
-11013,Pan fino,9.00 €,10,0.00%
-11013,Tallarines de Singapur,14.00 €,4,0.00%
-11013,Arenque ahumado,9.50 €,20,0.00%
-11013,Barras de pan de Escocia,12.50 €,2,0.00%
-11014,Crema de almejas estilo Nueva Inglaterra,9.65 €,28,10.00%
-11015,Arenque blanco del noroeste,25.89 €,15,0.00%
-11015,Salsa verde original Frankfurter,13.00 €,18,0.00%
-11016,Queso gorgonzola Telino,12.50 €,15,0.00%
-11016,Escabeche de arenque,19.00 €,16,0.00%
-11017,Sirope de regaliz,10.00 €,25,0.00%
-11017,Raclet de queso Courdavault,55.00 €,110,0.00%
-11017,Cerveza Outback,15.00 €,30,0.00%
-11018,Queso Manchego La Pastora,38.00 €,20,0.00%
-11018,Langostinos tigre Carnarvon,62.50 €,10,0.00%
-11018,Gnocchi de la abuela Alicia,38.00 €,5,0.00%
-11019,Arenque salado,12.00 €,3,0.00%
-11019,Regaliz,20.00 €,2,0.00%
-11020,Pez espada,31.00 €,24,15.00%
-11021,Cerveza tibetana Barley,19.00 €,11,25.00%
-11021,Mermelada de Sir Rodney's,81.00 €,15,0.00%
-11021,Ositos de goma Gumbär,31.23 €,63,0.00%
-11021,Manzanas secas Manjimup,53.00 €,44,25.00%
-11021,Queso Mozzarella Giovanni,34.80 €,35,0.00%
-11022,Pastas de té de chocolate,9.20 €,35,0.00%
-11022,Queso Gudbrandsdals,36.00 €,30,0.00%
-11023,Peras secas orgánicas del tío Bob,30.00 €,4,0.00%
-11023,Café de Malasia,46.00 €,30,0.00%
-11024,Ositos de goma Gumbär,31.23 €,12,0.00%
-11024,Queso de cabra,2.50 €,30,0.00%
-11024,Salsa de pimiento picante de Luisiana,21.05 €,21,0.00%
-11024,Crema de queso Fløtemys,21.50 €,50,0.00%
-11025,Té Dharamsala,18.00 €,10,10.00%
-11025,Algas Konbu,6.00 €,20,10.00%
-11026,Langostinos tigre Carnarvon,62.50 €,8,0.00%
-11026,Manzanas secas Manjimup,53.00 €,10,0.00%
-11027,Refresco Guaraná Fantástica,4.50 €,30,25.00%
-11027,Tarta de azúcar,49.30 €,21,25.00%
-11028,Paté chino,24.00 €,35,0.00%
-11028,Raclet de queso Courdavault,55.00 €,24,0.00%
-11029,Gnocchi de la abuela Alicia,38.00 €,20,0.00%
-11029,Sandwich de vegetales,43.90 €,12,0.00%
-11030,Cerveza tibetana Barley,19.00 €,100,25.00%
-11030,Mezcla Gumbo del chef Anton,21.35 €,70,0.00%
-11030,Salchicha Thüringer,123.79 €,60,25.00%
-11030,Raclet de queso Courdavault,55.00 €,100,25.00%
-11031,Té Dharamsala,18.00 €,45,0.00%
-11031,Algas Konbu,6.00 €,80,0.00%
-11031,Refresco Guaraná Fantástica,4.50 €,21,0.00%
-11031,Bollos de pan de Wimmer,33.25 €,20,0.00%
-11031,Crema de queso Fløtemys,21.50 €,16,0.00%
-11032,Escabeche de arenque,19.00 €,35,0.00%
-11032,Vino Côte de Blaye,263.50 €,25,0.00%
-11032,Raclet de queso Courdavault,55.00 €,30,0.00%
-11033,Empanada de carne,32.80 €,70,10.00%
-11033,Queso Gudbrandsdals,36.00 €,36,10.00%
-11034,Bollos de Sir Rodney's,10.00 €,15,10.00%
-11034,Azúcar negra Malacca,19.45 €,12,0.00%
-11034,Sirope de arce,28.50 €,6,0.00%
-11035,Té Dharamsala,18.00 €,10,0.00%
-11035,Cerveza negra Steeleye,18.00 €,60,0.00%
-11035,Tallarines de Singapur,14.00 €,30,0.00%
-11035,Empanada de cerdo,7.45 €,10,0.00%
-11036,Algas Konbu,6.00 €,7,0.00%
-11036,Raclet de queso Courdavault,55.00 €,30,0.00%
-11037,Cerveza Outback,15.00 €,4,0.00%
-11038,Carne de cangrejo de Boston,18.40 €,5,20.00%
-11038,Cereales para Filo,7.00 €,2,0.00%
-11038,Crema de queso Fløtemys,21.50 €,30,0.00%
-11039,Col fermentada Rössle,45.60 €,20,0.00%
-11039,Cerveza negra Steeleye,18.00 €,24,0.00%
-11039,Regaliz,20.00 €,60,0.00%
-11039,Raviolis Angelo,19.50 €,28,0.00%
-11040,Bollos de Sir Rodney's,10.00 €,20,0.00%
-11041,Cerveza tibetana Barley,19.00 €,30,20.00%
-11041,Sandwich de vegetales,43.90 €,30,0.00%
-11042,Azúcar negra Malacca,19.45 €,15,0.00%
-11042,Sirope de arce,28.50 €,4,0.00%
-11043,Queso Cabrales,21.00 €,10,0.00%
-11044,Tarta de azúcar,49.30 €,12,0.00%
-11045,Queso de cabra,2.50 €,15,0.00%
-11045,Manzanas secas Manjimup,53.00 €,24,0.00%
-11046,Queso Manchego La Pastora,38.00 €,20,5.00%
-11046,Queso Mascarpone Fabioli,32.00 €,15,5.00%
-11046,Cerveza negra Steeleye,18.00 €,18,5.00%
-11047,Té Dharamsala,18.00 €,25,25.00%
-11047,Mezcla Gumbo del chef Anton,21.35 €,30,25.00%
-11048,Barras de pan de Escocia,12.50 €,42,0.00%
-11049,Cerveza tibetana Barley,19.00 €,10,20.00%
-11049,Queso Manchego La Pastora,38.00 €,4,20.00%
-11050,Licor Cloudberry,18.00 €,50,10.00%
-11051,Refresco Guaraná Fantástica,4.50 €,10,20.00%
-11052,Café de Malasia,46.00 €,30,20.00%
-11052,Sirope de arce,28.50 €,10,20.00%
-11053,Langostinos tigre Carnarvon,62.50 €,35,20.00%
-11053,Queso Mascarpone Fabioli,32.00 €,20,0.00%
-11053,Bollos de pan de Wimmer,33.25 €,25,20.00%
-11054,Queso de cabra,2.50 €,10,0.00%
-11054,Cerveza Laughing Lumberjack,14.00 €,20,0.00%
-11055,Refresco Guaraná Fantástica,4.50 €,15,0.00%
-11055,Crema de chocolate y nueces NuNuCa,14.00 €,15,0.00%
-11055,Manzanas secas Manjimup,53.00 €,20,0.00%
-11055,Raviolis Angelo,19.50 €,20,0.00%
-11056,Peras secas orgánicas del tío Bob,30.00 €,40,0.00%
-11056,Paté chino,24.00 €,35,0.00%
-11056,Camembert Pierrot,34.00 €,50,0.00%
-11057,Cerveza Outback,15.00 €,3,0.00%
-11058,Bollos de Sir Rodney's,10.00 €,3,0.00%
-11058,Camembert Pierrot,34.00 €,21,0.00%
-11058,Sirope de arce,28.50 €,4,0.00%
-11059,Algas Konbu,6.00 €,30,0.00%
-11059,Cordero Alice Springs,39.00 €,12,0.00%
-11059,Camembert Pierrot,34.00 €,35,0.00%
-11060,Camembert Pierrot,34.00 €,4,0.00%
-11060,Salsa verde original Frankfurter,13.00 €,10,0.00%
-11061,Camembert Pierrot,34.00 €,15,0.00%
-11062,Empanada de carne,32.80 €,10,20.00%
-11062,Cerveza Outback,15.00 €,12,20.00%
-11063,Cerveza Sasquatch,14.00 €,30,0.00%
-11063,Carne de cangrejo de Boston,18.40 €,40,10.00%
-11063,Crema de almejas estilo Nueva Inglaterra,9.65 €,30,10.00%
-11064,Cordero Alice Springs,39.00 €,77,10.00%
-11064,Crema de almejas estilo Nueva Inglaterra,9.65 €,12,0.00%
-11064,Empanada de carne,32.80 €,25,10.00%
-11064,Paté chino,24.00 €,4,10.00%
-11064,Barras de pan de Escocia,12.50 €,55,0.00%
-11065,Arenque blanco del noroeste,25.89 €,4,25.00%
-11065,Empanada de cerdo,7.45 €,20,25.00%
-11066,Postre de merengue Pavlova,17.45 €,3,0.00%
-11066,Pastas de té de chocolate,9.20 €,42,0.00%
-11066,Cerveza Sasquatch,14.00 €,35,0.00%
-11067,Crema de almejas estilo Nueva Inglaterra,9.65 €,9,0.00%
-11068,Col fermentada Rössle,45.60 €,8,15.00%
-11068,Café de Malasia,46.00 €,36,15.00%
-11068,Salsa verde original Frankfurter,13.00 €,28,15.00%
-11069,Licor verde Chartreuse,18.00 €,20,0.00%
-11070,Té Dharamsala,18.00 €,40,15.00%
-11070,Cerveza tibetana Barley,19.00 €,20,15.00%
-11070,Postre de merengue Pavlova,17.45 €,30,15.00%
-11070,Queso gorgonzola Telino,12.50 €,20,0.00%
-11071,Peras secas orgánicas del tío Bob,30.00 €,15,5.00%
-11071,Algas Konbu,6.00 €,10,5.00%
-11072,Cerveza tibetana Barley,19.00 €,8,0.00%
-11072,Crema de almejas estilo Nueva Inglaterra,9.65 €,40,0.00%
-11072,Chocolate blanco,16.25 €,22,0.00%
-11072,Bollos de pan de Wimmer,33.25 €,130,0.00%
-11073,Queso Cabrales,21.00 €,10,0.00%
-11073,Refresco Guaraná Fantástica,4.50 €,20,0.00%
-11074,Postre de merengue Pavlova,17.45 €,14,5.00%
-11075,Cerveza tibetana Barley,19.00 €,10,15.00%
-11075,Arenque salado,12.00 €,30,15.00%
-11075,Licor Cloudberry,18.00 €,2,15.00%
-11076,Mermelada de grosellas de la abuela,25.00 €,20,25.00%
-11076,Cuajada de judías,23.25 €,20,25.00%
-11076,Pastas de té de chocolate,9.20 €,10,25.00%
-11077,Cerveza tibetana Barley,19.00 €,24,20.00%
-11077,Sirope de regaliz,10.00 €,4,0.00%
-11077,Especias Cajun del chef Anton,22.00 €,1,0.00%
-11077,Mermelada de grosellas de la abuela,25.00 €,1,2.00%
-11077,Peras secas orgánicas del tío Bob,30.00 €,1,5.00%
-11077,Salsa de arándanos Northwoods,40.00 €,2,10.00%
-11077,Pez espada,31.00 €,1,0.00%
-11077,Queso Manchego La Pastora,38.00 €,2,5.00%
-11077,Algas Konbu,6.00 €,4,0.00%
-11077,Cuajada de judías,23.25 €,1,3.00%
-11077,Postre de merengue Pavlova,17.45 €,2,3.00%
-11077,Mermelada de Sir Rodney's,81.00 €,1,4.00%
-11077,Pan fino,9.00 €,2,0.00%
-11077,Queso Mascarpone Fabioli,32.00 €,1,0.00%
-11077,Licor verde Chartreuse,18.00 €,2,5.00%
-11077,Crema de almejas estilo Nueva Inglaterra,9.65 €,3,0.00%
-11077,Arenque salado,12.00 €,3,2.00%
-11077,Cereales para Filo,7.00 €,2,0.00%
-11077,Paté chino,24.00 €,2,0.00%
-11077,Camembert Pierrot,34.00 €,2,6.00%
-11077,Bollos de pan de Wimmer,33.25 €,2,3.00%
-11077,Especias picantes de Luisiana,17.00 €,1,0.00%
-11077,Caviar rojo,15.00 €,2,1.00%
-11077,Cerveza Klosterbier Rhönbräu,7.75 €,4,0.00%
-11077,Salsa verde original Frankfurter,13.00 €,2,0.00%
+﻿IdPedido,IdProducto,PrecioUnidad,Cantidad,Descuento
+10248,11,14.00,12,0
+10248,42,9.80,10,0
+10248,72,34.80,5,0
+10249,14,18.60,9,0
+10249,51,42.40,40,0
+10250,41,7.70,10,0
+10250,51,42.40,35,0.150000006
+10250,65,16.80,15,0.150000006
+10251,22,16.80,6,0.050000001
+10251,57,15.60,15,0.050000001
+10251,65,16.80,20,0
+10252,20,64.80,40,0.050000001
+10252,33,2.00,25,0.050000001
+10252,60,27.20,40,0
+10253,31,10.00,20,0
+10253,39,14.40,42,0
+10253,49,16.00,40,0
+10254,24,3.60,15,0.150000006
+10254,55,19.20,21,0.150000006
+10254,74,8.00,21,0
+10255,2,15.20,20,0
+10255,16,13.90,35,0
+10255,36,15.20,25,0
+10255,59,44.00,30,0
+10256,53,26.20,15,0
+10256,77,10.40,12,0
+10257,27,35.10,25,0
+10257,39,14.40,6,0
+10257,77,10.40,15,0
+10258,2,15.20,50,0.200000003
+10258,5,17.00,65,0.200000003
+10258,32,25.60,6,0.200000003
+10259,21,8.00,10,0
+10259,37,20.80,1,0
+10260,41,7.70,16,0.25
+10260,57,15.60,50,0
+10260,62,39.40,15,0.25
+10260,70,12.00,21,0.25
+10261,21,8.00,20,0
+10261,35,14.40,20,0
+10262,5,17.00,12,0.200000003
+10262,7,24.00,15,0
+10262,56,30.40,2,0
+10263,16,13.90,60,0.25
+10263,24,3.60,28,0
+10263,30,20.70,60,0.25
+10263,74,8.00,36,0.25
+10264,2,15.20,35,0
+10264,41,7.70,25,0.150000006
+10265,17,31.20,30,0
+10265,70,12.00,20,0
+10266,12,30.40,12,0.050000001
+10267,40,14.70,50,0
+10267,59,44.00,70,0.150000006
+10267,76,14.40,15,0.150000006
+10268,29,99.00,10,0
+10268,72,27.80,4,0
+10269,33,2.00,60,0.050000001
+10269,72,27.80,20,0.050000001
+10270,36,15.20,30,0
+10270,43,36.80,25,0
+10271,33,2.00,24,0
+10272,20,64.80,6,0
+10272,31,10.00,40,0
+10272,72,27.80,24,0
+10273,10,24.80,24,0.050000001
+10273,31,10.00,15,0.050000001
+10273,33,2.00,20,0
+10273,40,14.70,60,0.050000001
+10273,76,14.40,33,0.050000001
+10274,71,17.20,20,0
+10274,72,27.80,7,0
+10275,24,3.60,12,0.050000001
+10275,59,44.00,6,0.050000001
+10276,10,24.80,15,0
+10276,13,4.80,10,0
+10277,28,36.40,20,0
+10277,62,39.40,12,0
+10278,44,15.50,16,0
+10278,59,44.00,15,0
+10278,63,35.10,8,0
+10278,73,12.00,25,0
+10279,17,31.20,15,0.25
+10280,24,3.60,12,0
+10280,55,19.20,20,0
+10280,75,6.20,30,0
+10281,19,7.30,1,0
+10281,24,3.60,6,0
+10281,35,14.40,4,0
+10282,30,20.70,6,0
+10282,57,15.60,2,0
+10283,15,12.40,20,0
+10283,19,7.30,18,0
+10283,60,27.20,35,0
+10283,72,27.80,3,0
+10284,27,35.10,15,0.25
+10284,44,15.50,21,0
+10284,60,27.20,20,0.25
+10284,67,11.20,5,0.25
+10285,1,14.40,45,0.200000003
+10285,40,14.70,40,0.200000003
+10285,53,26.20,36,0.200000003
+10286,35,14.40,100,0
+10286,62,39.40,40,0
+10287,16,13.90,40,0.150000006
+10287,34,11.20,20,0
+10287,46,9.60,15,0.150000006
+10288,54,5.90,10,0.100000001
+10288,68,10.00,3,0.100000001
+10289,3,8.00,30,0
+10289,64,26.60,9,0
+10290,5,17.00,20,0
+10290,29,99.00,15,0
+10290,49,16.00,15,0
+10290,77,10.40,10,0
+10291,13,4.80,20,0.100000001
+10291,44,15.50,24,0.100000001
+10291,51,42.40,2,0.100000001
+10292,20,64.80,20,0
+10293,18,50.00,12,0
+10293,24,3.60,10,0
+10293,63,35.10,5,0
+10293,75,6.20,6,0
+10294,1,14.40,18,0
+10294,17,31.20,15,0
+10294,43,36.80,15,0
+10294,60,27.20,21,0
+10294,75,6.20,6,0
+10295,56,30.40,4,0
+10296,11,16.80,12,0
+10296,16,13.90,30,0
+10296,69,28.80,15,0
+10297,39,14.40,60,0
+10297,72,27.80,20,0
+10298,2,15.20,40,0
+10298,36,15.20,40,0.25
+10298,59,44.00,30,0.25
+10298,62,39.40,15,0
+10299,19,7.30,15,0
+10299,70,12.00,20,0
+10300,66,13.60,30,0
+10300,68,10.00,20,0
+10301,40,14.70,10,0
+10301,56,30.40,20,0
+10302,17,31.20,40,0
+10302,28,36.40,28,0
+10302,43,36.80,12,0
+10303,40,14.70,40,0.100000001
+10303,65,16.80,30,0.100000001
+10303,68,10.00,15,0.100000001
+10304,49,16.00,30,0
+10304,59,44.00,10,0
+10304,71,17.20,2,0
+10305,18,50.00,25,0.100000001
+10305,29,99.00,25,0.100000001
+10305,39,14.40,30,0.100000001
+10306,30,20.70,10,0
+10306,53,26.20,10,0
+10306,54,5.90,5,0
+10307,62,39.40,10,0
+10307,68,10.00,3,0
+10308,69,28.80,1,0
+10308,70,12.00,5,0
+10309,4,17.60,20,0
+10309,6,20.00,30,0
+10309,42,11.20,2,0
+10309,43,36.80,20,0
+10309,71,17.20,3,0
+10310,16,13.90,10,0
+10310,62,39.40,5,0
+10311,42,11.20,6,0
+10311,69,28.80,7,0
+10312,28,36.40,4,0
+10312,43,36.80,24,0
+10312,53,26.20,20,0
+10312,75,6.20,10,0
+10313,36,15.20,12,0
+10314,32,25.60,40,0.100000001
+10314,58,10.60,30,0.100000001
+10314,62,39.40,25,0.100000001
+10315,34,11.20,14,0
+10315,70,12.00,30,0
+10316,41,7.70,10,0
+10316,62,39.40,70,0
+10317,1,14.40,20,0
+10318,41,7.70,20,0
+10318,76,14.40,6,0
+10319,17,31.20,8,0
+10319,28,36.40,14,0
+10319,76,14.40,30,0
+10320,71,17.20,30,0
+10321,35,14.40,10,0
+10322,52,5.60,20,0
+10323,15,12.40,5,0
+10323,25,11.20,4,0
+10323,39,14.40,4,0
+10324,16,13.90,21,0.150000006
+10324,35,14.40,70,0.150000006
+10324,46,9.60,30,0
+10324,59,44.00,40,0.150000006
+10324,63,35.10,80,0.150000006
+10325,6,20.00,6,0
+10325,13,4.80,12,0
+10325,14,18.60,9,0
+10325,31,10.00,4,0
+10325,72,27.80,40,0
+10326,4,17.60,24,0
+10326,57,15.60,16,0
+10326,75,6.20,50,0
+10327,2,15.20,25,0.200000003
+10327,11,16.80,50,0.200000003
+10327,30,20.70,35,0.200000003
+10327,58,10.60,30,0.200000003
+10328,59,44.00,9,0
+10328,65,16.80,40,0
+10328,68,10.00,10,0
+10329,19,7.30,10,0.050000001
+10329,30,20.70,8,0.050000001
+10329,38,210.80,20,0.050000001
+10329,56,30.40,12,0.050000001
+10330,26,24.90,50,0.150000006
+10330,72,27.80,25,0.150000006
+10331,54,5.90,15,0
+10332,18,50.00,40,0.200000003
+10332,42,11.20,10,0.200000003
+10332,47,7.60,16,0.200000003
+10333,14,18.60,10,0
+10333,21,8.00,10,0.100000001
+10333,71,17.20,40,0.100000001
+10334,52,5.60,8,0
+10334,68,10.00,10,0
+10335,2,15.20,7,0.200000003
+10335,31,10.00,25,0.200000003
+10335,32,25.60,6,0.200000003
+10335,51,42.40,48,0.200000003
+10336,4,17.60,18,0.100000001
+10337,23,7.20,40,0
+10337,26,24.90,24,0
+10337,36,15.20,20,0
+10337,37,20.80,28,0
+10337,72,27.80,25,0
+10338,17,31.20,20,0
+10338,30,20.70,15,0
+10339,4,17.60,10,0
+10339,17,31.20,70,0.050000001
+10339,62,39.40,28,0
+10340,18,50.00,20,0.050000001
+10340,41,7.70,12,0.050000001
+10340,43,36.80,40,0.050000001
+10341,33,2.00,8,0
+10341,59,44.00,9,0.150000006
+10342,2,15.20,24,0.200000003
+10342,31,10.00,56,0.200000003
+10342,36,15.20,40,0.200000003
+10342,55,19.20,40,0.200000003
+10343,64,26.60,50,0
+10343,68,10.00,4,0.050000001
+10343,76,14.40,15,0
+10344,4,17.60,35,0
+10344,8,32.00,70,0.25
+10345,8,32.00,70,0
+10345,19,7.30,80,0
+10345,42,11.20,9,0
+10346,17,31.20,36,0.100000001
+10346,56,30.40,20,0
+10347,25,11.20,10,0
+10347,39,14.40,50,0.150000006
+10347,40,14.70,4,0
+10347,75,6.20,6,0.150000006
+10348,1,14.40,15,0.150000006
+10348,23,7.20,25,0
+10349,54,5.90,24,0
+10350,50,13.00,15,0.100000001
+10350,69,28.80,18,0.100000001
+10351,38,210.80,20,0.050000001
+10351,41,7.70,13,0
+10351,44,15.50,77,0.050000001
+10351,65,16.80,10,0.050000001
+10352,24,3.60,10,0
+10352,54,5.90,20,0.150000006
+10353,11,16.80,12,0.200000003
+10353,38,210.80,50,0.200000003
+10354,1,14.40,12,0
+10354,29,99.00,4,0
+10355,24,3.60,25,0
+10355,57,15.60,25,0
+10356,31,10.00,30,0
+10356,55,19.20,12,0
+10356,69,28.80,20,0
+10357,10,24.80,30,0.200000003
+10357,26,24.90,16,0
+10357,60,27.20,8,0.200000003
+10358,24,3.60,10,0.050000001
+10358,34,11.20,10,0.050000001
+10358,36,15.20,20,0.050000001
+10359,16,13.90,56,0.050000001
+10359,31,10.00,70,0.050000001
+10359,60,27.20,80,0.050000001
+10360,28,36.40,30,0
+10360,29,99.00,35,0
+10360,38,210.80,10,0
+10360,49,16.00,35,0
+10360,54,5.90,28,0
+10361,39,14.40,54,0.100000001
+10361,60,27.20,55,0.100000001
+10362,25,11.20,50,0
+10362,51,42.40,20,0
+10362,54,5.90,24,0
+10363,31,10.00,20,0
+10363,75,6.20,12,0
+10363,76,14.40,12,0
+10364,69,28.80,30,0
+10364,71,17.20,5,0
+10365,11,16.80,24,0
+10366,65,16.80,5,0
+10366,77,10.40,5,0
+10367,34,11.20,36,0
+10367,54,5.90,18,0
+10367,65,16.80,15,0
+10367,77,10.40,7,0
+10368,21,8.00,5,0.100000001
+10368,28,36.40,13,0.100000001
+10368,57,15.60,25,0
+10368,64,26.60,35,0.100000001
+10369,29,99.00,20,0
+10369,56,30.40,18,0.25
+10370,1,14.40,15,0.150000006
+10370,64,26.60,30,0
+10370,74,8.00,20,0.150000006
+10371,36,15.20,6,0.200000003
+10372,20,64.80,12,0.25
+10372,38,210.80,40,0.25
+10372,60,27.20,70,0.25
+10372,72,27.80,42,0.25
+10373,58,10.60,80,0.200000003
+10373,71,17.20,50,0.200000003
+10374,31,10.00,30,0
+10374,58,10.60,15,0
+10375,14,18.60,15,0
+10375,54,5.90,10,0
+10376,31,10.00,42,0.050000001
+10377,28,36.40,20,0.150000006
+10377,39,14.40,20,0.150000006
+10378,71,17.20,6,0
+10379,41,7.70,8,0.100000001
+10379,63,35.10,16,0.100000001
+10379,65,16.80,20,0.100000001
+10380,30,20.70,18,0.100000001
+10380,53,26.20,20,0.100000001
+10380,60,27.20,6,0.100000001
+10380,70,12.00,30,0
+10381,74,8.00,14,0
+10382,5,17.00,32,0
+10382,18,50.00,9,0
+10382,29,99.00,14,0
+10382,33,2.00,60,0
+10382,74,8.00,50,0
+10383,13,4.80,20,0
+10383,50,13.00,15,0
+10383,56,30.40,20,0
+10384,20,64.80,28,0
+10384,60,27.20,15,0
+10385,7,24.00,10,0.200000003
+10385,60,27.20,20,0.200000003
+10385,68,10.00,8,0.200000003
+10386,24,3.60,15,0
+10386,34,11.20,10,0
+10387,24,3.60,15,0
+10387,28,36.40,6,0
+10387,59,44.00,12,0
+10387,71,17.20,15,0
+10388,45,7.60,15,0.200000003
+10388,52,5.60,20,0.200000003
+10388,53,26.20,40,0
+10389,10,24.80,16,0
+10389,55,19.20,15,0
+10389,62,39.40,20,0
+10389,70,12.00,30,0
+10390,31,10.00,60,0.100000001
+10390,35,14.40,40,0.100000001
+10390,46,9.60,45,0
+10390,72,27.80,24,0.100000001
+10391,13,4.80,18,0
+10392,69,28.80,50,0
+10393,2,15.20,25,0.25
+10393,14,18.60,42,0.25
+10393,25,11.20,7,0.25
+10393,26,24.90,70,0.25
+10393,31,10.00,32,0
+10394,13,4.80,10,0
+10394,62,39.40,10,0
+10395,46,9.60,28,0.100000001
+10395,53,26.20,70,0.100000001
+10395,69,28.80,8,0
+10396,23,7.20,40,0
+10396,71,17.20,60,0
+10396,72,27.80,21,0
+10397,21,8.00,10,0.150000006
+10397,51,42.40,18,0.150000006
+10398,35,14.40,30,0
+10398,55,19.20,120,0.100000001
+10399,68,10.00,60,0
+10399,71,17.20,30,0
+10399,76,14.40,35,0
+10399,77,10.40,14,0
+10400,29,99.00,21,0
+10400,35,14.40,35,0
+10400,49,16.00,30,0
+10401,30,20.70,18,0
+10401,56,30.40,70,0
+10401,65,16.80,20,0
+10401,71,17.20,60,0
+10402,23,7.20,60,0
+10402,63,35.10,65,0
+10403,16,13.90,21,0.150000006
+10403,48,10.20,70,0.150000006
+10404,26,24.90,30,0.050000001
+10404,42,11.20,40,0.050000001
+10404,49,16.00,30,0.050000001
+10405,3,8.00,50,0
+10406,1,14.40,10,0
+10406,21,8.00,30,0.100000001
+10406,28,36.40,42,0.100000001
+10406,36,15.20,5,0.100000001
+10406,40,14.70,2,0.100000001
+10407,11,16.80,30,0
+10407,69,28.80,15,0
+10407,71,17.20,15,0
+10408,37,20.80,10,0
+10408,54,5.90,6,0
+10408,62,39.40,35,0
+10409,14,18.60,12,0
+10409,21,8.00,12,0
+10410,33,2.00,49,0
+10410,59,44.00,16,0
+10411,41,7.70,25,0.200000003
+10411,44,15.50,40,0.200000003
+10411,59,44.00,9,0.200000003
+10412,14,18.60,20,0.100000001
+10413,1,14.40,24,0
+10413,62,39.40,40,0
+10413,76,14.40,14,0
+10414,19,7.30,18,0.050000001
+10414,33,2.00,50,0
+10415,17,31.20,2,0
+10415,33,2.00,20,0
+10416,19,7.30,20,0
+10416,53,26.20,10,0
+10416,57,15.60,20,0
+10417,38,210.80,50,0
+10417,46,9.60,2,0.25
+10417,68,10.00,36,0.25
+10417,77,10.40,35,0
+10418,2,15.20,60,0
+10418,47,7.60,55,0
+10418,61,22.80,16,0
+10418,74,8.00,15,0
+10419,60,27.20,60,0.050000001
+10419,69,28.80,20,0.050000001
+10420,9,77.60,20,0.100000001
+10420,13,4.80,2,0.100000001
+10420,70,12.00,8,0.100000001
+10420,73,12.00,20,0.100000001
+10421,19,7.30,4,0.150000006
+10421,26,24.90,30,0
+10421,53,26.20,15,0.150000006
+10421,77,10.40,10,0.150000006
+10422,26,24.90,2,0
+10423,31,10.00,14,0
+10423,59,44.00,20,0
+10424,35,14.40,60,0.200000003
+10424,38,210.80,49,0.200000003
+10424,68,10.00,30,0.200000003
+10425,55,19.20,10,0.25
+10425,76,14.40,20,0.25
+10426,56,30.40,5,0
+10426,64,26.60,7,0
+10427,14,18.60,35,0
+10428,46,9.60,20,0
+10429,50,13.00,40,0
+10429,63,35.10,35,0.25
+10430,17,31.20,45,0.200000003
+10430,21,8.00,50,0
+10430,56,30.40,30,0
+10430,59,44.00,70,0.200000003
+10431,17,31.20,50,0.25
+10431,40,14.70,50,0.25
+10431,47,7.60,30,0.25
+10432,26,24.90,10,0
+10432,54,5.90,40,0
+10433,56,30.40,28,0
+10434,11,16.80,6,0
+10434,76,14.40,18,0.150000006
+10435,2,15.20,10,0
+10435,22,16.80,12,0
+10435,72,27.80,10,0
+10436,46,9.60,5,0
+10436,56,30.40,40,0.100000001
+10436,64,26.60,30,0.100000001
+10436,75,6.20,24,0.100000001
+10437,53,26.20,15,0
+10438,19,7.30,15,0.200000003
+10438,34,11.20,20,0.200000003
+10438,57,15.60,15,0.200000003
+10439,12,30.40,15,0
+10439,16,13.90,16,0
+10439,64,26.60,6,0
+10439,74,8.00,30,0
+10440,2,15.20,45,0.150000006
+10440,16,13.90,49,0.150000006
+10440,29,99.00,24,0.150000006
+10440,61,22.80,90,0.150000006
+10441,27,35.10,50,0
+10442,11,16.80,30,0
+10442,54,5.90,80,0
+10442,66,13.60,60,0
+10443,11,16.80,6,0.200000003
+10443,28,36.40,12,0
+10444,17,31.20,10,0
+10444,26,24.90,15,0
+10444,35,14.40,8,0
+10444,41,7.70,30,0
+10445,39,14.40,6,0
+10445,54,5.90,15,0
+10446,19,7.30,12,0.100000001
+10446,24,3.60,20,0.100000001
+10446,31,10.00,3,0.100000001
+10446,52,5.60,15,0.100000001
+10447,19,7.30,40,0
+10447,65,16.80,35,0
+10447,71,17.20,2,0
+10448,26,24.90,6,0
+10448,40,14.70,20,0
+10449,10,24.80,14,0
+10449,52,5.60,20,0
+10449,62,39.40,35,0
+10450,10,24.80,20,0.200000003
+10450,54,5.90,6,0.200000003
+10451,55,19.20,120,0.100000001
+10451,64,26.60,35,0.100000001
+10451,65,16.80,28,0.100000001
+10451,77,10.40,55,0.100000001
+10452,28,36.40,15,0
+10452,44,15.50,100,0.050000001
+10453,48,10.20,15,0.100000001
+10453,70,12.00,25,0.100000001
+10454,16,13.90,20,0.200000003
+10454,33,2.00,20,0.200000003
+10454,46,9.60,10,0.200000003
+10455,39,14.40,20,0
+10455,53,26.20,50,0
+10455,61,22.80,25,0
+10455,71,17.20,30,0
+10456,21,8.00,40,0.150000006
+10456,49,16.00,21,0.150000006
+10457,59,44.00,36,0
+10458,26,24.90,30,0
+10458,28,36.40,30,0
+10458,43,36.80,20,0
+10458,56,30.40,15,0
+10458,71,17.20,50,0
+10459,7,24.00,16,0.050000001
+10459,46,9.60,20,0.050000001
+10459,72,27.80,40,0
+10460,68,10.00,21,0.25
+10460,75,6.20,4,0.25
+10461,21,8.00,40,0.25
+10461,30,20.70,28,0.25
+10461,55,19.20,60,0.25
+10462,13,4.80,1,0
+10462,23,7.20,21,0
+10463,19,7.30,21,0
+10463,42,11.20,50,0
+10464,4,17.60,16,0.200000003
+10464,43,36.80,3,0
+10464,56,30.40,30,0.200000003
+10464,60,27.20,20,0
+10465,24,3.60,25,0
+10465,29,99.00,18,0.100000001
+10465,40,14.70,20,0
+10465,45,7.60,30,0.100000001
+10465,50,13.00,25,0
+10466,11,16.80,10,0
+10466,46,9.60,5,0
+10467,24,3.60,28,0
+10467,25,11.20,12,0
+10468,30,20.70,8,0
+10468,43,36.80,15,0
+10469,2,15.20,40,0.150000006
+10469,16,13.90,35,0.150000006
+10469,44,15.50,2,0.150000006
+10470,18,50.00,30,0
+10470,23,7.20,15,0
+10470,64,26.60,8,0
+10471,7,24.00,30,0
+10471,56,30.40,20,0
+10472,24,3.60,80,0.050000001
+10472,51,42.40,18,0
+10473,33,2.00,12,0
+10473,71,17.20,12,0
+10474,14,18.60,12,0
+10474,28,36.40,18,0
+10474,40,14.70,21,0
+10474,75,6.20,10,0
+10475,31,10.00,35,0.150000006
+10475,66,13.60,60,0.150000006
+10475,76,14.40,42,0.150000006
+10476,55,19.20,2,0.050000001
+10476,70,12.00,12,0
+10477,1,14.40,15,0
+10477,21,8.00,21,0.25
+10477,39,14.40,20,0.25
+10478,10,24.80,20,0.050000001
+10479,38,210.80,30,0
+10479,53,26.20,28,0
+10479,59,44.00,60,0
+10479,64,26.60,30,0
+10480,47,7.60,30,0
+10480,59,44.00,12,0
+10481,49,16.00,24,0
+10481,60,27.20,40,0
+10482,40,14.70,10,0
+10483,34,11.20,35,0.050000001
+10483,77,10.40,30,0.050000001
+10484,21,8.00,14,0
+10484,40,14.70,10,0
+10484,51,42.40,3,0
+10485,2,15.20,20,0.100000001
+10485,3,8.00,20,0.100000001
+10485,55,19.20,30,0.100000001
+10485,70,12.00,60,0.100000001
+10486,11,16.80,5,0
+10486,51,42.40,25,0
+10486,74,8.00,16,0
+10487,19,7.30,5,0
+10487,26,24.90,30,0
+10487,54,5.90,24,0.25
+10488,59,44.00,30,0
+10488,73,12.00,20,0.200000003
+10489,11,16.80,15,0.25
+10489,16,13.90,18,0
+10490,59,44.00,60,0
+10490,68,10.00,30,0
+10490,75,6.20,36,0
+10491,44,15.50,15,0.150000006
+10491,77,10.40,7,0.150000006
+10492,25,11.20,60,0.050000001
+10492,42,11.20,20,0.050000001
+10493,65,16.80,15,0.100000001
+10493,66,13.60,10,0.100000001
+10493,69,28.80,10,0.100000001
+10494,56,30.40,30,0
+10495,23,7.20,10,0
+10495,41,7.70,20,0
+10495,77,10.40,5,0
+10496,31,10.00,20,0.050000001
+10497,56,30.40,14,0
+10497,72,27.80,25,0
+10497,77,10.40,25,0
+10498,24,4.50,14,0
+10498,40,18.40,5,0
+10498,42,14.00,30,0
+10499,28,45.60,20,0
+10499,49,20.00,25,0
+10500,15,15.50,12,0.050000001
+10500,28,45.60,8,0.050000001
+10501,54,7.45,20,0
+10502,45,9.50,21,0
+10502,53,32.80,6,0
+10502,67,14.00,30,0
+10503,14,23.25,70,0
+10503,65,21.05,20,0
+10504,2,19.00,12,0
+10504,21,10.00,12,0
+10504,53,32.80,10,0
+10504,61,28.50,25,0
+10505,62,49.30,3,0
+10506,25,14.00,18,0.100000001
+10506,70,15.00,14,0.100000001
+10507,43,46.00,15,0.150000006
+10507,48,12.75,15,0.150000006
+10508,13,6.00,10,0
+10508,39,18.00,10,0
+10509,28,45.60,3,0
+10510,29,123.79,36,0
+10510,75,7.75,36,0.100000001
+10511,4,22.00,50,0.150000006
+10511,7,30.00,50,0.150000006
+10511,8,40.00,10,0.150000006
+10512,24,4.50,10,0.150000006
+10512,46,12.00,9,0.150000006
+10512,47,9.50,6,0.150000006
+10512,60,34.00,12,0.150000006
+10513,21,10.00,40,0.200000003
+10513,32,32.00,50,0.200000003
+10513,61,28.50,15,0.200000003
+10514,20,81.00,39,0
+10514,28,45.60,35,0
+10514,56,38.00,70,0
+10514,65,21.05,39,0
+10514,75,7.75,50,0
+10515,9,97.00,16,0.150000006
+10515,16,17.45,50,0
+10515,27,43.90,120,0
+10515,33,2.50,16,0.150000006
+10515,60,34.00,84,0.150000006
+10516,18,62.50,25,0.100000001
+10516,41,9.65,80,0.100000001
+10516,42,14.00,20,0
+10517,52,7.00,6,0
+10517,59,55.00,4,0
+10517,70,15.00,6,0
+10518,24,4.50,5,0
+10518,38,263.50,15,0
+10518,44,19.45,9,0
+10519,10,31.00,16,0.050000001
+10519,56,38.00,40,0
+10519,60,34.00,10,0.050000001
+10520,24,4.50,8,0
+10520,53,32.80,5,0
+10521,35,18.00,3,0
+10521,41,9.65,10,0
+10521,68,12.50,6,0
+10522,1,18.00,40,0.200000003
+10522,8,40.00,24,0
+10522,30,25.89,20,0.200000003
+10522,40,18.40,25,0.200000003
+10523,17,39.00,25,0.100000001
+10523,20,81.00,15,0.100000001
+10523,37,26.00,18,0.100000001
+10523,41,9.65,6,0.100000001
+10524,10,31.00,2,0
+10524,30,25.89,10,0
+10524,43,46.00,60,0
+10524,54,7.45,15,0
+10525,36,19.00,30,0
+10525,40,18.40,15,0.100000001
+10526,1,18.00,8,0.150000006
+10526,13,6.00,10,0
+10526,56,38.00,30,0.150000006
+10527,4,22.00,50,0.100000001
+10527,36,19.00,30,0.100000001
+10528,11,21.00,3,0
+10528,33,2.50,8,0.200000003
+10528,72,34.80,9,0
+10529,55,24.00,14,0
+10529,68,12.50,20,0
+10529,69,36.00,10,0
+10530,17,39.00,40,0
+10530,43,46.00,25,0
+10530,61,28.50,20,0
+10530,76,18.00,50,0
+10531,59,55.00,2,0
+10532,30,25.89,15,0
+10532,66,17.00,24,0
+10533,4,22.00,50,0.050000001
+10533,72,34.80,24,0
+10533,73,15.00,24,0.050000001
+10534,30,25.89,10,0
+10534,40,18.40,10,0.200000003
+10534,54,7.45,10,0.200000003
+10535,11,21.00,50,0.100000001
+10535,40,18.40,10,0.100000001
+10535,57,19.50,5,0.100000001
+10535,59,55.00,15,0.100000001
+10536,12,38.00,15,0.25
+10536,31,12.50,20,0
+10536,33,2.50,30,0
+10536,60,34.00,35,0.25
+10537,31,12.50,30,0
+10537,51,53.00,6,0
+10537,58,13.25,20,0
+10537,72,34.80,21,0
+10537,73,15.00,9,0
+10538,70,15.00,7,0
+10538,72,34.80,1,0
+10539,13,6.00,8,0
+10539,21,10.00,15,0
+10539,33,2.50,15,0
+10539,49,20.00,6,0
+10540,3,10.00,60,0
+10540,26,31.23,40,0
+10540,38,263.50,30,0
+10540,68,12.50,35,0
+10541,24,4.50,35,0.100000001
+10541,38,263.50,4,0.100000001
+10541,65,21.05,36,0.100000001
+10541,71,21.50,9,0.100000001
+10542,11,21.00,15,0.050000001
+10542,54,7.45,24,0.050000001
+10543,12,38.00,30,0.150000006
+10543,23,9.00,70,0.150000006
+10544,28,45.60,7,0
+10544,67,14.00,7,0
+10545,11,21.00,10,0
+10546,7,30.00,10,0
+10546,35,18.00,30,0
+10546,62,49.30,40,0
+10547,32,32.00,24,0.150000006
+10547,36,19.00,60,0
+10548,34,14.00,10,0.25
+10548,41,9.65,14,0
+10549,31,12.50,55,0.150000006
+10549,45,9.50,100,0.150000006
+10549,51,53.00,48,0.150000006
+10550,17,39.00,8,0.100000001
+10550,19,9.20,10,0
+10550,21,10.00,6,0.100000001
+10550,61,28.50,10,0.100000001
+10551,16,17.45,40,0.150000006
+10551,35,18.00,20,0.150000006
+10551,44,19.45,40,0
+10552,69,36.00,18,0
+10552,75,7.75,30,0
+10553,11,21.00,15,0
+10553,16,17.45,14,0
+10553,22,21.00,24,0
+10553,31,12.50,30,0
+10553,35,18.00,6,0
+10554,16,17.45,30,0.050000001
+10554,23,9.00,20,0.050000001
+10554,62,49.30,20,0.050000001
+10554,77,13.00,10,0.050000001
+10555,14,23.25,30,0.200000003
+10555,19,9.20,35,0.200000003
+10555,24,4.50,18,0.200000003
+10555,51,53.00,20,0.200000003
+10555,56,38.00,40,0.200000003
+10556,72,34.80,24,0
+10557,64,33.25,30,0
+10557,75,7.75,20,0
+10558,47,9.50,25,0
+10558,51,53.00,20,0
+10558,52,7.00,30,0
+10558,53,32.80,18,0
+10558,73,15.00,3,0
+10559,41,9.65,12,0.050000001
+10559,55,24.00,18,0.050000001
+10560,30,25.89,20,0
+10560,62,49.30,15,0.25
+10561,44,19.45,10,0
+10561,51,53.00,50,0
+10562,33,2.50,20,0.100000001
+10562,62,49.30,10,0.100000001
+10563,36,19.00,25,0
+10563,52,7.00,70,0
+10564,17,39.00,16,0.050000001
+10564,31,12.50,6,0.050000001
+10564,55,24.00,25,0.050000001
+10565,24,4.50,25,0.100000001
+10565,64,33.25,18,0.100000001
+10566,11,21.00,35,0.150000006
+10566,18,62.50,18,0.150000006
+10566,76,18.00,10,0
+10567,31,12.50,60,0.200000003
+10567,51,53.00,3,0
+10567,59,55.00,40,0.200000003
+10568,10,31.00,5,0
+10569,31,12.50,35,0.200000003
+10569,76,18.00,30,0
+10570,11,21.00,15,0.050000001
+10570,56,38.00,60,0.050000001
+10571,14,23.25,11,0.150000006
+10571,42,14.00,28,0.150000006
+10572,16,17.45,12,0.100000001
+10572,32,32.00,10,0.100000001
+10572,40,18.40,50,0
+10572,75,7.75,15,0.100000001
+10573,17,39.00,18,0
+10573,34,14.00,40,0
+10573,53,32.80,25,0
+10574,33,2.50,14,0
+10574,40,18.40,2,0
+10574,62,49.30,10,0
+10574,64,33.25,6,0
+10575,59,55.00,12,0
+10575,63,43.90,6,0
+10575,72,34.80,30,0
+10575,76,18.00,10,0
+10576,1,18.00,10,0
+10576,31,12.50,20,0
+10576,44,19.45,21,0
+10577,39,18.00,10,0
+10577,75,7.75,20,0
+10577,77,13.00,18,0
+10578,35,18.00,20,0
+10578,57,19.50,6,0
+10579,15,15.50,10,0
+10579,75,7.75,21,0
+10580,14,23.25,15,0.050000001
+10580,41,9.65,9,0.050000001
+10580,65,21.05,30,0.050000001
+10581,75,7.75,50,0.200000003
+10582,57,19.50,4,0
+10582,76,18.00,14,0
+10583,29,123.79,10,0
+10583,60,34.00,24,0.150000006
+10583,69,36.00,10,0.150000006
+10584,31,12.50,50,0.050000001
+10585,47,9.50,15,0
+10586,52,7.00,4,0.150000006
+10587,26,31.23,6,0
+10587,35,18.00,20,0
+10587,77,13.00,20,0
+10588,18,62.50,40,0.200000003
+10588,42,14.00,100,0.200000003
+10589,35,18.00,4,0
+10590,1,18.00,20,0
+10590,77,13.00,60,0.050000001
+10591,3,10.00,14,0
+10591,7,30.00,10,0
+10591,54,7.45,50,0
+10592,15,15.50,25,0.050000001
+10592,26,31.23,5,0.050000001
+10593,20,81.00,21,0.200000003
+10593,69,36.00,20,0.200000003
+10593,76,18.00,4,0.200000003
+10594,52,7.00,24,0
+10594,58,13.25,30,0
+10595,35,18.00,30,0.25
+10595,61,28.50,120,0.25
+10595,69,36.00,65,0.25
+10596,56,38.00,5,0.200000003
+10596,63,43.90,24,0.200000003
+10596,75,7.75,30,0.200000003
+10597,24,4.50,35,0.200000003
+10597,57,19.50,20,0
+10597,65,21.05,12,0.200000003
+10598,27,43.90,50,0
+10598,71,21.50,9,0
+10599,62,49.30,10,0
+10600,54,7.45,4,0
+10600,73,15.00,30,0
+10601,13,6.00,60,0
+10601,59,55.00,35,0
+10602,77,13.00,5,0.25
+10603,22,21.00,48,0
+10603,49,20.00,25,0.050000001
+10604,48,12.75,6,0.100000001
+10604,76,18.00,10,0.100000001
+10605,16,17.45,30,0.050000001
+10605,59,55.00,20,0.050000001
+10605,60,34.00,70,0.050000001
+10605,71,21.50,15,0.050000001
+10606,4,22.00,20,0.200000003
+10606,55,24.00,20,0.200000003
+10606,62,49.30,10,0.200000003
+10607,7,30.00,45,0
+10607,17,39.00,100,0
+10607,33,2.50,14,0
+10607,40,18.40,42,0
+10607,72,34.80,12,0
+10608,56,38.00,28,0
+10609,1,18.00,3,0
+10609,10,31.00,10,0
+10609,21,10.00,6,0
+10610,36,19.00,21,0.25
+10611,1,18.00,6,0
+10611,2,19.00,10,0
+10611,60,34.00,15,0
+10612,10,31.00,70,0
+10612,36,19.00,55,0
+10612,49,20.00,18,0
+10612,60,34.00,40,0
+10612,76,18.00,80,0
+10613,13,6.00,8,0.100000001
+10613,75,7.75,40,0
+10614,11,21.00,14,0
+10614,21,10.00,8,0
+10614,39,18.00,5,0
+10615,55,24.00,5,0
+10616,38,263.50,15,0.050000001
+10616,56,38.00,14,0
+10616,70,15.00,15,0.050000001
+10616,71,21.50,15,0.050000001
+10617,59,55.00,30,0.150000006
+10618,6,25.00,70,0
+10618,56,38.00,20,0
+10618,68,12.50,15,0
+10619,21,10.00,42,0
+10619,22,21.00,40,0
+10620,24,4.50,5,0
+10620,52,7.00,5,0
+10621,19,9.20,5,0
+10621,23,9.00,10,0
+10621,70,15.00,20,0
+10621,71,21.50,15,0
+10622,2,19.00,20,0
+10622,68,12.50,18,0.200000003
+10623,14,23.25,21,0
+10623,19,9.20,15,0.100000001
+10623,21,10.00,25,0.100000001
+10623,24,4.50,3,0
+10623,35,18.00,30,0.100000001
+10624,28,45.60,10,0
+10624,29,123.79,6,0
+10624,44,19.45,10,0
+10625,14,23.25,3,0
+10625,42,14.00,5,0
+10625,60,34.00,10,0
+10626,53,32.80,12,0
+10626,60,34.00,20,0
+10626,71,21.50,20,0
+10627,62,49.30,15,0
+10627,73,15.00,35,0.150000006
+10628,1,18.00,25,0
+10629,29,123.79,20,0
+10629,64,33.25,9,0
+10630,55,24.00,12,0.050000001
+10630,76,18.00,35,0
+10631,75,7.75,8,0.100000001
+10632,2,19.00,30,0.050000001
+10632,33,2.50,20,0.050000001
+10633,12,38.00,36,0.150000006
+10633,13,6.00,13,0.150000006
+10633,26,31.23,35,0.150000006
+10633,62,49.30,80,0.150000006
+10634,7,30.00,35,0
+10634,18,62.50,50,0
+10634,51,53.00,15,0
+10634,75,7.75,2,0
+10635,4,22.00,10,0.100000001
+10635,5,21.35,15,0.100000001
+10635,22,21.00,40,0
+10636,4,22.00,25,0
+10636,58,13.25,6,0
+10637,11,21.00,10,0
+10637,50,16.25,25,0.050000001
+10637,56,38.00,60,0.050000001
+10638,45,9.50,20,0
+10638,65,21.05,21,0
+10638,72,34.80,60,0
+10639,18,62.50,8,0
+10640,69,36.00,20,0.25
+10640,70,15.00,15,0.25
+10641,2,19.00,50,0
+10641,40,18.40,60,0
+10642,21,10.00,30,0.200000003
+10642,61,28.50,20,0.200000003
+10643,28,45.60,15,0.25
+10643,39,18.00,21,0.25
+10643,46,12.00,2,0.25
+10644,18,62.50,4,0.100000001
+10644,43,46.00,20,0
+10644,46,12.00,21,0.100000001
+10645,18,62.50,20,0
+10645,36,19.00,15,0
+10646,1,18.00,15,0.25
+10646,10,31.00,18,0.25
+10646,71,21.50,30,0.25
+10646,77,13.00,35,0.25
+10647,19,9.20,30,0
+10647,39,18.00,20,0
+10648,22,21.00,15,0
+10648,24,4.50,15,0.150000006
+10649,28,45.60,20,0
+10649,72,34.80,15,0
+10650,30,25.89,30,0
+10650,53,32.80,25,0.050000001
+10650,54,7.45,30,0
+10651,19,9.20,12,0.25
+10651,22,21.00,20,0.25
+10652,30,25.89,2,0.25
+10652,42,14.00,20,0
+10653,16,17.45,30,0.100000001
+10653,60,34.00,20,0.100000001
+10654,4,22.00,12,0.100000001
+10654,39,18.00,20,0.100000001
+10654,54,7.45,6,0.100000001
+10655,41,9.65,20,0.200000003
+10656,14,23.25,3,0.100000001
+10656,44,19.45,28,0.100000001
+10656,47,9.50,6,0.100000001
+10657,15,15.50,50,0
+10657,41,9.65,24,0
+10657,46,12.00,45,0
+10657,47,9.50,10,0
+10657,56,38.00,45,0
+10657,60,34.00,30,0
+10658,21,10.00,60,0
+10658,40,18.40,70,0.050000001
+10658,60,34.00,55,0.050000001
+10658,77,13.00,70,0.050000001
+10659,31,12.50,20,0.050000001
+10659,40,18.40,24,0.050000001
+10659,70,15.00,40,0.050000001
+10660,20,81.00,21,0
+10661,39,18.00,3,0.200000003
+10661,58,13.25,49,0.200000003
+10662,68,12.50,10,0
+10663,40,18.40,30,0.050000001
+10663,42,14.00,30,0.050000001
+10663,51,53.00,20,0.050000001
+10664,10,31.00,24,0.150000006
+10664,56,38.00,12,0.150000006
+10664,65,21.05,15,0.150000006
+10665,51,53.00,20,0
+10665,59,55.00,1,0
+10665,76,18.00,10,0
+10666,29,123.79,36,0
+10666,65,21.05,10,0
+10667,69,36.00,45,0.200000003
+10667,71,21.50,14,0.200000003
+10668,31,12.50,8,0.100000001
+10668,55,24.00,4,0.100000001
+10668,64,33.25,15,0.100000001
+10669,36,19.00,30,0
+10670,23,9.00,32,0
+10670,46,12.00,60,0
+10670,67,14.00,25,0
+10670,73,15.00,50,0
+10670,75,7.75,25,0
+10671,16,17.45,10,0
+10671,62,49.30,10,0
+10671,65,21.05,12,0
+10672,38,263.50,15,0.100000001
+10672,71,21.50,12,0
+10673,16,17.45,3,0
+10673,42,14.00,6,0
+10673,43,46.00,6,0
+10674,23,9.00,5,0
+10675,14,23.25,30,0
+10675,53,32.80,10,0
+10675,58,13.25,30,0
+10676,10,31.00,2,0
+10676,19,9.20,7,0
+10676,44,19.45,21,0
+10677,26,31.23,30,0.150000006
+10677,33,2.50,8,0.150000006
+10678,12,38.00,100,0
+10678,33,2.50,30,0
+10678,41,9.65,120,0
+10678,54,7.45,30,0
+10679,59,55.00,12,0
+10680,16,17.45,50,0.25
+10680,31,12.50,20,0.25
+10680,42,14.00,40,0.25
+10681,19,9.20,30,0.100000001
+10681,21,10.00,12,0.100000001
+10681,64,33.25,28,0
+10682,33,2.50,30,0
+10682,66,17.00,4,0
+10682,75,7.75,30,0
+10683,52,7.00,9,0
+10684,40,18.40,20,0
+10684,47,9.50,40,0
+10684,60,34.00,30,0
+10685,10,31.00,20,0
+10685,41,9.65,4,0
+10685,47,9.50,15,0
+10686,17,39.00,30,0.200000003
+10686,26,31.23,15,0
+10687,9,97.00,50,0.25
+10687,29,123.79,10,0
+10687,36,19.00,6,0.25
+10688,10,31.00,18,0.100000001
+10688,28,45.60,60,0.100000001
+10688,34,14.00,14,0
+10689,1,18.00,35,0.25
+10690,56,38.00,20,0.25
+10690,77,13.00,30,0.25
+10691,1,18.00,30,0
+10691,29,123.79,40,0
+10691,43,46.00,40,0
+10691,44,19.45,24,0
+10691,62,49.30,48,0
+10692,63,43.90,20,0
+10693,9,97.00,6,0
+10693,54,7.45,60,0.150000006
+10693,69,36.00,30,0.150000006
+10693,73,15.00,15,0.150000006
+10694,7,30.00,90,0
+10694,59,55.00,25,0
+10694,70,15.00,50,0
+10695,8,40.00,10,0
+10695,12,38.00,4,0
+10695,24,4.50,20,0
+10696,17,39.00,20,0
+10696,46,12.00,18,0
+10697,19,9.20,7,0.25
+10697,35,18.00,9,0.25
+10697,58,13.25,30,0.25
+10697,70,15.00,30,0.25
+10698,11,21.00,15,0
+10698,17,39.00,8,0.050000001
+10698,29,123.79,12,0.050000001
+10698,65,21.05,65,0.050000001
+10698,70,15.00,8,0.050000001
+10699,47,9.50,12,0
+10700,1,18.00,5,0.200000003
+10700,34,14.00,12,0.200000003
+10700,68,12.50,40,0.200000003
+10700,71,21.50,60,0.200000003
+10701,59,55.00,42,0.150000006
+10701,71,21.50,20,0.150000006
+10701,76,18.00,35,0.150000006
+10702,3,10.00,6,0
+10702,76,18.00,15,0
+10703,2,19.00,5,0
+10703,59,55.00,35,0
+10703,73,15.00,35,0
+10704,4,22.00,6,0
+10704,24,4.50,35,0
+10704,48,12.75,24,0
+10705,31,12.50,20,0
+10705,32,32.00,4,0
+10706,16,17.45,20,0
+10706,43,46.00,24,0
+10706,59,55.00,8,0
+10707,55,24.00,21,0
+10707,57,19.50,40,0
+10707,70,15.00,28,0.150000006
+10708,5,21.35,4,0
+10708,36,19.00,5,0
+10709,8,40.00,40,0
+10709,51,53.00,28,0
+10709,60,34.00,10,0
+10710,19,9.20,5,0
+10710,47,9.50,5,0
+10711,19,9.20,12,0
+10711,41,9.65,42,0
+10711,53,32.80,120,0
+10712,53,32.80,3,0.050000001
+10712,56,38.00,30,0
+10713,10,31.00,18,0
+10713,26,31.23,30,0
+10713,45,9.50,110,0
+10713,46,12.00,24,0
+10714,2,19.00,30,0.25
+10714,17,39.00,27,0.25
+10714,47,9.50,50,0.25
+10714,56,38.00,18,0.25
+10714,58,13.25,12,0.25
+10715,10,31.00,21,0
+10715,71,21.50,30,0
+10716,21,10.00,5,0
+10716,51,53.00,7,0
+10716,61,28.50,10,0
+10717,21,10.00,32,0.050000001
+10717,54,7.45,15,0
+10717,69,36.00,25,0.050000001
+10718,12,38.00,36,0
+10718,16,17.45,20,0
+10718,36,19.00,40,0
+10718,62,49.30,20,0
+10719,18,62.50,12,0.25
+10719,30,25.89,3,0.25
+10719,54,7.45,40,0.25
+10720,35,18.00,21,0
+10720,71,21.50,8,0
+10721,44,19.45,50,0.050000001
+10722,2,19.00,3,0
+10722,31,12.50,50,0
+10722,68,12.50,45,0
+10722,75,7.75,42,0
+10723,26,31.23,15,0
+10724,10,31.00,16,0
+10724,61,28.50,5,0
+10725,41,9.65,12,0
+10725,52,7.00,4,0
+10725,55,24.00,6,0
+10726,4,22.00,25,0
+10726,11,21.00,5,0
+10727,17,39.00,20,0.050000001
+10727,56,38.00,10,0.050000001
+10727,59,55.00,10,0.050000001
+10728,30,25.89,15,0
+10728,40,18.40,6,0
+10728,55,24.00,12,0
+10728,60,34.00,15,0
+10729,1,18.00,50,0
+10729,21,10.00,30,0
+10729,50,16.25,40,0
+10730,16,17.45,15,0.050000001
+10730,31,12.50,3,0.050000001
+10730,65,21.05,10,0.050000001
+10731,21,10.00,40,0.050000001
+10731,51,53.00,30,0.050000001
+10732,76,18.00,20,0
+10733,14,23.25,16,0
+10733,28,45.60,20,0
+10733,52,7.00,25,0
+10734,6,25.00,30,0
+10734,30,25.89,15,0
+10734,76,18.00,20,0
+10735,61,28.50,20,0.100000001
+10735,77,13.00,2,0.100000001
+10736,65,21.05,40,0
+10736,75,7.75,20,0
+10737,13,6.00,4,0
+10737,41,9.65,12,0
+10738,16,17.45,3,0
+10739,36,19.00,6,0
+10739,52,7.00,18,0
+10740,28,45.60,5,0.200000003
+10740,35,18.00,35,0.200000003
+10740,45,9.50,40,0.200000003
+10740,56,38.00,14,0.200000003
+10741,2,19.00,15,0.200000003
+10742,3,10.00,20,0
+10742,60,34.00,50,0
+10742,72,34.80,35,0
+10743,46,12.00,28,0.050000001
+10744,40,18.40,50,0.200000003
+10745,18,62.50,24,0
+10745,44,19.45,16,0
+10745,59,55.00,45,0
+10745,72,34.80,7,0
+10746,13,6.00,6,0
+10746,42,14.00,28,0
+10746,62,49.30,9,0
+10746,69,36.00,40,0
+10747,31,12.50,8,0
+10747,41,9.65,35,0
+10747,63,43.90,9,0
+10747,69,36.00,30,0
+10748,23,9.00,44,0
+10748,40,18.40,40,0
+10748,56,38.00,28,0
+10749,56,38.00,15,0
+10749,59,55.00,6,0
+10749,76,18.00,10,0
+10750,14,23.25,5,0.150000006
+10750,45,9.50,40,0.150000006
+10750,59,55.00,25,0.150000006
+10751,26,31.23,12,0.100000001
+10751,30,25.89,30,0
+10751,50,16.25,20,0.100000001
+10751,73,15.00,15,0
+10752,1,18.00,8,0
+10752,69,36.00,3,0
+10753,45,9.50,4,0
+10753,74,10.00,5,0
+10754,40,18.40,3,0
+10755,47,9.50,30,0.25
+10755,56,38.00,30,0.25
+10755,57,19.50,14,0.25
+10755,69,36.00,25,0.25
+10756,18,62.50,21,0.200000003
+10756,36,19.00,20,0.200000003
+10756,68,12.50,6,0.200000003
+10756,69,36.00,20,0.200000003
+10757,34,14.00,30,0
+10757,59,55.00,7,0
+10757,62,49.30,30,0
+10757,64,33.25,24,0
+10758,26,31.23,20,0
+10758,52,7.00,60,0
+10758,70,15.00,40,0
+10759,32,32.00,10,0
+10760,25,14.00,12,0.25
+10760,27,43.90,40,0
+10760,43,46.00,30,0.25
+10761,25,14.00,35,0.25
+10761,75,7.75,18,0
+10762,39,18.00,16,0
+10762,47,9.50,30,0
+10762,51,53.00,28,0
+10762,56,38.00,60,0
+10763,21,10.00,40,0
+10763,22,21.00,6,0
+10763,24,4.50,20,0
+10764,3,10.00,20,0.100000001
+10764,39,18.00,130,0.100000001
+10765,65,21.05,80,0.100000001
+10766,2,19.00,40,0
+10766,7,30.00,35,0
+10766,68,12.50,40,0
+10767,42,14.00,2,0
+10768,22,21.00,4,0
+10768,31,12.50,50,0
+10768,60,34.00,15,0
+10768,71,21.50,12,0
+10769,41,9.65,30,0.050000001
+10769,52,7.00,15,0.050000001
+10769,61,28.50,20,0
+10769,62,49.30,15,0
+10770,11,21.00,15,0.25
+10771,71,21.50,16,0
+10772,29,123.79,18,0
+10772,59,55.00,25,0
+10773,17,39.00,33,0
+10773,31,12.50,70,0.200000003
+10773,75,7.75,7,0.200000003
+10774,31,12.50,2,0.25
+10774,66,17.00,50,0
+10775,10,31.00,6,0
+10775,67,14.00,3,0
+10776,31,12.50,16,0.050000001
+10776,42,14.00,12,0.050000001
+10776,45,9.50,27,0.050000001
+10776,51,53.00,120,0.050000001
+10777,42,14.00,20,0.200000003
+10778,41,9.65,10,0
+10779,16,17.45,20,0
+10779,62,49.30,20,0
+10780,70,15.00,35,0
+10780,77,13.00,15,0
+10781,54,7.45,3,0.200000003
+10781,56,38.00,20,0.200000003
+10781,74,10.00,35,0
+10782,31,12.50,1,0
+10783,31,12.50,10,0
+10783,38,263.50,5,0
+10784,36,19.00,30,0
+10784,39,18.00,2,0.150000006
+10784,72,34.80,30,0.150000006
+10785,10,31.00,10,0
+10785,75,7.75,10,0
+10786,8,40.00,30,0.200000003
+10786,30,25.89,15,0.200000003
+10786,75,7.75,42,0.200000003
+10787,2,19.00,15,0.050000001
+10787,29,123.79,20,0.050000001
+10788,19,9.20,50,0.050000001
+10788,75,7.75,40,0.050000001
+10789,18,62.50,30,0
+10789,35,18.00,15,0
+10789,63,43.90,30,0
+10789,68,12.50,18,0
+10790,7,30.00,3,0.150000006
+10790,56,38.00,20,0.150000006
+10791,29,123.79,14,0.050000001
+10791,41,9.65,20,0.050000001
+10792,2,19.00,10,0
+10792,54,7.45,3,0
+10792,68,12.50,15,0
+10793,41,9.65,14,0
+10793,52,7.00,8,0
+10794,14,23.25,15,0.200000003
+10794,54,7.45,6,0.200000003
+10795,16,17.45,65,0
+10795,17,39.00,35,0.25
+10796,26,31.23,21,0.200000003
+10796,44,19.45,10,0
+10796,64,33.25,35,0.200000003
+10796,69,36.00,24,0.200000003
+10797,11,21.00,20,0
+10798,62,49.30,2,0
+10798,72,34.80,10,0
+10799,13,6.00,20,0.150000006
+10799,24,4.50,20,0.150000006
+10799,59,55.00,25,0
+10800,11,21.00,50,0.100000001
+10800,51,53.00,10,0.100000001
+10800,54,7.45,7,0.100000001
+10801,17,39.00,40,0.25
+10801,29,123.79,20,0.25
+10802,30,25.89,25,0.25
+10802,51,53.00,30,0.25
+10802,55,24.00,60,0.25
+10802,62,49.30,5,0.25
+10803,19,9.20,24,0.050000001
+10803,25,14.00,15,0.050000001
+10803,59,55.00,15,0.050000001
+10804,10,31.00,36,0
+10804,28,45.60,24,0
+10804,49,20.00,4,0.150000006
+10805,34,14.00,10,0
+10805,38,263.50,10,0
+10806,2,19.00,20,0.25
+10806,65,21.05,2,0
+10806,74,10.00,15,0.25
+10807,40,18.40,1,0
+10808,56,38.00,20,0.150000006
+10808,76,18.00,50,0.150000006
+10809,52,7.00,20,0
+10810,13,6.00,7,0
+10810,25,14.00,5,0
+10810,70,15.00,5,0
+10811,19,9.20,15,0
+10811,23,9.00,18,0
+10811,40,18.40,30,0
+10812,31,12.50,16,0.100000001
+10812,72,34.80,40,0.100000001
+10812,77,13.00,20,0
+10813,2,19.00,12,0.200000003
+10813,46,12.00,35,0
+10814,41,9.65,20,0
+10814,43,46.00,20,0.150000006
+10814,48,12.75,8,0.150000006
+10814,61,28.50,30,0.150000006
+10815,33,2.50,16,0
+10816,38,263.50,30,0.050000001
+10816,62,49.30,20,0.050000001
+10817,26,31.23,40,0.150000006
+10817,38,263.50,30,0
+10817,40,18.40,60,0.150000006
+10817,62,49.30,25,0.150000006
+10818,32,32.00,20,0
+10818,41,9.65,20,0
+10819,43,46.00,7,0
+10819,75,7.75,20,0
+10820,56,38.00,30,0
+10821,35,18.00,20,0
+10821,51,53.00,6,0
+10822,62,49.30,3,0
+10822,70,15.00,6,0
+10823,11,21.00,20,0.100000001
+10823,57,19.50,15,0
+10823,59,55.00,40,0.100000001
+10823,77,13.00,15,0.100000001
+10824,41,9.65,12,0
+10824,70,15.00,9,0
+10825,26,31.23,12,0
+10825,53,32.80,20,0
+10826,31,12.50,35,0
+10826,57,19.50,15,0
+10827,10,31.00,15,0
+10827,39,18.00,21,0
+10828,20,81.00,5,0
+10828,38,263.50,2,0
+10829,2,19.00,10,0
+10829,8,40.00,20,0
+10829,13,6.00,10,0
+10829,60,34.00,21,0
+10830,6,25.00,6,0
+10830,39,18.00,28,0
+10830,60,34.00,30,0
+10830,68,12.50,24,0
+10831,19,9.20,2,0
+10831,35,18.00,8,0
+10831,38,263.50,8,0
+10831,43,46.00,9,0
+10832,13,6.00,3,0.200000003
+10832,25,14.00,10,0.200000003
+10832,44,19.45,16,0.200000003
+10832,64,33.25,3,0
+10833,7,30.00,20,0.100000001
+10833,31,12.50,9,0.100000001
+10833,53,32.80,9,0.100000001
+10834,29,123.79,8,0.050000001
+10834,30,25.89,20,0.050000001
+10835,59,55.00,15,0
+10835,77,13.00,2,0.200000003
+10836,22,21.00,52,0
+10836,35,18.00,6,0
+10836,57,19.50,24,0
+10836,60,34.00,60,0
+10836,64,33.25,30,0
+10837,13,6.00,6,0
+10837,40,18.40,25,0
+10837,47,9.50,40,0.25
+10837,76,18.00,21,0.25
+10838,1,18.00,4,0.25
+10838,18,62.50,25,0.25
+10838,36,19.00,50,0.25
+10839,58,13.25,30,0.100000001
+10839,72,34.80,15,0.100000001
+10840,25,14.00,6,0.200000003
+10840,39,18.00,10,0.200000003
+10841,10,31.00,16,0
+10841,56,38.00,30,0
+10841,59,55.00,50,0
+10841,77,13.00,15,0
+10842,11,21.00,15,0
+10842,43,46.00,5,0
+10842,68,12.50,20,0
+10842,70,15.00,12,0
+10843,51,53.00,4,0.25
+10844,22,21.00,35,0
+10845,23,9.00,70,0.100000001
+10845,35,18.00,25,0.100000001
+10845,42,14.00,42,0.100000001
+10845,58,13.25,60,0.100000001
+10845,64,33.25,48,0
+10846,4,22.00,21,0
+10846,70,15.00,30,0
+10846,74,10.00,20,0
+10847,1,18.00,80,0.200000003
+10847,19,9.20,12,0.200000003
+10847,37,26.00,60,0.200000003
+10847,45,9.50,36,0.200000003
+10847,60,34.00,45,0.200000003
+10847,71,21.50,55,0.200000003
+10848,5,21.35,30,0
+10848,9,97.00,3,0
+10849,3,10.00,49,0
+10849,26,31.23,18,0.150000006
+10850,25,14.00,20,0.150000006
+10850,33,2.50,4,0.150000006
+10850,70,15.00,30,0.150000006
+10851,2,19.00,5,0.050000001
+10851,25,14.00,10,0.050000001
+10851,57,19.50,10,0.050000001
+10851,59,55.00,42,0.050000001
+10852,2,19.00,15,0
+10852,17,39.00,6,0
+10852,62,49.30,50,0
+10853,18,62.50,10,0
+10854,10,31.00,100,0.150000006
+10854,13,6.00,65,0.150000006
+10855,16,17.45,50,0
+10855,31,12.50,14,0
+10855,56,38.00,24,0
+10855,65,21.05,15,0.150000006
+10856,2,19.00,20,0
+10856,42,14.00,20,0
+10857,3,10.00,30,0
+10857,26,31.23,35,0.25
+10857,29,123.79,10,0.25
+10858,7,30.00,5,0
+10858,27,43.90,10,0
+10858,70,15.00,4,0
+10859,24,4.50,40,0.25
+10859,54,7.45,35,0.25
+10859,64,33.25,30,0.25
+10860,51,53.00,3,0
+10860,76,18.00,20,0
+10861,17,39.00,42,0
+10861,18,62.50,20,0
+10861,21,10.00,40,0
+10861,33,2.50,35,0
+10861,62,49.30,3,0
+10862,11,21.00,25,0
+10862,52,7.00,8,0
+10863,1,18.00,20,0.150000006
+10863,58,13.25,12,0.150000006
+10864,35,18.00,4,0
+10864,67,14.00,15,0
+10865,38,263.50,60,0.050000001
+10865,39,18.00,80,0.050000001
+10866,2,19.00,21,0.25
+10866,24,4.50,6,0.25
+10866,30,25.89,40,0.25
+10867,53,32.80,3,0
+10868,26,31.23,20,0
+10868,35,18.00,30,0
+10868,49,20.00,42,0.100000001
+10869,1,18.00,40,0
+10869,11,21.00,10,0
+10869,23,9.00,50,0
+10869,68,12.50,20,0
+10870,35,18.00,3,0
+10870,51,53.00,2,0
+10871,6,25.00,50,0.050000001
+10871,16,17.45,12,0.050000001
+10871,17,39.00,16,0.050000001
+10872,55,24.00,10,0.050000001
+10872,62,49.30,20,0.050000001
+10872,64,33.25,15,0.050000001
+10872,65,21.05,21,0.050000001
+10873,21,10.00,20,0
+10873,28,45.60,3,0
+10874,10,31.00,10,0
+10875,19,9.20,25,0
+10875,47,9.50,21,0.100000001
+10875,49,20.00,15,0
+10876,46,12.00,21,0
+10876,64,33.25,20,0
+10877,16,17.45,30,0.25
+10877,18,62.50,25,0
+10878,20,81.00,20,0.050000001
+10879,40,18.40,12,0
+10879,65,21.05,10,0
+10879,76,18.00,10,0
+10880,23,9.00,30,0.200000003
+10880,61,28.50,30,0.200000003
+10880,70,15.00,50,0.200000003
+10881,73,15.00,10,0
+10882,42,14.00,25,0
+10882,49,20.00,20,0.150000006
+10882,54,7.45,32,0.150000006
+10883,24,4.50,8,0
+10884,21,10.00,40,0.050000001
+10884,56,38.00,21,0.050000001
+10884,65,21.05,12,0.050000001
+10885,2,19.00,20,0
+10885,24,4.50,12,0
+10885,70,15.00,30,0
+10885,77,13.00,25,0
+10886,10,31.00,70,0
+10886,31,12.50,35,0
+10886,77,13.00,40,0
+10887,25,14.00,5,0
+10888,2,19.00,20,0
+10888,68,12.50,18,0
+10889,11,21.00,40,0
+10889,38,263.50,40,0
+10890,17,39.00,15,0
+10890,34,14.00,10,0
+10890,41,9.65,14,0
+10891,30,25.89,15,0.050000001
+10892,59,55.00,40,0.050000001
+10893,8,40.00,30,0
+10893,24,4.50,10,0
+10893,29,123.79,24,0
+10893,30,25.89,35,0
+10893,36,19.00,20,0
+10894,13,6.00,28,0.050000001
+10894,69,36.00,50,0.050000001
+10894,75,7.75,120,0.050000001
+10895,24,4.50,110,0
+10895,39,18.00,45,0
+10895,40,18.40,91,0
+10895,60,34.00,100,0
+10896,45,9.50,15,0
+10896,56,38.00,16,0
+10897,29,123.79,80,0
+10897,30,25.89,36,0
+10898,13,6.00,5,0
+10899,39,18.00,8,0.150000006
+10900,70,15.00,3,0.25
+10901,41,9.65,30,0
+10901,71,21.50,30,0
+10902,55,24.00,30,0.150000006
+10902,62,49.30,6,0.150000006
+10903,13,6.00,40,0
+10903,65,21.05,21,0
+10903,68,12.50,20,0
+10904,58,13.25,15,0
+10904,62,49.30,35,0
+10905,1,18.00,20,0.050000001
+10906,61,28.50,15,0
+10907,75,7.75,14,0
+10908,7,30.00,20,0.050000001
+10908,52,7.00,14,0.050000001
+10909,7,30.00,12,0
+10909,16,17.45,15,0
+10909,41,9.65,5,0
+10910,19,9.20,12,0
+10910,49,20.00,10,0
+10910,61,28.50,5,0
+10911,1,18.00,10,0
+10911,17,39.00,12,0
+10911,67,14.00,15,0
+10912,11,21.00,40,0.25
+10912,29,123.79,60,0.25
+10913,4,22.00,30,0.25
+10913,33,2.50,40,0.25
+10913,58,13.25,15,0
+10914,71,21.50,25,0
+10915,17,39.00,10,0
+10915,33,2.50,30,0
+10915,54,7.45,10,0
+10916,16,17.45,6,0
+10916,32,32.00,6,0
+10916,57,19.50,20,0
+10917,30,25.89,1,0
+10917,60,34.00,10,0
+10918,1,18.00,60,0.25
+10918,60,34.00,25,0.25
+10919,16,17.45,24,0
+10919,25,14.00,24,0
+10919,40,18.40,20,0
+10920,50,16.25,24,0
+10921,35,18.00,10,0
+10921,63,43.90,40,0
+10922,17,39.00,15,0
+10922,24,4.50,35,0
+10923,42,14.00,10,0.200000003
+10923,43,46.00,10,0.200000003
+10923,67,14.00,24,0.200000003
+10924,10,31.00,20,0.100000001
+10924,28,45.60,30,0.100000001
+10924,75,7.75,6,0
+10925,36,19.00,25,0.150000006
+10925,52,7.00,12,0.150000006
+10926,11,21.00,2,0
+10926,13,6.00,10,0
+10926,19,9.20,7,0
+10926,72,34.80,10,0
+10927,20,81.00,5,0
+10927,52,7.00,5,0
+10927,76,18.00,20,0
+10928,47,9.50,5,0
+10928,76,18.00,5,0
+10929,21,10.00,60,0
+10929,75,7.75,49,0
+10929,77,13.00,15,0
+10930,21,10.00,36,0
+10930,27,43.90,25,0
+10930,55,24.00,25,0.200000003
+10930,58,13.25,30,0.200000003
+10931,13,6.00,42,0.150000006
+10931,57,19.50,30,0
+10932,16,17.45,30,0.100000001
+10932,62,49.30,14,0.100000001
+10932,72,34.80,16,0
+10932,75,7.75,20,0.100000001
+10933,53,32.80,2,0
+10933,61,28.50,30,0
+10934,6,25.00,20,0
+10935,1,18.00,21,0
+10935,18,62.50,4,0.25
+10935,23,9.00,8,0.25
+10936,36,19.00,30,0.200000003
+10937,28,45.60,8,0
+10937,34,14.00,20,0
+10938,13,6.00,20,0.25
+10938,43,46.00,24,0.25
+10938,60,34.00,49,0.25
+10938,71,21.50,35,0.25
+10939,2,19.00,10,0.150000006
+10939,67,14.00,40,0.150000006
+10940,7,30.00,8,0
+10940,13,6.00,20,0
+10941,31,12.50,44,0.25
+10941,62,49.30,30,0.25
+10941,68,12.50,80,0.25
+10941,72,34.80,50,0
+10942,49,20.00,28,0
+10943,13,6.00,15,0
+10943,22,21.00,21,0
+10943,46,12.00,15,0
+10944,11,21.00,5,0.25
+10944,44,19.45,18,0.25
+10944,56,38.00,18,0
+10945,13,6.00,20,0
+10945,31,12.50,10,0
+10946,10,31.00,25,0
+10946,24,4.50,25,0
+10946,77,13.00,40,0
+10947,59,55.00,4,0
+10948,50,16.25,9,0
+10948,51,53.00,40,0
+10948,55,24.00,4,0
+10949,6,25.00,12,0
+10949,10,31.00,30,0
+10949,17,39.00,6,0
+10949,62,49.30,60,0
+10950,4,22.00,5,0
+10951,33,2.50,15,0.050000001
+10951,41,9.65,6,0.050000001
+10951,75,7.75,50,0.050000001
+10952,6,25.00,16,0.050000001
+10952,28,45.60,2,0
+10953,20,81.00,50,0.050000001
+10953,31,12.50,50,0.050000001
+10954,16,17.45,28,0.150000006
+10954,31,12.50,25,0.150000006
+10954,45,9.50,30,0
+10954,60,34.00,24,0.150000006
+10955,75,7.75,12,0.200000003
+10956,21,10.00,12,0
+10956,47,9.50,14,0
+10956,51,53.00,8,0
+10957,30,25.89,30,0
+10957,35,18.00,40,0
+10957,64,33.25,8,0
+10958,5,21.35,20,0
+10958,7,30.00,6,0
+10958,72,34.80,5,0
+10959,75,7.75,20,0.150000006
+10960,24,4.50,10,0.25
+10960,41,9.65,24,0
+10961,52,7.00,6,0.050000001
+10961,76,18.00,60,0
+10962,7,30.00,45,0
+10962,13,6.00,77,0
+10962,53,32.80,20,0
+10962,69,36.00,9,0
+10962,76,18.00,44,0
+10963,60,34.00,2,0.150000006
+10964,18,62.50,6,0
+10964,38,263.50,5,0
+10964,69,36.00,10,0
+10965,51,53.00,16,0
+10966,37,26.00,8,0
+10966,56,38.00,12,0.150000006
+10966,62,49.30,12,0.150000006
+10967,19,9.20,12,0
+10967,49,20.00,40,0
+10968,12,38.00,30,0
+10968,24,4.50,30,0
+10968,64,33.25,4,0
+10969,46,12.00,9,0
+10970,52,7.00,40,0.200000003
+10971,29,123.79,14,0
+10972,17,39.00,6,0
+10972,33,2.50,7,0
+10973,26,31.23,5,0
+10973,41,9.65,6,0
+10973,75,7.75,10,0
+10974,63,43.90,10,0
+10975,8,40.00,16,0
+10975,75,7.75,10,0
+10976,28,45.60,20,0
+10977,39,18.00,30,0
+10977,47,9.50,30,0
+10977,51,53.00,10,0
+10977,63,43.90,20,0
+10978,8,40.00,20,0.150000006
+10978,21,10.00,40,0.150000006
+10978,40,18.40,10,0
+10978,44,19.45,6,0.150000006
+10979,7,30.00,18,0
+10979,12,38.00,20,0
+10979,24,4.50,80,0
+10979,27,43.90,30,0
+10979,31,12.50,24,0
+10979,63,43.90,35,0
+10980,75,7.75,40,0.200000003
+10981,38,263.50,60,0
+10982,7,30.00,20,0
+10982,43,46.00,9,0
+10983,13,6.00,84,0.150000006
+10983,57,19.50,15,0
+10984,16,17.45,55,0
+10984,24,4.50,20,0
+10984,36,19.00,40,0
+10985,16,17.45,36,0.100000001
+10985,18,62.50,8,0.100000001
+10985,32,32.00,35,0.100000001
+10986,11,21.00,30,0
+10986,20,81.00,15,0
+10986,76,18.00,10,0
+10986,77,13.00,15,0
+10987,7,30.00,60,0
+10987,43,46.00,6,0
+10987,72,34.80,20,0
+10988,7,30.00,60,0
+10988,62,49.30,40,0.100000001
+10989,6,25.00,40,0
+10989,11,21.00,15,0
+10989,41,9.65,4,0
+10990,21,10.00,65,0
+10990,34,14.00,60,0.150000006
+10990,55,24.00,65,0.150000006
+10990,61,28.50,66,0.150000006
+10991,2,19.00,50,0.200000003
+10991,70,15.00,20,0.200000003
+10991,76,18.00,90,0.200000003
+10992,72,34.80,2,0
+10993,29,123.79,50,0.25
+10993,41,9.65,35,0.25
+10994,59,55.00,18,0.050000001
+10995,51,53.00,20,0
+10995,60,34.00,4,0
+10996,42,14.00,40,0
+10997,32,32.00,50,0
+10997,46,12.00,20,0.25
+10997,52,7.00,20,0.25
+10998,24,4.50,12,0
+10998,61,28.50,7,0
+10998,74,10.00,20,0
+10998,75,7.75,30,0
+10999,41,9.65,20,0.050000001
+10999,51,53.00,15,0.050000001
+10999,77,13.00,21,0.050000001
+11000,4,22.00,25,0.25
+11000,24,4.50,30,0.25
+11000,77,13.00,30,0
+11001,7,30.00,60,0
+11001,22,21.00,25,0
+11001,46,12.00,25,0
+11001,55,24.00,6,0
+11002,13,6.00,56,0
+11002,35,18.00,15,0.150000006
+11002,42,14.00,24,0.150000006
+11002,55,24.00,40,0
+11003,1,18.00,4,0
+11003,40,18.40,10,0
+11003,52,7.00,10,0
+11004,26,31.23,6,0
+11004,76,18.00,6,0
+11005,1,18.00,2,0
+11005,59,55.00,10,0
+11006,1,18.00,8,0
+11006,29,123.79,2,0.25
+11007,8,40.00,30,0
+11007,29,123.79,10,0
+11007,42,14.00,14,0
+11008,28,45.60,70,0.050000001
+11008,34,14.00,90,0.050000001
+11008,71,21.50,21,0
+11009,24,4.50,12,0
+11009,36,19.00,18,0.25
+11009,60,34.00,9,0
+11010,7,30.00,20,0
+11010,24,4.50,10,0
+11011,58,13.25,40,0.050000001
+11011,71,21.50,20,0
+11012,19,9.20,50,0.050000001
+11012,60,34.00,36,0.050000001
+11012,71,21.50,60,0.050000001
+11013,23,9.00,10,0
+11013,42,14.00,4,0
+11013,45,9.50,20,0
+11013,68,12.50,2,0
+11014,41,9.65,28,0.100000001
+11015,30,25.89,15,0
+11015,77,13.00,18,0
+11016,31,12.50,15,0
+11016,36,19.00,16,0
+11017,3,10.00,25,0
+11017,59,55.00,110,0
+11017,70,15.00,30,0
+11018,12,38.00,20,0
+11018,18,62.50,10,0
+11018,56,38.00,5,0
+11019,46,12.00,3,0
+11019,49,20.00,2,0
+11020,10,31.00,24,0.150000006
+11021,2,19.00,11,0.25
+11021,20,81.00,15,0
+11021,26,31.23,63,0
+11021,51,53.00,44,0.25
+11021,72,34.80,35,0
+11022,19,9.20,35,0
+11022,69,36.00,30,0
+11023,7,30.00,4,0
+11023,43,46.00,30,0
+11024,26,31.23,12,0
+11024,33,2.50,30,0
+11024,65,21.05,21,0
+11024,71,21.50,50,0
+11025,1,18.00,10,0.100000001
+11025,13,6.00,20,0.100000001
+11026,18,62.50,8,0
+11026,51,53.00,10,0
+11027,24,4.50,30,0.25
+11027,62,49.30,21,0.25
+11028,55,24.00,35,0
+11028,59,55.00,24,0
+11029,56,38.00,20,0
+11029,63,43.90,12,0
+11030,2,19.00,100,0.25
+11030,5,21.35,70,0
+11030,29,123.79,60,0.25
+11030,59,55.00,100,0.25
+11031,1,18.00,45,0
+11031,13,6.00,80,0
+11031,24,4.50,21,0
+11031,64,33.25,20,0
+11031,71,21.50,16,0
+11032,36,19.00,35,0
+11032,38,263.50,25,0
+11032,59,55.00,30,0
+11033,53,32.80,70,0.100000001
+11033,69,36.00,36,0.100000001
+11034,21,10.00,15,0.100000001
+11034,44,19.45,12,0
+11034,61,28.50,6,0
+11035,1,18.00,10,0
+11035,35,18.00,60,0
+11035,42,14.00,30,0
+11035,54,7.45,10,0
+11036,13,6.00,7,0
+11036,59,55.00,30,0
+11037,70,15.00,4,0
+11038,40,18.40,5,0.200000003
+11038,52,7.00,2,0
+11038,71,21.50,30,0
+11039,28,45.60,20,0
+11039,35,18.00,24,0
+11039,49,20.00,60,0
+11039,57,19.50,28,0
+11040,21,10.00,20,0
+11041,2,19.00,30,0.200000003
+11041,63,43.90,30,0
+11042,44,19.45,15,0
+11042,61,28.50,4,0
+11043,11,21.00,10,0
+11044,62,49.30,12,0
+11045,33,2.50,15,0
+11045,51,53.00,24,0
+11046,12,38.00,20,0.050000001
+11046,32,32.00,15,0.050000001
+11046,35,18.00,18,0.050000001
+11047,1,18.00,25,0.25
+11047,5,21.35,30,0.25
+11048,68,12.50,42,0
+11049,2,19.00,10,0.200000003
+11049,12,38.00,4,0.200000003
+11050,76,18.00,50,0.100000001
+11051,24,4.50,10,0.200000003
+11052,43,46.00,30,0.200000003
+11052,61,28.50,10,0.200000003
+11053,18,62.50,35,0.200000003
+11053,32,32.00,20,0
+11053,64,33.25,25,0.200000003
+11054,33,2.50,10,0
+11054,67,14.00,20,0
+11055,24,4.50,15,0
+11055,25,14.00,15,0
+11055,51,53.00,20,0
+11055,57,19.50,20,0
+11056,7,30.00,40,0
+11056,55,24.00,35,0
+11056,60,34.00,50,0
+11057,70,15.00,3,0
+11058,21,10.00,3,0
+11058,60,34.00,21,0
+11058,61,28.50,4,0
+11059,13,6.00,30,0
+11059,17,39.00,12,0
+11059,60,34.00,35,0
+11060,60,34.00,4,0
+11060,77,13.00,10,0
+11061,60,34.00,15,0
+11062,53,32.80,10,0.200000003
+11062,70,15.00,12,0.200000003
+11063,34,14.00,30,0
+11063,40,18.40,40,0.100000001
+11063,41,9.65,30,0.100000001
+11064,17,39.00,77,0.100000001
+11064,41,9.65,12,0
+11064,53,32.80,25,0.100000001
+11064,55,24.00,4,0.100000001
+11064,68,12.50,55,0
+11065,30,25.89,4,0.25
+11065,54,7.45,20,0.25
+11066,16,17.45,3,0
+11066,19,9.20,42,0
+11066,34,14.00,35,0
+11067,41,9.65,9,0
+11068,28,45.60,8,0.150000006
+11068,43,46.00,36,0.150000006
+11068,77,13.00,28,0.150000006
+11069,39,18.00,20,0
+11070,1,18.00,40,0.150000006
+11070,2,19.00,20,0.150000006
+11070,16,17.45,30,0.150000006
+11070,31,12.50,20,0
+11071,7,30.00,15,0.050000001
+11071,13,6.00,10,0.050000001
+11072,2,19.00,8,0
+11072,41,9.65,40,0
+11072,50,16.25,22,0
+11072,64,33.25,130,0
+11073,11,21.00,10,0
+11073,24,4.50,20,0
+11074,16,17.45,14,0.050000001
+11075,2,19.00,10,0.150000006
+11075,46,12.00,30,0.150000006
+11075,76,18.00,2,0.150000006
+11076,6,25.00,20,0.25
+11076,14,23.25,20,0.25
+11076,19,9.20,10,0.25
+11077,2,19.00,24,0.200000003
+11077,3,10.00,4,0
+11077,4,22.00,1,0
+11077,6,25.00,1,0.02
+11077,7,30.00,1,0.050000001
+11077,8,40.00,2,0.100000001
+11077,10,31.00,1,0
+11077,12,38.00,2,0.050000001
+11077,13,6.00,4,0
+11077,14,23.25,1,0.029999999
+11077,16,17.45,2,0.029999999
+11077,20,81.00,1,0.039999999
+11077,23,9.00,2,0
+11077,32,32.00,1,0
+11077,39,18.00,2,0.050000001
+11077,41,9.65,3,0
+11077,46,12.00,3,0.02
+11077,52,7.00,2,0
+11077,55,24.00,2,0
+11077,60,34.00,2,0.059999999
+11077,64,33.25,2,0.029999999
+11077,66,17.00,1,0
+11077,73,15.00,2,0.01
+11077,75,7.75,4,0
+11077,77,13.00,2,0
+11080,78,11.00,10,0.150000006
+11080,79,8.00,3,0
+11080,80,5.00,20,0
+11081,16,17.45,3,0
+11081,19,9.20,42,0
+11081,80,5.00,35,0
+11082,41,9.65,9,0
+11082,43,46.00,36,0
+11082,77,13.00,28,0
+11082,78,11.00,8,0.150000006
+11083,7,30.00,15,0.050000001
+11083,13,6.00,10,0.050000001
+11083,41,9.65,40,0
+11083,78,11.00,20,0.150000006
+11083,79,8.00,30,0
+11083,80,5.00,8,0
+11084,11,21.00,10,0
+11084,24,4.50,20,0
+11084,50,16.25,22,0
+11084,78,11.00,130,0.150000006
+11084,79,8.00,14,0.050000001
+11084,80,5.00,10,0
+11085,6,25.00,20,0.25
+11085,14,23.25,20,0.25
+11085,19,9.20,10,0.25
+11085,76,18.00,2,0.150000006
+11085,80,5.00,24,0
+11086,10,31.00,1,0
+11086,12,38.00,2,0.050000001
+11086,13,6.00,4,0
+11086,14,23.25,1,0.029999999
+11086,20,81.00,1,0.039999999
+11086,79,8.00,2,0.029999999
+11087,3,10.00,4,0
+11087,4,22.00,1,0
+11088,11,21.00,10,0
+11088,78,11.00,130,0.150000006
+11088,79,8.00,14,0.050000001
+11088,80,5.00,20,0
+11089,55,24.00,2,0
+11089,60,34.00,2,0.059999999
+11089,66,17.00,1,0
+11089,73,15.00,2,0.01
+11089,77,13.00,2,0
+11089,78,11.00,2,0.150000006
+11089,80,5.00,4,0
+11090,78,11.00,2,0.150000006
+11090,79,8.00,2,0.029999999
+11090,80,5.00,4,0
+11091,78,11.00,6,0.150000006
+11091,79,8.00,4,0.029999999
+11091,80,5.00,4,0
+11092,78,11.00,8,0.150000006
+11092,79,8.00,10,0.029999999
+11092,80,5.00,4,0
+11093,78,11.00,2,0.150000006
+11093,79,8.00,3,0.029999999
+11093,80,5.00,8,0
+11094,78,11.00,6,0.150000006
+11094,79,8.00,12,0.029999999
+11094,80,5.00,4,0
+11095,78,11.00,16,0.150000006
+11095,79,8.00,11,0.029999999
+11095,80,5.00,23,0
+11096,78,11.00,12,0.150000006
+11096,79,8.00,9,0.029999999
+11096,80,5.00,4,0
+11097,78,11.00,6,0.150000006
+11097,79,8.00,7,0.029999999
+11097,80,5.00,8,0
+11098,78,11.00,20,0.150000006
+11098,79,8.00,23,0.029999999
+11098,80,5.00,10,0
+11099,78,11.00,19,0.150000006
+11099,79,8.00,11,0.029999999
+11099,80,5.00,22,0
+11100,78,11.00,6,0.150000006
+11100,79,8.00,7,0.029999999
+11100,80,5.00,8,0
+11101,78,11.00,20,0.150000006
+11101,79,8.00,23,0.029999999
+11101,80,5.00,10,0
+11102,78,11.00,19,0.150000006
+11102,79,8.00,11,0.029999999
+11102,80,5.00,22,0
+11103,78,11.00,6,0.150000006
+11103,79,8.00,7,0.029999999
+11103,80,5.00,8,0
+11104,78,11.00,20,0.150000006
+11104,79,8.00,23,0.029999999
+11104,80,5.00,10,0
+11105,78,11.00,19,0.150000006
+11105,79,8.00,11,0.029999999
+11105,80,5.00,22,0
+11106,78,11.00,6,0.150000006
+11106,79,8.00,7,0.029999999
+11106,80,5.00,8,0
+11107,78,11.00,20,0.150000006
+11107,79,8.00,23,0.029999999
+11107,80,5.00,10,0
+11108,78,11.00,19,0.150000006
+11108,79,8.00,11,0.029999999
+11108,80,5.00,22,0
+11109,78,11.00,6,0.150000006
+11109,79,8.00,7,0.029999999
+11109,80,5.00,8,0
+11110,78,11.00,20,0.150000006
+11110,79,8.00,23,0.029999999
+11110,80,5.00,10,0
+11111,78,11.00,19,0.150000006
+11111,79,8.00,11,0.029999999
+11111,80,5.00,22,0
+11112,78,11.00,6,0.150000006
+11112,79,8.00,7,0.029999999
+11112,80,5.00,8,0
+11113,78,11.00,20,0.150000006
+11113,79,8.00,23,0.029999999
+11113,80,5.00,10,0
+11114,78,11.00,19,0.150000006
+11114,79,8.00,11,0.029999999
+11114,80,5.00,22,0
+11115,78,11.00,6,0.150000006
+11115,79,8.00,7,0.029999999
+11115,80,5.00,8,0
+11116,78,11.00,20,0.150000006
+11116,79,8.00,23,0.029999999
+11116,80,5.00,10,0
+11117,78,11.00,19,0.150000006
+11117,79,8.00,11,0.029999999
+11117,80,5.00,22,0
+11118,78,11.00,6,0.150000006
+11118,79,8.00,7,0.029999999
+11118,80,5.00,8,0
+11119,78,11.00,20,0.150000006
+11119,79,8.00,23,0.029999999
+11119,80,5.00,10,0
+11211,78,11.00,2,0.150000006
+11211,79,8.00,2,0.029999999
+11211,80,5.00,4,0
+11212,78,11.00,6,0.150000006
+11212,79,8.00,4,0.029999999
+11212,80,5.00,4,0
+11213,78,11.00,8,0.150000006
+11213,79,8.00,10,0.029999999
+11213,80,5.00,4,0
+11214,78,11.00,2,0.150000006
+11214,79,8.00,3,0.029999999
+11214,80,5.00,8,0
+11215,78,11.00,6,0.150000006
+11215,79,8.00,12,0.029999999
+11215,80,5.00,4,0
+11216,78,11.00,16,0.150000006
+11216,79,8.00,11,0.029999999
+11216,80,5.00,23,0
+11217,78,11.00,12,0.150000006
+11217,79,8.00,9,0.029999999
+11217,80,5.00,4,0
+11218,78,11.00,6,0.150000006
+11218,79,8.00,7,0.029999999
+11218,80,5.00,8,0
+11219,78,11.00,20,0.150000006
+11219,79,8.00,23,0.029999999
+11219,80,5.00,10,0
+11220,78,11.00,19,0.150000006
+11220,79,8.00,11,0.029999999
+11220,80,5.00,22,0
+11221,78,11.00,6,0.150000006
+11221,79,8.00,7,0.029999999
+11221,80,5.00,8,0
+11222,78,11.00,20,0.150000006
+11222,79,8.00,23,0.029999999
+11222,80,5.00,10,0
+11223,78,11.00,19,0.150000006
+11223,79,8.00,11,0.029999999
+11223,80,5.00,22,0
+11224,78,11.00,6,0.150000006
+11224,79,8.00,7,0.029999999
+11224,80,5.00,8,0
+11225,78,11.00,20,0.150000006
+11225,79,8.00,23,0.029999999
+11225,80,5.00,10,0
+11226,78,11.00,19,0.150000006
+11226,79,8.00,11,0.029999999
+11226,80,5.00,22,0
+11227,78,11.00,6,0.150000006
+11227,79,8.00,7,0.029999999
+11227,80,5.00,8,0
+11228,78,11.00,20,0.150000006
+11228,79,8.00,23,0.029999999
+11228,80,5.00,10,0
+11229,78,11.00,19,0.150000006
+11229,79,8.00,11,0.029999999
+11229,80,5.00,22,0
+11230,78,11.00,6,0.150000006
+11230,79,8.00,7,0.029999999
+11230,80,5.00,8,0
+11231,78,11.00,20,0.150000006
+11231,79,8.00,23,0.029999999
+11231,80,5.00,10,0
+11232,78,11.00,19,0.150000006
+11232,79,8.00,11,0.029999999
+11232,80,5.00,22,0
+11233,78,11.00,6,0.150000006
+11233,79,8.00,7,0.029999999
+11233,80,5.00,8,0
+11234,78,11.00,20,0.150000006
+11234,79,8.00,23,0.029999999
+11234,80,5.00,10,0
+11235,78,11.00,19,0.150000006
+11235,79,8.00,11,0.029999999
+11235,80,5.00,22,0
+11236,78,11.00,6,0.150000006
+11236,79,8.00,7,0.029999999
+11236,80,5.00,8,0
+11237,78,11.00,20,0.150000006
+11237,79,8.00,23,0.029999999
+11237,80,5.00,10,0
+11238,78,11.00,19,0.150000006
+11238,79,8.00,11,0.029999999
+11238,80,5.00,22,0
+11239,78,11.00,6,0.150000006
+11239,79,8.00,7,0.029999999
+11239,80,5.00,8,0
+11240,78,11.00,20,0.150000006
+11240,79,8.00,23,0.029999999
+11240,80,5.00,10,0
