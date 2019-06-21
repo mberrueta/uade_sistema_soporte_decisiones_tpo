@@ -1,4 +1,4 @@
-Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
+﻿Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10248,Queso Cabrales,14.00 €,12,0.00%
 10248,Tallarines de Singapur,9.80 €,10,0.00%
 10248,Queso Mozzarella Giovanni,34.80 €,5,0.00%
@@ -69,7 +69,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10273,Queso de cabra,2.00 €,20,0.00%
 10273,Carne de cangrejo de Boston,14.70 €,60,5.00%
 10273,Licor Cloudberry,14.40 €,33,5.00%
-10274,Crema de queso Flřtemys,17.20 €,20,0.00%
+10274,Crema de queso Fløtemys,17.20 €,20,0.00%
 10274,Queso Mozzarella Giovanni,27.80 €,7,0.00%
 10275,Refresco Guaraná Fantástica,3.60 €,12,5.00%
 10275,Raclet de queso Courdavault,44.00 €,6,5.00%
@@ -151,7 +151,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10303,Barras de pan de Escocia,10.00 €,15,10.00%
 10304,Regaliz,16.00 €,30,0.00%
 10304,Raclet de queso Courdavault,44.00 €,10,0.00%
-10304,Crema de queso Flřtemys,17.20 €,2,0.00%
+10304,Crema de queso Fløtemys,17.20 €,2,0.00%
 10305,Langostinos tigre Carnarvon,50.00 €,25,10.00%
 10305,Salchicha Thüringer,99.00 €,25,10.00%
 10305,Licor verde Chartreuse,14.40 €,30,10.00%
@@ -166,7 +166,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10309,Mermelada de grosellas de la abuela,20.00 €,30,0.00%
 10309,Tallarines de Singapur,11.20 €,2,0.00%
 10309,Café de Malasia,36.80 €,20,0.00%
-10309,Crema de queso Flřtemys,17.20 €,3,0.00%
+10309,Crema de queso Fløtemys,17.20 €,3,0.00%
 10310,Postre de merengue Pavlova,13.90 €,10,0.00%
 10310,Tarta de azúcar,39.40 €,5,0.00%
 10311,Tallarines de Singapur,11.20 €,6,0.00%
@@ -177,7 +177,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10312,Cerveza Klosterbier Rhönbräu,6.20 €,10,0.00%
 10313,Escabeche de arenque,15.20 €,12,0.00%
 10314,Queso Mascarpone Fabioli,25.60 €,40,10.00%
-10314,Caracoles de Borgońa,10.60 €,30,10.00%
+10314,Caracoles de Borgoña,10.60 €,30,10.00%
 10314,Tarta de azúcar,39.40 €,25,10.00%
 10315,Cerveza Sasquatch,11.20 €,14,0.00%
 10315,Cerveza Outback,12.00 €,30,0.00%
@@ -189,7 +189,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10319,Cordero Alice Springs,31.20 €,8,0.00%
 10319,Col fermentada Rössle,36.40 €,14,0.00%
 10319,Licor Cloudberry,14.40 €,30,0.00%
-10320,Crema de queso Flřtemys,17.20 €,30,0.00%
+10320,Crema de queso Fløtemys,17.20 €,30,0.00%
 10321,Cerveza negra Steeleye,14.40 €,10,0.00%
 10322,Cereales para Filo,5.60 €,20,0.00%
 10323,Salsa de soja baja en sodio,12.40 €,5,0.00%
@@ -211,7 +211,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10327,Cerveza tibetana Barley,15.20 €,25,20.00%
 10327,Queso Cabrales,16.80 €,50,20.00%
 10327,Arenque blanco del noroeste,20.70 €,35,20.00%
-10327,Caracoles de Borgońa,10.60 €,30,20.00%
+10327,Caracoles de Borgoña,10.60 €,30,20.00%
 10328,Raclet de queso Courdavault,44.00 €,9,0.00%
 10328,Salsa de pimiento picante de Luisiana,16.80 €,40,0.00%
 10328,Barras de pan de Escocia,10.00 €,10,0.00%
@@ -227,7 +227,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10332,Galletas Zaanse,7.60 €,16,20.00%
 10333,Cuajada de judías,18.60 €,10,0.00%
 10333,Bollos de Sir Rodney's,8.00 €,10,10.00%
-10333,Crema de queso Flřtemys,17.20 €,40,10.00%
+10333,Crema de queso Fløtemys,17.20 €,40,10.00%
 10334,Cereales para Filo,5.60 €,8,0.00%
 10334,Barras de pan de Escocia,10.00 €,10,0.00%
 10335,Cerveza tibetana Barley,15.20 €,7,20.00%
@@ -311,7 +311,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10363,Cerveza Klosterbier Rhönbräu,6.20 €,12,0.00%
 10363,Licor Cloudberry,14.40 €,12,0.00%
 10364,Queso Gudbrandsdals,28.80 €,30,0.00%
-10364,Crema de queso Flřtemys,17.20 €,5,0.00%
+10364,Crema de queso Fløtemys,17.20 €,5,0.00%
 10365,Queso Cabrales,16.80 €,24,0.00%
 10366,Salsa de pimiento picante de Luisiana,16.80 €,5,0.00%
 10366,Salsa verde original Frankfurter,10.40 €,5,0.00%
@@ -333,16 +333,16 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10372,Vino Côte de Blaye,210.80 €,40,25.00%
 10372,Camembert Pierrot,27.20 €,70,25.00%
 10372,Queso Mozzarella Giovanni,27.80 €,42,25.00%
-10373,Caracoles de Borgońa,10.60 €,80,20.00%
-10373,Crema de queso Flřtemys,17.20 €,50,20.00%
+10373,Caracoles de Borgoña,10.60 €,80,20.00%
+10373,Crema de queso Fløtemys,17.20 €,50,20.00%
 10374,Queso gorgonzola Telino,10.00 €,30,0.00%
-10374,Caracoles de Borgońa,10.60 €,15,0.00%
+10374,Caracoles de Borgoña,10.60 €,15,0.00%
 10375,Cuajada de judías,18.60 €,15,0.00%
 10375,Empanada de cerdo,5.90 €,10,0.00%
 10376,Queso gorgonzola Telino,10.00 €,42,5.00%
 10377,Col fermentada Rössle,36.40 €,20,15.00%
 10377,Licor verde Chartreuse,14.40 €,20,15.00%
-10378,Crema de queso Flřtemys,17.20 €,6,0.00%
+10378,Crema de queso Fløtemys,17.20 €,6,0.00%
 10379,Crema de almejas estilo Nueva Inglaterra,7.70 €,8,10.00%
 10379,Sandwich de vegetales,35.10 €,16,10.00%
 10379,Salsa de pimiento picante de Luisiana,16.80 €,20,10.00%
@@ -369,7 +369,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10387,Refresco Guaraná Fantástica,3.60 €,15,0.00%
 10387,Col fermentada Rössle,36.40 €,6,0.00%
 10387,Raclet de queso Courdavault,44.00 €,12,0.00%
-10387,Crema de queso Flřtemys,17.20 €,15,0.00%
+10387,Crema de queso Fløtemys,17.20 €,15,0.00%
 10388,Arenque ahumado,7.60 €,15,20.00%
 10388,Cereales para Filo,5.60 €,20,20.00%
 10388,Empanada de carne,26.20 €,40,0.00%
@@ -394,14 +394,14 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10395,Empanada de carne,26.20 €,70,10.00%
 10395,Queso Gudbrandsdals,28.80 €,8,0.00%
 10396,Pan fino,7.20 €,40,0.00%
-10396,Crema de queso Flřtemys,17.20 €,60,0.00%
+10396,Crema de queso Fløtemys,17.20 €,60,0.00%
 10396,Queso Mozzarella Giovanni,27.80 €,21,0.00%
 10397,Bollos de Sir Rodney's,8.00 €,10,15.00%
 10397,Manzanas secas Manjimup,42.40 €,18,15.00%
 10398,Cerveza negra Steeleye,14.40 €,30,0.00%
 10398,Paté chino,19.20 €,120,10.00%
 10399,Barras de pan de Escocia,10.00 €,60,0.00%
-10399,Crema de queso Flřtemys,17.20 €,30,0.00%
+10399,Crema de queso Fløtemys,17.20 €,30,0.00%
 10399,Licor Cloudberry,14.40 €,35,0.00%
 10399,Salsa verde original Frankfurter,10.40 €,14,0.00%
 10400,Salchicha Thüringer,99.00 €,21,0.00%
@@ -410,7 +410,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10401,Arenque blanco del noroeste,20.70 €,18,0.00%
 10401,Gnocchi de la abuela Alicia,30.40 €,70,0.00%
 10401,Salsa de pimiento picante de Luisiana,16.80 €,20,0.00%
-10401,Crema de queso Flřtemys,17.20 €,60,0.00%
+10401,Crema de queso Fløtemys,17.20 €,60,0.00%
 10402,Pan fino,7.20 €,60,0.00%
 10402,Sandwich de vegetales,35.10 €,65,0.00%
 10403,Postre de merengue Pavlova,13.90 €,21,15.00%
@@ -426,7 +426,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10406,Carne de cangrejo de Boston,14.70 €,2,10.00%
 10407,Queso Cabrales,16.80 €,30,0.00%
 10407,Queso Gudbrandsdals,28.80 €,15,0.00%
-10407,Crema de queso Flřtemys,17.20 €,15,0.00%
+10407,Crema de queso Fløtemys,17.20 €,15,0.00%
 10408,Salmón ahumado Gravad,20.80 €,10,0.00%
 10408,Empanada de cerdo,5.90 €,6,0.00%
 10408,Tarta de azúcar,39.40 €,35,0.00%
@@ -529,7 +529,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10446,Cereales para Filo,5.60 €,15,10.00%
 10447,Pastas de té de chocolate,7.30 €,40,0.00%
 10447,Salsa de pimiento picante de Luisiana,16.80 €,35,0.00%
-10447,Crema de queso Flřtemys,17.20 €,2,0.00%
+10447,Crema de queso Fløtemys,17.20 €,2,0.00%
 10448,Ositos de goma Gumbär,24.90 €,6,0.00%
 10448,Carne de cangrejo de Boston,14.70 €,20,0.00%
 10449,Pez espada,24.80 €,14,0.00%
@@ -551,7 +551,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10455,Licor verde Chartreuse,14.40 €,20,0.00%
 10455,Empanada de carne,26.20 €,50,0.00%
 10455,Sirope de arce,22.80 €,25,0.00%
-10455,Crema de queso Flřtemys,17.20 €,30,0.00%
+10455,Crema de queso Fløtemys,17.20 €,30,0.00%
 10456,Bollos de Sir Rodney's,8.00 €,40,15.00%
 10456,Regaliz,16.00 €,21,15.00%
 10457,Raclet de queso Courdavault,44.00 €,36,0.00%
@@ -559,7 +559,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10458,Col fermentada Rössle,36.40 €,30,0.00%
 10458,Café de Malasia,36.80 €,20,0.00%
 10458,Gnocchi de la abuela Alicia,30.40 €,15,0.00%
-10458,Crema de queso Flřtemys,17.20 €,50,0.00%
+10458,Crema de queso Fløtemys,17.20 €,50,0.00%
 10459,Peras secas orgánicas del tío Bob,24.00 €,16,5.00%
 10459,Arenque salado,9.60 €,20,5.00%
 10459,Queso Mozzarella Giovanni,27.80 €,40,0.00%
@@ -598,7 +598,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10472,Refresco Guaraná Fantástica,3.60 €,80,5.00%
 10472,Manzanas secas Manjimup,42.40 €,18,0.00%
 10473,Queso de cabra,2.00 €,12,0.00%
-10473,Crema de queso Flřtemys,17.20 €,12,0.00%
+10473,Crema de queso Fløtemys,17.20 €,12,0.00%
 10474,Cuajada de judías,18.60 €,12,0.00%
 10474,Col fermentada Rössle,36.40 €,18,0.00%
 10474,Carne de cangrejo de Boston,14.70 €,21,0.00%
@@ -770,7 +770,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10536,Camembert Pierrot,34.00 €,35,25.00%
 10537,Queso gorgonzola Telino,12.50 €,30,0.00%
 10537,Manzanas secas Manjimup,53.00 €,6,0.00%
-10537,Caracoles de Borgońa,13.25 €,20,0.00%
+10537,Caracoles de Borgoña,13.25 €,20,0.00%
 10537,Queso Mozzarella Giovanni,34.80 €,21,0.00%
 10537,Caviar rojo,15.00 €,9,0.00%
 10538,Cerveza Outback,15.00 €,7,0.00%
@@ -786,7 +786,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10541,Refresco Guaraná Fantástica,4.50 €,35,10.00%
 10541,Vino Côte de Blaye,263.50 €,4,10.00%
 10541,Salsa de pimiento picante de Luisiana,21.05 €,36,10.00%
-10541,Crema de queso Flřtemys,21.50 €,9,10.00%
+10541,Crema de queso Fløtemys,21.50 €,9,10.00%
 10542,Queso Cabrales,21.00 €,15,5.00%
 10542,Empanada de cerdo,7.45 €,24,5.00%
 10543,Queso Manchego La Pastora,38.00 €,30,15.00%
@@ -917,7 +917,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10593,Queso Gudbrandsdals,36.00 €,20,20.00%
 10593,Licor Cloudberry,18.00 €,4,20.00%
 10594,Cereales para Filo,7.00 €,24,0.00%
-10594,Caracoles de Borgońa,13.25 €,30,0.00%
+10594,Caracoles de Borgoña,13.25 €,30,0.00%
 10595,Cerveza negra Steeleye,18.00 €,30,25.00%
 10595,Sirope de arce,28.50 €,120,25.00%
 10595,Queso Gudbrandsdals,36.00 €,65,25.00%
@@ -928,7 +928,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10597,Raviolis Angelo,19.50 €,20,0.00%
 10597,Salsa de pimiento picante de Luisiana,21.05 €,12,20.00%
 10598,Chocolate Schoggi,43.90 €,50,0.00%
-10598,Crema de queso Flřtemys,21.50 €,9,0.00%
+10598,Crema de queso Fløtemys,21.50 €,9,0.00%
 10599,Tarta de azúcar,49.30 €,10,0.00%
 10600,Empanada de cerdo,7.45 €,4,0.00%
 10600,Caviar rojo,15.00 €,30,0.00%
@@ -942,7 +942,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10605,Postre de merengue Pavlova,17.45 €,30,5.00%
 10605,Raclet de queso Courdavault,55.00 €,20,5.00%
 10605,Camembert Pierrot,34.00 €,70,5.00%
-10605,Crema de queso Flřtemys,21.50 €,15,5.00%
+10605,Crema de queso Fløtemys,21.50 €,15,5.00%
 10606,Especias Cajun del chef Anton,22.00 €,20,20.00%
 10606,Paté chino,24.00 €,20,20.00%
 10606,Tarta de azúcar,49.30 €,10,20.00%
@@ -973,7 +973,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10616,Vino Côte de Blaye,263.50 €,15,5.00%
 10616,Gnocchi de la abuela Alicia,38.00 €,14,0.00%
 10616,Cerveza Outback,15.00 €,15,5.00%
-10616,Crema de queso Flřtemys,21.50 €,15,5.00%
+10616,Crema de queso Fløtemys,21.50 €,15,5.00%
 10617,Raclet de queso Courdavault,55.00 €,30,15.00%
 10618,Mermelada de grosellas de la abuela,25.00 €,70,0.00%
 10618,Gnocchi de la abuela Alicia,38.00 €,20,0.00%
@@ -985,7 +985,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10621,Pastas de té de chocolate,9.20 €,5,0.00%
 10621,Pan fino,9.00 €,10,0.00%
 10621,Cerveza Outback,15.00 €,20,0.00%
-10621,Crema de queso Flřtemys,21.50 €,15,0.00%
+10621,Crema de queso Fløtemys,21.50 €,15,0.00%
 10622,Cerveza tibetana Barley,19.00 €,20,0.00%
 10622,Barras de pan de Escocia,12.50 €,18,20.00%
 10623,Cuajada de judías,23.25 €,21,0.00%
@@ -1001,7 +1001,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10625,Camembert Pierrot,34.00 €,10,0.00%
 10626,Empanada de carne,32.80 €,12,0.00%
 10626,Camembert Pierrot,34.00 €,20,0.00%
-10626,Crema de queso Flřtemys,21.50 €,20,0.00%
+10626,Crema de queso Fløtemys,21.50 €,20,0.00%
 10627,Tarta de azúcar,49.30 €,15,0.00%
 10627,Caviar rojo,15.00 €,35,15.00%
 10628,Té Dharamsala,18.00 €,25,0.00%
@@ -1024,7 +1024,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10635,Mezcla Gumbo del chef Anton,21.35 €,15,10.00%
 10635,Pan de centeno crujiente estilo Gustaf's,21.00 €,40,0.00%
 10636,Especias Cajun del chef Anton,22.00 €,25,0.00%
-10636,Caracoles de Borgońa,13.25 €,6,0.00%
+10636,Caracoles de Borgoña,13.25 €,6,0.00%
 10637,Queso Cabrales,21.00 €,10,0.00%
 10637,Chocolate blanco,16.25 €,25,5.00%
 10637,Gnocchi de la abuela Alicia,38.00 €,60,5.00%
@@ -1048,7 +1048,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10645,Escabeche de arenque,19.00 €,15,0.00%
 10646,Té Dharamsala,18.00 €,15,25.00%
 10646,Pez espada,31.00 €,18,25.00%
-10646,Crema de queso Flřtemys,21.50 €,30,25.00%
+10646,Crema de queso Fløtemys,21.50 €,30,25.00%
 10646,Salsa verde original Frankfurter,13.00 €,35,25.00%
 10647,Pastas de té de chocolate,9.20 €,30,0.00%
 10647,Licor verde Chartreuse,18.00 €,20,0.00%
@@ -1087,7 +1087,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10659,Cerveza Outback,15.00 €,40,5.00%
 10660,Mermelada de Sir Rodney's,81.00 €,21,0.00%
 10661,Licor verde Chartreuse,18.00 €,3,20.00%
-10661,Caracoles de Borgońa,13.25 €,49,20.00%
+10661,Caracoles de Borgoña,13.25 €,49,20.00%
 10662,Barras de pan de Escocia,12.50 €,10,0.00%
 10663,Carne de cangrejo de Boston,18.40 €,30,5.00%
 10663,Tallarines de Singapur,14.00 €,30,5.00%
@@ -1101,7 +1101,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10666,Salchicha Thüringer,123.79 €,36,0.00%
 10666,Salsa de pimiento picante de Luisiana,21.05 €,10,0.00%
 10667,Queso Gudbrandsdals,36.00 €,45,20.00%
-10667,Crema de queso Flřtemys,21.50 €,14,20.00%
+10667,Crema de queso Fløtemys,21.50 €,14,20.00%
 10668,Queso gorgonzola Telino,12.50 €,8,10.00%
 10668,Paté chino,24.00 €,4,10.00%
 10668,Bollos de pan de Wimmer,33.25 €,15,10.00%
@@ -1115,14 +1115,14 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10671,Tarta de azúcar,49.30 €,10,0.00%
 10671,Salsa de pimiento picante de Luisiana,21.05 €,12,0.00%
 10672,Vino Côte de Blaye,263.50 €,15,10.00%
-10672,Crema de queso Flřtemys,21.50 €,12,0.00%
+10672,Crema de queso Fløtemys,21.50 €,12,0.00%
 10673,Postre de merengue Pavlova,17.45 €,3,0.00%
 10673,Tallarines de Singapur,14.00 €,6,0.00%
 10673,Café de Malasia,46.00 €,6,0.00%
 10674,Pan fino,9.00 €,5,0.00%
 10675,Cuajada de judías,23.25 €,30,0.00%
 10675,Empanada de carne,32.80 €,10,0.00%
-10675,Caracoles de Borgońa,13.25 €,30,0.00%
+10675,Caracoles de Borgoña,13.25 €,30,0.00%
 10676,Pez espada,31.00 €,2,0.00%
 10676,Pastas de té de chocolate,9.20 €,7,0.00%
 10676,Azúcar negra Malacca,19.45 €,21,0.00%
@@ -1180,7 +1180,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10696,Arenque salado,12.00 €,18,0.00%
 10697,Pastas de té de chocolate,9.20 €,7,25.00%
 10697,Cerveza negra Steeleye,18.00 €,9,25.00%
-10697,Caracoles de Borgońa,13.25 €,30,25.00%
+10697,Caracoles de Borgoña,13.25 €,30,25.00%
 10697,Cerveza Outback,15.00 €,30,25.00%
 10698,Queso Cabrales,21.00 €,15,0.00%
 10698,Cordero Alice Springs,39.00 €,8,5.00%
@@ -1191,9 +1191,9 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10700,Té Dharamsala,18.00 €,5,20.00%
 10700,Cerveza Sasquatch,14.00 €,12,20.00%
 10700,Barras de pan de Escocia,12.50 €,40,20.00%
-10700,Crema de queso Flřtemys,21.50 €,60,20.00%
+10700,Crema de queso Fløtemys,21.50 €,60,20.00%
 10701,Raclet de queso Courdavault,55.00 €,42,15.00%
-10701,Crema de queso Flřtemys,21.50 €,20,15.00%
+10701,Crema de queso Fløtemys,21.50 €,20,15.00%
 10701,Licor Cloudberry,18.00 €,35,15.00%
 10702,Sirope de regaliz,10.00 €,6,0.00%
 10702,Licor Cloudberry,18.00 €,15,0.00%
@@ -1231,9 +1231,9 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10714,Cordero Alice Springs,39.00 €,27,25.00%
 10714,Galletas Zaanse,9.50 €,50,25.00%
 10714,Gnocchi de la abuela Alicia,38.00 €,18,25.00%
-10714,Caracoles de Borgońa,13.25 €,12,25.00%
+10714,Caracoles de Borgoña,13.25 €,12,25.00%
 10715,Pez espada,31.00 €,21,0.00%
-10715,Crema de queso Flřtemys,21.50 €,30,0.00%
+10715,Crema de queso Fløtemys,21.50 €,30,0.00%
 10716,Bollos de Sir Rodney's,10.00 €,5,0.00%
 10716,Manzanas secas Manjimup,53.00 €,7,0.00%
 10716,Sirope de arce,28.50 €,10,0.00%
@@ -1248,7 +1248,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10719,Arenque blanco del noroeste,25.89 €,3,25.00%
 10719,Empanada de cerdo,7.45 €,40,25.00%
 10720,Cerveza negra Steeleye,18.00 €,21,0.00%
-10720,Crema de queso Flřtemys,21.50 €,8,0.00%
+10720,Crema de queso Fløtemys,21.50 €,8,0.00%
 10721,Azúcar negra Malacca,19.45 €,50,5.00%
 10722,Cerveza tibetana Barley,19.00 €,3,0.00%
 10722,Queso gorgonzola Telino,12.50 €,50,0.00%
@@ -1371,13 +1371,13 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10768,Pan de centeno crujiente estilo Gustaf's,21.00 €,4,0.00%
 10768,Queso gorgonzola Telino,12.50 €,50,0.00%
 10768,Camembert Pierrot,34.00 €,15,0.00%
-10768,Crema de queso Flřtemys,21.50 €,12,0.00%
+10768,Crema de queso Fløtemys,21.50 €,12,0.00%
 10769,Crema de almejas estilo Nueva Inglaterra,9.65 €,30,5.00%
 10769,Cereales para Filo,7.00 €,15,5.00%
 10769,Sirope de arce,28.50 €,20,0.00%
 10769,Tarta de azúcar,49.30 €,15,0.00%
 10770,Queso Cabrales,21.00 €,15,25.00%
-10771,Crema de queso Flřtemys,21.50 €,16,0.00%
+10771,Crema de queso Fløtemys,21.50 €,16,0.00%
 10772,Salchicha Thüringer,123.79 €,18,0.00%
 10772,Raclet de queso Courdavault,55.00 €,25,0.00%
 10773,Cordero Alice Springs,39.00 €,33,0.00%
@@ -1546,7 +1546,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10838,Té Dharamsala,18.00 €,4,25.00%
 10838,Langostinos tigre Carnarvon,62.50 €,25,25.00%
 10838,Escabeche de arenque,19.00 €,50,25.00%
-10839,Caracoles de Borgońa,13.25 €,30,10.00%
+10839,Caracoles de Borgoña,13.25 €,30,10.00%
 10839,Queso Mozzarella Giovanni,34.80 €,15,10.00%
 10840,Crema de chocolate y nueces NuNuCa,14.00 €,6,20.00%
 10840,Licor verde Chartreuse,18.00 €,10,20.00%
@@ -1563,7 +1563,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10845,Pan fino,9.00 €,70,10.00%
 10845,Cerveza negra Steeleye,18.00 €,25,10.00%
 10845,Tallarines de Singapur,14.00 €,42,10.00%
-10845,Caracoles de Borgońa,13.25 €,60,10.00%
+10845,Caracoles de Borgoña,13.25 €,60,10.00%
 10845,Bollos de pan de Wimmer,33.25 €,48,0.00%
 10846,Especias Cajun del chef Anton,22.00 €,21,0.00%
 10846,Cerveza Outback,15.00 €,30,0.00%
@@ -1573,7 +1573,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10847,Salmón ahumado Gravad,26.00 €,60,20.00%
 10847,Arenque ahumado,9.50 €,36,20.00%
 10847,Camembert Pierrot,34.00 €,45,20.00%
-10847,Crema de queso Flřtemys,21.50 €,55,20.00%
+10847,Crema de queso Fløtemys,21.50 €,55,20.00%
 10848,Mezcla Gumbo del chef Anton,21.35 €,30,0.00%
 10848,Buey Mishi Kobe,97.00 €,3,0.00%
 10849,Sirope de regaliz,10.00 €,49,0.00%
@@ -1616,7 +1616,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10862,Queso Cabrales,21.00 €,25,0.00%
 10862,Cereales para Filo,7.00 €,8,0.00%
 10863,Té Dharamsala,18.00 €,20,15.00%
-10863,Caracoles de Borgońa,13.25 €,12,15.00%
+10863,Caracoles de Borgoña,13.25 €,12,15.00%
 10864,Cerveza negra Steeleye,18.00 €,4,0.00%
 10864,Cerveza Laughing Lumberjack,14.00 €,15,0.00%
 10865,Vino Côte de Blaye,263.50 €,60,5.00%
@@ -1703,13 +1703,13 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10899,Licor verde Chartreuse,18.00 €,8,15.00%
 10900,Cerveza Outback,15.00 €,3,25.00%
 10901,Crema de almejas estilo Nueva Inglaterra,9.65 €,30,0.00%
-10901,Crema de queso Flřtemys,21.50 €,30,0.00%
+10901,Crema de queso Fløtemys,21.50 €,30,0.00%
 10902,Paté chino,24.00 €,30,15.00%
 10902,Tarta de azúcar,49.30 €,6,15.00%
 10903,Algas Konbu,6.00 €,40,0.00%
 10903,Salsa de pimiento picante de Luisiana,21.05 €,21,0.00%
 10903,Barras de pan de Escocia,12.50 €,20,0.00%
-10904,Caracoles de Borgońa,13.25 €,15,0.00%
+10904,Caracoles de Borgoña,13.25 €,15,0.00%
 10904,Tarta de azúcar,49.30 €,35,0.00%
 10905,Té Dharamsala,18.00 €,20,5.00%
 10906,Sirope de arce,28.50 €,15,0.00%
@@ -1729,8 +1729,8 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10912,Salchicha Thüringer,123.79 €,60,25.00%
 10913,Especias Cajun del chef Anton,22.00 €,30,25.00%
 10913,Queso de cabra,2.50 €,40,25.00%
-10913,Caracoles de Borgońa,13.25 €,15,0.00%
-10914,Crema de queso Flřtemys,21.50 €,25,0.00%
+10913,Caracoles de Borgoña,13.25 €,15,0.00%
+10914,Crema de queso Fløtemys,21.50 €,25,0.00%
 10915,Cordero Alice Springs,39.00 €,10,0.00%
 10915,Queso de cabra,2.50 €,30,0.00%
 10915,Empanada de cerdo,7.45 €,10,0.00%
@@ -1772,7 +1772,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10930,Bollos de Sir Rodney's,10.00 €,36,0.00%
 10930,Chocolate Schoggi,43.90 €,25,0.00%
 10930,Paté chino,24.00 €,25,20.00%
-10930,Caracoles de Borgońa,13.25 €,30,20.00%
+10930,Caracoles de Borgoña,13.25 €,30,20.00%
 10931,Algas Konbu,6.00 €,42,15.00%
 10931,Raviolis Angelo,19.50 €,30,0.00%
 10932,Postre de merengue Pavlova,17.45 €,30,10.00%
@@ -1791,7 +1791,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 10938,Algas Konbu,6.00 €,20,25.00%
 10938,Café de Malasia,46.00 €,24,25.00%
 10938,Camembert Pierrot,34.00 €,49,25.00%
-10938,Crema de queso Flřtemys,21.50 €,35,25.00%
+10938,Crema de queso Fløtemys,21.50 €,35,25.00%
 10939,Cerveza tibetana Barley,19.00 €,10,15.00%
 10939,Cerveza Laughing Lumberjack,14.00 €,40,15.00%
 10940,Peras secas orgánicas del tío Bob,30.00 €,8,0.00%
@@ -1964,17 +1964,17 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 11007,Tallarines de Singapur,14.00 €,14,0.00%
 11008,Col fermentada Rössle,45.60 €,70,5.00%
 11008,Cerveza Sasquatch,14.00 €,90,5.00%
-11008,Crema de queso Flřtemys,21.50 €,21,0.00%
+11008,Crema de queso Fløtemys,21.50 €,21,0.00%
 11009,Refresco Guaraná Fantástica,4.50 €,12,0.00%
 11009,Escabeche de arenque,19.00 €,18,25.00%
 11009,Camembert Pierrot,34.00 €,9,0.00%
 11010,Peras secas orgánicas del tío Bob,30.00 €,20,0.00%
 11010,Refresco Guaraná Fantástica,4.50 €,10,0.00%
-11011,Caracoles de Borgońa,13.25 €,40,5.00%
-11011,Crema de queso Flřtemys,21.50 €,20,0.00%
+11011,Caracoles de Borgoña,13.25 €,40,5.00%
+11011,Crema de queso Fløtemys,21.50 €,20,0.00%
 11012,Pastas de té de chocolate,9.20 €,50,5.00%
 11012,Camembert Pierrot,34.00 €,36,5.00%
-11012,Crema de queso Flřtemys,21.50 €,60,5.00%
+11012,Crema de queso Fløtemys,21.50 €,60,5.00%
 11013,Pan fino,9.00 €,10,0.00%
 11013,Tallarines de Singapur,14.00 €,4,0.00%
 11013,Arenque ahumado,9.50 €,20,0.00%
@@ -2005,7 +2005,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 11024,Ositos de goma Gumbär,31.23 €,12,0.00%
 11024,Queso de cabra,2.50 €,30,0.00%
 11024,Salsa de pimiento picante de Luisiana,21.05 €,21,0.00%
-11024,Crema de queso Flřtemys,21.50 €,50,0.00%
+11024,Crema de queso Fløtemys,21.50 €,50,0.00%
 11025,Té Dharamsala,18.00 €,10,10.00%
 11025,Algas Konbu,6.00 €,20,10.00%
 11026,Langostinos tigre Carnarvon,62.50 €,8,0.00%
@@ -2024,7 +2024,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 11031,Algas Konbu,6.00 €,80,0.00%
 11031,Refresco Guaraná Fantástica,4.50 €,21,0.00%
 11031,Bollos de pan de Wimmer,33.25 €,20,0.00%
-11031,Crema de queso Flřtemys,21.50 €,16,0.00%
+11031,Crema de queso Fløtemys,21.50 €,16,0.00%
 11032,Escabeche de arenque,19.00 €,35,0.00%
 11032,Vino Côte de Blaye,263.50 €,25,0.00%
 11032,Raclet de queso Courdavault,55.00 €,30,0.00%
@@ -2042,7 +2042,7 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 11037,Cerveza Outback,15.00 €,4,0.00%
 11038,Carne de cangrejo de Boston,18.40 €,5,20.00%
 11038,Cereales para Filo,7.00 €,2,0.00%
-11038,Crema de queso Flřtemys,21.50 €,30,0.00%
+11038,Crema de queso Fløtemys,21.50 €,30,0.00%
 11039,Col fermentada Rössle,45.60 €,20,0.00%
 11039,Cerveza negra Steeleye,18.00 €,24,0.00%
 11039,Regaliz,20.00 €,60,0.00%
@@ -2154,229 +2154,3 @@ Id. de pedido,Producto,Precio por unidad,Cantidad,Descuento
 11077,Caviar rojo,15.00 €,2,1.00%
 11077,Cerveza Klosterbier Rhönbräu,7.75 €,4,0.00%
 11077,Salsa verde original Frankfurter,13.00 €,2,0.00%
-11080,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,10,15.00%
-11080,Budin Marmolado Limon Chocolate,8.00 €,3,0.00%
-11080,Bohemian Pilsener,5.00 €,20,0.00%
-11081,Postre de merengue Pavlova,17.45 €,3,0.00%
-11081,Pastas de té de chocolate,9.20 €,42,0.00%
-11081,Bohemian Pilsener,5.00 €,35,0.00%
-11082,Crema de almejas estilo Nueva Inglaterra,9.65 €,9,0.00%
-11082,Café de Malasia,46.00 €,36,0.00%
-11082,Salsa verde original Frankfurter,13.00 €,28,0.00%
-11082,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,8,15.00%
-11083,Peras secas orgánicas del tío Bob,30.00 €,15,5.00%
-11083,Algas Konbu,6.00 €,10,5.00%
-11083,Crema de almejas estilo Nueva Inglaterra,9.65 €,40,0.00%
-11083,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11083,Budin Marmolado Limon Chocolate,8.00 €,30,0.00%
-11083,Bohemian Pilsener,5.00 €,8,0.00%
-11084,Queso Cabrales,21.00 €,10,0.00%
-11084,Refresco Guaraná Fantástica,4.50 €,20,0.00%
-11084,Chocolate blanco,16.25 €,22,0.00%
-11084,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,130,15.00%
-11084,Budin Marmolado Limon Chocolate,8.00 €,14,5.00%
-11084,Bohemian Pilsener,5.00 €,10,0.00%
-11085,Mermelada de grosellas de la abuela,25.00 €,20,25.00%
-11085,Cuajada de judías,23.25 €,20,25.00%
-11085,Pastas de té de chocolate,9.20 €,10,25.00%
-11085,Licor Cloudberry,18.00 €,2,15.00%
-11085,Bohemian Pilsener,5.00 €,24,0.00%
-11086,Pez espada,31.00 €,1,0.00%
-11086,Queso Manchego La Pastora,38.00 €,2,5.00%
-11086,Algas Konbu,6.00 €,4,0.00%
-11086,Cuajada de judías,23.25 €,1,3.00%
-11086,Mermelada de Sir Rodney's,81.00 €,1,4.00%
-11086,Budin Marmolado Limon Chocolate,8.00 €,2,3.00%
-11087,Sirope de regaliz,10.00 €,4,0.00%
-11087,Especias Cajun del chef Anton,22.00 €,1,0.00%
-11088,Queso Cabrales,21.00 €,10,0.00%
-11088,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,130,15.00%
-11088,Budin Marmolado Limon Chocolate,8.00 €,14,5.00%
-11088,Bohemian Pilsener,5.00 €,20,0.00%
-11089,Paté chino,24.00 €,2,0.00%
-11089,Camembert Pierrot,34.00 €,2,6.00%
-11089,Especias picantes de Luisiana,17.00 €,1,0.00%
-11089,Caviar rojo,15.00 €,2,1.00%
-11089,Salsa verde original Frankfurter,13.00 €,2,0.00%
-11089,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,2,15.00%
-11089,Bohemian Pilsener,5.00 €,4,0.00%
-11090,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,2,15.00%
-11090,Budin Marmolado Limon Chocolate,8.00 €,2,3.00%
-11090,Bohemian Pilsener,5.00 €,4,0.00%
-11091,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11091,Budin Marmolado Limon Chocolate,8.00 €,4,3.00%
-11091,Bohemian Pilsener,5.00 €,4,0.00%
-11092,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,8,15.00%
-11092,Budin Marmolado Limon Chocolate,8.00 €,10,3.00%
-11092,Bohemian Pilsener,5.00 €,4,0.00%
-11093,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,2,15.00%
-11093,Budin Marmolado Limon Chocolate,8.00 €,3,3.00%
-11093,Bohemian Pilsener,5.00 €,8,0.00%
-11094,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11094,Budin Marmolado Limon Chocolate,8.00 €,12,3.00%
-11094,Bohemian Pilsener,5.00 €,4,0.00%
-11095,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,16,15.00%
-11095,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11095,Bohemian Pilsener,5.00 €,23,0.00%
-11096,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,12,15.00%
-11096,Budin Marmolado Limon Chocolate,8.00 €,9,3.00%
-11096,Bohemian Pilsener,5.00 €,4,0.00%
-11097,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11097,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11097,Bohemian Pilsener,5.00 €,8,0.00%
-11098,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11098,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11098,Bohemian Pilsener,5.00 €,10,0.00%
-11099,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11099,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11099,Bohemian Pilsener,5.00 €,22,0.00%
-11100,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11100,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11100,Bohemian Pilsener,5.00 €,8,0.00%
-11101,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11101,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11101,Bohemian Pilsener,5.00 €,10,0.00%
-11102,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11102,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11102,Bohemian Pilsener,5.00 €,22,0.00%
-11103,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11103,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11103,Bohemian Pilsener,5.00 €,8,0.00%
-11104,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11104,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11104,Bohemian Pilsener,5.00 €,10,0.00%
-11105,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11105,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11105,Bohemian Pilsener,5.00 €,22,0.00%
-11106,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11106,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11106,Bohemian Pilsener,5.00 €,8,0.00%
-11107,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11107,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11107,Bohemian Pilsener,5.00 €,10,0.00%
-11108,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11108,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11108,Bohemian Pilsener,5.00 €,22,0.00%
-11109,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11109,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11109,Bohemian Pilsener,5.00 €,8,0.00%
-11110,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11110,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11110,Bohemian Pilsener,5.00 €,10,0.00%
-11111,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11111,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11111,Bohemian Pilsener,5.00 €,22,0.00%
-11112,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11112,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11112,Bohemian Pilsener,5.00 €,8,0.00%
-11113,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11113,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11113,Bohemian Pilsener,5.00 €,10,0.00%
-11114,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11114,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11114,Bohemian Pilsener,5.00 €,22,0.00%
-11115,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11115,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11115,Bohemian Pilsener,5.00 €,8,0.00%
-11116,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11116,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11116,Bohemian Pilsener,5.00 €,10,0.00%
-11117,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11117,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11117,Bohemian Pilsener,5.00 €,22,0.00%
-11118,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11118,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11118,Bohemian Pilsener,5.00 €,8,0.00%
-11119,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11119,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11119,Bohemian Pilsener,5.00 €,10,0.00%
-11211,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,2,15.00%
-11211,Budin Marmolado Limon Chocolate,8.00 €,2,3.00%
-11211,Bohemian Pilsener,5.00 €,4,0.00%
-11212,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11212,Budin Marmolado Limon Chocolate,8.00 €,4,3.00%
-11212,Bohemian Pilsener,5.00 €,4,0.00%
-11213,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,8,15.00%
-11213,Budin Marmolado Limon Chocolate,8.00 €,10,3.00%
-11213,Bohemian Pilsener,5.00 €,4,0.00%
-11214,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,2,15.00%
-11214,Budin Marmolado Limon Chocolate,8.00 €,3,3.00%
-11214,Bohemian Pilsener,5.00 €,8,0.00%
-11215,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11215,Budin Marmolado Limon Chocolate,8.00 €,12,3.00%
-11215,Bohemian Pilsener,5.00 €,4,0.00%
-11216,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,16,15.00%
-11216,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11216,Bohemian Pilsener,5.00 €,23,0.00%
-11217,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,12,15.00%
-11217,Budin Marmolado Limon Chocolate,8.00 €,9,3.00%
-11217,Bohemian Pilsener,5.00 €,4,0.00%
-11218,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11218,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11218,Bohemian Pilsener,5.00 €,8,0.00%
-11219,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11219,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11219,Bohemian Pilsener,5.00 €,10,0.00%
-11220,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11220,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11220,Bohemian Pilsener,5.00 €,22,0.00%
-11221,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11221,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11221,Bohemian Pilsener,5.00 €,8,0.00%
-11222,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11222,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11222,Bohemian Pilsener,5.00 €,10,0.00%
-11223,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11223,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11223,Bohemian Pilsener,5.00 €,22,0.00%
-11224,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11224,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11224,Bohemian Pilsener,5.00 €,8,0.00%
-11225,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11225,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11225,Bohemian Pilsener,5.00 €,10,0.00%
-11226,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11226,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11226,Bohemian Pilsener,5.00 €,22,0.00%
-11227,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11227,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11227,Bohemian Pilsener,5.00 €,8,0.00%
-11228,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11228,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11228,Bohemian Pilsener,5.00 €,10,0.00%
-11229,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11229,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11229,Bohemian Pilsener,5.00 €,22,0.00%
-11230,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11230,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11230,Bohemian Pilsener,5.00 €,8,0.00%
-11231,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11231,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11231,Bohemian Pilsener,5.00 €,10,0.00%
-11232,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11232,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11232,Bohemian Pilsener,5.00 €,22,0.00%
-11233,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11233,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11233,Bohemian Pilsener,5.00 €,8,0.00%
-11234,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11234,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11234,Bohemian Pilsener,5.00 €,10,0.00%
-11235,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11235,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11235,Bohemian Pilsener,5.00 €,22,0.00%
-11236,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11236,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11236,Bohemian Pilsener,5.00 €,8,0.00%
-11237,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11237,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11237,Bohemian Pilsener,5.00 €,10,0.00%
-11238,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,19,15.00%
-11238,Budin Marmolado Limon Chocolate,8.00 €,11,3.00%
-11238,Bohemian Pilsener,5.00 €,22,0.00%
-11239,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,6,15.00%
-11239,Budin Marmolado Limon Chocolate,8.00 €,7,3.00%
-11239,Bohemian Pilsener,5.00 €,8,0.00%
-11240,Madalenas Vainilla Rell. Dulce de Leche,11.00 €,20,15.00%
-11240,Budin Marmolado Limon Chocolate,8.00 €,23,3.00%
-11240,Bohemian Pilsener,5.00 €,10,0.00%

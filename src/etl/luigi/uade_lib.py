@@ -25,7 +25,7 @@ class SupportSystemDecisionsDB:
         database = os.getenv('PG_UADE_BI_DATABASE', 'support_system_decisions_staging')
         user = os.getenv('PG_UADE_BI_USER', 'postgres')
         password = os.getenv('PG_UADE_BI_PASSWORD', '')
-        port = os.getenv('PG_UADE_BI_PORT', 5732)
+        port = os.getenv('PG_UADE_BI_PORT', 5532)
 
         return psycopg2.connect(
             dbname = database,
@@ -63,12 +63,6 @@ class TransforHelper:
         # return re.sub(r'[^\w\s_|\.]+', '', text).strip()
         # return text.strip()
         return text
-
-    def bool_clean(text):
-        if text is None:
-            text = False
-
-        return text.upper() == "VERDADERO"
 
     def remove_currency(price):
         if price is None:

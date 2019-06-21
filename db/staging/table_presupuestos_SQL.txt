@@ -1,0 +1,25 @@
+CREATE TABLE public.dim_presupuesto
+(
+    pais_destinatario character varying(200) COLLATE pg_catalog."default",
+    id_categoria integer,
+    enero character varying(200) COLLATE pg_catalog."default",
+    febrero character varying(200) COLLATE pg_catalog."default",
+    marzo character varying(200) COLLATE pg_catalog."default",
+    abril character varying(200) COLLATE pg_catalog."default",
+    mayo character varying(200) COLLATE pg_catalog."default",
+    junio character varying(200) COLLATE pg_catalog."default",
+    julio character varying(200) COLLATE pg_catalog."default",
+    agosto character varying(200) COLLATE pg_catalog."default",
+    septiembre character varying(200) COLLATE pg_catalog."default",
+    octubre character varying(200) COLLATE pg_catalog."default",
+    noviembre character varying(200) COLLATE pg_catalog."default",
+    diciembre character varying(200) COLLATE pg_catalog."default",
+    anio character varying(200) COLLATE pg_catalog."default"
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.dim_presupuesto
+    OWNER to postgres;

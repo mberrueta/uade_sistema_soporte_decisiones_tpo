@@ -113,7 +113,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'dim_addresses'
-    columns = ['id', 'state', 'region', 'postal_code', 'country']
+    columns = ['id', 'state', 'region', 'country', 'postal_code']
 
     def requires(self):
         return Clean()

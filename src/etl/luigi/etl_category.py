@@ -47,7 +47,7 @@ class Clean(luigi.Task):
                         name = 'no_name'
                     result.append({'id': id, 'name': name})
 
-        result.append({'id': 9999, 'name': 'others'})
+        # result.append({'id': 9999, 'name': 'others'})
 
         with self.output().open('w') as out_file:
             writer = csv.DictWriter(out_file, fieldnames=self.columns)

@@ -55,8 +55,8 @@ class Clean(luigi.Task):
         self.logger.info('==> Name cleaning')
         providers_df['name'] = providers_df['name'].apply(lambda name: lib.TransforHelper.text_clean(name))
 
-        df2 = pd.DataFrame([[9999, 'others', 'prov|1']], columns=['id', 'name', 'id_address'])
-        providers_df = providers_df.append(df2)
+        # df2 = pd.DataFrame([[9999, 'others', None]], columns=['id', 'name', 'id_address'])
+        # providers_df = providers_df.append(df2)
 
         with self.output().open('w') as out_file:
             providers_df.to_csv(out_file, index=False)

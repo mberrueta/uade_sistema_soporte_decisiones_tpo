@@ -1,0 +1,960 @@
+id,state,region,postal_code,country
+cli|ALFKI,Berlín,,12209,Alemania
+cli|ANATR,México D.F.,,05021,México
+cli|ANTON,México D.F.,,05023,México
+cli|AROUT,Londres,,WA1 1DP,Reino Unido
+cli|BERGS,Luleå,,S-958 22,Suecia
+cli|BLAUS,Mannheim,,68306,Alemania
+cli|BLONP,Estrasburgo,,67000,Francia
+cli|BOLID,Madrid,,28023,España
+cli|BONAP,Marsella,,13008,Francia
+cli|BOTTM,Tsawassen,BC,T2F 8M4,Canadá
+cli|BSBEV,Londres,,EC2 5NT,Reino Unido
+cli|CACTU,Buenos Aires,,1010,Argentina
+cli|CENTC,México D.F.,,05022,México
+cli|CHOPS,Berna,,3012,Suiza
+cli|COMMI,São Paulo,SP,05432-043,Brasil
+cli|CONSH,Londres,,WX1 6LT,Reino Unido
+cli|DRACD,Aachen,,52066,Alemania
+cli|DUMON,Nantes,,44000,Francia
+cli|EASTC,Londres,,WX3 6FW,Reino Unido
+cli|ERNSH,Graz,,8010,Austria
+cli|FAMIA,Sao Paulo,SP,05442-030,Brasil
+cli|FISSA,Madrid,,28034,España
+cli|FOLIG,Lille,,59000,Francia
+cli|FOLKO,Bräcke,,S-844 67,Suecia
+cli|FRANK,München,,80805,Alemania
+cli|FRANR,Nantes,,44000,Francia
+cli|FRANS,Torino,,10100,Italia
+cli|FURIB,Lisboa,,1675,Portugal
+cli|GALED,Barcelona,,08022,España
+cli|GODOS,Sevilla,,41101,España
+cli|GOURL,Campinas,SP,04876-786,Brasil
+cli|GREAL,Eugenia,OR,97403,Estados Unidos
+cli|GROSR,Caracas,DF,1081,Venezuela
+cli|HANAR,Rio de Janeiro,RJ,05454-876,Brasil
+cli|HILAA,San Cristóbal,Táchira,5022,Venezuela
+cli|HUNGC,Elgin,OR,97827,Estados Unidos
+cli|HUNGO,Cork,Co. Cork,,Irlanda
+cli|ISLAT,Cowes,Isla de Wight,PO31 7PJ,Reino Unido
+cli|KOENE,Brandenburgo,,14776,Alemania
+cli|LACOR,Versalles,,78000,Francia
+cli|LAMAI,Toulouse,,31000,Francia
+cli|LAUGB,Vancouver,BC,V3F 2K1,Canadá
+cli|LAZYK,Walla Walla,WA,99362,Estados Unidos
+cli|LEHMS,Francfurt,,60528,Alemania
+cli|LETSS,San Francisco,CA,94117,Estados Unidos
+cli|LILAS,Barquisimeto,Lara,3508,Venezuela
+cli|LINOD,I. de Margarita,Nueva Esparta,4980,Venezuela
+cli|LONEP,Portland,OR,97219,Estados Unidos
+cli|MAGAA,Bérgamo,,24100,Italia
+cli|MAISD,Bruselas,,B-1180,Bélgica
+cli|MEREP,Montreal,Québec,H1J 1C3,Canadá
+cli|MORGK,Leipzig,,04179,Alemania
+cli|NORTS,Londres,,SW7 1RZ,Reino Unido
+cli|OCEAN,Buenos Aires,,1010,Argentina
+cli|OLDWO,Anchorage,AK,99508,Estados Unidos
+cli|OTTIK,Köln,,50739,Alemania
+cli|PARIS,París,,75012,Francia
+cli|PERIC,México D.F.,,05033,México
+cli|PICCO,Salzburgo,,5020,Austria
+cli|PRINI,Lisboa,,1756,Portugal
+cli|QUEDE,Rio de Janeiro,RJ,02389-673,Brasil
+cli|QUEEN,Sao Paulo,SP,05487-020,Brasil
+cli|QUICK,Cunewalde,,01307,Alemania
+cli|RANCH,Buenos Aires,,1010,Argentina
+cli|RATTC,Albuquerque,NM,87110,Estados Unidos
+cli|REGGC,Reggio Emilia,,42100,Italia
+cli|RICAR,Rio de Janeiro,RJ,02389-890,Brasil
+cli|RICSU,Génova,,1203,Suiza
+cli|ROMEY,Madrid,,28001,España
+cli|SANTG,Stavern,,4110,Noruega
+cli|SAVEA,Boise,ID,83720,Estados Unidos
+cli|SEVES,Londres,,OX15 4NB,Reino Unido
+cli|SIMOB,København,,1734,Dinamarca
+cli|SPECD,París,,75016,Francia
+cli|SPLIR,Lander,WY,82520,Estados Unidos
+cli|SUPRD,Charleroi,,B-6000,Bélgica
+cli|THEBI,Portland,OR,97201,Estados Unidos
+cli|THECR,Butte,MT,59801,Estados Unidos
+cli|TOMSP,Münster,,44087,Alemania
+cli|TORTU,México D.F.,,05033,México
+cli|TRADH,Sao Paulo,SP,05634-030,Brasil
+cli|TRAIH,Kirkland,WA,98034,Estados Unidos
+cli|VAFFE,Århus,,8200,Dinamarca
+cli|VICTE,Lion,,69004,Francia
+cli|VINET,Reims,,51100,Francia
+cli|WANDK,Stuttgart,,70563,Alemania
+cli|WARTH,Oulu,,90110,Finlandia
+cli|WELLI,Resende,SP,08737-363,Brasil
+cli|WHITC,Seattle,WA,98128,Estados Unidos
+cli|WILMK,Helsinki,,21240,Finlandia
+cli|WOLZA,Warszawa,,01-012,Polonia
+emp|1,Seattle,WA,98122,EE.UU.
+emp|2,Tacoma,WA,98401,EE.UU.
+emp|3,Kirkland,WA,98033,EE.UU.
+emp|4,Redmond,WA,98052,EE.UU.
+emp|5,Londres,,SW1 8JR,Reino Unido
+emp|6,Londres,,EC2 7JR,Reino Unido
+emp|7,Londres,,RG1 9SP,Reino Unido
+emp|8,Seattle,WA,98105,EE.UU.
+emp|9,Londres,,WG2 7LT,Reino Unido
+ord|10248,Helsinki,,21240,Finlandia
+ord|10249,Münster,,44087,Alemania
+ord|10250,Río de Janeiro,RJ,05454-876,Brasil
+ord|10251,Lyon,,69004,Francia
+ord|10252,Charleroi,,B-6000,Bélgica
+ord|10253,Río de Janeiro,RJ,05454-876,Brasil
+ord|10254,Bern,,3012,Suiza
+ord|10255,Genève,,1204,Suiza
+ord|10256,Resende,SP,08737-363,Brasil
+ord|10257,San Cristóbal,Táchira,5022,Venezuela
+ord|10258,Graz,,8010,Austria
+ord|10259,México D.F.,,05022,México
+ord|10260,Köln,,50739,Alemania
+ord|10261,Río de Janeiro,RJ,02389-673,Brasil
+ord|10262,Albuquerque,NM,87110,Estados Unidos
+ord|10263,Graz,,8010,Austria
+ord|10264,Bräcke,,S-844 67,Suecia
+ord|10265,Strasbourg,,67000,Francia
+ord|10266,Oulu,,90110,Finlandia
+ord|10267,München,,80805,Alemania
+ord|10268,Caracas,DF,1081,Venezuela
+ord|10269,Seattle,WA,98124,Estados Unidos
+ord|10270,Oulu,,90110,Finlandia
+ord|10271,Lander,WY,82520,Estados Unidos
+ord|10272,Albuquerque,NM,87110,Estados Unidos
+ord|10273,Cunewalde,,01307,Alemania
+ord|10274,Reims,,51100,Francia
+ord|10275,Bérgamo,,24100,Italia
+ord|10276,México D.F.,,05033,México
+ord|10277,Leipzig,,04179,Alemania
+ord|10278,Luleå,,S-958 22,Suecia
+ord|10279,Frankfurt a.M.,,60528,Alemania
+ord|10280,Luleå,,S-958 22,Suecia
+ord|10281,Madrid,,28001,España
+ord|10282,Madrid,,28001,España
+ord|10283,Barquisimeto,Lara,3508,Venezuela
+ord|10284,Frankfurt a.M.,,60528,Alemania
+ord|10285,Cunewalde,,01307,Alemania
+ord|10286,Cunewalde,,01307,Alemania
+ord|10287,Río de Janeiro,RJ,02389-890,Brasil
+ord|10288,Reggio Emilia,,42100,Italia
+ord|10289,London,,EC2 5NT,Reino Unido
+ord|10290,São Paulo,SP,05432-043,Brasil
+ord|10291,Río de Janeiro,RJ,02389-673,Brasil
+ord|10292,São Paulo,SP,05634-030,Brasil
+ord|10293,México D.F.,,05033,México
+ord|10294,Albuquerque,NM,87110,Estados Unidos
+ord|10295,Reims,,51100,Francia
+ord|10296,Barquisimeto,Lara,3508,Venezuela
+ord|10297,Strasbourg,,67000,Francia
+ord|10298,Cork,Co. Cork,,Irlanda
+ord|10299,Río de Janeiro,RJ,02389-890,Brasil
+ord|10300,Bérgamo,,24100,Italia
+ord|10301,Stuttgart,,70563,Alemania
+ord|10302,Charleroi,,B-6000,Bélgica
+ord|10303,Sevilla,,41101,España
+ord|10304,México D.F.,,05033,México
+ord|10305,Anchorage,AK,99508,Estados Unidos
+ord|10306,Madrid,,28001,España
+ord|10307,Portland,OR,97219,Estados Unidos
+ord|10308,México D.F.,,05021,México
+ord|10309,Cork,Co. Cork,,Irlanda
+ord|10310,Portland,OR,97201,Estados Unidos
+ord|10311,Nantes,,44000,Francia
+ord|10312,Stuttgart,,70563,Alemania
+ord|10313,Cunewalde,,01307,Alemania
+ord|10314,Albuquerque,NM,87110,Estados Unidos
+ord|10315,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10316,Albuquerque,NM,87110,Estados Unidos
+ord|10317,Portland,OR,97219,Estados Unidos
+ord|10318,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10319,México D.F.,,05033,México
+ord|10320,Oulu,,90110,Finlandia
+ord|10321,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10322,México D.F.,,05033,México
+ord|10323,Brandenburg,,14776,Alemania
+ord|10324,Boise,ID,83720,Estados Unidos
+ord|10325,Brandenburg,,14776,Alemania
+ord|10326,Madrid,,28023,España
+ord|10327,Bräcke,,S-844 67,Suecia
+ord|10328,Lisboa,,1675,Portugal
+ord|10329,Lander,WY,82520,Estados Unidos
+ord|10330,Barquisimeto,Lara,3508,Venezuela
+ord|10331,Marseille,,13008,Francia
+ord|10332,Montréal,Québec,H1J 1C3,Canadá
+ord|10333,Oulu,,90110,Finlandia
+ord|10334,Lyon,,69004,Francia
+ord|10335,Cork,Co. Cork,,Irlanda
+ord|10336,Lisboa,,1756,Portugal
+ord|10337,München,,80805,Alemania
+ord|10338,Anchorage,AK,99508,Estados Unidos
+ord|10339,Montréal,Québec,H1J 1C3,Canadá
+ord|10340,Marseille,,13008,Francia
+ord|10341,København,,1734,Dinamarca
+ord|10342,München,,80805,Alemania
+ord|10343,Frankfurt a.M.,,60528,Alemania
+ord|10344,Seattle,WA,98124,Estados Unidos
+ord|10345,Cunewalde,,01307,Alemania
+ord|10346,Albuquerque,NM,87110,Estados Unidos
+ord|10347,São Paulo,SP,05442-030,Brasil
+ord|10348,Stuttgart,,70563,Alemania
+ord|10349,Lander,WY,82520,Estados Unidos
+ord|10350,Toulouse,,31000,Francia
+ord|10351,Graz,,8010,Austria
+ord|10352,Lisboa,,1675,Portugal
+ord|10353,Salzburg,,5020,Austria
+ord|10354,México D.F.,,05033,México
+ord|10355,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10356,Stuttgart,,70563,Alemania
+ord|10357,Barquisimeto,Lara,3508,Venezuela
+ord|10358,Toulouse,,31000,Francia
+ord|10359,London,,OX15 4NB,Reino Unido
+ord|10360,Strasbourg,,67000,Francia
+ord|10361,Cunewalde,,01307,Alemania
+ord|10362,Marseille,,13008,Francia
+ord|10363,Aachen,,52066,Alemania
+ord|10364,London,,WX3 6FW,Reino Unido
+ord|10365,México D.F.,,05023,México
+ord|10366,Barcelona,,8022,España
+ord|10367,Århus,,8200,Dinamarca
+ord|10368,Graz,,8010,Austria
+ord|10369,Lander,WY,82520,Estados Unidos
+ord|10370,Bern,,3012,Suiza
+ord|10371,Toulouse,,31000,Francia
+ord|10372,São Paulo,SP,05487-020,Brasil
+ord|10373,Cork,Co. Cork,,Irlanda
+ord|10374,Warszawa,,01-012,Polonia
+ord|10375,Elgin,OR,97827,Estados Unidos
+ord|10376,Montréal,Québec,H1J 1C3,Canadá
+ord|10377,London,,OX15 4NB,Reino Unido
+ord|10378,Bräcke,,S-844 67,Suecia
+ord|10379,Río de Janeiro,RJ,02389-673,Brasil
+ord|10380,Cork,Co. Cork,,Irlanda
+ord|10381,Barquisimeto,Lara,3508,Venezuela
+ord|10382,Graz,,8010,Austria
+ord|10383,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10384,Luleå,,S-958 22,Suecia
+ord|10385,Lander,WY,82520,Estados Unidos
+ord|10386,São Paulo,SP,05442-030,Brasil
+ord|10387,Stavern,,4110,Noruega
+ord|10388,London,,OX15 4NB,Reino Unido
+ord|10389,Tsawassen,BC,T2F 8M4,Canadá
+ord|10390,Graz,,8010,Austria
+ord|10391,Aachen,,52066,Alemania
+ord|10392,Salzburg,,5020,Austria
+ord|10393,Boise,ID,83720,Estados Unidos
+ord|10394,Elgin,OR,97827,Estados Unidos
+ord|10395,San Cristóbal,Táchira,5022,Venezuela
+ord|10396,München,,80805,Alemania
+ord|10397,Lisboa,,1756,Portugal
+ord|10398,Boise,ID,83720,Estados Unidos
+ord|10399,Århus,,8200,Dinamarca
+ord|10400,London,,WX3 6FW,Reino Unido
+ord|10401,Albuquerque,NM,87110,Estados Unidos
+ord|10402,Graz,,8010,Austria
+ord|10403,Graz,,8010,Austria
+ord|10404,Bérgamo,,24100,Italia
+ord|10405,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10406,São Paulo,SP,05487-020,Brasil
+ord|10407,Köln,,50739,Alemania
+ord|10408,Lille,,59000,Francia
+ord|10409,Buenos Aires,,1010,Argentina
+ord|10410,Tsawassen,BC,T2F 8M4,Canadá
+ord|10411,Tsawassen,BC,T2F 8M4,Canadá
+ord|10412,Oulu,,90110,Finlandia
+ord|10413,Toulouse,,31000,Francia
+ord|10414,São Paulo,SP,05442-030,Brasil
+ord|10415,Elgin,OR,97827,Estados Unidos
+ord|10416,Oulu,,90110,Finlandia
+ord|10417,København,,1734,Dinamarca
+ord|10418,Cunewalde,,01307,Alemania
+ord|10419,Genève,,1204,Suiza
+ord|10420,Resende,SP,08737-363,Brasil
+ord|10421,Río de Janeiro,RJ,02389-673,Brasil
+ord|10422,Torino,,10100,Italia
+ord|10423,Campinas,SP,04876-786,Brasil
+ord|10424,Montréal,Québec,H1J 1C3,Canadá
+ord|10425,Toulouse,,31000,Francia
+ord|10426,Barcelona,,8022,España
+ord|10427,Salzburg,,5020,Austria
+ord|10428,Reggio Emilia,,42100,Italia
+ord|10429,Cork,Co. Cork,,Irlanda
+ord|10430,Graz,,8010,Austria
+ord|10431,Tsawassen,BC,T2F 8M4,Canadá
+ord|10432,Lander,WY,82520,Estados Unidos
+ord|10433,Lisboa,,1756,Portugal
+ord|10434,Bräcke,,S-844 67,Suecia
+ord|10435,London,,WX1 6LT,Reino Unido
+ord|10436,Strasbourg,,67000,Francia
+ord|10437,Oulu,,90110,Finlandia
+ord|10438,Münster,,44087,Alemania
+ord|10439,Montréal,Québec,H1J 1C3,Canadá
+ord|10440,Boise,ID,83720,Estados Unidos
+ord|10441,Anchorage,AK,99508,Estados Unidos
+ord|10442,Graz,,8010,Austria
+ord|10443,Reggio Emilia,,42100,Italia
+ord|10444,Luleå,,S-958 22,Suecia
+ord|10445,Luleå,,S-958 22,Suecia
+ord|10446,Münster,,44087,Alemania
+ord|10447,Río de Janeiro,RJ,02389-890,Brasil
+ord|10448,Buenos Aires,,1010,Argentina
+ord|10449,Strasbourg,,67000,Francia
+ord|10450,Lyon,,69004,Francia
+ord|10451,Cunewalde,,01307,Alemania
+ord|10452,Boise,ID,83720,Estados Unidos
+ord|10453,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10454,Toulouse,,31000,Francia
+ord|10455,Oulu,,90110,Finlandia
+ord|10456,Brandenburg,,14776,Alemania
+ord|10457,Brandenburg,,14776,Alemania
+ord|10458,Charleroi,,B-6000,Bélgica
+ord|10459,Lyon,,69004,Francia
+ord|10460,Bräcke,,S-844 67,Suecia
+ord|10461,Barquisimeto,Lara,3508,Venezuela
+ord|10462,London,,WX1 6LT,Reino Unido
+ord|10463,Charleroi,,B-6000,Bélgica
+ord|10464,Lisboa,,1675,Portugal
+ord|10465,Århus,,8200,Dinamarca
+ord|10466,São Paulo,SP,05432-043,Brasil
+ord|10467,Bérgamo,,24100,Italia
+ord|10468,Brandenburg,,14776,Alemania
+ord|10469,Seattle,WA,98124,Estados Unidos
+ord|10470,Marseille,,13008,Francia
+ord|10471,London,,EC2 5NT,Reino Unido
+ord|10472,London,,OX15 4NB,Reino Unido
+ord|10473,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10474,México D.F.,,05033,México
+ord|10475,Charleroi,,B-6000,Bélgica
+ord|10476,San Cristóbal,Táchira,5022,Venezuela
+ord|10477,Lisboa,,1756,Portugal
+ord|10478,Lyon,,69004,Francia
+ord|10479,Albuquerque,NM,87110,Estados Unidos
+ord|10480,Lille,,59000,Francia
+ord|10481,Río de Janeiro,RJ,02389-890,Brasil
+ord|10482,Walla Walla,WA,99362,Estados Unidos
+ord|10483,Seattle,WA,98124,Estados Unidos
+ord|10484,London,,EC2 5NT,Reino Unido
+ord|10485,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10486,San Cristóbal,Táchira,5022,Venezuela
+ord|10487,São Paulo,SP,05487-020,Brasil
+ord|10488,München,,80805,Alemania
+ord|10489,Salzburg,,5020,Austria
+ord|10490,San Cristóbal,Táchira,5022,Venezuela
+ord|10491,Lisboa,,1675,Portugal
+ord|10492,Tsawassen,BC,T2F 8M4,Canadá
+ord|10493,Toulouse,,31000,Francia
+ord|10494,São Paulo,SP,05432-043,Brasil
+ord|10495,Vancouver,BC,V3F 2K1,Canadá
+ord|10496,São Paulo,SP,05634-030,Brasil
+ord|10497,Frankfurt a.M.,,60528,Alemania
+ord|10498,San Cristóbal,Táchira,5022,Venezuela
+ord|10499,Barquisimeto,Lara,3508,Venezuela
+ord|10500,Toulouse,,31000,Francia
+ord|10501,Mannheim,,68306,Alemania
+ord|10502,México D.F.,,05033,México
+ord|10503,Cork,Co. Cork,,Irlanda
+ord|10504,Seattle,WA,98124,Estados Unidos
+ord|10505,Montréal,Québec,H1J 1C3,Canadá
+ord|10506,Brandenburg,,14776,Alemania
+ord|10507,México D.F.,,05023,México
+ord|10508,Köln,,50739,Alemania
+ord|10509,Mannheim,,68306,Alemania
+ord|10510,Boise,ID,83720,Estados Unidos
+ord|10511,Marseille,,13008,Francia
+ord|10512,São Paulo,SP,05442-030,Brasil
+ord|10513,Stuttgart,,70563,Alemania
+ord|10514,Graz,,8010,Austria
+ord|10515,Cunewalde,,01307,Alemania
+ord|10516,Cork,Co. Cork,,Irlanda
+ord|10517,London,,SW7 1RZ,Reino Unido
+ord|10518,México D.F.,,05033,México
+ord|10519,Bern,,3012,Suiza
+ord|10520,Stavern,,4110,Noruega
+ord|10521,Buenos Aires,,1010,Argentina
+ord|10522,Frankfurt a.M.,,60528,Alemania
+ord|10523,London,,OX15 4NB,Reino Unido
+ord|10524,Luleå,,S-958 22,Suecia
+ord|10525,Marseille,,13008,Francia
+ord|10526,Oulu,,90110,Finlandia
+ord|10527,Cunewalde,,01307,Alemania
+ord|10528,Eugene,OR,97403,Estados Unidos
+ord|10529,Bruxelles,,B-1180,Bélgica
+ord|10530,Salzburg,,5020,Austria
+ord|10531,Buenos Aires,,1010,Argentina
+ord|10532,London,,WX3 6FW,Reino Unido
+ord|10533,Bräcke,,S-844 67,Suecia
+ord|10534,Frankfurt a.M.,,60528,Alemania
+ord|10535,México D.F.,,05023,México
+ord|10536,Frankfurt a.M.,,60528,Alemania
+ord|10537,Genève,,1204,Suiza
+ord|10538,London,,EC2 5NT,Reino Unido
+ord|10539,London,,EC2 5NT,Reino Unido
+ord|10540,Cunewalde,,01307,Alemania
+ord|10541,Río de Janeiro,RJ,05454-876,Brasil
+ord|10542,Brandenburg,,14776,Alemania
+ord|10543,Barquisimeto,Lara,3508,Venezuela
+ord|10544,Portland,OR,97219,Estados Unidos
+ord|10545,Walla Walla,WA,99362,Estados Unidos
+ord|10546,Lyon,,69004,Francia
+ord|10547,London,,OX15 4NB,Reino Unido
+ord|10548,Münster,,44087,Alemania
+ord|10549,Cunewalde,,01307,Alemania
+ord|10550,Sevilla,,41101,España
+ord|10551,Lisboa,,1675,Portugal
+ord|10552,San Cristóbal,Táchira,5022,Venezuela
+ord|10553,Oulu,,90110,Finlandia
+ord|10554,Köln,,50739,Alemania
+ord|10555,Boise,ID,83720,Estados Unidos
+ord|10556,København,,1734,Dinamarca
+ord|10557,Frankfurt a.M.,,60528,Alemania
+ord|10558,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10559,Strasbourg,,67000,Francia
+ord|10560,München,,80805,Alemania
+ord|10561,Bräcke,,S-844 67,Suecia
+ord|10562,Reggio Emilia,,42100,Italia
+ord|10563,Río de Janeiro,RJ,02389-890,Brasil
+ord|10564,Albuquerque,NM,87110,Estados Unidos
+ord|10565,Montréal,Québec,H1J 1C3,Canadá
+ord|10566,Strasbourg,,67000,Francia
+ord|10567,Cork,Co. Cork,,Irlanda
+ord|10568,Barcelona,,8022,España
+ord|10569,Albuquerque,NM,87110,Estados Unidos
+ord|10570,Montréal,Québec,H1J 1C3,Canadá
+ord|10571,Graz,,8010,Austria
+ord|10572,Luleå,,S-958 22,Suecia
+ord|10573,México D.F.,,05023,México
+ord|10574,Kirkland,WA,98034,Estados Unidos
+ord|10575,Leipzig,,04179,Alemania
+ord|10576,México D.F.,,05033,México
+ord|10577,Kirkland,WA,98034,Estados Unidos
+ord|10578,London,,EC2 5NT,Reino Unido
+ord|10579,San Francisco,CA,94117,Estados Unidos
+ord|10580,Köln,,50739,Alemania
+ord|10581,São Paulo,SP,05442-030,Brasil
+ord|10582,Mannheim,,68306,Alemania
+ord|10583,Oulu,,90110,Finlandia
+ord|10584,Strasbourg,,67000,Francia
+ord|10585,Resende,SP,08737-363,Brasil
+ord|10586,Reggio Emilia,,42100,Italia
+ord|10587,Río de Janeiro,RJ,02389-673,Brasil
+ord|10588,Cunewalde,,01307,Alemania
+ord|10589,Eugene,OR,97403,Estados Unidos
+ord|10590,Montréal,Québec,H1J 1C3,Canadá
+ord|10591,Århus,,8200,Dinamarca
+ord|10592,Frankfurt a.M.,,60528,Alemania
+ord|10593,Frankfurt a.M.,,60528,Alemania
+ord|10594,Anchorage,AK,99508,Estados Unidos
+ord|10595,Graz,,8010,Austria
+ord|10596,Seattle,WA,98124,Estados Unidos
+ord|10597,Salzburg,,5020,Austria
+ord|10598,Albuquerque,NM,87110,Estados Unidos
+ord|10599,London,,EC2 5NT,Reino Unido
+ord|10600,Elgin,OR,97827,Estados Unidos
+ord|10601,San Cristóbal,Táchira,5022,Venezuela
+ord|10602,Århus,,8200,Dinamarca
+ord|10603,Boise,ID,83720,Estados Unidos
+ord|10604,Lisboa,,1675,Portugal
+ord|10605,Montréal,Québec,H1J 1C3,Canadá
+ord|10606,São Paulo,SP,05634-030,Brasil
+ord|10607,Boise,ID,83720,Estados Unidos
+ord|10608,Münster,,44087,Alemania
+ord|10609,Nantes,,44000,Francia
+ord|10610,Toulouse,,31000,Francia
+ord|10611,Warszawa,,01-012,Polonia
+ord|10612,Boise,ID,83720,Estados Unidos
+ord|10613,San Cristóbal,Táchira,5022,Venezuela
+ord|10614,Mannheim,,68306,Alemania
+ord|10615,Helsinki,,21240,Finlandia
+ord|10616,Eugene,OR,97403,Estados Unidos
+ord|10617,Eugene,OR,97403,Estados Unidos
+ord|10618,Montréal,Québec,H1J 1C3,Canadá
+ord|10619,Montréal,Québec,H1J 1C3,Canadá
+ord|10620,Vancouver,BC,V3F 2K1,Canadá
+ord|10621,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10622,Río de Janeiro,RJ,02389-890,Brasil
+ord|10623,München,,80805,Alemania
+ord|10624,Butte,MT,59801,Estados Unidos
+ord|10625,México D.F.,,05021,México
+ord|10626,Luleå,,S-958 22,Suecia
+ord|10627,Boise,ID,83720,Estados Unidos
+ord|10628,Strasbourg,,67000,Francia
+ord|10629,Sevilla,,41101,España
+ord|10630,Brandenburg,,14776,Alemania
+ord|10631,Toulouse,,31000,Francia
+ord|10632,Stuttgart,,70563,Alemania
+ord|10633,Graz,,8010,Austria
+ord|10634,Lille,,59000,Francia
+ord|10635,Bérgamo,,24100,Italia
+ord|10636,Oulu,,90110,Finlandia
+ord|10637,São Paulo,SP,05487-020,Brasil
+ord|10638,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10639,Stavern,,4110,Noruega
+ord|10640,Stuttgart,,70563,Alemania
+ord|10641,San Cristóbal,Táchira,5022,Venezuela
+ord|10642,København,,1734,Dinamarca
+ord|10643,Berlín,,12209,Alemania
+ord|10644,Resende,SP,08737-363,Brasil
+ord|10645,Río de Janeiro,RJ,05454-876,Brasil
+ord|10646,Cork,Co. Cork,,Irlanda
+ord|10647,Río de Janeiro,RJ,02389-673,Brasil
+ord|10648,Río de Janeiro,RJ,02389-890,Brasil
+ord|10649,Bruxelles,,B-1180,Bélgica
+ord|10650,São Paulo,SP,05442-030,Brasil
+ord|10651,Stuttgart,,70563,Alemania
+ord|10652,Campinas,SP,04876-786,Brasil
+ord|10653,München,,80805,Alemania
+ord|10654,Luleå,,S-958 22,Suecia
+ord|10655,Reggio Emilia,,42100,Italia
+ord|10656,Eugene,OR,97403,Estados Unidos
+ord|10657,Boise,ID,83720,Estados Unidos
+ord|10658,Cunewalde,,01307,Alemania
+ord|10659,São Paulo,SP,05487-020,Brasil
+ord|10660,Elgin,OR,97827,Estados Unidos
+ord|10661,Cork,Co. Cork,,Irlanda
+ord|10662,Portland,OR,97219,Estados Unidos
+ord|10663,Marseille,,13008,Francia
+ord|10664,Lisboa,,1675,Portugal
+ord|10665,Portland,OR,97219,Estados Unidos
+ord|10666,Genève,,1204,Suiza
+ord|10667,Graz,,8010,Austria
+ord|10668,Stuttgart,,70563,Alemania
+ord|10669,København,,1734,Dinamarca
+ord|10670,München,,80805,Alemania
+ord|10671,Nantes,,44000,Francia
+ord|10672,Luleå,,S-958 22,Suecia
+ord|10673,Helsinki,,21240,Finlandia
+ord|10674,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10675,München,,80805,Alemania
+ord|10676,México D.F.,,05033,México
+ord|10677,México D.F.,,05023,México
+ord|10678,Boise,ID,83720,Estados Unidos
+ord|10679,Strasbourg,,67000,Francia
+ord|10680,Anchorage,AK,99508,Estados Unidos
+ord|10681,Eugene,OR,97403,Estados Unidos
+ord|10682,México D.F.,,05023,México
+ord|10683,Nantes,,44000,Francia
+ord|10684,Köln,,50739,Alemania
+ord|10685,Campinas,SP,04876-786,Brasil
+ord|10686,Salzburg,,5020,Austria
+ord|10687,Cork,Co. Cork,,Irlanda
+ord|10688,Århus,,8200,Dinamarca
+ord|10689,Luleå,,S-958 22,Suecia
+ord|10690,Río de Janeiro,RJ,05454-876,Brasil
+ord|10691,Cunewalde,,01307,Alemania
+ord|10692,Berlín,,12209,Alemania
+ord|10693,Seattle,WA,98124,Estados Unidos
+ord|10694,Cunewalde,,01307,Alemania
+ord|10695,Helsinki,,21240,Finlandia
+ord|10696,Seattle,WA,98124,Estados Unidos
+ord|10697,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10698,Graz,,8010,Austria
+ord|10699,Leipzig,,04179,Alemania
+ord|10700,Boise,ID,83720,Estados Unidos
+ord|10701,Cork,Co. Cork,,Irlanda
+ord|10702,Berlín,,12209,Alemania
+ord|10703,Bräcke,,S-844 67,Suecia
+ord|10704,São Paulo,SP,05487-020,Brasil
+ord|10705,San Cristóbal,Táchira,5022,Venezuela
+ord|10706,Anchorage,AK,99508,Estados Unidos
+ord|10707,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10708,Portland,OR,97201,Estados Unidos
+ord|10709,Campinas,SP,04876-786,Brasil
+ord|10710,Torino,,10100,Italia
+ord|10711,Boise,ID,83720,Estados Unidos
+ord|10712,Cork,Co. Cork,,Irlanda
+ord|10713,Boise,ID,83720,Estados Unidos
+ord|10714,Boise,ID,83720,Estados Unidos
+ord|10715,Marseille,,13008,Francia
+ord|10716,Buenos Aires,,1010,Argentina
+ord|10717,München,,80805,Alemania
+ord|10718,Brandenburg,,14776,Alemania
+ord|10719,San Francisco,CA,94117,Estados Unidos
+ord|10720,Río de Janeiro,RJ,02389-673,Brasil
+ord|10721,Cunewalde,,01307,Alemania
+ord|10722,Boise,ID,83720,Estados Unidos
+ord|10723,Seattle,WA,98124,Estados Unidos
+ord|10724,Montréal,Québec,H1J 1C3,Canadá
+ord|10725,São Paulo,SP,05442-030,Brasil
+ord|10726,London,,WX3 6FW,Reino Unido
+ord|10727,Reggio Emilia,,42100,Italia
+ord|10728,São Paulo,SP,05487-020,Brasil
+ord|10729,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10730,Marseille,,13008,Francia
+ord|10731,Bern,,3012,Suiza
+ord|10732,Marseille,,13008,Francia
+ord|10733,Luleå,,S-958 22,Suecia
+ord|10734,Campinas,SP,04876-786,Brasil
+ord|10735,San Francisco,CA,94117,Estados Unidos
+ord|10736,Cork,Co. Cork,,Irlanda
+ord|10737,Reims,,51100,Francia
+ord|10738,Paris,,75016,Francia
+ord|10739,Reims,,51100,Francia
+ord|10740,Seattle,WA,98124,Estados Unidos
+ord|10741,Luleå,,S-958 22,Suecia
+ord|10742,Tsawassen,BC,T2F 8M4,Canadá
+ord|10743,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10744,Århus,,8200,Dinamarca
+ord|10745,Cunewalde,,01307,Alemania
+ord|10746,Bern,,3012,Suiza
+ord|10747,Salzburg,,5020,Austria
+ord|10748,Boise,ID,83720,Estados Unidos
+ord|10749,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10750,Oulu,,90110,Finlandia
+ord|10751,Genève,,1204,Suiza
+ord|10752,London,,SW7 1RZ,Reino Unido
+ord|10753,Torino,,10100,Italia
+ord|10754,Bérgamo,,24100,Italia
+ord|10755,Marseille,,13008,Francia
+ord|10756,Lander,WY,82520,Estados Unidos
+ord|10757,Boise,ID,83720,Estados Unidos
+ord|10758,Genève,,1204,Suiza
+ord|10759,México D.F.,,05021,México
+ord|10760,Bruxelles,,B-1180,Bélgica
+ord|10761,Albuquerque,NM,87110,Estados Unidos
+ord|10762,Bräcke,,S-844 67,Suecia
+ord|10763,Lille,,59000,Francia
+ord|10764,Graz,,8010,Austria
+ord|10765,Cunewalde,,01307,Alemania
+ord|10766,Köln,,50739,Alemania
+ord|10767,Charleroi,,B-6000,Bélgica
+ord|10768,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10769,Århus,,8200,Dinamarca
+ord|10770,Río de Janeiro,RJ,05454-876,Brasil
+ord|10771,Graz,,8010,Austria
+ord|10772,Frankfurt a.M.,,60528,Alemania
+ord|10773,Graz,,8010,Austria
+ord|10774,Bräcke,,S-844 67,Suecia
+ord|10775,Butte,MT,59801,Estados Unidos
+ord|10776,Graz,,8010,Austria
+ord|10777,Campinas,SP,04876-786,Brasil
+ord|10778,Luleå,,S-958 22,Suecia
+ord|10779,Leipzig,,04179,Alemania
+ord|10780,Barquisimeto,Lara,3508,Venezuela
+ord|10781,Oulu,,90110,Finlandia
+ord|10782,Buenos Aires,,1010,Argentina
+ord|10783,Río de Janeiro,RJ,05454-876,Brasil
+ord|10784,Bérgamo,,24100,Italia
+ord|10785,Caracas,DF,1081,Venezuela
+ord|10786,São Paulo,SP,05487-020,Brasil
+ord|10787,Toulouse,,31000,Francia
+ord|10788,Cunewalde,,01307,Alemania
+ord|10789,Lille,,59000,Francia
+ord|10790,Campinas,SP,04876-786,Brasil
+ord|10791,München,,80805,Alemania
+ord|10792,Warszawa,,01-012,Polonia
+ord|10793,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10794,Río de Janeiro,RJ,02389-673,Brasil
+ord|10795,Graz,,8010,Austria
+ord|10796,San Cristóbal,Táchira,5022,Venezuela
+ord|10797,Aachen,,52066,Alemania
+ord|10798,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10799,Brandenburg,,14776,Alemania
+ord|10800,London,,OX15 4NB,Reino Unido
+ord|10801,Madrid,,28023,España
+ord|10802,København,,1734,Dinamarca
+ord|10803,Resende,SP,08737-363,Brasil
+ord|10804,London,,OX15 4NB,Reino Unido
+ord|10805,Portland,OR,97201,Estados Unidos
+ord|10806,Lyon,,69004,Francia
+ord|10807,Torino,,10100,Italia
+ord|10808,Anchorage,AK,99508,Estados Unidos
+ord|10809,Resende,SP,08737-363,Brasil
+ord|10810,Vancouver,BC,V3F 2K1,Canadá
+ord|10811,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10812,Reggio Emilia,,42100,Italia
+ord|10813,Río de Janeiro,RJ,02389-890,Brasil
+ord|10814,Lyon,,69004,Francia
+ord|10815,Boise,ID,83720,Estados Unidos
+ord|10816,Eugene,OR,97403,Estados Unidos
+ord|10817,Brandenburg,,14776,Alemania
+ord|10818,Bérgamo,,24100,Italia
+ord|10819,Buenos Aires,,1010,Argentina
+ord|10820,Albuquerque,NM,87110,Estados Unidos
+ord|10821,Lander,WY,82520,Estados Unidos
+ord|10822,Kirkland,WA,98034,Estados Unidos
+ord|10823,Barquisimeto,Lara,3508,Venezuela
+ord|10824,Bräcke,,S-844 67,Suecia
+ord|10825,Aachen,,52066,Alemania
+ord|10826,Strasbourg,,67000,Francia
+ord|10827,Marseille,,13008,Francia
+ord|10828,Buenos Aires,,1010,Argentina
+ord|10829,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10830,São Paulo,SP,05634-030,Brasil
+ord|10831,Stavern,,4110,Noruega
+ord|10832,Toulouse,,31000,Francia
+ord|10833,Köln,,50739,Alemania
+ord|10834,São Paulo,SP,05634-030,Brasil
+ord|10835,Berlín,,12209,Alemania
+ord|10836,Graz,,8010,Austria
+ord|10837,Luleå,,S-958 22,Suecia
+ord|10838,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10839,São Paulo,SP,05634-030,Brasil
+ord|10840,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10841,Charleroi,,B-6000,Bélgica
+ord|10842,México D.F.,,05033,México
+ord|10843,Lyon,,69004,Francia
+ord|10844,Salzburg,,5020,Austria
+ord|10845,Cunewalde,,01307,Alemania
+ord|10846,Charleroi,,B-6000,Bélgica
+ord|10847,Boise,ID,83720,Estados Unidos
+ord|10848,London,,WX1 6LT,Reino Unido
+ord|10849,Brandenburg,,14776,Alemania
+ord|10850,Lyon,,69004,Francia
+ord|10851,Río de Janeiro,RJ,02389-890,Brasil
+ord|10852,Albuquerque,NM,87110,Estados Unidos
+ord|10853,Mannheim,,68306,Alemania
+ord|10854,Graz,,8010,Austria
+ord|10855,Anchorage,AK,99508,Estados Unidos
+ord|10856,México D.F.,,05023,México
+ord|10857,Luleå,,S-958 22,Suecia
+ord|10858,Versailles,,78000,Francia
+ord|10859,München,,80805,Alemania
+ord|10860,Nantes,,44000,Francia
+ord|10861,Seattle,WA,98124,Estados Unidos
+ord|10862,Frankfurt a.M.,,60528,Alemania
+ord|10863,San Cristóbal,Táchira,5022,Venezuela
+ord|10864,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10865,Cunewalde,,01307,Alemania
+ord|10866,Luleå,,S-958 22,Suecia
+ord|10867,Portland,OR,97219,Estados Unidos
+ord|10868,São Paulo,SP,05487-020,Brasil
+ord|10869,London,,OX15 4NB,Reino Unido
+ord|10870,Seattle,WA,98128,Estados Unidos
+ord|10871,Marseille,,13008,Francia
+ord|10872,Sevilla,,41101,España
+ord|10873,Helsinki,,21240,Finlandia
+ord|10874,Sevilla,,41101,España
+ord|10875,Luleå,,S-958 22,Suecia
+ord|10876,Marseille,,13008,Francia
+ord|10877,Río de Janeiro,RJ,02389-890,Brasil
+ord|10878,Cunewalde,,01307,Alemania
+ord|10879,Helsinki,,21240,Finlandia
+ord|10880,Bräcke,,S-844 67,Suecia
+ord|10881,Buenos Aires,,1010,Argentina
+ord|10882,Boise,ID,83720,Estados Unidos
+ord|10883,Portland,OR,97219,Estados Unidos
+ord|10884,San Francisco,CA,94117,Estados Unidos
+ord|10885,Charleroi,,B-6000,Bélgica
+ord|10886,Río de Janeiro,RJ,05454-876,Brasil
+ord|10887,Barcelona,,8022,España
+ord|10888,Sevilla,,41101,España
+ord|10889,Albuquerque,NM,87110,Estados Unidos
+ord|10890,Nantes,,44000,Francia
+ord|10891,Frankfurt a.M.,,60528,Alemania
+ord|10892,Bruxelles,,B-1180,Bélgica
+ord|10893,Brandenburg,,14776,Alemania
+ord|10894,Boise,ID,83720,Estados Unidos
+ord|10895,Graz,,8010,Austria
+ord|10896,Bruxelles,,B-1180,Bélgica
+ord|10897,Cork,Co. Cork,,Irlanda
+ord|10898,Buenos Aires,,1010,Argentina
+ord|10899,Barquisimeto,Lara,3508,Venezuela
+ord|10900,Resende,SP,08737-363,Brasil
+ord|10901,San Cristóbal,Táchira,5022,Venezuela
+ord|10902,Bräcke,,S-844 67,Suecia
+ord|10903,Río de Janeiro,RJ,05454-876,Brasil
+ord|10904,Seattle,WA,98124,Estados Unidos
+ord|10905,Resende,SP,08737-363,Brasil
+ord|10906,Warszawa,,01-012,Polonia
+ord|10907,Paris,,75016,Francia
+ord|10908,Reggio Emilia,,42100,Italia
+ord|10909,Stavern,,4110,Noruega
+ord|10910,Helsinki,,21240,Finlandia
+ord|10911,Sevilla,,41101,España
+ord|10912,Cork,Co. Cork,,Irlanda
+ord|10913,São Paulo,SP,05487-020,Brasil
+ord|10914,São Paulo,SP,05487-020,Brasil
+ord|10915,México D.F.,,05033,México
+ord|10916,Buenos Aires,,1010,Argentina
+ord|10917,Madrid,,28001,España
+ord|10918,Tsawassen,BC,T2F 8M4,Canadá
+ord|10919,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10920,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10921,Århus,,8200,Dinamarca
+ord|10922,Río de Janeiro,RJ,05454-876,Brasil
+ord|10923,Toulouse,,31000,Francia
+ord|10924,Luleå,,S-958 22,Suecia
+ord|10925,Río de Janeiro,RJ,05454-876,Brasil
+ord|10926,México D.F.,,05021,México
+ord|10927,Versailles,,78000,Francia
+ord|10928,Barcelona,,8022,España
+ord|10929,München,,80805,Alemania
+ord|10930,Charleroi,,B-6000,Bélgica
+ord|10931,Genève,,1204,Suiza
+ord|10932,Marseille,,13008,Francia
+ord|10933,Cowes,Isle of Wight,PO31 7PJ,Reino Unido
+ord|10934,Frankfurt a.M.,,60528,Alemania
+ord|10935,Resende,SP,08737-363,Brasil
+ord|10936,Eugene,OR,97403,Estados Unidos
+ord|10937,Buenos Aires,,1010,Argentina
+ord|10938,Cunewalde,,01307,Alemania
+ord|10939,Bérgamo,,24100,Italia
+ord|10940,Marseille,,13008,Francia
+ord|10941,Boise,ID,83720,Estados Unidos
+ord|10942,Reggio Emilia,,42100,Italia
+ord|10943,London,,EC2 5NT,Reino Unido
+ord|10944,Tsawassen,BC,T2F 8M4,Canadá
+ord|10945,Leipzig,,04179,Alemania
+ord|10946,Århus,,8200,Dinamarca
+ord|10947,London,,EC2 5NT,Reino Unido
+ord|10948,Sevilla,,41101,España
+ord|10949,Tsawassen,BC,T2F 8M4,Canadá
+ord|10950,Bérgamo,,24100,Italia
+ord|10951,Genève,,1204,Suiza
+ord|10952,Berlín,,12209,Alemania
+ord|10953,Colchester,Essex,CO7 6JX,Reino Unido
+ord|10954,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|10955,Bräcke,,S-844 67,Suecia
+ord|10956,Mannheim,,68306,Alemania
+ord|10957,San Cristóbal,Táchira,5022,Venezuela
+ord|10958,Buenos Aires,,1010,Argentina
+ord|10959,Campinas,SP,04876-786,Brasil
+ord|10960,San Cristóbal,Táchira,5022,Venezuela
+ord|10961,São Paulo,SP,05487-020,Brasil
+ord|10962,Cunewalde,,01307,Alemania
+ord|10963,Lisboa,,1675,Portugal
+ord|10964,Paris,,75016,Francia
+ord|10965,Anchorage,AK,99508,Estados Unidos
+ord|10966,Bern,,3012,Suiza
+ord|10967,Münster,,44087,Alemania
+ord|10968,Graz,,8010,Austria
+ord|10969,São Paulo,SP,05432-043,Brasil
+ord|10970,Madrid,,28023,España
+ord|10971,Nantes,,44000,Francia
+ord|10972,Versailles,,78000,Francia
+ord|10973,Versailles,,78000,Francia
+ord|10974,Lander,WY,82520,Estados Unidos
+ord|10975,Tsawassen,BC,T2F 8M4,Canadá
+ord|10976,San Cristóbal,Táchira,5022,Venezuela
+ord|10977,Bräcke,,S-844 67,Suecia
+ord|10978,Bruxelles,,B-1180,Bélgica
+ord|10979,Graz,,8010,Austria
+ord|10980,Bräcke,,S-844 67,Suecia
+ord|10981,Río de Janeiro,RJ,05454-876,Brasil
+ord|10982,Tsawassen,BC,T2F 8M4,Canadá
+ord|10983,Boise,ID,83720,Estados Unidos
+ord|10984,Boise,ID,83720,Estados Unidos
+ord|10985,Cork,Co. Cork,,Irlanda
+ord|10986,Buenos Aires,,1010,Argentina
+ord|10987,London,,WX3 6FW,Reino Unido
+ord|10988,Albuquerque,NM,87110,Estados Unidos
+ord|10989,Río de Janeiro,RJ,02389-673,Brasil
+ord|10990,Graz,,8010,Austria
+ord|10991,Cunewalde,,01307,Alemania
+ord|10992,Portland,OR,97201,Estados Unidos
+ord|10993,Bräcke,,S-844 67,Suecia
+ord|10994,Århus,,8200,Dinamarca
+ord|10995,México D.F.,,05033,México
+ord|10996,Cunewalde,,01307,Alemania
+ord|10997,Barquisimeto,Lara,3508,Venezuela
+ord|10998,Warszawa,,01-012,Polonia
+ord|10999,Köln,,50739,Alemania
+ord|11000,Albuquerque,NM,87110,Estados Unidos
+ord|11001,Bräcke,,S-844 67,Suecia
+ord|11002,Boise,ID,83720,Estados Unidos
+ord|11003,Butte,MT,59801,Estados Unidos
+ord|11004,Bruxelles,,B-1180,Bélgica
+ord|11005,Helsinki,,21240,Finlandia
+ord|11006,Eugene,OR,97403,Estados Unidos
+ord|11007,Lisboa,,1756,Portugal
+ord|11008,Graz,,8010,Austria
+ord|11009,Sevilla,,41101,España
+ord|11010,Reggio Emilia,,42100,Italia
+ord|11011,Berlín,,12209,Alemania
+ord|11012,München,,80805,Alemania
+ord|11013,Madrid,,28001,España
+ord|11014,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|11015,Stavern,,4110,Noruega
+ord|11016,Colchester,Essex,CO7 6JX,Reino Unido
+ord|11017,Graz,,8010,Austria
+ord|11018,Portland,OR,97219,Estados Unidos
+ord|11019,Buenos Aires,,1010,Argentina
+ord|11020,Köln,,50739,Alemania
+ord|11021,Cunewalde,,01307,Alemania
+ord|11022,Río de Janeiro,RJ,05454-876,Brasil
+ord|11023,London,,EC2 5NT,Reino Unido
+ord|11024,London,,WX3 6FW,Reino Unido
+ord|11025,Oulu,,90110,Finlandia
+ord|11026,Torino,,10100,Italia
+ord|11027,Tsawassen,BC,T2F 8M4,Canadá
+ord|11028,Brandenburg,,14776,Alemania
+ord|11029,Bern,,3012,Suiza
+ord|11030,Boise,ID,83720,Estados Unidos
+ord|11031,Boise,ID,83720,Estados Unidos
+ord|11032,Seattle,WA,98124,Estados Unidos
+ord|11033,Genève,,1204,Suiza
+ord|11034,Anchorage,AK,99508,Estados Unidos
+ord|11035,Charleroi,,B-6000,Bélgica
+ord|11036,Aachen,,52066,Alemania
+ord|11037,Sevilla,,41101,España
+ord|11038,Charleroi,,B-6000,Bélgica
+ord|11039,I. de Margarita,Nueva Esparta,4980,Venezuela
+ord|11040,Eugene,OR,97403,Estados Unidos
+ord|11041,Bern,,3012,Suiza
+ord|11042,São Paulo,SP,05432-043,Brasil
+ord|11043,Paris,,75016,Francia
+ord|11044,Warszawa,,01-012,Polonia
+ord|11045,Tsawassen,BC,T2F 8M4,Canadá
+ord|11046,Stuttgart,,70563,Alemania
+ord|11047,London,,WX3 6FW,Reino Unido
+ord|11048,Tsawassen,BC,T2F 8M4,Canadá
+ord|11049,Campinas,SP,04876-786,Brasil
+ord|11050,Bräcke,,S-844 67,Suecia
+ord|11051,Toulouse,,31000,Francia
+ord|11052,Río de Janeiro,RJ,05454-876,Brasil
+ord|11053,Salzburg,,5020,Austria
+ord|11054,Buenos Aires,,1010,Argentina
+ord|11055,San Cristóbal,Táchira,5022,Venezuela
+ord|11056,London,,WX3 6FW,Reino Unido
+ord|11057,London,,SW7 1RZ,Reino Unido
+ord|11058,Mannheim,,68306,Alemania
+ord|11059,Río de Janeiro,RJ,02389-890,Brasil
+ord|11060,Torino,,10100,Italia
+ord|11061,Eugene,OR,97403,Estados Unidos
+ord|11062,Reggio Emilia,,42100,Italia
+ord|11063,Cork,Co. Cork,,Irlanda
+ord|11064,Boise,ID,83720,Estados Unidos
+ord|11065,Barquisimeto,Lara,3508,Venezuela
+ord|11066,Seattle,WA,98124,Estados Unidos
+ord|11067,Aachen,,52066,Alemania
+ord|11068,São Paulo,SP,05487-020,Brasil
+ord|11069,México D.F.,,05033,México
+ord|11070,Frankfurt a.M.,,60528,Alemania
+ord|11071,Barquisimeto,Lara,3508,Venezuela
+ord|11072,Graz,,8010,Austria
+ord|11073,México D.F.,,05033,México
+ord|11074,København,,1734,Dinamarca
+ord|11075,Genève,,1204,Suiza
+ord|11076,Marseille,,13008,Francia
+ord|11077,Albuquerque,NM,87110,Estados Unidos
+prov|1,Londres,,EC1 4SD,Reino Unido
+prov|2,New Orleans,LA,70117,Estados Unidos
+prov|3,Ann Arbor,MI,48104,Estados Unidos
+prov|4,Tokyo,,100,Japón
+prov|5,Oviedo,Asturias,33007,España
+prov|6,Osaka,,545,Japón
+prov|7,Melbourne,Victoria,3058,Australia
+prov|8,Manchester,,M14 GSD,Reino Unido
+prov|9,Göteborg,,S-345 67,Suecia
+prov|10,São Paulo,,5442,Brasil
+prov|11,Berlín,,10785,Alemania
+prov|12,Frankfurt,,60439,Alemania
+prov|13,Cuxhaven,,27478,Alemania
+prov|14,Ravenna,,48100,Italia
+prov|15,Sandvika,,1320,Noruega
+prov|16,Bend,OR,97101,Estados Unidos
+prov|17,Stockholm,,S-123 45,Suecia
+prov|18,París,,75004,Francia
+prov|19,Boston,MA,02134,Estados Unidos
+prov|20,Singapore,,0512,Singapur
+prov|21,Lyngby,,2800,Dinamarca
+prov|22,Zaandam,,9999 ZZ,Holanda
+prov|23,Lappeenranta,,53120,Finlandia
+prov|24,Sydney,NSW,2042,Australia
+prov|25,Montréal,Québec,H1J 1C3,Canadá
+prov|26,Salerno,,84100,Italia
+prov|27,Montceau,,71300,Francia
+prov|28,Annecy,,74000,Francia
+prov|29,Ste-Hyacinthe,Québec,J2S 7S8,Canadá
