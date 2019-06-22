@@ -45,3 +45,9 @@ SELECT schemaname,relname,n_live_tup
   FROM pg_stat_user_tables 
   ORDER BY n_live_tup DESC;
 ```
+
+## Db export
+
+```sh
+pg_dump   --host "localhost" --port "5732" --username "postgres" --no-password --verbose --data-only --column-inserts   --format=p "support_system_decisions_staging"  > ./db/export/dbexport_support_system_decisions_staging.pgsql
+```
