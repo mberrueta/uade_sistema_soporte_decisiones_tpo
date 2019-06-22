@@ -12,6 +12,8 @@ echo 'Dimensions'
 echo '=========='
 echo '>>>>>>>>>>>> etl_address'
 PYTHONPATH='.' luigi --module src.etl.luigi.etl_address Insert --local-scheduler
+echo '>>>>>>>>>>>> etl_shipping_methods'
+PYTHONPATH='.' luigi --module src.etl.luigi.etl_shipping_methods Insert --local-scheduler
 echo '>>>>>>>>>>>> etl_category'
 PYTHONPATH='.' luigi --module src.etl.luigi.etl_category Insert --local-scheduler
 echo '>>>>>>>>>>>> etl_providers'

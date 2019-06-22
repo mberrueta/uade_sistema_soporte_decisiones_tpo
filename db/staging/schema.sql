@@ -9,21 +9,23 @@ CREATE DATABASE support_system_decisions_staging;
 -- Tables
 ----------------------------------------------------------------------
 
-DROP TABLE IF EXISTS fact_orders;
 DROP TABLE IF EXISTS fact_order_details;
+DROP TABLE IF EXISTS fact_orders;
 DROP TABLE IF EXISTS fact_deliveries;
 DROP TABLE IF EXISTS fact_shippings;
-DROP TABLE IF EXISTS dim_categories;
-DROP TABLE IF EXISTS dim_addresses;
 DROP TABLE IF EXISTS dim_clients;
 DROP TABLE IF EXISTS dim_products;
 DROP TABLE IF EXISTS dim_providers;
+DROP TABLE IF EXISTS dim_categories;
+DROP TABLE IF EXISTS dim_shipping_methods;
+DROP TABLE IF EXISTS dim_addresses;
 
 CREATE TABLE fact_orders
 (
   id                       INT,
   id_date                  INT,
-  id_client                CHAR(15) NOT NULL
+  id_client                CHAR(15) NOT NULL,
+  id_shipping_method       INT
 );
 ALTER TABLE fact_orders ADD CONSTRAINT fact_orders_id_pk PRIMARY KEY (id);
 
@@ -62,6 +64,13 @@ CREATE TABLE dim_categories
   name                     CHARACTER VARYING(200)
 );
 ALTER TABLE dim_categories ADD CONSTRAINT dim_categories_id_pk PRIMARY KEY (id);
+
+CREATE TABLE dim_shipping_methods
+(
+  id                       INT,
+  name                     CHARACTER VARYING(200)
+);
+ALTER TABLE dim_shipping_methods ADD CONSTRAINT dim_shipping_methods_id_pk PRIMARY KEY (id);
 
 CREATE TABLE dim_clients
 (
@@ -148,6 +157,7 @@ ALTER TABLE dim_clients DROP CONSTRAINT IF EXISTS dim_client_address;
 ALTER TABLE dim_providers DROP CONSTRAINT IF EXISTS dim_provider_address;
 ALTER TABLE fact_orders DROP CONSTRAINT IF EXISTS fact_orders_clients;
 ALTER TABLE fact_orders DROP CONSTRAINT IF EXISTS fact_orders_dates;
+ALTER TABLE fact_orders DROP CONSTRAINT IF EXISTS fact_orders_shipping_methods;
 ALTER TABLE fact_order_details DROP CONSTRAINT IF EXISTS fact_order_details_products;
 ALTER TABLE fact_order_details DROP CONSTRAINT IF EXISTS fact_order_details_orders;
 
@@ -163,6 +173,8 @@ ALTER TABLE fact_orders
   ADD CONSTRAINT fact_orders_clients FOREIGN KEY (id_client) REFERENCES dim_clients (id);
 ALTER TABLE fact_orders
   ADD CONSTRAINT fact_orders_dates FOREIGN KEY (id_date) REFERENCES dim_dates (id);
+ALTER TABLE fact_orders
+  ADD CONSTRAINT fact_orders_shipping_methods FOREIGN KEY (id_shipping_method) REFERENCES dim_shipping_methods (id);
 ALTER TABLE fact_order_details
   ADD CONSTRAINT fact_order_details_products FOREIGN KEY (id_product) REFERENCES dim_products (id);
 ALTER TABLE fact_order_details

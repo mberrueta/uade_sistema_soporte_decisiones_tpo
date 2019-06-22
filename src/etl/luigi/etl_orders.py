@@ -14,6 +14,7 @@ class Fetch(luigi.Task):
     #     - Id. de pedido
     #     - Cliente
     #     - Fecha de pedido
+    #     - Forma de envío
     logger = logging.getLogger('luigi-interface')
 
     def run(self):
@@ -21,11 +22,11 @@ class Fetch(luigi.Task):
         # connection = lib.NeptunoDB.connection()
         self.logger.info('==> Reading original csv''s')
         orders_df = pd.read_csv(
-            'input/pedidos.csv')[['Id. de pedido', 'Cliente', 'Fecha de pedido']]
+            'input/pedidos.csv')[['Id. de pedido', 'Cliente', 'Fecha de pedido', 'Forma de envío']]
 
         self.logger.info('==> Renaming columns')
         orders_df = orders_df.rename(index=str, columns={
-                                         'Id. de pedido': 'id', 'Cliente': 'client', 'Fecha de pedido': 'date'})
+                                         'Id. de pedido': 'id', 'Cliente': 'client', 'Fecha de pedido': 'date', 'Forma de envío': 'shipping_method'})
 
         self.logger.info('==> Writting')
         with self.output().open('w') as out_file:
@@ -65,6 +66,19 @@ class Clean(luigi.Task):
             ))
         orders_df = orders_df.rename(index=str, columns={'client': 'id_client'})
 
+        self.logger.info('==> Build shipping_methods dictionary')
+        shipping_methods_dic = {}
+        shipping_methods = lib.DBRead.get('dim_shipping_methods')
+        for id, name in shipping_methods:
+            shipping_methods_dic[name] = id
+
+        self.logger.info('==> Replacing shipping_methods name with id')
+        orders_df['shipping_method'] = orders_df['shipping_method'].apply(
+            lambda shipping_method_name: (
+                shipping_methods_dic[shipping_method_name] if shipping_method_name in shipping_methods_dic else shipping_methods_dic['others']
+            ))
+        orders_df = orders_df.rename(index=str, columns={'shipping_method': 'id_shipping_method'})
+
 
         with self.output().open('w') as out_file:
             orders_df.to_csv(out_file, index=False)
@@ -75,7 +89,7 @@ class Clean(luigi.Task):
 
 class Insert(luigi.Task):
     table = 'fact_orders'
-    columns = ['id', 'id_client', 'id_date']
+    columns = ['id', 'id_client', 'id_date', 'id_shipping_method']
 
     def requires(self):
         return Clean()
