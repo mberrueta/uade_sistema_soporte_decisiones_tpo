@@ -110,6 +110,32 @@ CREATE TABLE dim_providers
 );
 ALTER TABLE dim_providers ADD CONSTRAINT dim_providers_id_pk PRIMARY KEY (id);
 
+CREATE TABLE public.fact_quotations
+(
+    pais_destinatario character varying(200),
+    id_categoria integer,
+    enero character varying(200),
+    febrero character varying(200),
+    marzo character varying(200),
+    abril character varying(200),
+    mayo character varying(200),
+    junio character varying(200),
+    julio character varying(200),
+    agosto character varying(200),
+    septiembre character varying(200),
+    octubre character varying(200),
+    noviembre character varying(200),
+    diciembre character varying(200),
+    anio character varying(200)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ ALTER TABLE public.dim_presupuesto
+    OWNER to postgres;
+
 CREATE TABLE dim_dates
 (
   id                       INT NOT NULL,
